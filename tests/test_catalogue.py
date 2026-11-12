@@ -57,4 +57,3 @@ class IntegrityTests(unittest.TestCase):
             with self.assertRaises(RuntimeError):refresh_metrics.fetch_batch(['x/repo'],datetime.now(timezone.utc))
 
 if __name__=='__main__':unittest.main()
-
