@@ -1,0 +1,1730 @@
+[
+  {
+    "repo": "AIEraDev/Clypra",
+    "name": "Clypra",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。",
+    "boundary": "通用编辑器为主；AI 功能范围和移动端成熟度需按版本验证。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 9,
+        "url": "https://github.com/AIEraDev/Clypra/blob/aa6b9c619cf98f7a1dfab6446345ec5f5660b93c/README.md#L9",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/AIEraDev/Clypra/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "jub0t/Concat",
+    "name": "Concat",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "本地跨平台多轨编辑器，含字幕、TTS、抠图、关键帧、特效和 4K 导出。",
+    "boundary": "离线模型需首次下载；产品内 AI 与完整生成式工作流不是同一范围。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 6,
+        "url": "https://github.com/jub0t/Concat/blob/504a814ebe61d4f47bba4cd7949dc2580ecc405c/README.md#L6",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "AGPL-3.0",
+      "source": "https://api.github.com/repos/jub0t/Concat/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "LudwigKienle/ai-video-production-editor",
+    "name": "AI Video Production Editor",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "从脚本、导演处理、故事板、生成镜头到剪辑、调色和导出的本地工作台。",
+    "boundary": "BYOK 仍会把请求发送至配置的模型服务；部分托管/计费能力需自备外部项目。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 4,
+        "url": "https://github.com/LudwigKienle/ai-video-production-editor/blob/a368af45b6cfd35e22bd3b5e101db198e1ac89a9/README.md#L4",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "GPL-3.0",
+      "source": "https://api.github.com/repos/LudwigKienle/ai-video-production-editor/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "0xsline/OpenChatCut",
+    "name": "OpenChatCut",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "本地优先的对话式 AI 视频编辑器，含多轨时间线、Agent Skills、MCP 与 Remotion 渲染。",
+    "boundary": "内置 Agent、桌面版和外部 coding agent 的能力边界需分开验证。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 12,
+        "url": "https://github.com/0xsline/OpenChatCut/blob/9242a95aea248ff3a8dab495514384e858320d47/README.md#L12",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "AGPL-3.0",
+      "source": "https://api.github.com/repos/0xsline/OpenChatCut/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "HaD0Yun/CozyClay",
+    "name": "CozyClay",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "浏览器内的场景搭建、角色走位、镜头剪切与 AI 视频预演工具。",
+    "boundary": "输出主要是 previs 和镜头参考，最终生成质量取决于外部视频模型。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 6,
+        "url": "https://github.com/HaD0Yun/CozyClay/blob/297dd2a8a077613b329962d68e2a9bb4355be091/README.md#L6",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "AGPL-3.0",
+      "source": "https://api.github.com/repos/HaD0Yun/CozyClay/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "Augani/openreel-video",
+    "name": "OpenReel Video",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "浏览器与桌面端开源时间线编辑器，支持剪切、字幕、混音和无水印导出。",
+    "boundary": "通用编辑能力为主，不将其自动视为生成式 AI Agent。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/Augani/openreel-video/blob/367d7e90b61b5181f9861b852bb8b9d7a7d2954a/README.md#L7",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/Augani/openreel-video/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "rk0neki/OpenKatana",
+    "name": "OpenKatana",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "由 Agent 驱动的 Studio、CLI、MCP 与 ComfyUI 视频编辑引擎。",
+    "boundary": "更偏代码化编辑引擎，实际生成模型和 ComfyUI 应用需另行配置。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/rk0neki/OpenKatana/blob/b9282bf0740a7df5b5a8862b5e289ef4cd642641/README.md#L7",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/rk0neki/OpenKatana/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "ThinkFlowLab/OpenDirector",
+    "name": "OpenDirector",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "从对话、画布、素材组织到时间线导出的 Agent 视频创作工作流。",
+    "boundary": "首版项目；完整生产稳定性和模型成本需实测。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 18,
+        "url": "https://github.com/ThinkFlowLab/OpenDirector/blob/39288dfdf4f816798e5479c53363258fceeb6e11/README.md#L18",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/ThinkFlowLab/OpenDirector/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "MakeMyClip/editor",
+    "name": "MakeMyClip Editor",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "用本地浏览器时间线、CLI、MCP 和 Skill 封装 FFmpeg 剪辑能力。",
+    "boundary": "本地编辑不需要其云 API；浏览器 UI、CLI 与 Agent 工具是同一项目的不同入口。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/MakeMyClip/editor/blob/f6f05206c1d2234d74134da27d322caebb260e6d/README.md#L7",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/MakeMyClip/editor/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "Theorvane/OpenScene",
+    "name": "OpenScene",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "本地桌面视频编辑器，允许 AI Agent 操作时间线、生成媒体并导出。",
+    "boundary": "默认分支为开发分支；移动端和生成能力需按当前实现验证。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 8,
+        "url": "https://github.com/Theorvane/OpenScene/blob/4bd3d3c4c15fb27dd0b521065643b3a2d516be08/README.md#L8",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/Theorvane/OpenScene/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "Aepzie/cutline",
+    "name": "Cutline",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "浏览器时间线编辑器，提供一等 MCP 接口让 Agent 实时操作。",
+    "boundary": "大素材代理文件和浏览器编码路径仍需按部署方式评估。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 8,
+        "url": "https://github.com/Aepzie/cutline/blob/ab71520285881d8dfa78f5ebca00f8a166e84962/README.md#L8",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/Aepzie/cutline/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "FernandoAbishai/ScriptCut",
+    "name": "ScriptCut",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "通过编辑转录文本完成本地剪辑、短视频打包和社交媒体导出。",
+    "boundary": "聚焦文本式粗剪，不等于完整视觉特效与生成工作台。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/FernandoAbishai/ScriptCut/blob/12c6fe495939da344e6af3e942a45dfdfb2132fa/README.md#L7",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "AGPL-3.0",
+      "source": "https://api.github.com/repos/FernandoAbishai/ScriptCut/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "YeJe-cpu/SeeCut",
+    "name": "SeeCut",
+    "category": "workbenches",
+    "scope": "restricted",
+    "description": "让 coding agent 自动理解、剪辑、渲染并视觉质检口播短视频的 Skill 工作区。",
+    "boundary": "它是 Skill/流程，不是独立桌面 NLE；剪映草稿仅为可选后续微调。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 5,
+        "url": "https://github.com/YeJe-cpu/SeeCut/blob/b05d7ed27404a064060e0d370402f562b0c0c02e/README.md#L5",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "source_available",
+      "label": "PolyForm Noncommercial-1.0.0",
+      "source": "https://github.com/YeJe-cpu/SeeCut/blob/b05d7ed27404a064060e0d370402f562b0c0c02e/LICENSE",
+      "note": "仅非商业用途，不是 OSI 开源许可"
+    }
+  },
+  {
+    "repo": "openfilm/openfilm",
+    "name": "OpenFilm",
+    "category": "agent_production",
+    "scope": "core",
+    "description": "让 coding agent 以代码创建、检查、编辑和渲染视频，并提供可编辑界面。",
+    "boundary": "代码化镜头与传统素材时间线不同；素材和声音库许可需按资产核验。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/openfilm/openfilm/blob/f59cd4e0973feaf6917dcf3229b178b6baf9ad3f/README.md#L7",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/openfilm/openfilm/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "OpenMontageInc/OpenMontage",
+    "name": "OpenMontage",
+    "category": "agent_production",
+    "scope": "core",
+    "description": "面向 coding agent 的多管线视频生产系统，覆盖研究、脚本、素材、配音、字幕和渲染。",
+    "boundary": "部分生成与语音提供商为付费服务；大量 Skill 文件不等于全部流程已统一实测。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 14,
+        "url": "https://github.com/OpenMontageInc/OpenMontage/blob/fecb9a1e3cc23ef84de30b272059457a427f16f8/README.md#L14",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "AGPL-3.0",
+      "source": "https://api.github.com/repos/OpenMontageInc/OpenMontage/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "Tencent/WeVisCut",
+    "name": "WeVisCut",
+    "category": "agent_production",
+    "scope": "core",
+    "description": "将知识文章或解说稿通过规划、素材检索、剪辑、检查和修复生成多分钟视频。",
+    "boundary": "9B 策略模型、工具运行时与 Studio 需要按官方环境部署；作者结果不作为跨项目排名。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/Tencent/WeVisCut/blob/94dc8a7fe43a5e0da21e97d5aaf470a39329db3a/README.md#L7",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://github.com/Tencent/WeVisCut/blob/94dc8a7fe43a5e0da21e97d5aaf470a39329db3a/LICENSE",
+      "note": "根目录 LICENSE 明确代码、参数和公开权重采用 Apache-2.0；第三方组件另计"
+    }
+  },
+  {
+    "repo": "Hao0321/video-autopilot-kit",
+    "name": "Video Autopilot Kit",
+    "category": "agent_production",
+    "scope": "core",
+    "description": "负责视频计划、审计、审片和效果学习的自动化框架。",
+    "boundary": "实际剪辑和渲染依赖 Editkin；单独安装本仓库不能完成成片。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/Hao0321/video-autopilot-kit/blob/b48c7d9a624ebceaa3a99f3f4aad6006e2be53fb/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/Hao0321/video-autopilot-kit/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "win4r/video-director",
+    "name": "Video Director",
+    "category": "agent_production",
+    "scope": "core",
+    "description": "指导 Claude Code 用 HTML/Canvas/SVG/Three.js/GSAP/Remotion 计划、渲染和检查短片。",
+    "boundary": "主要针对特定 Claude 模型调优；其他 Agent 的质量未自动继承。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 11,
+        "url": "https://github.com/win4r/video-director/blob/02d1912ab251bf5235b45e8e7aad81b4bc786b15/README.md#L11",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/win4r/video-director/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "JuneYaooo/rea-video",
+    "name": "Rea Video",
+    "category": "agent_production",
+    "scope": "adjacent",
+    "description": "逆向拆解视频的实拍、AI 与代码成分，输出分镜级复刻方案和 VIDEO.md。",
+    "boundary": "主要做分析与复刻规划，不直接等同最终剪辑或生成器。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 8,
+        "url": "https://github.com/JuneYaooo/rea-video/blob/4111ad9adb4936d92f6d57657000b414fee9f01f/README.md#L8",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/JuneYaooo/rea-video/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "palmier-io/palmier-pro",
+    "name": "Palmier Pro",
+    "category": "historical_restricted",
+    "scope": "historical",
+    "description": "面向 AI 的视频编辑器，旧版本源码曾以 GPLv3 发布。",
+    "boundary": "v0.7.6 后二进制为专有，当前对应源码未公开；仅把 last-gpl-source 视为历史开源版本。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 2,
+        "url": "https://github.com/palmier-io/palmier-pro/blob/dfc810b561f1692947eb81bbb689e078923ebb59/README.md#L2",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "custom",
+      "label": "GPL-3.0（至 v0.7.6 源码）/ 后续二进制专有",
+      "source": "https://github.com/palmier-io/palmier-pro/blob/dfc810b561f1692947eb81bbb689e078923ebb59/README.md#L112",
+      "note": "last-gpl-source 及 v0.7.6 前源码为 GPLv3；后续二进制无对应公开源码"
+    }
+  },
+  {
+    "repo": "cclank/lanshu-create-ai-presenter-video",
+    "name": "Lanshu AI Presenter Video",
+    "category": "short_video",
+    "scope": "core",
+    "description": "把主题或脚本制作成经核验的数字人/风格化讲解视频的 Agent Skill。",
+    "boundary": "数字人、声音、唇同步和识别由运行时选择的外部提供商决定。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 23,
+        "url": "https://github.com/cclank/lanshu-create-ai-presenter-video/blob/762d3ee42623b75a4ec63ad6aa61ace69d78ce6e/README.md#L23",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/cclank/lanshu-create-ai-presenter-video/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "andyhuo520/vibe-knowledge",
+    "name": "Vibe Knowledge",
+    "category": "short_video",
+    "scope": "core",
+    "description": "从知识点查证、写稿、配音、代码成片到质检和发布包的知识短片 Skill。",
+    "boundary": "增强镜头可能调用外部生成平台；基础代码插画与增强档应分开比较。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 5,
+        "url": "https://github.com/andyhuo520/vibe-knowledge/blob/c3a13a85f7cc560e5d396f063baecea4b2748e1e/README.md#L5",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/andyhuo520/vibe-knowledge/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "ChrisHKAI/ChrisHKAI-Video",
+    "name": "ChrisHKAI Video",
+    "category": "short_video",
+    "scope": "core",
+    "description": "把创作者公开资料组织为 3D 玩具风短片的 coding-agent Skill。",
+    "boundary": "Codex 完整成片质量尚未验证；公开资料使用和肖像授权需由用户负责。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/ChrisHKAI/ChrisHKAI-Video/blob/15b66ee613e621f82ba781d27547a67e76c55f50/README.md#L7",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/ChrisHKAI/ChrisHKAI-Video/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "mromidev/claude-animated-shorts",
+    "name": "Claude Animated Shorts",
+    "category": "short_video",
+    "scope": "core",
+    "description": "用 Three.js、Remotion、配乐与音效制作竖屏动画故事短片的 Skill。",
+    "boundary": "基于一个已完成样片的方法包，题材和视觉泛化需实测。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 5,
+        "url": "https://github.com/mromidev/claude-animated-shorts/blob/e3b817b6afc6cd413466d43f11ba31209e034bbf/README.md#L5",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/mromidev/claude-animated-shorts/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "kleZ799/clipmint",
+    "name": "Clipmint",
+    "category": "short_video",
+    "scope": "core",
+    "description": "把播客、访谈、教程和 VOD 变成带字幕的竖屏 Shorts/Reels/TikTok。",
+    "boundary": "亮点识别、裁切和上传依赖本地模型及平台配置。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/kleZ799/clipmint/blob/f2f7ed16871a390d0fd5274fb28b157f22ac57e3/README.md#L7",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/kleZ799/clipmint/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "social-media-skills/video-to-shorts-skill",
+    "name": "Video to Shorts Skill",
+    "category": "short_video",
+    "scope": "core",
+    "description": "让 Agent 把长视频或播客变成逐词字幕竖屏短片并可选发布。",
+    "boundary": "自动发布涉及平台凭证；下载源视频时应遵守平台条款和授权。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/social-media-skills/video-to-shorts-skill/blob/2e20fb008b584f3927798f36f580401d75318600/README.md#L3",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/social-media-skills/video-to-shorts-skill/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "AtlasCloudAI/atlas-explainer",
+    "name": "Atlas Explainer",
+    "category": "short_video",
+    "scope": "core",
+    "description": "从一个主题生成配音、纸艺风知识讲解视频的 Skill/CLI。",
+    "boundary": "图像、语音等生成依赖 Atlas Cloud API，不是完全本地生产链。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/AtlasCloudAI/atlas-explainer/blob/02f0d82392191a1c980a8a40348eb686b9e157dd/README.md#L3",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/AtlasCloudAI/atlas-explainer/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "alisa0808/vox-director",
+    "name": "Vox Director",
+    "category": "short_video",
+    "scope": "core",
+    "description": "从主题到 Vox 风纸张拼贴讲解/广告视频的端到端 Agent Skill。",
+    "boundary": "素材生成依赖 Atlas Cloud 与 FFmpeg；风格模仿需注意品牌和版权边界。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 5,
+        "url": "https://github.com/alisa0808/vox-director/blob/6a85a7c341610442a6a5b1885e6e0217ab82a11f/README.md#L5",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/alisa0808/vox-director/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "eternityspring/reelbench-skills",
+    "name": "ReelBench Skills",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "面向 Claude Code/Codex 的视频分析、复刻和制作 Skill 集合。",
+    "boundary": "部分关联产品和素材服务为付费或外部提供，需按具体 Skill 核验。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 5,
+        "url": "https://github.com/eternityspring/reelbench-skills/blob/8d8444894524c9beedbf8815dab517afb3ce3cbe/README.md#L5",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/eternityspring/reelbench-skills/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "NarratorAI-Studio/narrator-ai-cli-skill",
+    "name": "Narrator AI CLI Skill",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "指导 Agent 调用 narrator-ai-cli 自动制作影视解说视频。",
+    "boundary": "是 CLI 的机器可读 Skill，不是独立渲染引擎；后端服务和模板另计。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 9,
+        "url": "https://github.com/NarratorAI-Studio/narrator-ai-cli-skill/blob/4b17c6f2175bd532c92db778a847f8fb6bdd3177/README.md#L9",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/NarratorAI-Studio/narrator-ai-cli-skill/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "Vincentwei1021/video-shotcraft",
+    "name": "Video Shotcraft",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "为 Agent 提供镜头配方、故事板、Remotion 动画、节拍剪辑与逐帧检查。",
+    "boundary": "镜头库是创作方法和代码资产，不能替代通用时间线编辑器。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 26,
+        "url": "https://github.com/Vincentwei1021/video-shotcraft/blob/6700db2ba80572ebc777b99d72049679fed9840c/README.md#L26",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/Vincentwei1021/video-shotcraft/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "KyaniteLabs/kinocut",
+    "name": "Kinocut",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "带防护、预检、收据和质量门的本地视频编辑 MCP/Python/CLI。",
+    "boundary": "包装 FFmpeg 和可选 Whisper/HyperFrames；类型化工具不保证剪辑审美。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 13,
+        "url": "https://github.com/KyaniteLabs/kinocut/blob/4ad02dba114cf12163663e7cd39da92d4f735212/README.md#L13",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/KyaniteLabs/kinocut/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "OpenClip-App/agent-skills",
+    "name": "OpenClip Agent Skills",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "为 Agent 提供长视频切片、转录、转换、缩略图、抠图和 UGC 创意 Skill。",
+    "boundary": "Skill 驱动托管 OpenClip MCP；视频和凭证会经过外部服务。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/OpenClip-App/agent-skills/blob/ea02c98db69c437616df1db4a4400cde1f4a0832/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/OpenClip-App/agent-skills/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "Melvynx/video-agent-skills",
+    "name": "Video Agent Skills",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "用 Markdown Skills 组织短视频/YouTube 的脚本、研究、剪辑、翻译和发布。",
+    "boundary": "Skill 本身不包含所有模型与渲染器，需要宿主和本地工具。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/Melvynx/video-agent-skills/blob/f4542923f7f796a1fa0e544cbfc1109d5eec87d8/README.md#L3",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/Melvynx/video-agent-skills/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "social-media-skills/video-editing-skill",
+    "name": "Video Editing Skill",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "让 Agent 对口播、课程、访谈和 vlog 执行第一遍剪辑与字幕处理。",
+    "boundary": "针对第一遍粗剪，不代替人工终审、调色和复杂包装。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/social-media-skills/video-editing-skill/blob/f94d0517d717de281ee23569094aac616d32f4ef/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/social-media-skills/video-editing-skill/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "mfortne/mcp-video-editing",
+    "name": "MCP Video Editing",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "以 MCP、Python 库和 CLI 封装 FFmpeg、HyperFrames 与本地复用流程。",
+    "boundary": "实际效果依赖外部工具版本；项目与 Kinocut 同类但并非同一仓库。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/mfortne/mcp-video-editing/blob/97ecab83d26c24bfe77be663784399b203b1fa55/README.md#L3",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/mfortne/mcp-video-editing/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "nutllwhy/hyperframes-motion-library",
+    "name": "HyperFrames Motion Library",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "以 HyperFrames 为内核的本地动效模板与参数化资产库。",
+    "boundary": "是动效资产库，不包含完整脚本、素材生成和发布流程。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/nutllwhy/hyperframes-motion-library/blob/98c40ca18f23d7dc021a5d84308ab10599482cff/README.md#L3",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/nutllwhy/hyperframes-motion-library/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "OpenSenseNova/SenseNova-6.8-Code2Video",
+    "name": "SenseNova Code2Video",
+    "category": "code_motion",
+    "scope": "core",
+    "description": "用小型开放模型生成可执行代码并渲染短视频。",
+    "boundary": "当前聚焦纯代码短视频；模型权重、推理环境和生成工具许可需分别核验。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video/blob/776ae79824e338ba5d63fef66167455edc94ad26/README.md#L3",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "unverified",
+      "label": "待核验",
+      "source": "https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video/blob/776ae79824e338ba5d63fef66167455edc94ad26/README.md",
+      "note": "未找到根目录许可证；模型权重和代码复用条件需另行确认"
+    }
+  },
+  {
+    "repo": "givemotion/givemotion",
+    "name": "GiveMotion",
+    "category": "code_motion",
+    "scope": "core",
+    "description": "让 Agent 编写 HTML/CSS、预览检查并渲染 MP4 的代码视频引擎。",
+    "boundary": "代码动画适合动效和讲解，不等同真实素材剪辑或扩散视频生成。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 6,
+        "url": "https://github.com/givemotion/givemotion/blob/8a7949e685bbfaec8bde20fad9aa8734cdfa6038/README.md#L6",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/givemotion/givemotion/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "heygen-com/hyperframes",
+    "name": "HyperFrames",
+    "category": "code_motion",
+    "scope": "core",
+    "description": "基于 HTML/CSS/JS 的代码视频与 Agent Skill 生态，可从 Remotion 等迁移并逐帧验证。",
+    "boundary": "项目与 HeyGen 托管生成服务是不同层级；具体模板和外部素材许可另计。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 5,
+        "url": "https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/heygen-com/hyperframes/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "remotion-dev/remotion",
+    "name": "Remotion",
+    "category": "code_motion",
+    "scope": "restricted",
+    "description": "用 React/TypeScript 以代码创建和渲染视频的基础框架。",
+    "boundary": "是通用代码视频基础设施，不自带 Agent 规划或生成模型。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 2,
+        "url": "https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/README.md#L2",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "source_available",
+      "label": "Remotion License",
+      "source": "https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/LICENSE.md",
+      "note": "个人、非营利及小型组织可免费使用；达到条件的营利组织需要公司许可，不是常规 OSI 开源"
+    }
+  },
+  {
+    "repo": "motion-canvas/motion-canvas",
+    "name": "Motion Canvas",
+    "category": "code_motion",
+    "scope": "adjacent",
+    "description": "用 TypeScript 和生成器函数创建动画、讲解和动态图形。",
+    "boundary": "通用动画框架，Agent 能力来自上层 Skill 或宿主。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 6,
+        "url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/README.md#L6",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/motion-canvas/motion-canvas/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "3b1b/manim",
+    "name": "Manim",
+    "category": "code_motion",
+    "scope": "adjacent",
+    "description": "面向数学讲解的 Python 动画引擎。",
+    "boundary": "是通用动画工具且该仓库为 3Blue1Brown 版本，不是完整 AI 视频 Agent。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 2,
+        "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/README.md#L2",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/3b1b/manim/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "vrgamegirl19/comfyui-vrgamedevgirl",
+    "name": "VRGameDevGirl AI Video Builder",
+    "category": "generation_models",
+    "scope": "restricted",
+    "description": "在 ComfyUI 中按场景管理规划、提示、生成、节奏、审阅和最终拼接。",
+    "boundary": "部分自定义节点已拆到独立包；模型、显存和安装兼容性需按工作流核验。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "source_available",
+      "label": "VRGameDevGirl Community and Commercial License",
+      "source": "https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/LICENSE",
+      "note": "可商业化生成内容；销售/托管/商业集成软件本身需要书面商业许可"
+    }
+  },
+  {
+    "repo": "zai-org/CogVideo",
+    "name": "CogVideo / CogVideoX",
+    "category": "generation_models",
+    "scope": "core",
+    "description": "开源文本/图像到视频模型与推理代码。",
+    "boundary": "模型生成器不是编辑工作台；权重、显存、分辨率和模型许可需按版本核对。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/zai-org/CogVideo/blob/7a1af7154511e0ce4e4be8d62faa8c5e5a3532d2/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/zai-org/CogVideo/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "Tencent-Hunyuan/HunyuanVideo",
+    "name": "HunyuanVideo",
+    "category": "generation_models",
+    "scope": "restricted",
+    "description": "腾讯开源的大型视频生成基础模型与推理框架。",
+    "boundary": "高硬件要求；代码许可与模型权重/输出政策需分别核验。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo/blob/4eda9cb44c3be82a6b9c4261897cb6bd3cfb084e/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "source_available",
+      "label": "Tencent Hunyuan Community License",
+      "source": "https://github.com/Tencent-Hunyuan/HunyuanVideo/blob/4eda9cb44c3be82a6b9c4261897cb6bd3cfb084e/LICENSE.txt",
+      "note": "存在地域排除、使用政策和模型衍生条款，不是标准 OSI 开源许可"
+    }
+  },
+  {
+    "repo": "Tencent-Hunyuan/HunyuanVideo-I2V",
+    "name": "HunyuanVideo-I2V",
+    "category": "generation_models",
+    "scope": "restricted",
+    "description": "基于 HunyuanVideo 的可定制图生视频框架。",
+    "boundary": "与基础 T2V 项目分开；输入参考和权重许可需核对。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 9,
+        "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V/blob/c8bba70b9517f08d770a9a2a3d1e93cc6d5b7949/README.md#L9",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "source_available",
+      "label": "Tencent Hunyuan Community License",
+      "source": "https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V/blob/c8bba70b9517f08d770a9a2a3d1e93cc6d5b7949/LICENSE.txt",
+      "note": "存在地域排除、使用政策和模型衍生条款，不是标准 OSI 开源许可"
+    }
+  },
+  {
+    "repo": "Lightricks/LTX-Video",
+    "name": "LTX-Video",
+    "category": "generation_models",
+    "scope": "core",
+    "description": "面向文本/图像到视频及音画生成的开放视频模型与推理工具。",
+    "boundary": "不同 LTX 版本硬件、权重和音频能力差异明显。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 4,
+        "url": "https://github.com/Lightricks/LTX-Video/blob/50f0aef1297574a4b29acbdb874e3a363a6d5f2e/README.md#L4",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/Lightricks/LTX-Video/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "hpcaitech/Open-Sora",
+    "name": "Open-Sora",
+    "category": "generation_models",
+    "scope": "core",
+    "description": "开源高效视频生成训练与推理框架。",
+    "boundary": "研究框架和模型 checkpoint 不等于桌面成片工具。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 2,
+        "url": "https://github.com/hpcaitech/Open-Sora/blob/7ad6a96a135feb81f755c84fb391818718f6beb2/README.md#L2",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/hpcaitech/Open-Sora/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "genmoai/mochi",
+    "name": "Mochi",
+    "category": "generation_models",
+    "scope": "core",
+    "description": "Genmo 的开源视频生成模型与推理代码。",
+    "boundary": "模型权重、显存、时长与分辨率限制需按版本验证。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/genmoai/mochi/blob/15c9bad662df1fa3e7b53136423695b286484c08/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/genmoai/mochi/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "Wan-Video/Wan2.2",
+    "name": "Wan2.2",
+    "category": "generation_models",
+    "scope": "core",
+    "description": "阿里 Wan 系列开放视频生成模型，覆盖文本/图像到视频等任务。",
+    "boundary": "不同模型尺寸、活跃参数与许可条件需按具体 checkpoint 核对。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/Wan-Video/Wan2.2/blob/1ea34ff48f87168174e12956e200b1d908b1c5ff/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/Wan-Video/Wan2.2/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "bytedance/Bernini",
+    "name": "Bernini",
+    "category": "generation_models",
+    "scope": "research",
+    "description": "结合语义规划器和 DiT 渲染器的视频生成与编辑研究框架。",
+    "boundary": "论文 benchmark 不与产品编辑器维护分混为能力结论。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/bytedance/Bernini/blob/e6c2cf11843470b08491745947abcba9c3c6b079/README.md#L3",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/bytedance/Bernini/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "TMElyralab/MuseTalk",
+    "name": "MuseTalk",
+    "category": "avatar",
+    "scope": "core",
+    "description": "面向实时高质量唇同步的音频驱动虚拟人模型。",
+    "boundary": "代码、模型权重、输入肖像与商业使用边界需分别核验。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/TMElyralab/MuseTalk/blob/0a89dec45a0192b824e3cf4daf96c239440c5ed8/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/TMElyralab/MuseTalk/blob/0a89dec45a0192b824e3cf4daf96c239440c5ed8/LICENSE",
+      "note": "根目录 LICENSE 人工核验；模型、数据和人物素材权利另计"
+    }
+  },
+  {
+    "repo": "KlingAIResearch/LivePortrait",
+    "name": "LivePortrait",
+    "category": "avatar",
+    "scope": "core",
+    "description": "高效肖像动画、拼接和重定向控制框架。",
+    "boundary": "仓库已转移到 KlingAIResearch；驱动素材与人物授权由用户负责。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "readme.md",
+        "line": 1,
+        "url": "https://github.com/KlingAIResearch/LivePortrait/blob/9b294b3d0536135442ea73cb01e6cb3ca7029dd3/readme.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/KlingAIResearch/LivePortrait/blob/9b294b3d0536135442ea73cb01e6cb3ca7029dd3/LICENSE",
+      "note": "根目录 LICENSE 人工核验；模型、数据和肖像权另计"
+    }
+  },
+  {
+    "repo": "Rudrabha/Wav2Lip",
+    "name": "Wav2Lip",
+    "category": "avatar",
+    "scope": "restricted",
+    "description": "经典音视频唇同步研究实现。",
+    "boundary": "开放代码/权重主要限个人、研究和非商业用途，不列入普通商用开源推荐。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/Rudrabha/Wav2Lip/blob/bac9a81e63ecc153202353372e5724b83d9e6322/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "source_available",
+      "label": "个人/研究/非商业许可",
+      "source": "https://github.com/Rudrabha/Wav2Lip/blob/bac9a81e63ecc153202353372e5724b83d9e6322/README.md#L207",
+      "note": "README 明确禁止开源模型的商业使用"
+    }
+  },
+  {
+    "repo": "OpenTalker/SadTalker",
+    "name": "SadTalker",
+    "category": "avatar",
+    "scope": "core",
+    "description": "从单张人像和音频生成说话头像视频。",
+    "boundary": "生成肖像涉及人物授权；模型与依赖许可需按当前仓库说明。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 6,
+        "url": "https://github.com/OpenTalker/SadTalker/blob/cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8/README.md#L6",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://github.com/OpenTalker/SadTalker/blob/cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8/LICENSE",
+      "note": "根目录 LICENSE 人工核验；第三方组件另计"
+    }
+  },
+  {
+    "repo": "lipku/LiveTalking",
+    "name": "LiveTalking",
+    "category": "avatar",
+    "scope": "core",
+    "description": "结合多种数字人后端的实时交互式流媒体系统。",
+    "boundary": "不同后端的许可、硬件、延迟和效果差异很大。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 250,
+        "url": "https://github.com/lipku/LiveTalking/blob/c7269433a2b6ecebcd9342445d2ecc882c98b0da/README.md#L250",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/lipku/LiveTalking/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "Downvid/downvid",
+    "name": "Downvid",
+    "category": "media_cli",
+    "scope": "core",
+    "description": "基于 yt-dlp 与 FFmpeg 的跨平台视频下载 GUI/WebUI。",
+    "boundary": "主要是产品层封装；站点解析能力来自 yt-dlp，使用需遵守平台条款和内容授权。",
+    "baseline": true,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/Downvid/downvid/blob/770bd3e3bf6157f1a2dd0ccb67ea6ce2a4b31807/README.md#L7",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/Downvid/downvid/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "nexmoe/VidBee",
+    "name": "VidBee",
+    "category": "media_cli",
+    "scope": "core",
+    "description": "下载媒体，并在本地执行转录、说话人标注、摘要、翻译和媒体对话。",
+    "boundary": "下载由 yt-dlp 生态提供；AI 摘要可能调用用户选择的远程模型。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 2,
+        "url": "https://github.com/nexmoe/VidBee/blob/6082e2604f0c37d942cdb896040aa0c88b5c527f/README.md#L2",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/nexmoe/VidBee/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "yt-dlp/yt-dlp",
+    "name": "yt-dlp",
+    "category": "media_cli",
+    "scope": "core",
+    "description": "支持大量站点的功能丰富命令行音视频下载器。",
+    "boundary": "它是 Downvid/VidBee 等产品的底层解析 CLI，不提供完整编辑工作台。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 16,
+        "url": "https://github.com/yt-dlp/yt-dlp/blob/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md#L16",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Unlicense",
+      "source": "https://api.github.com/repos/yt-dlp/yt-dlp/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "soimort/you-get",
+    "name": "you-get",
+    "category": "media_cli",
+    "scope": "core",
+    "description": "从网页下载媒体内容的 Python 命令行工具。",
+    "boundary": "站点支持与维护活跃度需和 yt-dlp 分开比较。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/soimort/you-get/blob/049548f3f3f35e67ba8d3181c71fdc71d11cf260/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/soimort/you-get/blob/049548f3f3f35e67ba8d3181c71fdc71d11cf260/LICENSE.txt",
+      "note": "根目录 LICENSE.txt 人工核验"
+    }
+  },
+  {
+    "repo": "iawia002/lux",
+    "name": "Lux",
+    "category": "media_cli",
+    "scope": "core",
+    "description": "Go 编写的多站点视频下载 CLI。",
+    "boundary": "解析覆盖与站点更新频率是主要维护风险。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/iawia002/lux/blob/dd00f6d258d80b6684a0b9402d7124e5c18ef42f/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/iawia002/lux/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "streamlink/streamlink",
+    "name": "Streamlink",
+    "category": "media_cli",
+    "scope": "core",
+    "description": "把在线直播流解析并管道传给本地播放器的 CLI。",
+    "boundary": "主要面向流播放/录制，不等同通用点播下载或编辑器。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 13,
+        "url": "https://github.com/streamlink/streamlink/blob/993f9f1b63bd7a87292e05eda98d461ddc1f62c9/README.md#L13",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "BSD-2-Clause",
+      "source": "https://api.github.com/repos/streamlink/streamlink/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "FFmpeg/FFmpeg",
+    "name": "FFmpeg",
+    "category": "media_cli",
+    "scope": "adjacent",
+    "description": "视频转码、滤镜、封装、合成和流处理的底层工具链。",
+    "boundary": "许可证随构建选项可能为 LGPL/GPL；大量上层项目只是对其封装。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "custom",
+      "label": "LGPL-2.1+；启用 GPL 组件后为 GPL-2.0+",
+      "source": "https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/LICENSE.md",
+      "note": "最终许可取决于编译选项和链接组件"
+    }
+  },
+  {
+    "repo": "Visko-Platform/VEFX-Bench",
+    "name": "VEFX-Bench",
+    "category": "research_resources",
+    "scope": "research",
+    "description": "评测通用视频编辑和视觉特效的指令遵循与质量。",
+    "boundary": "模型、数据、reward 和商业 API 版本必须固定后才可比较。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 9,
+        "url": "https://github.com/Visko-Platform/VEFX-Bench/blob/a82437764d1e2a2068e5e183075f437d5bd0568b/README.md#L9",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/Visko-Platform/VEFX-Bench/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "AlibabaResearch/cut-craft-bench",
+    "name": "CutCraft Bench",
+    "category": "research_resources",
+    "scope": "research",
+    "description": "评测多镜头音视频生成中的专业剪辑技法执行，并提供 Agent baseline。",
+    "boundary": "生成连贯性与可编辑性是不同指标，不能只取综合分。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 6,
+        "url": "https://github.com/AlibabaResearch/cut-craft-bench/blob/df2b35d63822d0832679fe675a274c33c51f7f75/README.md#L6",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "unverified",
+      "label": "待核验",
+      "source": "https://github.com/AlibabaResearch/cut-craft-bench/blob/df2b35d63822d0832679fe675a274c33c51f7f75/README.md",
+      "note": "未找到根目录许可证"
+    }
+  },
+  {
+    "repo": "yeates/Aurora",
+    "name": "Aurora / AgentEdit-Bench",
+    "category": "research_resources",
+    "scope": "research",
+    "description": "用工具使用型 Agent 统一视频编辑，并提供 AgentEdit-Bench。",
+    "boundary": "AgentEdit-Bench 与 VEFX/EditVerse 指标不可直接横比。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/yeates/Aurora/blob/2599b748c56b29b67b9be352dc091b8ddf72ae8f/README.md#L3",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://api.github.com/repos/yeates/Aurora/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "Video-Bench/Video-Bench",
+    "name": "Video-Bench",
+    "category": "research_resources",
+    "scope": "research",
+    "description": "整理和运行视频生成模型的多维评测。",
+    "boundary": "生成 benchmark 不等于时间线编辑器或生产系统质量。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/Video-Bench/Video-Bench/blob/d40b917c4238011aea27d24f85b1e3bf996715bd/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://api.github.com/repos/Video-Bench/Video-Bench/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "adobe-research/EditVerse",
+    "name": "EditVerse",
+    "category": "research_resources",
+    "scope": "restricted",
+    "description": "图像/视频生成与编辑研究代码及 EditVerseBench。",
+    "boundary": "研究代码与数据下载依赖外部源，结果需按论文设置复现。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/adobe-research/EditVerse/blob/eeca9ce9f99db2d5c90e775853735025523c9334/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "source_available",
+      "label": "Adobe Research License（部分文件）",
+      "source": "https://github.com/adobe-research/EditVerse/blob/eeca9ce9f99db2d5c90e775853735025523c9334/LICENSE.md",
+      "note": "LICENSE 仅覆盖明确列出的文件，其余文件不在该许可范围内"
+    }
+  },
+  {
+    "repo": "devanasolver/awesome-video-editing",
+    "name": "Awesome Video Editing",
+    "category": "research_resources",
+    "scope": "adjacent",
+    "description": "整理开源视频编辑工具、Agent Skills 与可用素材。",
+    "boundary": "作为发现和覆盖基线，不参与能力判断。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/devanasolver/awesome-video-editing/blob/637c0b63835cccaca2c5362baa7e564fee89a6dc/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "CC0-1.0",
+      "source": "https://github.com/devanasolver/awesome-video-editing/blob/637c0b63835cccaca2c5362baa7e564fee89a6dc/LICENSE",
+      "note": "目录内容采用 CC0"
+    }
+  },
+  {
+    "repo": "sasateguh/awesome-ai-video-for-creators",
+    "name": "Awesome AI Video for Creators",
+    "category": "research_resources",
+    "scope": "adjacent",
+    "description": "按创作者工作流整理开源剪辑、字幕、切片、配音和代码视频工具。",
+    "boundary": "外部 star 快照会变化，最终数据回到官方仓库。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/sasateguh/awesome-ai-video-for-creators/blob/3b88db72b425a89b751b6ea279532e3ae0a3d6f9/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "CC0-1.0",
+      "source": "https://api.github.com/repos/sasateguh/awesome-ai-video-for-creators/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  },
+  {
+    "repo": "thoxakihiko/awesome-ai-video",
+    "name": "Awesome AI Video",
+    "category": "research_resources",
+    "scope": "adjacent",
+    "description": "整理文本/图像到视频模型、工具和资源。",
+    "boundary": "包含商业产品和模型，不能直接视为开源工具清单。",
+    "baseline": false,
+    "reviewed_at": "2026-11-12",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 1,
+        "url": "https://github.com/thoxakihiko/awesome-ai-video/blob/45e9e2bfb3e1e1193e4725ce94bba45d0f342c5a/README.md#L1",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "CC0-1.0",
+      "source": "https://api.github.com/repos/thoxakihiko/awesome-ai-video/license",
+      "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
+    }
+  }
+]

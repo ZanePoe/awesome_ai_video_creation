@@ -1,0 +1,16 @@
+{
+  "entities_total": 2,
+  "entities_covered": 1,
+  "entities_missing": [
+    "CLI-oriented"
+  ],
+  "urls_total": 22,
+  "urls_covered": 22,
+  "urls_missing": [],
+  "rate": 0.958,
+  "min_rate": 0.6,
+  "max_missing": 5,
+  "gap": false,
+  "checked_at": "2026-11-12T11:55:09+00:00",
+  "baseline": "research/baseline.md"
+}

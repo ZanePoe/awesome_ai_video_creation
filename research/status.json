@@ -1,0 +1,126 @@
+{
+  "objective": "Which open-source AI video generation, editing, short-video automation, code-to-video, digital presenter, ComfyUI workflow, animation and media CLI projects belong in awesome_ai_video_creation, and how should GitHub maintenance be ranked?",
+  "mode": "standard",
+  "rounds": [
+    {
+      "round": 1,
+      "queries": 14,
+      "executed": 14,
+      "results": 394,
+      "relevant": 348,
+      "new_sources": 377,
+      "novelty_score": 8.457,
+      "novel_terms": 12,
+      "new_source_rate": 0.957
+    },
+    {
+      "round": 2,
+      "queries": 7,
+      "executed": 7,
+      "results": 130,
+      "relevant": 118,
+      "new_sources": 101,
+      "novelty_score": 4.634,
+      "novel_terms": 12,
+      "new_source_rate": 0.777
+    },
+    {
+      "round": 3,
+      "queries": 7,
+      "executed": 7,
+      "results": 270,
+      "relevant": 243,
+      "new_sources": 208,
+      "novelty_score": null,
+      "novel_terms": 0,
+      "new_source_rate": 0.77
+    }
+  ],
+  "axes": {
+    "semantics": {
+      "queries": 2,
+      "done": 2,
+      "retained": 31,
+      "intent": "definition, mechanism, terminology boundaries"
+    },
+    "primary": {
+      "queries": 5,
+      "done": 5,
+      "retained": 205,
+      "intent": "first-party sources: official docs, specs, source code"
+    },
+    "index": {
+      "queries": 2,
+      "done": 2,
+      "retained": 114,
+      "intent": "curated maps, awesome lists and leaderboards that enumerate the field"
+    },
+    "repo": {
+      "queries": 7,
+      "done": 7,
+      "retained": 179,
+      "intent": "usable code and install surfaces: repositories, packages, registries"
+    },
+    "compare": {
+      "queries": 5,
+      "done": 5,
+      "retained": 83,
+      "intent": "alternatives, substitutes, head-to-head"
+    },
+    "data": {
+      "queries": 3,
+      "done": 3,
+      "retained": 51,
+      "intent": "quantitative evidence, benchmarks, scale"
+    },
+    "risks": {
+      "queries": 1,
+      "done": 1,
+      "retained": 20,
+      "intent": "failure modes, criticism, limits"
+    },
+    "recency": {
+      "queries": 3,
+      "done": 3,
+      "retained": 28,
+      "intent": "changes in the last 12-18 months"
+    }
+  },
+  "gaps": [],
+  "sources": 686,
+  "sources_relevant": 574,
+  "sources_duplicate": 0,
+  "sources_by_source": {
+    "corpus": 69,
+    "web": 617
+  },
+  "evidence": 144,
+  "claims": 144,
+  "metrics": 216,
+  "coverage": {
+    "rate": 0.533,
+    "entities_total": 104,
+    "entities_covered": 93,
+    "entities_missing": [
+      "HDRIs",
+      "MPL-2.0",
+      "LGPL-2.1",
+      "Mixkit",
+      "Pexels",
+      "Pixabay",
+      "MacLeod",
+      "OpenGameArt",
+      "GameAudioGDC",
+      "ZapSplat",
+      "PBR"
+    ],
+    "gap": true,
+    "baseline": "devanasolver/awesome-video-editing README"
+  },
+  "pending_queries": [],
+  "verdict": "stop",
+  "reasons": [
+    "max_rounds reached (3)",
+    "external coverage gap unresolved: 11 entities unreached (rate 0.533); raise --max-rounds or run coverage again"
+  ]
+}

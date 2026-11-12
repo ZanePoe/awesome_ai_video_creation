@@ -1,0 +1,35 @@
+name: 推荐 AI 视频项目
+description: 推荐生成、剪辑、短视频、Skill、模型、CLI 或 benchmark
+title: '[推荐] '
+body:
+  - type: input
+    id: url
+    attributes:
+      label: GitHub canonical 仓库
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 主分类
+      options:
+        - 视频编辑器与制作工作台
+        - Agent 视频生产与自动化
+        - 知识类短视频、切片与讲解
+        - Agent Skills、MCP 与剪辑工具
+        - Code-to-video 与动效
+        - ComfyUI 与开源视频生成
+        - 数字人、肖像动画与唇同步
+        - 下载、采集、转码与素材 CLI
+        - 评测、研究与外部索引
+        - 历史与受限版本
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 定位、边界和证据
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: 代码、权重和素材许可证
