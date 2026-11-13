@@ -389,7 +389,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：Code-to-video 与动效；受限许可。
 - 适用边界：是通用代码视频基础设施，不自带 Agent 规划或生成模型。
-- 维护状态：近90天有提交；30 天提交 2844 次，90 天提交 6759 次。
+- 维护状态：近90天有提交；30 天提交 2860 次，90 天提交 6775 次。
 - 许可：[Remotion License](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/LICENSE.md)；源码可见但非 OSI 开源。个人、非营利及小型组织可免费使用；达到条件的营利组织需要公司许可，不是常规 OSI 开源
 - 功能核验：2026-11-12；[来源1](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/README.md#L2)。
 
@@ -579,7 +579,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；相邻基础设施。
 - 适用边界：许可证随构建选项可能为 LGPL/GPL；大量上层项目只是对其封装。
-- 维护状态：近90天有提交；30 天提交 1361 次，90 天提交 2722 次。
+- 维护状态：近90天有提交；30 天提交 1361 次，90 天提交 2720 次。
 - 许可：[LGPL-2.1+；启用 GPL 组件后为 GPL-2.0+](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/LICENSE.md)；复合/条件许可。最终许可取决于编译选项和链接组件
 - 功能核验：2026-11-12；[来源1](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/README.md#L1)。
 
@@ -609,7 +609,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；核心候选。
 - 适用边界：主要是产品层封装；站点解析能力来自 yt-dlp，使用需遵守平台条款和内容授权。
-- 维护状态：近90天有提交；30 天提交 231 次，90 天提交 429 次。
+- 维护状态：近90天有提交；30 天提交 230 次，90 天提交 429 次。
 - 许可：[MIT](https://api.github.com/repos/Downvid/downvid/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Downvid/downvid/blob/770bd3e3bf6157f1a2dd0ccb67ea6ce2a4b31807/README.md#L7)。
 
