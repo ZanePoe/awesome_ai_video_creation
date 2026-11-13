@@ -390,6 +390,44 @@
     }
   },
   {
+    "repo": "hypit-ai/hypit",
+    "name": "Hypit",
+    "category": "agent_production",
+    "scope": "restricted",
+    "description": "让 coding agent 把参考视频复刻为可编辑、可重复运行的完整工作流，并批量生成内容变体。",
+    "boundary": "热门视频复刻涉及原视频、人物、音乐、素材和品牌授权；生成模型与 API 为可选外部服务，费用和数据路径依各提供商。",
+    "baseline": false,
+    "reviewed_at": "2026-11-13",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 51,
+        "url": "https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L51",
+        "note": "官方 README 的 Agent 视频工作流与可选生成模型说明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 164,
+        "url": "https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L164",
+        "note": "官方 README 的复刻、变体和可重复组合边界；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 338,
+        "url": "https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L338",
+        "note": "官方 README 的许可证和第三方服务边界"
+      }
+    ],
+    "evidence_commit": "6bacce093695ccc2bde5aa5d7de230e9682ffa79",
+    "license_review": {
+      "status": "source_available",
+      "label": "Hypit Open Source License（修改版 Apache-2.0）",
+      "source": "https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/LICENSE",
+      "note": "限制多租户托管、商业再分发及移除品牌/版权信息；需要这些用途时须取得商业许可，不是标准 Apache-2.0"
+    }
+  },
+  {
     "repo": "Tencent/WeVisCut",
     "name": "WeVisCut",
     "category": "agent_production",
