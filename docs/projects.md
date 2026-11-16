@@ -9,7 +9,7 @@
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：离线模型需首次下载；产品内 AI 与完整生成式工作流不是同一范围。
-- 维护状态：近90天有提交；30 天提交 509 次，90 天提交 1508 次。
+- 维护状态：近90天有提交；30 天提交 509 次，90 天提交 1519 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/jub0t/Concat/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/jub0t/Concat/blob/504a814ebe61d4f47bba4cd7949dc2580ecc405c/README.md#L6)。
 
@@ -19,7 +19,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：通用编辑器为主；AI 功能范围和移动端成熟度需按版本验证。
-- 维护状态：近90天有提交；30 天提交 256 次，90 天提交 2588 次。
+- 维护状态：近90天有提交；30 天提交 249 次，90 天提交 2593 次。
 - 许可：[MIT](https://api.github.com/repos/AIEraDev/Clypra/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/AIEraDev/Clypra/blob/aa6b9c619cf98f7a1dfab6446345ec5f5660b93c/README.md#L9)。
 
@@ -29,7 +29,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：内置 Agent、桌面版和外部 coding agent 的能力边界需分开验证。
-- 维护状态：近90天有提交；30 天提交 49 次，90 天提交 484 次。
+- 维护状态：近90天有提交；30 天提交 48 次，90 天提交 479 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/0xsline/OpenChatCut/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/0xsline/OpenChatCut/blob/9242a95aea248ff3a8dab495514384e858320d47/README.md#L12)。
 
@@ -39,7 +39,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：输出主要是 previs 和镜头参考，最终生成质量取决于外部视频模型。
-- 维护状态：近90天有提交；30 天提交 667 次，90 天提交 2466 次。
+- 维护状态：近90天有提交；30 天提交 644 次，90 天提交 2466 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/HaD0Yun/CozyClay/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/HaD0Yun/CozyClay/blob/297dd2a8a077613b329962d68e2a9bb4355be091/README.md#L6)。
 
@@ -49,7 +49,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：首版项目；完整生产稳定性和模型成本需实测。
-- 维护状态：近90天有提交；30 天提交 285 次，90 天提交 285 次。
+- 维护状态：近90天有提交；30 天提交 290 次，90 天提交 290 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/ThinkFlowLab/OpenDirector/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/ThinkFlowLab/OpenDirector/blob/39288dfdf4f816798e5479c53363258fceeb6e11/README.md#L18)。
 
@@ -79,7 +79,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：通用编辑能力为主，不将其自动视为生成式 AI Agent。
-- 维护状态：近90天有提交；30 天提交 1 次，90 天提交 15 次。
+- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 12 次。
 - 许可：[MIT](https://api.github.com/repos/Augani/openreel-video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Augani/openreel-video/blob/367d7e90b61b5181f9861b852bb8b9d7a7d2954a/README.md#L7)。
 
@@ -89,7 +89,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：本地编辑不需要其云 API；浏览器 UI、CLI 与 Agent 工具是同一项目的不同入口。
-- 维护状态：近90天有提交；30 天提交 86 次，90 天提交 88 次。
+- 维护状态：近90天有提交；30 天提交 151 次，90 天提交 153 次。
 - 许可：[MIT](https://api.github.com/repos/MakeMyClip/editor/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/MakeMyClip/editor/blob/f6f05206c1d2234d74134da27d322caebb260e6d/README.md#L7)。
 
@@ -109,7 +109,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：默认分支为开发分支；移动端和生成能力需按当前实现验证。
-- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 160 次。
+- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 143 次。
 - 许可：[MIT](https://api.github.com/repos/Theorvane/OpenScene/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Theorvane/OpenScene/blob/4bd3d3c4c15fb27dd0b521065643b3a2d516be08/README.md#L8)。
 
@@ -129,19 +129,9 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：大素材代理文件和浏览器编码路径仍需按部署方式评估。
-- 维护状态：近90天有提交；30 天提交 2 次，90 天提交 109 次。
+- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 109 次。
 - 许可：[MIT](https://api.github.com/repos/Aepzie/cutline/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Aepzie/cutline/blob/ab71520285881d8dfa78f5ebca00f8a166e84962/README.md#L8)。
-
-## [Hypit](https://github.com/hypit-ai/hypit)
-
-让 coding agent 把参考视频复刻为可编辑、可重复运行的完整工作流，并批量生成内容变体。
-
-- 分类：Agent 视频生产与自动化；受限许可。
-- 适用边界：热门视频复刻涉及原视频、人物、音乐、素材和品牌授权；生成模型与 API 为可选外部服务，费用和数据路径依各提供商。
-- 维护状态：近90天有提交；30 天提交 12 次，90 天提交 1152 次。
-- 许可：[Hypit Open Source License（修改版 Apache-2.0）](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/LICENSE)；源码可见但非 OSI 开源。限制多租户托管、商业再分发及移除品牌/版权信息；需要这些用途时须取得商业许可，不是标准 Apache-2.0
-- 功能核验：2026-11-13；[来源1](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L51) · [来源2](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L164) · [来源3](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L338)。
 
 ## [OpenMontage](https://github.com/OpenMontageInc/OpenMontage)
 
@@ -149,9 +139,19 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：部分生成与语音提供商为付费服务；大量 Skill 文件不等于全部流程已统一实测。
-- 维护状态：近90天有提交；30 天提交 191 次，90 天提交 301 次。
+- 维护状态：近90天有提交；30 天提交 188 次，90 天提交 302 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/OpenMontageInc/OpenMontage/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/OpenMontageInc/OpenMontage/blob/fecb9a1e3cc23ef84de30b272059457a427f16f8/README.md#L14)。
+
+## [Hypit](https://github.com/hypit-ai/hypit)
+
+让 coding agent 把参考视频复刻为可编辑、可重复运行的完整工作流，并批量生成内容变体。
+
+- 分类：Agent 视频生产与自动化；受限许可。
+- 适用边界：热门视频复刻涉及原视频、人物、音乐、素材和品牌授权；生成模型与 API 为可选外部服务，费用和数据路径依各提供商。
+- 维护状态：近90天有提交；30 天提交 12 次，90 天提交 1114 次。
+- 许可：[Hypit Open Source License（修改版 Apache-2.0）](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/LICENSE)；源码可见但非 OSI 开源。限制多租户托管、商业再分发及移除品牌/版权信息；需要这些用途时须取得商业许可，不是标准 Apache-2.0
+- 功能核验：2026-11-13；[来源1](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L51) · [来源2](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L164) · [来源3](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L338)。
 
 ## [OpenFilm](https://github.com/openfilm/openfilm)
 
@@ -159,7 +159,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：代码化镜头与传统素材时间线不同；素材和声音库许可需按资产核验。
-- 维护状态：近90天有提交；30 天提交 233 次，90 天提交 274 次。
+- 维护状态：近90天有提交；30 天提交 230 次，90 天提交 274 次。
 - 许可：[MIT](https://api.github.com/repos/openfilm/openfilm/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/openfilm/openfilm/blob/f59cd4e0973feaf6917dcf3229b178b6baf9ad3f/README.md#L7)。
 
@@ -169,7 +169,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：Agent 视频生产与自动化；相邻基础设施。
 - 适用边界：主要做分析与复刻规划，不直接等同最终剪辑或生成器。
-- 维护状态：近90天有提交；30 天提交 139 次，90 天提交 139 次。
+- 维护状态：近90天有提交；30 天提交 143 次，90 天提交 143 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/JuneYaooo/rea-video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/JuneYaooo/rea-video/blob/4111ad9adb4936d92f6d57657000b414fee9f01f/README.md#L8)。
 
@@ -289,7 +289,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：Agent Skills、MCP 与剪辑工具；核心候选。
 - 适用边界：镜头库是创作方法和代码资产，不能替代通用时间线编辑器。
-- 维护状态：近90天有提交；30 天提交 13 次，90 天提交 42 次。
+- 维护状态：近90天有提交；30 天提交 19 次，90 天提交 49 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/Vincentwei1021/video-shotcraft/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Vincentwei1021/video-shotcraft/blob/6700db2ba80572ebc777b99d72049679fed9840c/README.md#L26)。
 
@@ -299,7 +299,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：Agent Skills、MCP 与剪辑工具；核心候选。
 - 适用边界：包装 FFmpeg 和可选 Whisper/HyperFrames；类型化工具不保证剪辑审美。
-- 维护状态：近90天有提交；30 天提交 201 次，90 天提交 562 次。
+- 维护状态：近90天有提交；30 天提交 201 次，90 天提交 560 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/KyaniteLabs/kinocut/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/KyaniteLabs/kinocut/blob/4ad02dba114cf12163663e7cd39da92d4f735212/README.md#L13)。
 
@@ -319,7 +319,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：Agent Skills、MCP 与剪辑工具；核心候选。
 - 适用边界：Skill 本身不包含所有模型与渲染器，需要宿主和本地工具。
-- 维护状态：近90天有提交；30 天提交 13 次，90 天提交 26 次。
+- 维护状态：近90天有提交；30 天提交 10 次，90 天提交 26 次。
 - 许可：[MIT](https://api.github.com/repos/Melvynx/video-agent-skills/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Melvynx/video-agent-skills/blob/f4542923f7f796a1fa0e544cbfc1109d5eec87d8/README.md#L3)。
 
@@ -379,7 +379,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：项目与 HeyGen 托管生成服务是不同层级；具体模板和外部素材许可另计。
-- 维护状态：近90天有提交；30 天提交 1619 次，90 天提交 3323 次。
+- 维护状态：近90天有提交；30 天提交 1693 次，90 天提交 3414 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5)。
 
@@ -389,7 +389,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：Code-to-video 与动效；受限许可。
 - 适用边界：是通用代码视频基础设施，不自带 Agent 规划或生成模型。
-- 维护状态：近90天有提交；30 天提交 2709 次，90 天提交 6831 次。
+- 维护状态：近90天有提交；30 天提交 2670 次，90 天提交 6840 次。
 - 许可：[Remotion License](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/LICENSE.md)；源码可见但非 OSI 开源。个人、非营利及小型组织可免费使用；达到条件的营利组织需要公司许可，不是常规 OSI 开源
 - 功能核验：2026-11-12；[来源1](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/README.md#L2)。
 
@@ -409,7 +409,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：Code-to-video 与动效；相邻基础设施。
 - 适用边界：是通用动画工具且该仓库为 3Blue1Brown 版本，不是完整 AI 视频 Agent。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 11 次。
+- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 2 次。
 - 许可：[MIT](https://api.github.com/repos/3b1b/manim/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/README.md#L2)。
 
@@ -439,7 +439,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：ComfyUI 与开源视频生成；受限许可。
 - 适用边界：部分自定义节点已拆到独立包；模型、显存和安装兼容性需按工作流核验。
-- 维护状态：近90天有提交；30 天提交 178 次，90 天提交 726 次。
+- 维护状态：近90天有提交；30 天提交 173 次，90 天提交 726 次。
 - 许可：[VRGameDevGirl Community and Commercial License](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/LICENSE)；源码可见但非 OSI 开源。可商业化生成内容；销售/托管/商业集成软件本身需要书面商业许可
 - 功能核验：2026-11-12；[来源1](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/README.md#L1)。
 
@@ -579,7 +579,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；相邻基础设施。
 - 适用边界：许可证随构建选项可能为 LGPL/GPL；大量上层项目只是对其封装。
-- 维护状态：近90天有提交；30 天提交 1338 次，90 天提交 2727 次。
+- 维护状态：近90天有提交；30 天提交 35 次，90 天提交 2747 次。
 - 许可：[LGPL-2.1+；启用 GPL 组件后为 GPL-2.0+](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/LICENSE.md)；复合/条件许可。最终许可取决于编译选项和链接组件
 - 功能核验：2026-11-12；[来源1](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/README.md#L1)。
 
@@ -589,7 +589,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；核心候选。
 - 适用边界：它是 Downvid/VidBee 等产品的底层解析 CLI，不提供完整编辑工作台。
-- 维护状态：近90天有提交；30 天提交 27 次，90 天提交 80 次。
+- 维护状态：近90天有提交；30 天提交 29 次，90 天提交 82 次。
 - 许可：[Unlicense](https://api.github.com/repos/yt-dlp/yt-dlp/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/yt-dlp/yt-dlp/blob/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md#L16)。
 
@@ -609,7 +609,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；核心候选。
 - 适用边界：主要是产品层封装；站点解析能力来自 yt-dlp，使用需遵守平台条款和内容授权。
-- 维护状态：近90天有提交；30 天提交 204 次，90 天提交 429 次。
+- 维护状态：近90天有提交；30 天提交 180 次，90 天提交 429 次。
 - 许可：[MIT](https://api.github.com/repos/Downvid/downvid/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Downvid/downvid/blob/770bd3e3bf6157f1a2dd0ccb67ea6ce2a4b31807/README.md#L7)。
 
@@ -619,7 +619,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；核心候选。
 - 适用边界：下载由 yt-dlp 生态提供；AI 摘要可能调用用户选择的远程模型。
-- 维护状态：近90天有提交；30 天提交 16 次，90 天提交 62 次。
+- 维护状态：近90天有提交；30 天提交 17 次，90 天提交 63 次。
 - 许可：[MIT](https://api.github.com/repos/nexmoe/VidBee/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/nexmoe/VidBee/blob/6082e2604f0c37d942cdb896040aa0c88b5c527f/README.md#L2)。
 
@@ -729,6 +729,6 @@ Go 编写的多站点视频下载 CLI。
 
 - 分类：历史与受限版本；历史参考。
 - 适用边界：v0.7.6 后二进制为专有，当前对应源码未公开；仅把 last-gpl-source 视为历史开源版本。
-- 维护状态：归档 / 历史；30 天提交 2 次，90 天提交 27 次。
+- 维护状态：归档 / 历史；30 天提交 2 次，90 天提交 23 次。
 - 许可：[GPL-3.0（至 v0.7.6 源码）/ 后续二进制专有](https://github.com/palmier-io/palmier-pro/blob/dfc810b561f1692947eb81bbb689e078923ebb59/README.md#L112)；复合/条件许可。last-gpl-source 及 v0.7.6 前源码为 GPLv3；后续二进制无对应公开源码
 - 功能核验：2026-11-12；[来源1](https://github.com/palmier-io/palmier-pro/blob/dfc810b561f1692947eb81bbb689e078923ebb59/README.md#L2)。
