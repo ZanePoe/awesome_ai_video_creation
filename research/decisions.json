@@ -396,6 +396,42 @@
     }
   },
   {
+    "repo": "nexu-io/openmotion",
+    "name": "OpenMotion",
+    "category": "agent_production",
+    "scope": "core",
+    "description": "面向本地 coding agent 的参考视频复刻与品牌化动效工作台，支持 Motion.md、可视化时间线和 MP4 导出。",
+    "boundary": "参考视频、人物、音乐、品牌和素材须另行取得授权；媒体生成依赖自备 API/订阅，内置模板与第三方组件遵循各自 LICENSE/NOTICE。",
+    "baseline": false,
+    "reviewed_at": "2026-11-17",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 40,
+        "url": "https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L40",
+        "note": "官方 README 的参考视频复刻、品牌化和 Agent 工作流说明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 308,
+        "url": "https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L308",
+        "note": "官方 README 的 HTML/CSS/JavaScript 视频、Studio 编辑和 MP4 渲染说明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 386,
+        "url": "https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L386",
+        "note": "官方 README 的本地开源流程、BYOK 和外部提供商费用边界"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/LICENSE",
+      "note": "仓库根 LICENSE 为标准 Apache-2.0；内置模板、模型图标和 vendor 组件含各自 LICENSE/NOTICE，分发或复用时需分别保留并核验"
+    }
+  },
+  {
     "repo": "Tencent/WeVisCut",
     "name": "WeVisCut",
     "category": "agent_production",
