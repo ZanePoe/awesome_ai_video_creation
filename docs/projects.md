@@ -39,7 +39,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：输出主要是 previs 和镜头参考，最终生成质量取决于外部视频模型。
-- 维护状态：近90天有提交；30 天提交 495 次，90 天提交 2320 次。
+- 维护状态：近90天有提交；30 天提交 495 次，90 天提交 2306 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/HaD0Yun/CozyClay/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/HaD0Yun/CozyClay/blob/297dd2a8a077613b329962d68e2a9bb4355be091/README.md#L6)。
 
@@ -79,7 +79,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：更偏代码化编辑引擎，实际生成模型和 ComfyUI 应用需另行配置。
-- 维护状态：近90天有提交；30 天提交 125 次，90 天提交 126 次。
+- 维护状态：近90天有提交；30 天提交 124 次，90 天提交 126 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/rk0neki/OpenKatana/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/rk0neki/OpenKatana/blob/b9282bf0740a7df5b5a8862b5e289ef4cd642641/README.md#L7)。
 
@@ -129,7 +129,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：聚焦文本式粗剪，不等于完整视觉特效与生成工作台。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 104 次。
+- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 102 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/FernandoAbishai/ScriptCut/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/FernandoAbishai/ScriptCut/blob/12c6fe495939da344e6af3e942a45dfdfb2132fa/README.md#L7)。
 
@@ -179,7 +179,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：参考视频、人物、音乐、品牌和素材须另行取得授权；媒体生成依赖自备 API/订阅，内置模板与第三方组件遵循各自 LICENSE/NOTICE。
-- 维护状态：近90天有提交；30 天提交 595 次，90 天提交 602 次。
+- 维护状态：近90天有提交；30 天提交 597 次，90 天提交 604 次。
 - 许可：[Apache-2.0](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/LICENSE)；开放许可证已核验。仓库根 LICENSE 为标准 Apache-2.0；内置模板、模型图标和 vendor 组件含各自 LICENSE/NOTICE，分发或复用时需分别保留并核验
 - 功能核验：2026-11-17；[来源1](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L40) · [来源2](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L308) · [来源3](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L386)。
 
@@ -249,7 +249,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：知识类短视频、切片与讲解；核心候选。
 - 适用边界：Codex 完整成片质量尚未验证；公开资料使用和肖像授权需由用户负责。
-- 维护状态：近90天有提交；30 天提交 168 次，90 天提交 168 次。
+- 维护状态：近90天有提交；30 天提交 170 次，90 天提交 170 次。
 - 许可：[MIT](https://api.github.com/repos/ChrisHKAI/ChrisHKAI-Video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/ChrisHKAI/ChrisHKAI-Video/blob/15b66ee613e621f82ba781d27547a67e76c55f50/README.md#L7)。
 
@@ -339,9 +339,19 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Agent Skills、MCP 与剪辑工具；核心候选。
 - 适用边界：包装 FFmpeg 和可选 Whisper/HyperFrames；类型化工具不保证剪辑审美。
-- 维护状态：近90天有提交；30 天提交 193 次，90 天提交 477 次。
+- 维护状态：近90天有提交；30 天提交 192 次，90 天提交 477 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/KyaniteLabs/kinocut/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/KyaniteLabs/kinocut/blob/4ad02dba114cf12163663e7cd39da92d4f735212/README.md#L13)。
+
+## [Remotion Agent Skills](https://github.com/remotion-dev/skills)
+
+供 coding agent 创建、预览和渲染 Remotion 视频的官方 Skills。
+
+- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
+- 适用边界：需 Remotion 与支持 Agent Skills 的宿主；本仓库根目录未发现许可证，Remotion 本身有独立许可条款。
+- 维护状态：近90天有提交；30 天提交 9 次，90 天提交 32 次。
+- 许可：[许可待核验](https://github.com/remotion-dev/skills/tree/6f55706d1069e512430582ad86e4e57dc07afe1b)；许可待核验。仓库根目录和文件树未发现 LICENSE；Remotion 产品及各包许可须单独核对。
+- 功能核验：2026-11-20；[来源1](https://github.com/remotion-dev/skills/blob/6f55706d1069e512430582ad86e4e57dc07afe1b/README.md#L5)。
 
 ## [ReelBench Skills](https://github.com/eternityspring/reelbench-skills)
 
@@ -419,7 +429,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：项目与 HeyGen 托管生成服务是不同层级；具体模板和外部素材许可另计。
-- 维护状态：近90天有提交；30 天提交 1838 次，90 天提交 3611 次。
+- 维护状态：近90天有提交；30 天提交 1839 次，90 天提交 3612 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5)。
 
@@ -432,6 +442,16 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 - 维护状态：近90天有提交；30 天提交 2641 次，90 天提交 6852 次。
 - 许可：[Remotion License](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/LICENSE.md)；源码可见但非 OSI 开源。个人、非营利及小型组织可免费使用；达到条件的营利组织需要公司许可，不是常规 OSI 开源
 - 功能核验：2026-11-12；[来源1](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/README.md#L2)。
+
+## [Manim Community](https://github.com/ManimCommunity/manim)
+
+用 Python 编程制作数学与知识讲解动画的视频引擎。
+
+- 分类：Code-to-video 与动效；核心候选。
+- 适用边界：适合代码化讲解；不是自动生成内容的 AI Agent，渲染依赖和字体等另计。
+- 维护状态：近90天有提交；30 天提交 26 次，90 天提交 76 次。
+- 许可：[MIT](https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/README.md#L20)。
 
 ## [GiveMotion](https://github.com/givemotion/givemotion)
 
@@ -472,6 +492,156 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 - 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
 - 许可：[MIT](https://api.github.com/repos/motion-canvas/motion-canvas/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/README.md#L6)。
+
+## [three.js](https://github.com/mrdoob/three.js)
+
+JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：通用渲染库，不自动输出视频；素材和 WebGL/WebGPU 环境需自行处理。
+- 维护状态：近90天有提交；30 天提交 346 次，90 天提交 859 次。
+- 许可：[MIT](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/README.md#L11)。
+
+## [Godot](https://github.com/godotengine/godot)
+
+用于构建二维和三维场景、交互及动画的开源游戏引擎。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：游戏引擎与视频自动生成系统不同，成片录制或导出需设计额外流程。
+- 维护状态：近90天有提交；30 天提交 536 次，90 天提交 1947 次。
+- 许可：[MIT](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/LICENSE.txt)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/README.md#L11)。
+
+## [Motion](https://github.com/motiondivision/motion)
+
+面向 JavaScript、React 和 Vue 的界面与布局动画库。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：通用动效组件；与视频渲染器配合使用，不直接提供视频 Agent。
+- 维护状态：近90天有提交；30 天提交 729 次，90 天提交 1336 次。
+- 许可：[MIT](https://github.com/motiondivision/motion/blob/cd009de7a4314e065d4d9df683057124792d5b34/LICENSE.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/motiondivision/motion/blob/cd009de7a4314e065d4d9df683057124792d5b34/README.md#L3)。
+
+## [Blender](https://github.com/blender/blender)
+
+覆盖建模、角色绑定、动画、渲染、合成和视频剪辑的 3D 创作套件。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：GitHub 仓库是官方镜像；第三方插件、模型和素材遵循各自许可。
+- 维护状态：近90天有提交；30 天提交 1256 次，90 天提交 3246 次。
+- 许可：[GPL-2.0-or-later](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/COPYING)；开放许可证已核验。COPYING 指向 GPL 许可正文；第三方资产和组件另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/.github/README.md#L14)。
+
+## [Babylon.js](https://github.com/BabylonJS/Babylon.js)
+
+JavaScript 3D 场景、游戏与渲染引擎，可作为代码动效基础。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：默认是实时 3D 渲染引擎；视频编码需另接工具，官方提示演示 CDN 不用于生产。
+- 维护状态：近90天有提交；30 天提交 169 次，90 天提交 364 次。
+- 许可：[Apache-2.0](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/license.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/readme.md#L1)。
+
+## [Konva](https://github.com/konvajs/konva)
+
+二维 Canvas 场景图库，支持对象交互、变换、动画和导出。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：通用画布组件；视频或音频导出需搭配其他工具。
+- 维护状态：近90天有提交；30 天提交 33 次，90 天提交 216 次。
+- 许可：[MIT](https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/README.md#L16)。
+
+## [Two.js](https://github.com/jonobr1/two.js)
+
+通过 WebGL、Canvas 或 SVG 创建二维图形和动画场景。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：二维绘图基础库；生成音视频文件需要另接渲染与编码。
+- 维护状态：近90天有提交；30 天提交 26 次，90 天提交 51 次。
+- 许可：[MIT](https://github.com/jonobr1/two.js/blob/bd48e27ff8f3333ef442fb3d032cb6b5391f26dc/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/jonobr1/two.js/blob/bd48e27ff8f3333ef442fb3d032cb6b5391f26dc/README.md#L8)。
+
+## [Shifty](https://github.com/jeremyckahn/shifty)
+
+TypeScript 补间动画引擎，提供缓动与播放控制。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：底层补间库，不自带视频生成或导出工作流。
+- 维护状态：近90天有提交；30 天提交 8 次，90 天提交 14 次。
+- 许可：[MIT](https://github.com/jeremyckahn/shifty/blob/ee4c8ed53503d5a6bf658ccdbba5af58674e3245/LICENSE-MIT)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/jeremyckahn/shifty/blob/ee4c8ed53503d5a6bf658ccdbba5af58674e3245/README.md#L7)。
+
+## [Ola](https://github.com/franciscop/ola)
+
+用于实时数值平滑插值的轻量动画库。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：仅处理数值插值，需自行提供场景、时间线与导出。
+- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 3 次。
+- 许可：[MIT](https://github.com/franciscop/ola/blob/b269059c570405421acfcc55c84b3347cbeb0674/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/franciscop/ola/blob/b269059c570405421acfcc55c84b3347cbeb0674/readme.md#L3)。
+
+## [Anime.js](https://github.com/juliangarnier/anime)
+
+对 CSS、SVG、DOM 和 JavaScript 属性制作时间线动画。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：通用网页动效引擎；视频渲染和音频同步需额外工具。
+- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
+- 许可：[MIT](https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/LICENSE.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/README.md#L13)。
+
+## [Proton](https://github.com/drawcall/Proton)
+
+JavaScript 粒子动画库，可制作火焰、烟花和爆炸等粒子效果。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：特效基础库，不是独立视频渲染或剪辑工具。
+- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
+- 许可：[MIT](https://github.com/drawcall/Proton/blob/b4fdef5e5416d70a788978bec0fb4a1be26514b4/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/drawcall/Proton/blob/b4fdef5e5416d70a788978bec0fb4a1be26514b4/README.md#L26)。
+
+## [Lottie Web](https://github.com/airbnb/lottie-web)
+
+在网页中解析和渲染导出的 Lottie 矢量动画。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：播放器不等于视频编辑器；动画资源及生成方式的许可另计。
+- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
+- 许可：[MIT](https://github.com/airbnb/lottie-web/blob/bede03d25d232826e0c9dca1733d542d8a7754fb/LICENSE.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/airbnb/lottie-web/blob/bede03d25d232826e0c9dca1733d542d8a7754fb/README.md#L3)。
+
+## [TweenJS](https://github.com/CreateJS/TweenJS)
+
+为 JavaScript 数值和 CSS 属性提供补间及链式播放。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：补间库需要搭配渲染器和导出工具。
+- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
+- 许可：[MIT](https://github.com/CreateJS/TweenJS/blob/6df2b9ce7e68d3d824cc490b67cab2bc3204810a/LICENSE.txt)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/CreateJS/TweenJS/blob/6df2b9ce7e68d3d824cc490b67cab2bc3204810a/README.md#L3)。
+
+## [LUME](https://github.com/lume/lume)
+
+使用 HTML 元素构建交互式二维和三维图形场景。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：通用 3D/图形组件，不提供完整的视频生产流程。
+- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
+- 许可：[MIT](https://github.com/lume/lume/blob/6336e365f1c02af6316017bcd6d7f79bd2efe13b/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/lume/lume/blob/6336e365f1c02af6316017bcd6d7f79bd2efe13b/README.md#L23)。
+
+## [gifenc](https://github.com/mattdesl/gifenc)
+
+在浏览器或 Node.js 中编码支持动画和透明度的 GIF。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：输出 GIF，不直接提供 MP4 导出、视频编辑或 AI 生成。
+- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
+- 许可：[MIT](https://github.com/mattdesl/gifenc/blob/27db5b982dba701ca440b55ea36fad3999040973/LICENSE.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/mattdesl/gifenc/blob/27db5b982dba701ca440b55ea36fad3999040973/README.md#L5)。
 
 ## [VRGameDevGirl AI Video Builder](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl)
 

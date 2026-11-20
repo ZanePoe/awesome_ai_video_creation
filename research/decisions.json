@@ -504,6 +504,414 @@
     }
   },
   {
+    "repo": "remotion-dev/skills",
+    "name": "Remotion Agent Skills",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "供 coding agent 创建、预览和渲染 Remotion 视频的官方 Skills。",
+    "boundary": "需 Remotion 与支持 Agent Skills 的宿主；本仓库根目录未发现许可证，Remotion 本身有独立许可条款。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 5,
+        "url": "https://github.com/remotion-dev/skills/blob/6f55706d1069e512430582ad86e4e57dc07afe1b/README.md#L5",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "unverified",
+      "label": "许可待核验",
+      "source": "https://github.com/remotion-dev/skills/tree/6f55706d1069e512430582ad86e4e57dc07afe1b",
+      "note": "仓库根目录和文件树未发现 LICENSE；Remotion 产品及各包许可须单独核对。"
+    }
+  },
+  {
+    "repo": "ManimCommunity/manim",
+    "name": "Manim Community",
+    "category": "code_motion",
+    "scope": "core",
+    "description": "用 Python 编程制作数学与知识讲解动画的视频引擎。",
+    "boundary": "适合代码化讲解；不是自动生成内容的 AI Agent，渲染依赖和字体等另计。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 20,
+        "url": "https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/README.md#L20",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/LICENSE",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "motiondivision/motion",
+    "name": "Motion",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "面向 JavaScript、React 和 Vue 的界面与布局动画库。",
+    "boundary": "通用动效组件；与视频渲染器配合使用，不直接提供视频 Agent。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/motiondivision/motion/blob/cd009de7a4314e065d4d9df683057124792d5b34/README.md#L3",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/motiondivision/motion/blob/cd009de7a4314e065d4d9df683057124792d5b34/LICENSE.md",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "franciscop/ola",
+    "name": "Ola",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "用于实时数值平滑插值的轻量动画库。",
+    "boundary": "仅处理数值插值，需自行提供场景、时间线与导出。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "readme.md",
+        "line": 3,
+        "url": "https://github.com/franciscop/ola/blob/b269059c570405421acfcc55c84b3347cbeb0674/readme.md#L3",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/franciscop/ola/blob/b269059c570405421acfcc55c84b3347cbeb0674/LICENSE",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "juliangarnier/anime",
+    "name": "Anime.js",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "对 CSS、SVG、DOM 和 JavaScript 属性制作时间线动画。",
+    "boundary": "通用网页动效引擎；视频渲染和音频同步需额外工具。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 13,
+        "url": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/README.md#L13",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/LICENSE.md",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "jeremyckahn/shifty",
+    "name": "Shifty",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "TypeScript 补间动画引擎，提供缓动与播放控制。",
+    "boundary": "底层补间库，不自带视频生成或导出工作流。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/jeremyckahn/shifty/blob/ee4c8ed53503d5a6bf658ccdbba5af58674e3245/README.md#L7",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/jeremyckahn/shifty/blob/ee4c8ed53503d5a6bf658ccdbba5af58674e3245/LICENSE-MIT",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "jonobr1/two.js",
+    "name": "Two.js",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "通过 WebGL、Canvas 或 SVG 创建二维图形和动画场景。",
+    "boundary": "二维绘图基础库；生成音视频文件需要另接渲染与编码。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 8,
+        "url": "https://github.com/jonobr1/two.js/blob/bd48e27ff8f3333ef442fb3d032cb6b5391f26dc/README.md#L8",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/jonobr1/two.js/blob/bd48e27ff8f3333ef442fb3d032cb6b5391f26dc/LICENSE",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "airbnb/lottie-web",
+    "name": "Lottie Web",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "在网页中解析和渲染导出的 Lottie 矢量动画。",
+    "boundary": "播放器不等于视频编辑器；动画资源及生成方式的许可另计。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/airbnb/lottie-web/blob/bede03d25d232826e0c9dca1733d542d8a7754fb/README.md#L3",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/airbnb/lottie-web/blob/bede03d25d232826e0c9dca1733d542d8a7754fb/LICENSE.md",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "CreateJS/TweenJS",
+    "name": "TweenJS",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "为 JavaScript 数值和 CSS 属性提供补间及链式播放。",
+    "boundary": "补间库需要搭配渲染器和导出工具。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/CreateJS/TweenJS/blob/6df2b9ce7e68d3d824cc490b67cab2bc3204810a/README.md#L3",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/CreateJS/TweenJS/blob/6df2b9ce7e68d3d824cc490b67cab2bc3204810a/LICENSE.txt",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "lume/lume",
+    "name": "LUME",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "使用 HTML 元素构建交互式二维和三维图形场景。",
+    "boundary": "通用 3D/图形组件，不提供完整的视频生产流程。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 23,
+        "url": "https://github.com/lume/lume/blob/6336e365f1c02af6316017bcd6d7f79bd2efe13b/README.md#L23",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/lume/lume/blob/6336e365f1c02af6316017bcd6d7f79bd2efe13b/LICENSE",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "mattdesl/gifenc",
+    "name": "gifenc",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "在浏览器或 Node.js 中编码支持动画和透明度的 GIF。",
+    "boundary": "输出 GIF，不直接提供 MP4 导出、视频编辑或 AI 生成。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 5,
+        "url": "https://github.com/mattdesl/gifenc/blob/27db5b982dba701ca440b55ea36fad3999040973/README.md#L5",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/mattdesl/gifenc/blob/27db5b982dba701ca440b55ea36fad3999040973/LICENSE.md",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "konvajs/konva",
+    "name": "Konva",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "二维 Canvas 场景图库，支持对象交互、变换、动画和导出。",
+    "boundary": "通用画布组件；视频或音频导出需搭配其他工具。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 16,
+        "url": "https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/README.md#L16",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/LICENSE",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "blender/blender",
+    "name": "Blender",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "覆盖建模、角色绑定、动画、渲染、合成和视频剪辑的 3D 创作套件。",
+    "boundary": "GitHub 仓库是官方镜像；第三方插件、模型和素材遵循各自许可。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": ".github/README.md",
+        "line": 14,
+        "url": "https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/.github/README.md#L14",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "GPL-2.0-or-later",
+      "source": "https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/COPYING",
+      "note": "COPYING 指向 GPL 许可正文；第三方资产和组件另计。"
+    }
+  },
+  {
+    "repo": "mrdoob/three.js",
+    "name": "three.js",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。",
+    "boundary": "通用渲染库，不自动输出视频；素材和 WebGL/WebGPU 环境需自行处理。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 11,
+        "url": "https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/README.md#L11",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/LICENSE",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "godotengine/godot",
+    "name": "Godot",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "用于构建二维和三维场景、交互及动画的开源游戏引擎。",
+    "boundary": "游戏引擎与视频自动生成系统不同，成片录制或导出需设计额外流程。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 11,
+        "url": "https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/README.md#L11",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/LICENSE.txt",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "BabylonJS/Babylon.js",
+    "name": "Babylon.js",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "JavaScript 3D 场景、游戏与渲染引擎，可作为代码动效基础。",
+    "boundary": "默认是实时 3D 渲染引擎；视频编码需另接工具，官方提示演示 CDN 不用于生产。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "readme.md",
+        "line": 1,
+        "url": "https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/readme.md#L1",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/license.md",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
+    "repo": "drawcall/Proton",
+    "name": "Proton",
+    "category": "animation_infra",
+    "scope": "adjacent",
+    "description": "JavaScript 粒子动画库，可制作火焰、烟花和爆炸等粒子效果。",
+    "boundary": "特效基础库，不是独立视频渲染或剪辑工具。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 26,
+        "url": "https://github.com/drawcall/Proton/blob/b4fdef5e5416d70a788978bec0fb4a1be26514b4/README.md#L26",
+        "note": "官方默认分支文档；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/drawcall/Proton/blob/b4fdef5e5416d70a788978bec0fb4a1be26514b4/LICENSE",
+      "note": "已核验项目许可文件；第三方组件、素材与托管服务另计。"
+    }
+  },
+  {
     "repo": "Tencent/WeVisCut",
     "name": "WeVisCut",
     "category": "agent_production",

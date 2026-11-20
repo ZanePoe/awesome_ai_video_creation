@@ -6,7 +6,7 @@ from pathlib import Path
 from ranking import dt,age_days,score,tier,status,rank,table
 ROOT=Path(__file__).resolve().parents[1]
 CATEGORIES={
- 'workbenches':'视频编辑器与制作工作台','agent_production':'Agent 视频生产与自动化','short_video':'知识类短视频、切片与讲解','skills_mcp':'Agent Skills、MCP 与剪辑工具','code_motion':'Code-to-video 与动效','generation_models':'ComfyUI 与开源视频生成','avatar':'数字人、肖像动画与唇同步','media_cli':'下载、采集、转码与素材 CLI','research_resources':'评测、研究与外部索引','historical_restricted':'历史与受限版本'}
+ 'workbenches':'视频编辑器与制作工作台','agent_production':'Agent 视频生产与自动化','short_video':'知识类短视频、切片与讲解','skills_mcp':'Agent Skills、MCP 与剪辑工具','code_motion':'Code-to-video 与动效','animation_infra':'动画、3D 与编码基础组件','generation_models':'ComfyUI 与开源视频生成','avatar':'数字人、肖像动画与唇同步','media_cli':'下载、采集、转码与素材 CLI','research_resources':'评测、研究与外部索引','historical_restricted':'历史与受限版本'}
 SCOPES={'core':'核心候选','adjacent':'相邻基础设施','research':'研究/评测','historical':'历史参考','restricted':'受限许可'}
 LICENSE_STATUS={'verified':'开放许可证已核验','custom':'复合/条件许可','source_available':'源码可见但非 OSI 开源','unverified':'许可待核验'}
 def validate(projects,snapshot):
