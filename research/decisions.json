@@ -432,6 +432,78 @@
     }
   },
   {
+    "repo": "ATH-MaaS/Pixelle-Video",
+    "name": "Pixelle-Video",
+    "category": "short_video",
+    "scope": "core",
+    "description": "输入主题后生成文案、配图或视频、配音并合成短视频，支持 ComfyUI 工作流与媒体 API。",
+    "boundary": "原 AIDC-AI 地址已迁移；本地 ComfyUI、RunningHub 或模型 API 的配置、费用和素材许可需分别核验。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 52,
+        "url": "https://github.com/ATH-MaaS/Pixelle-Video/blob/848b054e4fae40dabc62ec58e960b573e83793ac/README.md#L52",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://github.com/ATH-MaaS/Pixelle-Video/blob/848b054e4fae40dabc62ec58e960b573e83793ac/LICENSE",
+      "note": "根目录 LICENSE 为 Apache-2.0；NOTICE 列出第三方依赖及相应许可。"
+    }
+  },
+  {
+    "repo": "Forget-C/Jellyfish",
+    "name": "Jellyfish",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产管理、镜头生成和导出。",
+    "boundary": "资产复用可帮助保持一致性，但不保证生成质量；模型服务、成本和部署要求需按配置核验。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 30,
+        "url": "https://github.com/Forget-C/Jellyfish/blob/a9678194ddf2d9be3ccbe78d4287d87d5089e123/README.md#L30",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "Apache-2.0",
+      "source": "https://github.com/Forget-C/Jellyfish/blob/a9678194ddf2d9be3ccbe78d4287d87d5089e123/LICENSE",
+      "note": "根目录 LICENSE 为 Apache-2.0；模型、素材和第三方服务条款另计。"
+    }
+  },
+  {
+    "repo": "waooAI/waoowaoo",
+    "name": "Waoowaoo",
+    "category": "workbenches",
+    "scope": "restricted",
+    "description": "AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材、生成内容并合并视频片段。",
+    "boundary": "当前为测试版，图像与视频能力取决于模型；OpenRouter 等外部模型调用可能收费。",
+    "baseline": false,
+    "reviewed_at": "2026-11-20",
+    "evidence": [
+      {
+        "path": "README_zh.md",
+        "line": 24,
+        "url": "https://github.com/waooAI/waoowaoo/blob/dfec20e32298ed675050329e4a41477024148399/README_zh.md#L24",
+        "note": "官方默认分支 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "source_available",
+      "label": "Elastic License 2.0",
+      "source": "https://github.com/waooAI/waoowaoo/blob/dfec20e32298ed675050329e4a41477024148399/LICENSE",
+      "note": "自 v0.5.0-beta.1 起采用 ELv2，禁止未经许可向第三方提供主要功能的托管服务；不是 OSI 开源许可，旧版本许可可能不同。"
+    }
+  },
+  {
     "repo": "Tencent/WeVisCut",
     "name": "WeVisCut",
     "category": "agent_production",
