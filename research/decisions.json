@@ -912,6 +912,102 @@
     }
   },
   {
+    "repo": "browser-use/video-use",
+    "name": "Video Use",
+    "category": "agent_production",
+    "scope": "core",
+    "description": "通过 coding agent 与 FFmpeg 对原始素材进行剪辑、字幕、调色、动效叠加和输出检查。",
+    "boundary": "不是浏览器自动化视频操作工具；具体依赖和云服务路径按项目配置核验。",
+    "baseline": false,
+    "reviewed_at": "2026-11-21",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/browser-use/video-use/blob/43cfc566833548093455c9d4a46bd69913b7e552/README.md#L7",
+        "note": "官方 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/browser-use/video-use/blob/43cfc566833548093455c9d4a46bd69913b7e552/LICENSE",
+      "note": "根 LICENSE 为 MIT；模型服务、素材和外部依赖许可另计。"
+    }
+  },
+  {
+    "repo": "greensock/gsap-skills",
+    "name": "GSAP Skills",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "官方 Agent Skills，指导 coding agent 使用 GSAP 时间线、动效和插件。",
+    "boundary": "网页动画 Skill，需要宿主 Agent；渲染成视频需配合视频工具，GSAP 产品许可另核。",
+    "baseline": false,
+    "reviewed_at": "2026-11-21",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 23,
+        "url": "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/README.md#L23",
+        "note": "官方 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE",
+      "note": "Skills 仓库根 LICENSE 为 MIT；GSAP 库和第三方素材按各自条款。"
+    }
+  },
+  {
+    "repo": "lemomo-ai/lemo-opuscar",
+    "name": "Lemo Opuscar",
+    "category": "code_motion",
+    "scope": "restricted",
+    "description": "提供电影风格、示例与 STYLE.md 指引，供 coding agent 用代码制作视频。",
+    "boundary": "项目建议使用 Claude 并提高推理强度；复用演示中的素材、人物、品牌与声音需分别核验。",
+    "baseline": false,
+    "reviewed_at": "2026-11-21",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/f9e204293930952b61ba921cd8944d05f121beee/README.md#L7",
+        "note": "官方 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "custom",
+      "label": "MIT 代码 + CC BY-NC 文档（附加许可）",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar/blob/f9e204293930952b61ba921cd8944d05f121beee/LICENSE",
+      "note": "代码为 MIT；Markdown 文档为 CC BY-NC 4.0，另允许为自制或客户影片阅读、修改并随项目文件交付；超出该范围的商业使用需要许可。示例素材及部分配音另有限制。"
+    }
+  },
+  {
+    "repo": "kajisho5/ffmpeg-skill",
+    "name": "FFmpeg Skill",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "为 coding agent 提供本地 FFmpeg 剪辑、字幕、格式导出和输出检查的 CLI 与 MCP。",
+    "boundary": "需要本机 FFmpeg 和 Python；技能、FFmpeg 构建及素材遵循各自许可，具体效果未实测。",
+    "baseline": false,
+    "reviewed_at": "2026-11-21",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 67,
+        "url": "https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/README.md#L67",
+        "note": "官方 README；非实机测试"
+      }
+    ],
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/LICENSE",
+      "note": "技能仓库根 LICENSE 为 MIT；FFmpeg 及编码器许可需按具体构建核验。"
+    }
+  },
+  {
     "repo": "Tencent/WeVisCut",
     "name": "WeVisCut",
     "category": "agent_production",
