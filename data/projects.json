@@ -466,6 +466,44 @@
     }
   },
   {
+    "repo": "shinyobjectz/raea",
+    "name": "raea",
+    "category": "code_motion",
+    "scope": "core",
+    "description": "用 React/TypeScript 编写视频、动效、3D 与游戏，并在本地 GPU 渲染的引擎与桌面 Agent 工作台。",
+    "boundary": "引擎、CLI 和桌面应用可免费使用，云存储、跨机搜索与发布属于 Pro/Team；FSL-1.1-ALv2 禁止竞争性产品，各版本发布两年后转为 Apache-2.0；示例片源、模型、二进制运行时、第三方组件和账户内素材的许可另计。",
+    "baseline": false,
+    "reviewed_at": "2026-11-22",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 13,
+        "url": "https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L13",
+        "note": "官方 README 的 React/TypeScript 代码视频与本地 GPU 渲染定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 42,
+        "url": "https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L42",
+        "note": "官方 README 的对话式桌面应用、项目反馈与标注审阅说明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 111,
+        "url": "https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L111",
+        "note": "官方 README 的 render、play、check 和单帧检查说明；非实机测试"
+      }
+    ],
+    "evidence_commit": "0c9fc255f2287f0530fc773b895cb5d1877a6f54",
+    "license_review": {
+      "status": "source_available",
+      "label": "FSL-1.1-ALv2",
+      "source": "https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/LICENSE",
+      "note": "仓库根 LICENSE 为 Functional Source License 1.1（ALv2 Future License），禁止将软件用于替代 raea 或其现有产品的商业产品/服务，各版本发布两年后转 Apache-2.0；NOTICE 与 LICENSES 另列 HyperFrames 移植、Bevy、FFmpeg、QuickJS 等第三方许可"
+    }
+  },
+  {
     "repo": "ATH-MaaS/Pixelle-Video",
     "name": "Pixelle-Video",
     "category": "short_video",
