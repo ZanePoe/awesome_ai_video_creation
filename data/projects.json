@@ -556,6 +556,44 @@
     }
   },
   {
+    "repo": "shijue-aid/aid-studio",
+    "name": "AID Studio",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "可自托管的 AI 漫剧、短剧与影视创作工作台，覆盖剧本、角色场景、分镜、图片与视频生成、配音、无限画布和 3D 预演。",
+    "boundary": "模型调用、存储和计算资源可能另行收费；官方示例图片、音频和视频资产包随版本单独分发；部署需要 MySQL、Redis、Docker 等依赖，生成内容与剧本、人物、素材的授权须自行核验。",
+    "baseline": false,
+    "reviewed_at": "2026-11-23",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 13,
+        "url": "https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L13",
+        "note": "官方 README 的自托管影视创作工作台定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 43,
+        "url": "https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L43",
+        "note": "官方 README 的剧本、角色场景、分镜视频、配音与成片流程；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 46,
+        "url": "https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L46",
+        "note": "官方 README 的无限画布、导演台与 3D 预演台说明；非实机测试"
+      }
+    ],
+    "evidence_commit": "9b78452d047b577d31d301c8998287139c93a312",
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/LICENSE",
+      "note": "仓库根 LICENSE 为 MIT，NOTICE 保留 RuoYi-Vue 等第三方归属；官方示例资产包单独分发，模型供应商、存储和计算资源条款另计"
+    }
+  },
+  {
     "repo": "waooAI/waoowaoo",
     "name": "Waoowaoo",
     "category": "workbenches",
