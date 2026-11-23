@@ -209,7 +209,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Agent 视频生产与自动化；相邻基础设施。
 - 适用边界：主要做分析与复刻规划，不直接等同最终剪辑或生成器。
-- 维护状态：近90天有提交；30 天提交 192 次，90 天提交 192 次。
+- 维护状态：近90天有提交；30 天提交 193 次，90 天提交 193 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/JuneYaooo/rea-video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/JuneYaooo/rea-video/blob/4111ad9adb4936d92f6d57657000b414fee9f01f/README.md#L8)。
 
@@ -383,6 +383,16 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 - 许可：[许可待核验](https://github.com/remotion-dev/skills/tree/6f55706d1069e512430582ad86e4e57dc07afe1b)；许可待核验。仓库根目录和文件树未发现 LICENSE；Remotion 产品及各包许可须单独核对。
 - 功能核验：2026-11-20；[来源1](https://github.com/remotion-dev/skills/blob/6f55706d1069e512430582ad86e4e57dc07afe1b/README.md#L5)。
 
+## [漫剧老李 Skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill)
+
+面向 AI 漫剧与短剧的 OpenClaw Skill 套装，覆盖剧本、资产锁定、分镜、打戏、Seedance 投喂提示词与机检。
+
+- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
+- 适用边界：面向 OpenClaw、Coze、Dify 等 Agent 平台，包内唯一视频模型线为 Seedance 2.5/2.0；作者标注为测试版且整合开源内容，外部规则与素材来源未逐项列明；包内不持有图片，素材需在外部平台生成并自行取得授权。
+- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 50 次。
+- 许可：[MIT](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/LICENSE)；开放许可证已核验。仓库根与 short-drama-director 均为 MIT；作者标注为测试版并整合开源内容，未提供逐项第三方 NOTICE，规则库文本与示例的再分发需自行核验
+- 功能核验：2026-11-23；[来源1](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L60) · [来源2](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L72) · [来源3](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L137)。
+
 ## [ReelBench Skills](https://github.com/eternityspring/reelbench-skills)
 
 面向 Claude Code/Codex 的视频分析、复刻和制作 Skill 集合。
@@ -469,7 +479,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：项目与 HeyGen 托管生成服务是不同层级；具体模板和外部素材许可另计。
-- 维护状态：近90天有提交；30 天提交 1944 次，90 天提交 3821 次。
+- 维护状态：近90天有提交；30 天提交 1941 次，90 天提交 3823 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5)。
 
@@ -589,7 +599,7 @@ JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
 
 - 分类：动画、3D 与编码基础组件；相邻基础设施。
 - 适用边界：GitHub 仓库是官方镜像；第三方插件、模型和素材遵循各自许可。
-- 维护状态：近90天有提交；30 天提交 1183 次，90 天提交 3241 次。
+- 维护状态：近90天有提交；30 天提交 1175 次，90 天提交 3241 次。
 - 许可：[GPL-2.0-or-later](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/COPYING)；开放许可证已核验。COPYING 指向 GPL 许可正文；第三方资产和组件另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/.github/README.md#L14)。
 
@@ -859,7 +869,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；核心候选。
 - 适用边界：它是 Downvid/VidBee 等产品的底层解析 CLI，不提供完整编辑工作台。
-- 维护状态：近90天有提交；30 天提交 38 次，90 天提交 82 次。
+- 维护状态：近90天有提交；30 天提交 38 次，90 天提交 81 次。
 - 许可：[Unlicense](https://api.github.com/repos/yt-dlp/yt-dlp/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/yt-dlp/yt-dlp/blob/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md#L16)。
 

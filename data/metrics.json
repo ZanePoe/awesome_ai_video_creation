@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-23T01:24:37+00:00",
+  "as_of": "2026-11-23T01:41:53+00:00",
   "window_days": [
     30,
     90
@@ -9,7 +9,7 @@
     "AIEraDev/Clypra": {
       "canonical_repo": "AIEraDev/Clypra",
       "url": "https://github.com/AIEraDev/Clypra",
-      "stars": 3371,
+      "stars": 3372,
       "forks": 346,
       "archived": false,
       "disabled": false,
@@ -21,19 +21,19 @@
       "commits_30d": 310,
       "commits_90d": 2113,
       "pushed_at": "2026-11-22T10:56:38Z",
-      "updated_at": "2026-11-22T18:40:23Z",
+      "updated_at": "2026-11-23T01:41:40Z",
       "latest_release": {
         "tagName": "v1.6.6",
         "publishedAt": "2026-11-17T00:10:18Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "jub0t/Concat": {
       "canonical_repo": "jub0t/Concat",
       "url": "https://github.com/jub0t/Concat",
-      "stars": 19636,
+      "stars": 19638,
       "forks": 2403,
       "archived": false,
       "disabled": false,
@@ -45,13 +45,13 @@
       "commits_30d": 443,
       "commits_90d": 1638,
       "pushed_at": "2026-11-23T00:34:44Z",
-      "updated_at": "2026-11-23T01:18:15Z",
+      "updated_at": "2026-11-23T01:35:13Z",
       "latest_release": {
         "tagName": "v0.2.12",
         "publishedAt": "2026-11-19T21:15:44Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "LudwigKienle/ai-video-production-editor": {
@@ -75,7 +75,7 @@
         "publishedAt": "2026-10-28T10:27:00Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "0xsline/OpenChatCut": {
@@ -99,7 +99,7 @@
         "publishedAt": "2026-10-15T10:44:23Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "HaD0Yun/CozyClay": {
@@ -123,14 +123,14 @@
         "publishedAt": "2026-11-20T05:58:45Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Augani/openreel-video": {
       "canonical_repo": "Augani/openreel-video",
       "url": "https://github.com/Augani/openreel-video",
-      "stars": 6252,
-      "forks": 929,
+      "stars": 6255,
+      "forks": 930,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
@@ -141,13 +141,13 @@
       "commits_30d": 7,
       "commits_90d": 18,
       "pushed_at": "2026-11-20T06:19:59Z",
-      "updated_at": "2026-11-23T01:21:33Z",
+      "updated_at": "2026-11-23T01:40:58Z",
       "latest_release": {
         "tagName": "v1.0.0",
         "publishedAt": "2026-11-20T06:41:38Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "rk0neki/OpenKatana": {
@@ -171,7 +171,7 @@
         "publishedAt": "2026-11-03T16:44:30Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "ThinkFlowLab/OpenDirector": {
@@ -195,7 +195,7 @@
         "publishedAt": "2026-11-20T19:14:05Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "MakeMyClip/editor": {
@@ -219,7 +219,7 @@
         "publishedAt": "2026-11-16T04:38:04Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Theorvane/OpenScene": {
@@ -243,7 +243,7 @@
         "publishedAt": "2026-10-20T16:24:10Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Aepzie/cutline": {
@@ -267,7 +267,7 @@
         "publishedAt": "2026-10-14T11:32:16Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "FernandoAbishai/ScriptCut": {
@@ -291,7 +291,7 @@
         "publishedAt": "2026-09-07T05:44:57Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "YeJe-cpu/SeeCut": {
@@ -315,13 +315,13 @@
         "publishedAt": "2026-09-25T11:50:38Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "openfilm/openfilm": {
       "canonical_repo": "openfilm/openfilm",
       "url": "https://github.com/openfilm/openfilm",
-      "stars": 9006,
+      "stars": 9008,
       "forks": 912,
       "archived": false,
       "disabled": false,
@@ -332,21 +332,21 @@
       "last_commit_at": "2026-11-22T20:40:19Z",
       "commits_30d": 175,
       "commits_90d": 295,
-      "pushed_at": "2026-11-22T21:43:42Z",
-      "updated_at": "2026-11-23T01:23:11Z",
+      "pushed_at": "2026-11-23T01:26:00Z",
+      "updated_at": "2026-11-23T01:32:08Z",
       "latest_release": {
         "tagName": "v0.4.1",
         "publishedAt": "2026-11-20T00:55:44Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "OpenMontageInc/OpenMontage": {
       "canonical_repo": "OpenMontageInc/OpenMontage",
       "url": "https://github.com/OpenMontageInc/OpenMontage",
-      "stars": 82421,
-      "forks": 11234,
+      "stars": 82427,
+      "forks": 11236,
       "archived": false,
       "disabled": false,
       "license_spdx": "AGPL-3.0",
@@ -357,15 +357,15 @@
       "commits_30d": 160,
       "commits_90d": 277,
       "pushed_at": "2026-11-16T06:55:27Z",
-      "updated_at": "2026-11-23T01:24:39Z",
+      "updated_at": "2026-11-23T01:40:12Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "hypit-ai/hypit": {
       "canonical_repo": "hypit-ai/hypit",
       "url": "https://github.com/hypit-ai/hypit",
-      "stars": 31116,
+      "stars": 31117,
       "forks": 3684,
       "archived": false,
       "disabled": false,
@@ -377,20 +377,20 @@
       "commits_30d": 11,
       "commits_90d": 842,
       "pushed_at": "2026-11-20T10:08:47Z",
-      "updated_at": "2026-11-23T01:23:33Z",
+      "updated_at": "2026-11-23T01:25:35Z",
       "latest_release": {
         "tagName": "v0.3.3",
         "publishedAt": "2026-11-16T11:36:03Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "nexu-io/openmotion": {
       "canonical_repo": "nexu-io/openmotion",
       "url": "https://github.com/nexu-io/openmotion",
-      "stars": 15342,
-      "forks": 1519,
+      "stars": 15350,
+      "forks": 1522,
       "archived": false,
       "disabled": false,
       "license_spdx": "Apache-2.0",
@@ -401,20 +401,20 @@
       "commits_30d": 674,
       "commits_90d": 679,
       "pushed_at": "2026-11-23T00:42:11Z",
-      "updated_at": "2026-11-23T01:22:23Z",
+      "updated_at": "2026-11-23T01:39:02Z",
       "latest_release": {
         "tagName": "v0.2.1",
         "publishedAt": "2026-11-21T10:30:45Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "shinyobjectz/raea": {
       "canonical_repo": "shinyobjectz/raea",
       "url": "https://github.com/shinyobjectz/raea",
-      "stars": 4288,
-      "forks": 334,
+      "stars": 4297,
+      "forks": 336,
       "archived": false,
       "disabled": false,
       "license_spdx": "NOASSERTION",
@@ -425,13 +425,13 @@
       "commits_30d": 1388,
       "commits_90d": 1391,
       "pushed_at": "2026-11-23T01:20:50Z",
-      "updated_at": "2026-11-23T01:23:13Z",
+      "updated_at": "2026-11-23T01:41:33Z",
       "latest_release": {
         "tagName": "v0.1.9",
         "publishedAt": "2026-11-22T22:15:17Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "ATH-MaaS/Pixelle-Video": {
@@ -455,7 +455,7 @@
         "publishedAt": "2026-01-27T13:51:55Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Forget-C/Jellyfish": {
@@ -479,14 +479,14 @@
         "publishedAt": "2026-04-17T09:25:39Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "shijue-aid/aid-studio": {
       "canonical_repo": "shijue-aid/aid-studio",
       "url": "https://github.com/shijue-aid/aid-studio",
-      "stars": 1546,
-      "forks": 335,
+      "stars": 1554,
+      "forks": 336,
       "archived": false,
       "disabled": false,
       "license_spdx": "MIT",
@@ -497,13 +497,13 @@
       "commits_30d": 41,
       "commits_90d": 127,
       "pushed_at": "2026-11-22T19:49:47Z",
-      "updated_at": "2026-11-23T01:24:35Z",
+      "updated_at": "2026-11-23T01:41:07Z",
       "latest_release": {
         "tagName": "v3.0.0",
         "publishedAt": "2026-11-21T18:20:34Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "waooAI/waoowaoo": {
@@ -527,13 +527,13 @@
         "publishedAt": "2026-09-05T15:59:22Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "remotion-dev/skills": {
       "canonical_repo": "remotion-dev/skills",
       "url": "https://github.com/remotion-dev/skills",
-      "stars": 7808,
+      "stars": 7809,
       "forks": 864,
       "archived": false,
       "disabled": false,
@@ -545,15 +545,15 @@
       "commits_30d": 8,
       "commits_90d": 31,
       "pushed_at": "2026-11-18T10:18:33Z",
-      "updated_at": "2026-11-23T00:37:16Z",
+      "updated_at": "2026-11-23T01:27:23Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "ManimCommunity/manim": {
       "canonical_repo": "ManimCommunity/manim",
       "url": "https://github.com/ManimCommunity/manim",
-      "stars": 42816,
+      "stars": 42817,
       "forks": 3388,
       "archived": false,
       "disabled": false,
@@ -565,19 +565,19 @@
       "commits_30d": 38,
       "commits_90d": 82,
       "pushed_at": "2026-11-22T14:46:02Z",
-      "updated_at": "2026-11-23T01:08:58Z",
+      "updated_at": "2026-11-23T01:28:49Z",
       "latest_release": {
         "tagName": "v0.30.0a1",
         "publishedAt": "2026-11-22T14:46:03Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "motiondivision/motion": {
       "canonical_repo": "motiondivision/motion",
       "url": "https://github.com/motiondivision/motion",
-      "stars": 35461,
+      "stars": 35462,
       "forks": 1585,
       "archived": false,
       "disabled": false,
@@ -589,9 +589,9 @@
       "commits_30d": 522,
       "commits_90d": 1339,
       "pushed_at": "2026-11-22T19:24:39Z",
-      "updated_at": "2026-11-23T01:10:54Z",
+      "updated_at": "2026-11-23T01:35:47Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "franciscop/ola": {
@@ -611,13 +611,13 @@
       "pushed_at": "2026-10-24T18:23:41Z",
       "updated_at": "2026-11-22T22:06:47Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "juliangarnier/anime": {
       "canonical_repo": "juliangarnier/anime",
       "url": "https://github.com/juliangarnier/anime",
-      "stars": 74988,
+      "stars": 74989,
       "forks": 5106,
       "archived": false,
       "disabled": false,
@@ -629,13 +629,13 @@
       "commits_30d": 0,
       "commits_90d": 0,
       "pushed_at": "2026-11-02T22:25:55Z",
-      "updated_at": "2026-11-23T00:22:57Z",
+      "updated_at": "2026-11-23T01:37:34Z",
       "latest_release": {
         "tagName": "v4.5.0",
         "publishedAt": "2026-06-22T14:57:08Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "jeremyckahn/shifty": {
@@ -659,7 +659,7 @@
         "publishedAt": "2026-11-14T17:10:52Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "jonobr1/two.js": {
@@ -683,13 +683,13 @@
         "publishedAt": "2026-08-29T05:23:32Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "airbnb/lottie-web": {
       "canonical_repo": "airbnb/lottie-web",
       "url": "https://github.com/airbnb/lottie-web",
-      "stars": 32546,
+      "stars": 32547,
       "forks": 2981,
       "archived": false,
       "disabled": false,
@@ -701,9 +701,9 @@
       "commits_30d": 0,
       "commits_90d": 0,
       "pushed_at": "2025-09-01T09:01:31Z",
-      "updated_at": "2026-11-23T00:28:45Z",
+      "updated_at": "2026-11-23T01:28:53Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "CreateJS/TweenJS": {
@@ -727,7 +727,7 @@
         "publishedAt": "2017-09-27T17:31:26Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "lume/lume": {
@@ -751,7 +751,7 @@
         "publishedAt": "2024-10-05T20:57:45Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "mattdesl/gifenc": {
@@ -771,7 +771,7 @@
       "pushed_at": "2024-09-19T16:55:38Z",
       "updated_at": "2026-11-22T22:24:23Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "konvajs/konva": {
@@ -795,13 +795,13 @@
         "publishedAt": "2026-11-20T02:24:40Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "blender/blender": {
       "canonical_repo": "blender/blender",
       "url": "https://github.com/blender/blender",
-      "stars": 22335,
+      "stars": 22337,
       "forks": 3655,
       "archived": false,
       "disabled": false,
@@ -810,18 +810,18 @@
       "default_branch": "main",
       "head_sha": "20a0565aa86c7ba6ab1e9537675a0cd8529337ef",
       "last_commit_at": "2026-11-22T15:22:05Z",
-      "commits_30d": 1183,
+      "commits_30d": 1175,
       "commits_90d": 3241,
       "pushed_at": "2026-11-22T15:44:50Z",
-      "updated_at": "2026-11-22T23:32:37Z",
+      "updated_at": "2026-11-23T01:34:17Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "mrdoob/three.js": {
       "canonical_repo": "mrdoob/three.js",
       "url": "https://github.com/mrdoob/three.js",
-      "stars": 119170,
+      "stars": 119171,
       "forks": 37005,
       "archived": false,
       "disabled": false,
@@ -833,13 +833,13 @@
       "commits_30d": 319,
       "commits_90d": 858,
       "pushed_at": "2026-11-23T00:00:18Z",
-      "updated_at": "2026-11-23T00:48:44Z",
+      "updated_at": "2026-11-23T01:28:01Z",
       "latest_release": {
         "tagName": "r187",
         "publishedAt": "2026-10-30T08:03:18Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "godotengine/godot": {
@@ -863,7 +863,7 @@
         "publishedAt": "2026-08-22T14:05:19Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "BabylonJS/Babylon.js": {
@@ -887,7 +887,7 @@
         "publishedAt": "2026-11-18T11:53:36Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "drawcall/Proton": {
@@ -911,7 +911,7 @@
         "publishedAt": "2022-04-28T04:31:37Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "browser-use/video-use": {
@@ -931,13 +931,13 @@
       "pushed_at": "2026-10-08T22:17:01Z",
       "updated_at": "2026-11-23T01:07:12Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "greensock/gsap-skills": {
       "canonical_repo": "greensock/gsap-skills",
       "url": "https://github.com/greensock/gsap-skills",
-      "stars": 18920,
+      "stars": 18921,
       "forks": 1216,
       "archived": false,
       "disabled": false,
@@ -949,15 +949,15 @@
       "commits_30d": 0,
       "commits_90d": 0,
       "pushed_at": "2026-07-29T17:36:08Z",
-      "updated_at": "2026-11-23T01:22:53Z",
+      "updated_at": "2026-11-23T01:30:20Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "lemomo-ai/lemo-opuscar": {
       "canonical_repo": "lemomo-ai/lemo-opuscar",
       "url": "https://github.com/lemomo-ai/lemo-opuscar",
-      "stars": 19931,
+      "stars": 19933,
       "forks": 2531,
       "archived": false,
       "disabled": false,
@@ -969,19 +969,19 @@
       "commits_30d": 95,
       "commits_90d": 147,
       "pushed_at": "2026-11-20T04:32:37Z",
-      "updated_at": "2026-11-23T01:21:22Z",
+      "updated_at": "2026-11-23T01:41:51Z",
       "latest_release": {
         "tagName": "v2.0.0",
         "publishedAt": "2026-11-12T08:07:11Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "kajisho5/ffmpeg-skill": {
       "canonical_repo": "kajisho5/ffmpeg-skill",
       "url": "https://github.com/kajisho5/ffmpeg-skill",
-      "stars": 9733,
+      "stars": 9746,
       "forks": 865,
       "archived": false,
       "disabled": false,
@@ -993,13 +993,13 @@
       "commits_30d": 296,
       "commits_90d": 703,
       "pushed_at": "2026-11-23T00:22:10Z",
-      "updated_at": "2026-11-23T01:24:24Z",
+      "updated_at": "2026-11-23T01:41:49Z",
       "latest_release": {
         "tagName": "v4.7.0",
         "publishedAt": "2026-11-22T14:28:21Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Tencent/WeVisCut": {
@@ -1019,7 +1019,7 @@
       "pushed_at": "2026-10-30T06:10:49Z",
       "updated_at": "2026-11-23T00:32:51Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Hao0321/video-autopilot-kit": {
@@ -1043,7 +1043,7 @@
         "publishedAt": "2026-11-13T03:47:54Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "win4r/video-director": {
@@ -1063,37 +1063,37 @@
       "pushed_at": "2026-11-07T13:08:51Z",
       "updated_at": "2026-11-22T23:28:56Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "JuneYaooo/rea-video": {
       "canonical_repo": "JuneYaooo/rea-video",
       "url": "https://github.com/JuneYaooo/rea-video",
-      "stars": 12253,
-      "forks": 1813,
+      "stars": 12258,
+      "forks": 1814,
       "archived": false,
       "disabled": false,
       "license_spdx": "Apache-2.0",
       "license_name": "Apache License 2.0",
       "default_branch": "main",
-      "head_sha": "a124acd4a02b3a9b72b9e7dedca5d1bfcda2a7b8",
-      "last_commit_at": "2026-11-22T14:52:31Z",
-      "commits_30d": 192,
-      "commits_90d": 192,
-      "pushed_at": "2026-11-22T14:52:34Z",
-      "updated_at": "2026-11-23T01:22:50Z",
+      "head_sha": "92b9df33140843ac4376afcd1c5f8432043d30be",
+      "last_commit_at": "2026-11-23T01:39:39Z",
+      "commits_30d": 193,
+      "commits_90d": 193,
+      "pushed_at": "2026-11-23T01:39:56Z",
+      "updated_at": "2026-11-23T01:37:34Z",
       "latest_release": {
         "tagName": "v0.1.0",
         "publishedAt": "2026-11-11T17:48:35Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "palmier-io/palmier-pro": {
       "canonical_repo": "palmier-io/palmier-pro",
       "url": "https://github.com/palmier-io/palmier-pro",
-      "stars": 14799,
+      "stars": 14800,
       "forks": 1163,
       "archived": false,
       "disabled": false,
@@ -1105,13 +1105,13 @@
       "commits_30d": 4,
       "commits_90d": 10,
       "pushed_at": "2026-11-20T01:39:01Z",
-      "updated_at": "2026-11-22T15:23:19Z",
+      "updated_at": "2026-11-23T01:39:20Z",
       "latest_release": {
         "tagName": "v1.0.0-beta.4",
         "publishedAt": "2026-11-20T01:38:57Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "cclank/lanshu-create-ai-presenter-video": {
@@ -1135,7 +1135,7 @@
         "publishedAt": "2026-10-11T23:54:49Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "andyhuo520/vibe-knowledge": {
@@ -1159,7 +1159,7 @@
         "publishedAt": "2026-10-28T09:47:18Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "ChrisHKAI/ChrisHKAI-Video": {
@@ -1183,7 +1183,7 @@
         "publishedAt": "2026-10-28T06:39:57Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "mromidev/claude-animated-shorts": {
@@ -1203,7 +1203,7 @@
       "pushed_at": "2026-11-01T05:57:14Z",
       "updated_at": "2026-11-23T01:00:12Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "kleZ799/clipmint": {
@@ -1227,7 +1227,7 @@
         "publishedAt": "2026-11-21T21:54:24Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "social-media-skills/video-to-shorts-skill": {
@@ -1251,7 +1251,7 @@
         "publishedAt": "2026-10-29T13:53:48Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "AtlasCloudAI/atlas-explainer": {
@@ -1271,7 +1271,7 @@
       "pushed_at": "2026-07-10T06:51:59Z",
       "updated_at": "2026-10-06T08:57:17Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "alisa0808/vox-director": {
@@ -1291,13 +1291,13 @@
       "pushed_at": "2026-10-05T16:15:11Z",
       "updated_at": "2026-11-23T00:18:49Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "eternityspring/reelbench-skills": {
       "canonical_repo": "eternityspring/reelbench-skills",
       "url": "https://github.com/eternityspring/reelbench-skills",
-      "stars": 1249,
+      "stars": 1250,
       "forks": 156,
       "archived": false,
       "disabled": false,
@@ -1309,9 +1309,9 @@
       "commits_30d": 2,
       "commits_90d": 21,
       "pushed_at": "2026-11-09T14:58:50Z",
-      "updated_at": "2026-11-23T00:00:15Z",
+      "updated_at": "2026-11-23T01:30:17Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "NarratorAI-Studio/narrator-ai-cli-skill": {
@@ -1335,13 +1335,13 @@
         "publishedAt": "2026-04-02T02:33:13Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Vincentwei1021/video-shotcraft": {
       "canonical_repo": "Vincentwei1021/video-shotcraft",
       "url": "https://github.com/Vincentwei1021/video-shotcraft",
-      "stars": 22114,
+      "stars": 22117,
       "forks": 2037,
       "archived": false,
       "disabled": false,
@@ -1353,13 +1353,13 @@
       "commits_30d": 32,
       "commits_90d": 58,
       "pushed_at": "2026-11-21T15:08:04Z",
-      "updated_at": "2026-11-23T01:22:06Z",
+      "updated_at": "2026-11-23T01:40:38Z",
       "latest_release": {
         "tagName": "showcase-media",
         "publishedAt": "2026-09-01T16:47:16Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "KyaniteLabs/kinocut": {
@@ -1383,7 +1383,7 @@
         "publishedAt": "2026-11-10T20:59:37Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "OpenClip-App/agent-skills": {
@@ -1403,7 +1403,31 @@
       "pushed_at": "2026-08-07T10:44:23Z",
       "updated_at": "2026-09-05T09:10:32Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
+      "source": "https://api.github.com/graphql"
+    },
+    "lixiaoxiao9888-create/manju-laoli-skill": {
+      "canonical_repo": "lixiaoxiao9888-create/manju-laoli-skill",
+      "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill",
+      "stars": 2451,
+      "forks": 305,
+      "archived": false,
+      "disabled": false,
+      "license_spdx": "MIT",
+      "license_name": "MIT License",
+      "default_branch": "main",
+      "head_sha": "a01e647ac10134918a5de1b18bfe9317e5541a44",
+      "last_commit_at": "2026-11-19T01:44:09Z",
+      "commits_30d": 3,
+      "commits_90d": 50,
+      "pushed_at": "2026-11-19T01:44:09Z",
+      "updated_at": "2026-11-23T01:42:01Z",
+      "latest_release": {
+        "tagName": "v6.9.8",
+        "publishedAt": "2026-09-20T08:36:52Z",
+        "isPrerelease": false
+      },
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Melvynx/video-agent-skills": {
@@ -1423,7 +1447,7 @@
       "pushed_at": "2026-11-06T04:20:56Z",
       "updated_at": "2026-11-22T15:21:55Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "social-media-skills/video-editing-skill": {
@@ -1447,7 +1471,7 @@
         "publishedAt": "2026-10-30T10:30:35Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "mfortne/mcp-video-editing": {
@@ -1467,7 +1491,7 @@
       "pushed_at": "2026-06-08T09:24:58Z",
       "updated_at": "2026-08-21T16:13:10Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "nutllwhy/hyperframes-motion-library": {
@@ -1487,7 +1511,7 @@
       "pushed_at": "2026-10-28T16:10:33Z",
       "updated_at": "2026-11-22T20:27:46Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "OpenSenseNova/SenseNova-6.8-Code2Video": {
@@ -1507,7 +1531,7 @@
       "pushed_at": "2026-10-27T14:15:35Z",
       "updated_at": "2026-11-23T01:14:32Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "givemotion/givemotion": {
@@ -1527,37 +1551,37 @@
       "pushed_at": "2026-11-19T04:12:49Z",
       "updated_at": "2026-11-22T17:47:43Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "heygen-com/hyperframes": {
       "canonical_repo": "heygen-com/hyperframes",
       "url": "https://github.com/heygen-com/hyperframes",
-      "stars": 88290,
-      "forks": 8217,
+      "stars": 88297,
+      "forks": 8218,
       "archived": false,
       "disabled": false,
       "license_spdx": "Apache-2.0",
       "license_name": "Apache License 2.0",
       "default_branch": "main",
-      "head_sha": "effc9586b98cc0d8cb134d6f9251c347098f19af",
-      "last_commit_at": "2026-11-23T00:40:37Z",
-      "commits_30d": 1944,
-      "commits_90d": 3821,
-      "pushed_at": "2026-11-23T01:22:47Z",
-      "updated_at": "2026-11-23T01:20:26Z",
+      "head_sha": "543fcebb9abc6d0081d2c121068bf244ac6e3026",
+      "last_commit_at": "2026-11-23T01:16:36Z",
+      "commits_30d": 1941,
+      "commits_90d": 3823,
+      "pushed_at": "2026-11-23T01:42:09Z",
+      "updated_at": "2026-11-23T01:38:50Z",
       "latest_release": {
         "tagName": "v0.9.83",
         "publishedAt": "2026-11-22T23:01:36Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "remotion-dev/remotion": {
       "canonical_repo": "remotion-dev/remotion",
       "url": "https://github.com/remotion-dev/remotion",
-      "stars": 74973,
+      "stars": 74976,
       "forks": 6398,
       "archived": false,
       "disabled": false,
@@ -1569,13 +1593,13 @@
       "commits_30d": 2384,
       "commits_90d": 6778,
       "pushed_at": "2026-11-22T19:11:08Z",
-      "updated_at": "2026-11-23T01:19:35Z",
+      "updated_at": "2026-11-23T01:38:27Z",
       "latest_release": {
         "tagName": "v4.0.545",
         "publishedAt": "2026-11-18T10:29:30Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "motion-canvas/motion-canvas": {
@@ -1599,7 +1623,7 @@
         "publishedAt": "2025-02-16T09:12:40Z",
         "isPrerelease": true
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "3b1b/manim": {
@@ -1623,7 +1647,7 @@
         "publishedAt": "2024-12-13T02:58:56Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "vrgamegirl19/comfyui-vrgamedevgirl": {
@@ -1643,7 +1667,7 @@
       "pushed_at": "2026-11-21T02:04:26Z",
       "updated_at": "2026-11-22T21:19:18Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "zai-org/CogVideo": {
@@ -1667,7 +1691,7 @@
         "publishedAt": "2024-11-08T05:32:23Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Tencent-Hunyuan/HunyuanVideo": {
@@ -1687,7 +1711,7 @@
       "pushed_at": "2026-10-08T08:57:37Z",
       "updated_at": "2026-11-22T20:36:39Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Tencent-Hunyuan/HunyuanVideo-I2V": {
@@ -1707,7 +1731,7 @@
       "pushed_at": "2026-04-07T06:13:09Z",
       "updated_at": "2026-11-22T01:42:15Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Lightricks/LTX-Video": {
@@ -1727,7 +1751,7 @@
       "pushed_at": "2026-11-02T19:25:43Z",
       "updated_at": "2026-11-22T20:48:23Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "hpcaitech/Open-Sora": {
@@ -1751,7 +1775,7 @@
         "publishedAt": "2025-02-21T02:30:05Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "genmoai/mochi": {
@@ -1771,7 +1795,7 @@
       "pushed_at": "2026-10-22T23:35:03Z",
       "updated_at": "2026-11-22T18:07:40Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Wan-Video/Wan2.2": {
@@ -1789,9 +1813,9 @@
       "commits_30d": 0,
       "commits_90d": 2,
       "pushed_at": "2026-09-21T06:16:22Z",
-      "updated_at": "2026-11-23T01:16:42Z",
+      "updated_at": "2026-11-23T01:30:26Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "bytedance/Bernini": {
@@ -1811,7 +1835,7 @@
       "pushed_at": "2026-08-13T12:11:19Z",
       "updated_at": "2026-11-22T12:19:24Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "TMElyralab/MuseTalk": {
@@ -1831,7 +1855,7 @@
       "pushed_at": "2026-11-19T09:21:03Z",
       "updated_at": "2026-11-23T01:21:44Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "KlingAIResearch/LivePortrait": {
@@ -1851,7 +1875,7 @@
       "pushed_at": "2026-06-01T17:25:09Z",
       "updated_at": "2026-11-23T00:13:15Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Rudrabha/Wav2Lip": {
@@ -1871,7 +1895,7 @@
       "pushed_at": "2025-06-22T02:41:21Z",
       "updated_at": "2026-11-22T16:20:21Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "OpenTalker/SadTalker": {
@@ -1895,13 +1919,13 @@
         "publishedAt": "2023-06-05T14:44:03Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "lipku/LiveTalking": {
       "canonical_repo": "lipku/LiveTalking",
       "url": "https://github.com/lipku/LiveTalking",
-      "stars": 10638,
+      "stars": 10641,
       "forks": 1707,
       "archived": false,
       "disabled": false,
@@ -1913,13 +1937,13 @@
       "commits_30d": 0,
       "commits_90d": 9,
       "pushed_at": "2026-10-20T03:39:39Z",
-      "updated_at": "2026-11-23T01:20:32Z",
+      "updated_at": "2026-11-23T01:40:07Z",
       "latest_release": {
         "tagName": "v2.0.4",
         "publishedAt": "2026-06-20T01:04:44Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Downvid/downvid": {
@@ -1943,7 +1967,7 @@
         "publishedAt": "2026-11-11T17:22:34Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "nexmoe/VidBee": {
@@ -1967,14 +1991,14 @@
         "publishedAt": "2026-11-21T07:20:38Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "yt-dlp/yt-dlp": {
       "canonical_repo": "yt-dlp/yt-dlp",
       "url": "https://github.com/yt-dlp/yt-dlp",
-      "stars": 209998,
-      "forks": 18567,
+      "stars": 210003,
+      "forks": 18569,
       "archived": false,
       "disabled": false,
       "license_spdx": "Unlicense",
@@ -1983,15 +2007,15 @@
       "head_sha": "1507b26936b46d8613b3df197184a1fa1530afac",
       "last_commit_at": "2026-11-22T21:12:00Z",
       "commits_30d": 38,
-      "commits_90d": 82,
+      "commits_90d": 81,
       "pushed_at": "2026-11-22T21:12:00Z",
-      "updated_at": "2026-11-23T01:21:45Z",
+      "updated_at": "2026-11-23T01:40:57Z",
       "latest_release": {
         "tagName": "2026.10.26",
         "publishedAt": "2026-10-26T22:25:26Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "soimort/you-get": {
@@ -2015,7 +2039,7 @@
         "publishedAt": "2025-01-04T01:58:50Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "iawia002/lux": {
@@ -2039,7 +2063,7 @@
         "publishedAt": "2024-05-06T01:32:39Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "streamlink/streamlink": {
@@ -2063,14 +2087,14 @@
         "publishedAt": "2026-10-29T18:58:33Z",
         "isPrerelease": false
       },
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "FFmpeg/FFmpeg": {
       "canonical_repo": "FFmpeg/FFmpeg",
       "url": "https://github.com/FFmpeg/FFmpeg",
-      "stars": 67990,
-      "forks": 14715,
+      "stars": 67995,
+      "forks": 14716,
       "archived": false,
       "disabled": false,
       "license_spdx": "NOASSERTION",
@@ -2081,9 +2105,9 @@
       "commits_30d": 308,
       "commits_90d": 2961,
       "pushed_at": "2026-11-22T23:53:43Z",
-      "updated_at": "2026-11-23T01:04:59Z",
+      "updated_at": "2026-11-23T01:40:50Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Visko-Platform/VEFX-Bench": {
@@ -2103,7 +2127,7 @@
       "pushed_at": "2026-05-16T13:47:37Z",
       "updated_at": "2026-11-09T14:02:08Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "AlibabaResearch/cut-craft-bench": {
@@ -2123,7 +2147,7 @@
       "pushed_at": "2026-09-14T07:22:32Z",
       "updated_at": "2026-11-16T08:44:38Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "yeates/Aurora": {
@@ -2143,7 +2167,7 @@
       "pushed_at": "2026-11-13T23:56:51Z",
       "updated_at": "2026-11-22T22:21:04Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "Video-Bench/Video-Bench": {
@@ -2163,7 +2187,7 @@
       "pushed_at": "2025-06-09T15:29:25Z",
       "updated_at": "2026-10-20T07:10:23Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "adobe-research/EditVerse": {
@@ -2183,7 +2207,7 @@
       "pushed_at": "2025-10-09T03:55:32Z",
       "updated_at": "2026-09-03T03:34:04Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "devanasolver/awesome-video-editing": {
@@ -2203,7 +2227,7 @@
       "pushed_at": "2026-10-17T18:59:11Z",
       "updated_at": "2026-11-22T21:46:15Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "sasateguh/awesome-ai-video-for-creators": {
@@ -2223,7 +2247,7 @@
       "pushed_at": "2026-11-17T09:15:02Z",
       "updated_at": "2026-11-22T13:56:16Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     },
     "thoxakihiko/awesome-ai-video": {
@@ -2243,7 +2267,7 @@
       "pushed_at": "2026-09-27T17:55:55Z",
       "updated_at": "2026-11-18T01:02:18Z",
       "latest_release": null,
-      "collected_at": "2026-11-23T01:24:37+00:00",
+      "collected_at": "2026-11-23T01:41:53+00:00",
       "source": "https://api.github.com/graphql"
     }
   }

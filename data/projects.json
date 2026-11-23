@@ -1634,6 +1634,44 @@
     }
   },
   {
+    "repo": "lixiaoxiao9888-create/manju-laoli-skill",
+    "name": "漫剧老李 Skill",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "面向 AI 漫剧与短剧的 OpenClaw Skill 套装，覆盖剧本、资产锁定、分镜、打戏、Seedance 投喂提示词与机检。",
+    "boundary": "面向 OpenClaw、Coze、Dify 等 Agent 平台，包内唯一视频模型线为 Seedance 2.5/2.0；作者标注为测试版且整合开源内容，外部规则与素材来源未逐项列明；包内不持有图片，素材需在外部平台生成并自行取得授权。",
+    "baseline": false,
+    "reviewed_at": "2026-11-23",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 60,
+        "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L60",
+        "note": "官方 README 的 Agent 全流程技能包定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 72,
+        "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L72",
+        "note": "官方 README 的不持有图片、只交付提示词与接线说明的边界；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 137,
+        "url": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L137",
+        "note": "官方 README 的 Seedance 2.5/2.0 模型线与投喂产出说明；非实机测试"
+      }
+    ],
+    "evidence_commit": "a01e647ac10134918a5de1b18bfe9317e5541a44",
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/LICENSE",
+      "note": "仓库根与 short-drama-director 均为 MIT；作者标注为测试版并整合开源内容，未提供逐项第三方 NOTICE，规则库文本与示例的再分发需自行核验"
+    }
+  },
+  {
     "repo": "Melvynx/video-agent-skills",
     "name": "Video Agent Skills",
     "category": "skills_mcp",
