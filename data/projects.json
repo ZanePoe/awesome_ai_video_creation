@@ -1426,6 +1426,44 @@
     }
   },
   {
+    "repo": "iamajmeena/neonclipping",
+    "name": "NeonClipping",
+    "category": "short_video",
+    "scope": "core",
+    "description": "粘贴链接就在本地把 YouTube/Twitch/Kick 长视频或自有 MP4 切成带烧录字幕的 9:16 片段，并生成标题与钩子。",
+    "boundary": "剪辑依赖 yt-dlp、Streamlink、faster-whisper、FFmpeg 与可选本地 Ollama 模型；无 YouTube 字幕的素材需本地识别或导入字幕，质量会下降；README 的速度与 187 项检查为作者自测，非独立基准；下载与再分发受平台条款和素材授权约束。",
+    "baseline": false,
+    "reviewed_at": "2026-11-23",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 5,
+        "url": "https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L5",
+        "note": "官方 README 的本地竖屏切片、字幕、标题与钩子定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 45,
+        "url": "https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L45",
+        "note": "官方 README 的音频优先打分与本地 LLM 写标题钩子流程；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 114,
+        "url": "https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L114",
+        "note": "官方 README 的 Python/FFmpeg/Ollama 与 GPU 依赖说明"
+      }
+    ],
+    "evidence_commit": "052500437bc8d44ed5c8311e8ce686373e098086",
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/LICENSE",
+      "note": "仓库根 LICENSE 为 MIT；requirements 中的 yt-dlp、faster-whisper、Streamlink、av、static-ffmpeg 等依赖，以及 Ollama 拉取的模型权重与系统字体许可另计"
+    }
+  },
+  {
     "repo": "social-media-skills/video-to-shorts-skill",
     "name": "Video to Shorts Skill",
     "category": "short_video",
