@@ -9,9 +9,19 @@
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：离线模型需首次下载；产品内 AI 与完整生成式工作流不是同一范围。
-- 维护状态：近90天有提交；30 天提交 443 次，90 天提交 1638 次。
+- 维护状态：近90天有提交；30 天提交 455 次，90 天提交 1650 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/jub0t/Concat/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/jub0t/Concat/blob/504a814ebe61d4f47bba4cd7949dc2580ecc405c/README.md#L6)。
+
+## [Jellyfish](https://github.com/Forget-C/Jellyfish)
+
+AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产管理、镜头生成和导出。
+
+- 分类：视频编辑器与制作工作台；核心候选。
+- 适用边界：资产复用可帮助保持一致性，但不保证生成质量；模型服务、成本和部署要求需按配置核验。
+- 维护状态：近90天有提交；30 天提交 1289 次，90 天提交 1665 次。
+- 许可：[Apache-2.0](https://github.com/Forget-C/Jellyfish/blob/a9678194ddf2d9be3ccbe78d4287d87d5089e123/LICENSE)；开放许可证已核验。根目录 LICENSE 为 Apache-2.0；模型、素材和第三方服务条款另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/Forget-C/Jellyfish/blob/a9678194ddf2d9be3ccbe78d4287d87d5089e123/README.md#L30)。
 
 ## [Clypra](https://github.com/AIEraDev/Clypra)
 
@@ -49,7 +59,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：首版项目；完整生产稳定性和模型成本需实测。
-- 维护状态：近90天有提交；30 天提交 328 次，90 天提交 328 次。
+- 维护状态：近90天有提交；30 天提交 329 次，90 天提交 329 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/ThinkFlowLab/OpenDirector/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/ThinkFlowLab/OpenDirector/blob/39288dfdf4f816798e5479c53363258fceeb6e11/README.md#L18)。
 
@@ -79,7 +89,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：BYOK 仍会把请求发送至配置的模型服务；部分托管/计费能力需自备外部项目。
-- 维护状态：近90天有提交；30 天提交 51 次，90 天提交 144 次。
+- 维护状态：近90天有提交；30 天提交 50 次，90 天提交 144 次。
 - 许可：[GPL-3.0](https://api.github.com/repos/LudwigKienle/ai-video-production-editor/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/LudwigKienle/ai-video-production-editor/blob/a368af45b6cfd35e22bd3b5e101db198e1ac89a9/README.md#L4)。
 
@@ -109,7 +119,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：默认分支为开发分支；移动端和生成能力需按当前实现验证。
-- 维护状态：近90天有提交；30 天提交 29 次，90 天提交 108 次。
+- 维护状态：近90天有提交；30 天提交 30 次，90 天提交 108 次。
 - 许可：[MIT](https://api.github.com/repos/Theorvane/OpenScene/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Theorvane/OpenScene/blob/4bd3d3c4c15fb27dd0b521065643b3a2d516be08/README.md#L8)。
 
@@ -139,7 +149,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：聚焦文本式粗剪，不等于完整视觉特效与生成工作台。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 71 次。
+- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 67 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/FernandoAbishai/ScriptCut/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/FernandoAbishai/ScriptCut/blob/12c6fe495939da344e6af3e942a45dfdfb2132fa/README.md#L7)。
 
@@ -153,23 +163,13 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 - 许可：[MIT](https://api.github.com/repos/Aepzie/cutline/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Aepzie/cutline/blob/ab71520285881d8dfa78f5ebca00f8a166e84962/README.md#L8)。
 
-## [Jellyfish](https://github.com/Forget-C/Jellyfish)
-
-AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产管理、镜头生成和导出。
-
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：资产复用可帮助保持一致性，但不保证生成质量；模型服务、成本和部署要求需按配置核验。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://github.com/Forget-C/Jellyfish/blob/a9678194ddf2d9be3ccbe78d4287d87d5089e123/LICENSE)；开放许可证已核验。根目录 LICENSE 为 Apache-2.0；模型、素材和第三方服务条款另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/Forget-C/Jellyfish/blob/a9678194ddf2d9be3ccbe78d4287d87d5089e123/README.md#L30)。
-
 ## [OpenMontage](https://github.com/OpenMontageInc/OpenMontage)
 
 面向 coding agent 的多管线视频生产系统，覆盖研究、脚本、素材、配音、字幕和渲染。
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：部分生成与语音提供商为付费服务；大量 Skill 文件不等于全部流程已统一实测。
-- 维护状态：近90天有提交；30 天提交 160 次，90 天提交 277 次。
+- 维护状态：近90天有提交；30 天提交 159 次，90 天提交 277 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/OpenMontageInc/OpenMontage/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/OpenMontageInc/OpenMontage/blob/fecb9a1e3cc23ef84de30b272059457a427f16f8/README.md#L14)。
 
@@ -189,7 +189,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：参考视频、人物、音乐、品牌和素材须另行取得授权；媒体生成依赖自备 API/订阅，内置模板与第三方组件遵循各自 LICENSE/NOTICE。
-- 维护状态：近90天有提交；30 天提交 674 次，90 天提交 679 次。
+- 维护状态：近90天有提交；30 天提交 683 次，90 天提交 688 次。
 - 许可：[Apache-2.0](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/LICENSE)；开放许可证已核验。仓库根 LICENSE 为标准 Apache-2.0；内置模板、模型图标和 vendor 组件含各自 LICENSE/NOTICE，分发或复用时需分别保留并核验
 - 功能核验：2026-11-17；[来源1](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L40) · [来源2](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L308) · [来源3](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L386)。
 
@@ -209,7 +209,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Agent 视频生产与自动化；相邻基础设施。
 - 适用边界：主要做分析与复刻规划，不直接等同最终剪辑或生成器。
-- 维护状态：近90天有提交；30 天提交 193 次，90 天提交 193 次。
+- 维护状态：近90天有提交；30 天提交 195 次，90 天提交 195 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/JuneYaooo/rea-video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/JuneYaooo/rea-video/blob/4111ad9adb4936d92f6d57657000b414fee9f01f/README.md#L8)。
 
@@ -269,7 +269,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：知识类短视频、切片与讲解；核心候选。
 - 适用边界：Codex 完整成片质量尚未验证；公开资料使用和肖像授权需由用户负责。
-- 维护状态：近90天有提交；30 天提交 180 次，90 天提交 180 次。
+- 维护状态：近90天有提交；30 天提交 182 次，90 天提交 182 次。
 - 许可：[MIT](https://api.github.com/repos/ChrisHKAI/ChrisHKAI-Video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/ChrisHKAI/ChrisHKAI-Video/blob/15b66ee613e621f82ba781d27547a67e76c55f50/README.md#L7)。
 
@@ -369,7 +369,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Agent Skills、MCP 与剪辑工具；核心候选。
 - 适用边界：包装 FFmpeg 和可选 Whisper/HyperFrames；类型化工具不保证剪辑审美。
-- 维护状态：近90天有提交；30 天提交 170 次，90 天提交 479 次。
+- 维护状态：近90天有提交；30 天提交 166 次，90 天提交 479 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/KyaniteLabs/kinocut/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/KyaniteLabs/kinocut/blob/4ad02dba114cf12163663e7cd39da92d4f735212/README.md#L13)。
 
@@ -399,7 +399,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Agent Skills、MCP 与剪辑工具；核心候选。
 - 适用边界：部分关联产品和素材服务为付费或外部提供，需按具体 Skill 核验。
-- 维护状态：近90天有提交；30 天提交 2 次，90 天提交 21 次。
+- 维护状态：近90天有提交；30 天提交 1 次，90 天提交 21 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/eternityspring/reelbench-skills/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/eternityspring/reelbench-skills/blob/8d8444894524c9beedbf8815dab517afb3ce3cbe/README.md#L5)。
 
@@ -479,7 +479,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：项目与 HeyGen 托管生成服务是不同层级；具体模板和外部素材许可另计。
-- 维护状态：近90天有提交；30 天提交 1941 次，90 天提交 3823 次。
+- 维护状态：近90天有提交；30 天提交 1911 次，90 天提交 3829 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5)。
 
@@ -499,7 +499,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：引擎、CLI 和桌面应用可免费使用，云存储、跨机搜索与发布属于 Pro/Team；FSL-1.1-ALv2 禁止竞争性产品，各版本发布两年后转为 Apache-2.0；示例片源、模型、二进制运行时、第三方组件和账户内素材的许可另计。
-- 维护状态：近90天有提交；30 天提交 1388 次，90 天提交 1391 次。
+- 维护状态：近90天有提交；30 天提交 1414 次，90 天提交 1417 次。
 - 许可：[FSL-1.1-ALv2](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/LICENSE)；源码可见但非 OSI 开源。仓库根 LICENSE 为 Functional Source License 1.1（ALv2 Future License），禁止将软件用于替代 raea 或其现有产品的商业产品/服务，各版本发布两年后转 Apache-2.0；NOTICE 与 LICENSES 另列 HyperFrames 移植、Bevy、FFmpeg、QuickJS 等第三方许可
 - 功能核验：2026-11-22；[来源1](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L13) · [来源2](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L42) · [来源3](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L111)。
 
@@ -529,7 +529,7 @@ AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产�
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：代码动画适合动效和讲解，不等同真实素材剪辑或扩散视频生成。
-- 维护状态：近90天有提交；30 天提交 220 次，90 天提交 243 次。
+- 维护状态：近90天有提交；30 天提交 218 次，90 天提交 243 次。
 - 许可：[MIT](https://api.github.com/repos/givemotion/givemotion/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/givemotion/givemotion/blob/8a7949e685bbfaec8bde20fad9aa8734cdfa6038/README.md#L6)。
 
@@ -569,7 +569,7 @@ JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
 
 - 分类：动画、3D 与编码基础组件；相邻基础设施。
 - 适用边界：通用渲染库，不自动输出视频；素材和 WebGL/WebGPU 环境需自行处理。
-- 维护状态：近90天有提交；30 天提交 319 次，90 天提交 858 次。
+- 维护状态：近90天有提交；30 天提交 322 次，90 天提交 861 次。
 - 许可：[MIT](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/README.md#L11)。
 
@@ -579,7 +579,7 @@ JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
 
 - 分类：动画、3D 与编码基础组件；相邻基础设施。
 - 适用边界：游戏引擎与视频自动生成系统不同，成片录制或导出需设计额外流程。
-- 维护状态：近90天有提交；30 天提交 499 次，90 天提交 1937 次。
+- 维护状态：近90天有提交；30 天提交 497 次，90 天提交 1936 次。
 - 许可：[MIT](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/LICENSE.txt)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/README.md#L11)。
 
@@ -599,7 +599,7 @@ JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
 
 - 分类：动画、3D 与编码基础组件；相邻基础设施。
 - 适用边界：GitHub 仓库是官方镜像；第三方插件、模型和素材遵循各自许可。
-- 维护状态：近90天有提交；30 天提交 1175 次，90 天提交 3241 次。
+- 维护状态：近90天有提交；30 天提交 1170 次，90 天提交 3231 次。
 - 许可：[GPL-2.0-or-later](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/COPYING)；开放许可证已核验。COPYING 指向 GPL 许可正文；第三方资产和组件另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/.github/README.md#L14)。
 
@@ -859,7 +859,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；相邻基础设施。
 - 适用边界：许可证随构建选项可能为 LGPL/GPL；大量上层项目只是对其封装。
-- 维护状态：近90天有提交；30 天提交 308 次，90 天提交 2961 次。
+- 维护状态：近90天有提交；30 天提交 311 次，90 天提交 2964 次。
 - 许可：[LGPL-2.1+；启用 GPL 组件后为 GPL-2.0+](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/LICENSE.md)；复合/条件许可。最终许可取决于编译选项和链接组件
 - 功能核验：2026-11-12；[来源1](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/README.md#L1)。
 
@@ -869,7 +869,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；核心候选。
 - 适用边界：它是 Downvid/VidBee 等产品的底层解析 CLI，不提供完整编辑工作台。
-- 维护状态：近90天有提交；30 天提交 38 次，90 天提交 81 次。
+- 维护状态：近90天有提交；30 天提交 38 次，90 天提交 80 次。
 - 许可：[Unlicense](https://api.github.com/repos/yt-dlp/yt-dlp/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/yt-dlp/yt-dlp/blob/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md#L16)。
 
@@ -902,6 +902,16 @@ Genmo 的开源视频生成模型与推理代码。
 - 维护状态：近90天有提交；30 天提交 19 次，90 天提交 51 次。
 - 许可：[MIT](https://api.github.com/repos/nexmoe/VidBee/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/nexmoe/VidBee/blob/6082e2604f0c37d942cdb896040aa0c88b5c527f/README.md#L2)。
+
+## [cobalt](https://github.com/imputnet/cobalt)
+
+无广告和追踪的媒体下载 Web 应用与可自托管 API，覆盖 YouTube、TikTok、Instagram 等站点。
+
+- 分类：下载、采集、转码与素材 CLI；核心候选。
+- 适用边界：monorepo 含 api、web 与文档，没有公开预托管 API，需自行部署实例；只处理公开可访问内容，下载与再分发授权由用户负责；品牌与吉祥物为版权所有，不随代码许可。
+- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
+- 许可：[AGPL-3.0（api 与其余部分）+ CC-BY-NC-SA-4.0（web）](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L59)；复合/条件许可。api 与仓库其余部分为 AGPL-3.0，web 代码为禁止商用的 CC-BY-NC-SA-4.0；品牌和吉祥物单独版权，仅允许非商业托管未修改实例；ffmpeg/libav.js 等组件许可另计
+- 功能核验：2026-11-23；[来源1](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L28) · [来源2](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L33) · [来源3](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L45)。
 
 ## [Lux](https://github.com/iawia002/lux)
 

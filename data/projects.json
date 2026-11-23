@@ -2374,6 +2374,44 @@
     }
   },
   {
+    "repo": "imputnet/cobalt",
+    "name": "cobalt",
+    "category": "media_cli",
+    "scope": "core",
+    "description": "无广告和追踪的媒体下载 Web 应用与可自托管 API，覆盖 YouTube、TikTok、Instagram 等站点。",
+    "boundary": "monorepo 含 api、web 与文档，没有公开预托管 API，需自行部署实例；只处理公开可访问内容，下载与再分发授权由用户负责；品牌与吉祥物为版权所有，不随代码许可。",
+    "baseline": false,
+    "reviewed_at": "2026-11-23",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 28,
+        "url": "https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L28",
+        "note": "官方 README 的无广告、无追踪媒体下载定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 33,
+        "url": "https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L33",
+        "note": "官方 README 的 api、web、packages 与实例部署文档结构；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 45,
+        "url": "https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L45",
+        "note": "官方 README 的公开内容下载、零缓存与用户责任边界；非实机测试"
+      }
+    ],
+    "evidence_commit": "a636575b09de1fc55d9b8cd98cac88f5f2f16b42",
+    "license_review": {
+      "status": "custom",
+      "label": "AGPL-3.0（api 与其余部分）+ CC-BY-NC-SA-4.0（web）",
+      "source": "https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L59",
+      "note": "api 与仓库其余部分为 AGPL-3.0，web 代码为禁止商用的 CC-BY-NC-SA-4.0；品牌和吉祥物单独版权，仅允许非商业托管未修改实例；ffmpeg/libav.js 等组件许可另计"
+    }
+  },
+  {
     "repo": "soimort/you-get",
     "name": "you-get",
     "category": "media_cli",
