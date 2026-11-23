@@ -1672,6 +1672,44 @@
     }
   },
   {
+    "repo": "HeyChengC/wallstreet-explainer",
+    "name": "Wallstreet Explainer",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "华尔街式财经/科技解读短片的 coding agent Skill，含风格语言、图形组件模板与找片、截图、配音、抠像、渲染、混音脚本。",
+    "boundary": "需要 Claude Code 等宿主，另装 ffmpeg、Python/Node 依赖、Playwright 并自行下载五种字体；素材靠 yt-dlp 下载和新闻网页截图，按评论解读引用，出处与再分发授权需自行核验；样片中的第三方画面、截图、logo 和人物不在 MIT 范围内。",
+    "baseline": false,
+    "reviewed_at": "2026-11-23",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L3",
+        "note": "官方 README 的华尔街式财经解读短片定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 37,
+        "url": "https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L37",
+        "note": "官方 README 的选题→文案→素材→配音→出片流程；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 92,
+        "url": "https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L92",
+        "note": "官方 README 的代码 MIT 与样片素材许可分离声明"
+      }
+    ],
+    "evidence_commit": "b79bc0573455cb5fe335e78f653012e658fa9758",
+    "license_review": {
+      "status": "custom",
+      "label": "MIT（代码与文档）+ 样片第三方素材除外",
+      "source": "https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/LICENSE",
+      "note": "LICENSE 为 MIT 正文加附加条款，明确 examples/ 的视频帧、新闻截图、logo 和照片不在许可内；GitHub 因此识别为 NOASSERTION。字体需自行下载，遵循各自字体许可"
+    }
+  },
+  {
     "repo": "Melvynx/video-agent-skills",
     "name": "Video Agent Skills",
     "category": "skills_mcp",

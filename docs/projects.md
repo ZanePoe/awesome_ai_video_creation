@@ -9,7 +9,7 @@
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：离线模型需首次下载；产品内 AI 与完整生成式工作流不是同一范围。
-- 维护状态：近90天有提交；30 天提交 455 次，90 天提交 1650 次。
+- 维护状态：近90天有提交；30 天提交 456 次，90 天提交 1651 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/jub0t/Concat/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/jub0t/Concat/blob/504a814ebe61d4f47bba4cd7949dc2580ecc405c/README.md#L6)。
 
@@ -169,7 +169,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：部分生成与语音提供商为付费服务；大量 Skill 文件不等于全部流程已统一实测。
-- 维护状态：近90天有提交；30 天提交 159 次，90 天提交 277 次。
+- 维护状态：近90天有提交；30 天提交 153 次，90 天提交 277 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/OpenMontageInc/OpenMontage/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/OpenMontageInc/OpenMontage/blob/fecb9a1e3cc23ef84de30b272059457a427f16f8/README.md#L14)。
 
@@ -393,6 +393,16 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 - 许可：[MIT](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/LICENSE)；开放许可证已核验。仓库根与 short-drama-director 均为 MIT；作者标注为测试版并整合开源内容，未提供逐项第三方 NOTICE，规则库文本与示例的再分发需自行核验
 - 功能核验：2026-11-23；[来源1](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L60) · [来源2](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L72) · [来源3](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L137)。
 
+## [Wallstreet Explainer](https://github.com/HeyChengC/wallstreet-explainer)
+
+华尔街式财经/科技解读短片的 coding agent Skill，含风格语言、图形组件模板与找片、截图、配音、抠像、渲染、混音脚本。
+
+- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
+- 适用边界：需要 Claude Code 等宿主，另装 ffmpeg、Python/Node 依赖、Playwright 并自行下载五种字体；素材靠 yt-dlp 下载和新闻网页截图，按评论解读引用，出处与再分发授权需自行核验；样片中的第三方画面、截图、logo 和人物不在 MIT 范围内。
+- 维护状态：近90天有提交；30 天提交 11 次，90 天提交 16 次。
+- 许可：[MIT（代码与文档）+ 样片第三方素材除外](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/LICENSE)；复合/条件许可。LICENSE 为 MIT 正文加附加条款，明确 examples/ 的视频帧、新闻截图、logo 和照片不在许可内；GitHub 因此识别为 NOASSERTION。字体需自行下载，遵循各自字体许可
+- 功能核验：2026-11-23；[来源1](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L3) · [来源2](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L37) · [来源3](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L92)。
+
 ## [ReelBench Skills](https://github.com/eternityspring/reelbench-skills)
 
 面向 Claude Code/Codex 的视频分析、复刻和制作 Skill 集合。
@@ -479,7 +489,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：项目与 HeyGen 托管生成服务是不同层级；具体模板和外部素材许可另计。
-- 维护状态：近90天有提交；30 天提交 1911 次，90 天提交 3829 次。
+- 维护状态：近90天有提交；30 天提交 1911 次，90 天提交 3828 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5)。
 

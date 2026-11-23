@@ -22,7 +22,7 @@ flowchart LR
 
 ## 当前收录
 
-**102 个项目，其中 22 个为用户参考项目，80 个为本轮新增。** 功能核验：2026-11-23；指标快照：`2026-11-23T04:35:17+00:00`（UTC）。
+**103 个项目，其中 22 个为用户参考项目，81 个为本轮新增。** 功能核验：2026-11-23；指标快照：`2026-11-23T04:39:58+00:00`（UTC）。
 
 每个分类先按维护状态分层，再综合 star（40%）、90 天默认分支提交（35%）和最近提交（25%）排序。维护分不代表成片质量、模型能力、版权安全或生产成熟度。
 
@@ -32,14 +32,14 @@ flowchart LR
 
 | 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 |
 | --- | --- | --- | --- | --- | --- |
-| [HyperFrames](https://github.com/heygen-com/hyperframes) | 基于 HTML/CSS/JS 的代码视频与 Agent Skill 生态，可从 Remotion 等迁移并逐帧验证。 | 88,385 | 3,829 | 2026-11-23 | 99.6 |
-| [Concat](https://github.com/jub0t/Concat) | 本地跨平台多轨编辑器，含字幕、TTS、抠图、关键帧、特效和 4K 导出。 | 19,670 | 1,650 | 2026-11-23 | 94.3 |
-| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 面向 coding agent 的多管线视频生产系统，覆盖研究、脚本、素材、配音、字幕和渲染。 | 82,467 | 277 | 2026-11-16 | 94.2 |
-| [OpenMotion](https://github.com/nexu-io/openmotion) | 面向本地 coding agent 的参考视频复刻与品牌化动效工作台，支持 Motion.md、可视化时间线和 MP4 导出。 | 15,429 | 688 | 2026-11-23 | 93.5 |
-| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | 为 coding agent 提供本地 FFmpeg 剪辑、字幕、格式导出和输出检查的 CLI 与 MCP。 | 9,833 | 703 | 2026-11-22 | 91.8 |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | 基于 HTML/CSS/JS 的代码视频与 Agent Skill 生态，可从 Remotion 等迁移并逐帧验证。 | 88,387 | 3,828 | 2026-11-23 | 99.6 |
+| [Concat](https://github.com/jub0t/Concat) | 本地跨平台多轨编辑器，含字幕、TTS、抠图、关键帧、特效和 4K 导出。 | 19,670 | 1,651 | 2026-11-23 | 94.3 |
+| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 面向 coding agent 的多管线视频生产系统，覆盖研究、脚本、素材、配音、字幕和渲染。 | 82,469 | 277 | 2026-11-16 | 94.2 |
+| [OpenMotion](https://github.com/nexu-io/openmotion) | 面向本地 coding agent 的参考视频复刻与品牌化动效工作台，支持 Motion.md、可视化时间线和 MP4 导出。 | 15,431 | 688 | 2026-11-23 | 93.5 |
+| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | 为 coding agent 提供本地 FFmpeg 剪辑、字幕、格式导出和输出检查的 CLI 与 MCP。 | 9,836 | 703 | 2026-11-22 | 91.8 |
 | [Jellyfish](https://github.com/Forget-C/Jellyfish) | AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产管理、镜头生成和导出。 | 7,295 | 1,665 | 2026-11-23 | 90.9 |
 | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 支持大量站点的功能丰富命令行音视频下载器。 | 210,048 | 80 | 2026-11-22 | 89.7 |
-| [OpenFilm](https://github.com/openfilm/openfilm) | 让 coding agent 以代码创建、检查、编辑和渲染视频，并提供可编辑界面。 | 9,020 | 295 | 2026-11-22 | 88.6 |
+| [OpenFilm](https://github.com/openfilm/openfilm) | 让 coding agent 以代码创建、检查、编辑和渲染视频，并提供可编辑界面。 | 9,021 | 295 | 2026-11-22 | 88.6 |
 | [Clypra](https://github.com/AIEraDev/Clypra) | Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。 | 3,372 | 2,113 | 2026-11-22 | 88.0 |
 | [Manim Community](https://github.com/ManimCommunity/manim) | 用 Python 编程制作数学与知识讲解动画的视频引擎。 | 42,821 | 82 | 2026-11-22 | 86.6 |
 | [CozyClay](https://github.com/HaD0Yun/CozyClay) | 浏览器内的场景搭建、角色走位、镜头剪切与 AI 视频预演工具。 | 2,095 | 2,225 | 2026-11-21 | 86.1 |
@@ -54,7 +54,7 @@ flowchart LR
 | 视频编辑器与制作工作台 | 16 | Concat、Jellyfish、Clypra |
 | Agent 视频生产与自动化 | 9 | OpenMontage、Hypit、OpenMotion |
 | 知识类短视频、切片与讲解 | 9 | Clipmint、ChrisHKAI Video、Lanshu AI Presenter Video |
-| Agent Skills、MCP 与剪辑工具 | 13 | FFmpeg Skill、Video Shotcraft、Kinocut |
+| Agent Skills、MCP 与剪辑工具 | 14 | FFmpeg Skill、Video Shotcraft、Kinocut |
 | Code-to-video 与动效 | 9 | HyperFrames、Remotion、raea |
 | 动画、3D 与编码基础组件 | 15 | three.js、Godot、Motion |
 | ComfyUI 与开源视频生成 | 9 | VRGameDevGirl AI Video Builder、LTX-Video、HunyuanVideo |
@@ -67,13 +67,13 @@ flowchart LR
 
 | 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Concat](https://github.com/jub0t/Concat) · ★用户参考 | 本地跨平台多轨编辑器，含字幕、TTS、抠图、关键帧、特效和 4K 导出。 | 19,670 | 1,650 | 2026-11-23 | 94.3 | AGPL-3.0 |
+| [Concat](https://github.com/jub0t/Concat) · ★用户参考 | 本地跨平台多轨编辑器，含字幕、TTS、抠图、关键帧、特效和 4K 导出。 | 19,670 | 1,651 | 2026-11-23 | 94.3 | AGPL-3.0 |
 | [Jellyfish](https://github.com/Forget-C/Jellyfish) | AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产管理、镜头生成和导出。 | 7,295 | 1,665 | 2026-11-23 | 90.9 | Apache-2.0 |
 | [Clypra](https://github.com/AIEraDev/Clypra) · ★用户参考 | Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。 | 3,372 | 2,113 | 2026-11-22 | 88.0 | MIT |
 | [CozyClay](https://github.com/HaD0Yun/CozyClay) · ★用户参考 | 浏览器内的场景搭建、角色走位、镜头剪切与 AI 视频预演工具。 | 2,095 | 2,225 | 2026-11-21 | 86.1 | AGPL-3.0 |
 | [OpenChatCut](https://github.com/0xsline/OpenChatCut) · ★用户参考 | 本地优先的对话式 AI 视频编辑器，含多轨时间线、Agent Skills、MCP 与 Remotion 渲染。 | 3,276 | 410 | 2026-11-12 | 84.2 | AGPL-3.0 |
 | [OpenDirector](https://github.com/ThinkFlowLab/OpenDirector) | 从对话、画布、素材组织到时间线导出的 Agent 视频创作工作流。 | 416 | 329 | 2026-11-23 | 78.6 | Apache-2.0 |
-| [AID Studio](https://github.com/shijue-aid/aid-studio) | 可自托管的 AI 漫剧、短剧与影视创作工作台，覆盖剧本、角色场景、分镜、图片与视频生成、配音、无限画布和 3D 预演。 | 1,608 | 127 | 2026-11-22 | 77.9 | MIT |
+| [AID Studio](https://github.com/shijue-aid/aid-studio) | 可自托管的 AI 漫剧、短剧与影视创作工作台，覆盖剧本、角色场景、分镜、图片与视频生成、配音、无限画布和 3D 预演。 | 1,609 | 127 | 2026-11-22 | 77.9 | MIT |
 | [OpenReel Video](https://github.com/Augani/openreel-video) · ★用户参考 | 浏览器与桌面端开源时间线编辑器，支持剪切、字幕、混音和无水印导出。 | 6,306 | 18 | 2026-11-20 | 71.2 | MIT |
 | [AI Video Production Editor](https://github.com/LudwigKienle/ai-video-production-editor) · ★用户参考 | 从脚本、导演处理、故事板、生成镜头到剪辑、调色和导出的本地工作台。 | 192 | 144 | 2026-11-20 | 70.5 | GPL-3.0 |
 | [MakeMyClip Editor](https://github.com/MakeMyClip/editor) | 用本地浏览器时间线、CLI、MCP 和 Skill 封装 FFmpeg 剪辑能力。 | 29 | 153 | 2026-11-16 | 63.3 | MIT |
@@ -88,11 +88,11 @@ flowchart LR
 
 | 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 面向 coding agent 的多管线视频生产系统，覆盖研究、脚本、素材、配音、字幕和渲染。 | 82,467 | 277 | 2026-11-16 | 94.2 | AGPL-3.0 |
+| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | 面向 coding agent 的多管线视频生产系统，覆盖研究、脚本、素材、配音、字幕和渲染。 | 82,469 | 277 | 2026-11-16 | 94.2 | AGPL-3.0 |
 | [Hypit](https://github.com/hypit-ai/hypit) · 许可注意 | 让 coding agent 把参考视频复刻为可编辑、可重复运行的完整工作流，并批量生成内容变体。 | 31,136 | 842 | 2026-11-16 | 94.2 | Hypit Open Source License（修改版 Apache-2.0） |
-| [OpenMotion](https://github.com/nexu-io/openmotion) | 面向本地 coding agent 的参考视频复刻与品牌化动效工作台，支持 Motion.md、可视化时间线和 MP4 导出。 | 15,429 | 688 | 2026-11-23 | 93.5 | Apache-2.0 |
-| [OpenFilm](https://github.com/openfilm/openfilm) | 让 coding agent 以代码创建、检查、编辑和渲染视频，并提供可编辑界面。 | 9,020 | 295 | 2026-11-22 | 88.6 | MIT |
-| [Rea Video](https://github.com/JuneYaooo/rea-video) · ★用户参考 | 逆向拆解视频的实拍、AI 与代码成分，输出分镜级复刻方案和 VIDEO.md。 | 12,312 | 195 | 2026-11-23 | 87.4 | Apache-2.0 |
+| [OpenMotion](https://github.com/nexu-io/openmotion) | 面向本地 coding agent 的参考视频复刻与品牌化动效工作台，支持 Motion.md、可视化时间线和 MP4 导出。 | 15,431 | 688 | 2026-11-23 | 93.5 | Apache-2.0 |
+| [OpenFilm](https://github.com/openfilm/openfilm) | 让 coding agent 以代码创建、检查、编辑和渲染视频，并提供可编辑界面。 | 9,021 | 295 | 2026-11-22 | 88.6 | MIT |
+| [Rea Video](https://github.com/JuneYaooo/rea-video) · ★用户参考 | 逆向拆解视频的实拍、AI 与代码成分，输出分镜级复刻方案和 VIDEO.md。 | 12,313 | 195 | 2026-11-23 | 87.4 | Apache-2.0 |
 | [Video Autopilot Kit](https://github.com/Hao0321/video-autopilot-kit) · ★用户参考 | 负责视频计划、审计、审片和效果学习的自动化框架。 | 2,350 | 51 | 2026-11-13 | 71.6 | MIT |
 | [Video Use](https://github.com/browser-use/video-use) | 通过 coding agent 与 FFmpeg 对原始素材进行剪辑、字幕、调色、动效叠加和输出检查。 | 31,460 | 5 | 2026-10-08 | 61.2 | MIT |
 | [Video Director](https://github.com/win4r/video-director) · ★用户参考 | 指导 Claude Code 用 HTML/Canvas/SVG/Three.js/GSAP/Remotion 计划、渲染和检查短片。 | 517 | 19 | 2026-11-07 | 59.6 | MIT |
@@ -102,25 +102,26 @@ flowchart LR
 
 | 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Clipmint](https://github.com/kleZ799/clipmint) | 把播客、访谈、教程和 VOD 变成带字幕的竖屏 Shorts/Reels/TikTok。 | 66 | 613 | 2026-11-21 | 74.3 | MIT |
+| [Clipmint](https://github.com/kleZ799/clipmint) | 把播客、访谈、教程和 VOD 变成带字幕的竖屏 Shorts/Reels/TikTok。 | 66 | 613 | 2026-11-21 | 74.2 | MIT |
 | [ChrisHKAI Video](https://github.com/ChrisHKAI/ChrisHKAI-Video) · ★用户参考 | 把创作者公开资料组织为 3D 玩具风短片的 coding-agent Skill。 | 161 | 182 | 2026-11-23 | 72.0 | MIT |
 | [Lanshu AI Presenter Video](https://github.com/cclank/lanshu-create-ai-presenter-video) · ★用户参考 | 把主题或脚本制作成经核验的数字人/风格化讲解视频的 Agent Skill。 | 3,073 | 16 | 2026-10-11 | 59.5 | MIT |
 | [Claude Animated Shorts](https://github.com/mromidev/claude-animated-shorts) · ★用户参考 | 用 Three.js、Remotion、配乐与音效制作竖屏动画故事短片的 Skill。 | 4,601 | 2 | 2026-11-01 | 55.1 | MIT |
 | [Vibe Knowledge](https://github.com/andyhuo520/vibe-knowledge) · ★用户参考 | 从知识点查证、写稿、配音、代码成片到质检和发布包的知识短片 Skill。 | 779 | 3 | 2026-10-28 | 49.8 | MIT |
 | [Vox Director](https://github.com/alisa0808/vox-director) | 从主题到 Vox 风纸张拼贴讲解/广告视频的端到端 Agent Skill。 | 3,028 | 1 | 2026-10-05 | 46.3 | MIT |
 | [Video to Shorts Skill](https://github.com/social-media-skills/video-to-shorts-skill) | 让 Agent 把长视频或播客变成逐词字幕竖屏短片并可选发布。 | 4 | 3 | 2026-11-11 | 35.4 | MIT |
-| [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) | 输入主题后生成文案、配图或视频、配音并合成短视频，支持 ComfyUI 工作流与媒体 API。 | 30,439 | 0 | 2026-06-14 | 40.0 | Apache-2.0 |
+| [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) | 输入主题后生成文案、配图或视频、配音并合成短视频，支持 ComfyUI 工作流与媒体 API。 | 30,440 | 0 | 2026-06-14 | 40.0 | Apache-2.0 |
 | [Atlas Explainer](https://github.com/AtlasCloudAI/atlas-explainer) | 从一个主题生成配音、纸艺风知识讲解视频的 Skill/CLI。 | 3 | 0 | 2026-07-10 | 10.3 | MIT |
 
 ### Agent Skills、MCP 与剪辑工具
 
 | 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | 为 coding agent 提供本地 FFmpeg 剪辑、字幕、格式导出和输出检查的 CLI 与 MCP。 | 9,833 | 703 | 2026-11-22 | 91.8 | MIT |
+| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | 为 coding agent 提供本地 FFmpeg 剪辑、字幕、格式导出和输出检查的 CLI 与 MCP。 | 9,836 | 703 | 2026-11-22 | 91.8 | MIT |
 | [Video Shotcraft](https://github.com/Vincentwei1021/video-shotcraft) · ★用户参考 | 为 Agent 提供镜头配方、故事板、Remotion 动画、节拍剪辑与逐帧检查。 | 22,147 | 58 | 2026-11-21 | 82.3 | Apache-2.0 |
 | [Kinocut](https://github.com/KyaniteLabs/kinocut) | 带防护、预检、收据和质量门的本地视频编辑 MCP/Python/CLI。 | 278 | 479 | 2026-11-22 | 79.2 | Apache-2.0 |
-| [Remotion Agent Skills](https://github.com/remotion-dev/skills) · 许可注意 | 供 coding agent 创建、预览和渲染 Remotion 视频的官方 Skills。 | 7,816 | 31 | 2026-11-18 | 74.4 | 许可待核验 |
-| [漫剧老李 Skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) | 面向 AI 漫剧与短剧的 OpenClaw Skill 套装，覆盖剧本、资产锁定、分镜、打戏、Seedance 投喂提示词与机检。 | 2,585 | 50 | 2026-11-19 | 73.3 | MIT |
+| [Remotion Agent Skills](https://github.com/remotion-dev/skills) · 许可注意 | 供 coding agent 创建、预览和渲染 Remotion 视频的官方 Skills。 | 7,817 | 31 | 2026-11-18 | 74.4 | 许可待核验 |
+| [漫剧老李 Skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) | 面向 AI 漫剧与短剧的 OpenClaw Skill 套装，覆盖剧本、资产锁定、分镜、打戏、Seedance 投喂提示词与机检。 | 2,587 | 50 | 2026-11-19 | 73.3 | MIT |
+| [Wallstreet Explainer](https://github.com/HeyChengC/wallstreet-explainer) · 许可注意 | 华尔街式财经/科技解读短片的 coding agent Skill，含风格语言、图形组件模板与找片、截图、配音、抠像、渲染、混音脚本。 | 895 | 16 | 2026-11-20 | 63.8 | MIT（代码与文档）+ 样片第三方素材除外 |
 | [ReelBench Skills](https://github.com/eternityspring/reelbench-skills) · ★用户参考 | 面向 Claude Code/Codex 的视频分析、复刻和制作 Skill 集合。 | 1,250 | 21 | 2026-11-09 | 63.7 | Apache-2.0 |
 | [Video Agent Skills](https://github.com/Melvynx/video-agent-skills) | 用 Markdown Skills 组织短视频/YouTube 的脚本、研究、剪辑、翻译和发布。 | 201 | 26 | 2026-11-06 | 57.7 | MIT |
 | [HyperFrames Motion Library](https://github.com/nutllwhy/hyperframes-motion-library) · ★用户参考 | 以 HyperFrames 为内核的本地动效模板与参数化资产库。 | 323 | 2 | 2026-10-28 | 45.1 | MIT |
@@ -134,15 +135,15 @@ flowchart LR
 
 | 项目 | 定位 | Stars | 90天提交 | 最近提交 UTC | 维护分 | 许可 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [HyperFrames](https://github.com/heygen-com/hyperframes) | 基于 HTML/CSS/JS 的代码视频与 Agent Skill 生态，可从 Remotion 等迁移并逐帧验证。 | 88,385 | 3,829 | 2026-11-23 | 99.6 | Apache-2.0 |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | 基于 HTML/CSS/JS 的代码视频与 Agent Skill 生态，可从 Remotion 等迁移并逐帧验证。 | 88,387 | 3,828 | 2026-11-23 | 99.6 | Apache-2.0 |
 | [Remotion](https://github.com/remotion-dev/remotion) · 许可注意 | 用 React/TypeScript 以代码创建和渲染视频的基础框架。 | 75,010 | 6,778 | 2026-11-20 | 98.4 | Remotion License |
-| [raea](https://github.com/shinyobjectz/raea) · 许可注意 | 用 React/TypeScript 编写视频、动效、3D 与游戏，并在本地 GPU 渲染的引擎与桌面 Agent 工作台。 | 4,400 | 1,417 | 2026-11-23 | 89.2 | FSL-1.1-ALv2 |
-| [Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar) · 许可注意 | 提供电影风格、示例与 STYLE.md 指引，供 coding agent 用代码制作视频。 | 19,973 | 147 | 2026-11-20 | 86.7 | MIT 代码 + CC BY-NC 文档（附加许可） |
+| [raea](https://github.com/shinyobjectz/raea) · 许可注意 | 用 React/TypeScript 编写视频、动效、3D 与游戏，并在本地 GPU 渲染的引擎与桌面 Agent 工作台。 | 4,401 | 1,417 | 2026-11-23 | 89.1 | FSL-1.1-ALv2 |
+| [Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar) · 许可注意 | 提供电影风格、示例与 STYLE.md 指引，供 coding agent 用代码制作视频。 | 19,974 | 147 | 2026-11-20 | 86.7 | MIT 代码 + CC BY-NC 文档（附加许可） |
 | [Manim Community](https://github.com/ManimCommunity/manim) | 用 Python 编程制作数学与知识讲解动画的视频引擎。 | 42,821 | 82 | 2026-11-22 | 86.6 | MIT |
 | [GiveMotion](https://github.com/givemotion/givemotion) | 让 Agent 编写 HTML/CSS、预览检查并渲染 MP4 的代码视频引擎。 | 86 | 243 | 2026-11-19 | 70.4 | MIT |
 | [Manim](https://github.com/3b1b/manim) | 面向数学讲解的 Python 动画引擎。 | 96,825 | 1 | 2026-09-09 | 54.7 | MIT |
 | [SenseNova Code2Video](https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video) · ★用户参考 · 许可注意 | 用小型开放模型生成可执行代码并渲染短视频。 | 759 | 2 | 2026-10-27 | 47.8 | 待核验 |
-| [Motion Canvas](https://github.com/motion-canvas/motion-canvas) | 用 TypeScript 和生成器函数创建动画、讲解和动态图形。 | 20,151 | 0 | 2026-07-02 | 39.5 | MIT |
+| [Motion Canvas](https://github.com/motion-canvas/motion-canvas) | 用 TypeScript 和生成器函数创建动画、讲解和动态图形。 | 20,152 | 0 | 2026-07-02 | 39.5 | MIT |
 
 ### 动画、3D 与编码基础组件
 
@@ -150,7 +151,7 @@ flowchart LR
 | --- | --- | --- | --- | --- | --- | --- |
 | [three.js](https://github.com/mrdoob/three.js) | JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。 | 119,181 | 861 | 2026-11-23 | 100.0 | MIT |
 | [Godot](https://github.com/godotengine/godot) | 用于构建二维和三维场景、交互及动画的开源游戏引擎。 | 120,604 | 1,936 | 2026-11-20 | 99.3 | MIT |
-| [Motion](https://github.com/motiondivision/motion) | 面向 JavaScript、React 和 Vue 的界面与布局动画库。 | 35,465 | 1,339 | 2026-11-21 | 95.9 | MIT |
+| [Motion](https://github.com/motiondivision/motion) | 面向 JavaScript、React 和 Vue 的界面与布局动画库。 | 35,466 | 1,339 | 2026-11-21 | 95.9 | MIT |
 | [Blender](https://github.com/blender/blender) | 覆盖建模、角色绑定、动画、渲染、合成和视频剪辑的 3D 创作套件。 | 22,341 | 3,231 | 2026-11-22 | 94.6 | GPL-2.0-or-later |
 | [Babylon.js](https://github.com/BabylonJS/Babylon.js) | JavaScript 3D 场景、游戏与渲染引擎，可作为代码动效基础。 | 26,429 | 355 | 2026-11-21 | 93.0 | Apache-2.0 |
 | [Konva](https://github.com/konvajs/konva) | 二维 Canvas 场景图库，支持对象交互、变换、动画和导出。 | 15,008 | 225 | 2026-11-22 | 88.8 | MIT |
@@ -197,7 +198,7 @@ flowchart LR
 | [Streamlink](https://github.com/streamlink/streamlink) | 把在线直播流解析并管道传给本地播放器的 CLI。 | 11,990 | 157 | 2026-11-18 | 85.0 | BSD-2-Clause |
 | [Downvid](https://github.com/Downvid/downvid) · ★用户参考 | 基于 yt-dlp 与 FFmpeg 的跨平台视频下载 GUI/WebUI。 | 1,649 | 354 | 2026-11-11 | 80.8 | MIT |
 | [VidBee](https://github.com/nexmoe/VidBee) | 下载媒体，并在本地执行转录、说话人标注、摘要、翻译和媒体对话。 | 11,200 | 51 | 2026-11-21 | 79.1 | MIT |
-| [cobalt](https://github.com/imputnet/cobalt) · 许可注意 | 无广告和追踪的媒体下载 Web 应用与可自托管 API，覆盖 YouTube、TikTok、Instagram 等站点。 | 46,711 | 0 | 2026-04-06 | 39.3 | AGPL-3.0（api 与其余部分）+ CC-BY-NC-SA-4.0（web） |
+| [cobalt](https://github.com/imputnet/cobalt) · 许可注意 | 无广告和追踪的媒体下载 Web 应用与可自托管 API，覆盖 YouTube、TikTok、Instagram 等站点。 | 46,714 | 0 | 2026-04-06 | 39.3 | AGPL-3.0（api 与其余部分）+ CC-BY-NC-SA-4.0（web） |
 | [Lux](https://github.com/iawia002/lux) | Go 编写的多站点视频下载 CLI。 | 31,854 | 0 | 2025-12-29 | 36.7 | MIT |
 | [you-get](https://github.com/soimort/you-get) | 从网页下载媒体内容的 Python 命令行工具。 | 56,852 | 0 | 2025-04-27 | 38.1 | MIT |
 
