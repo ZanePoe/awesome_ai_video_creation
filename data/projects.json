@@ -104,6 +104,44 @@
     }
   },
   {
+    "repo": "frankShan001/CutVoke",
+    "name": "CutVoke",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "本地优先的跨平台开源视频剪辑器，内置 MCP server，让 Claude Code、Codex、Cursor 等 Agent 与人在同一条非破坏性多轨时间线上剪辑。",
+    "boundary": "桌面包内置 FFmpeg（GPLv3）等第三方组件；字幕用可选的本地 faster-whisper，模型需首次下载；所连接的 Agent 多为云服务，账号、费用与数据政策另计；v0.3.6 为冻结预览且与 main 不同步，官方列出导出窗口复用、试听超时、竖屏长字幕裁切等已知问题，macOS 包仅 ad-hoc 签名未公证；项目 2026-09 创建，成熟度低。",
+    "baseline": false,
+    "reviewed_at": "2026-11-25",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 28,
+        "url": "https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L28",
+        "note": "官方 README 的 Agent 经 MCP 驱动、人可同轴手工修正的定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 121,
+        "url": "https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L121",
+        "note": "官方 README 的声明式时间线在编辑器、CLI、HTTP API 与 MCP 之间共享；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 159,
+        "url": "https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L159",
+        "note": "官方 README 的本地 ASR、按文稿剪辑与音频工作台能力；非实机测试"
+      }
+    ],
+    "evidence_commit": "a4920ad493c6317774141a9bccbd55eafe439b7c",
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/LICENSE",
+      "note": "仓库根 LICENSE 为 MIT；桌面包附带 FFmpeg（GPLv3）等自有许可的第三方组件，社区特效配方、faster-whisper 模型与所连 AI 服务条款另计"
+    }
+  },
+  {
     "repo": "HaD0Yun/CozyClay",
     "name": "CozyClay",
     "category": "workbenches",

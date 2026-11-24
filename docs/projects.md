@@ -9,7 +9,7 @@
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：离线模型需首次下载；产品内 AI 与完整生成式工作流不是同一范围。
-- 维护状态：近90天有提交；30 天提交 449 次，90 天提交 1659 次。
+- 维护状态：近90天有提交；30 天提交 457 次，90 天提交 1676 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/jub0t/Concat/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/jub0t/Concat/blob/504a814ebe61d4f47bba4cd7949dc2580ecc405c/README.md#L6)。
 
@@ -29,7 +29,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：通用编辑器为主；AI 功能范围和移动端成熟度需按版本验证。
-- 维护状态：近90天有提交；30 天提交 284 次，90 天提交 1993 次。
+- 维护状态：近90天有提交；30 天提交 271 次，90 天提交 1916 次。
 - 许可：[MIT](https://api.github.com/repos/AIEraDev/Clypra/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/AIEraDev/Clypra/blob/aa6b9c619cf98f7a1dfab6446345ec5f5660b93c/README.md#L9)。
 
@@ -39,7 +39,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：输出主要是 previs 和镜头参考，最终生成质量取决于外部视频模型。
-- 维护状态：近90天有提交；30 天提交 247 次，90 天提交 2161 次。
+- 维护状态：近90天有提交；30 天提交 220 次，90 天提交 2169 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/HaD0Yun/CozyClay/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/HaD0Yun/CozyClay/blob/297dd2a8a077613b329962d68e2a9bb4355be091/README.md#L6)。
 
@@ -59,7 +59,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：首版项目；完整生产稳定性和模型成本需实测。
-- 维护状态：近90天有提交；30 天提交 346 次，90 天提交 346 次。
+- 维护状态：近90天有提交；30 天提交 348 次，90 天提交 348 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/ThinkFlowLab/OpenDirector/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/ThinkFlowLab/OpenDirector/blob/39288dfdf4f816798e5479c53363258fceeb6e11/README.md#L18)。
 
@@ -69,9 +69,19 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：模型调用、存储和计算资源可能另行收费；官方示例图片、音频和视频资产包随版本单独分发；部署需要 MySQL、Redis、Docker 等依赖，生成内容与剧本、人物、素材的授权须自行核验。
-- 维护状态：近90天有提交；30 天提交 41 次，90 天提交 127 次。
+- 维护状态：近90天有提交；30 天提交 41 次，90 天提交 125 次。
 - 许可：[MIT](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT，NOTICE 保留 RuoYi-Vue 等第三方归属；官方示例资产包单独分发，模型供应商、存储和计算资源条款另计
 - 功能核验：2026-11-23；[来源1](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L13) · [来源2](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L43) · [来源3](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L46)。
+
+## [CutVoke](https://github.com/frankShan001/CutVoke)
+
+本地优先的跨平台开源视频剪辑器，内置 MCP server，让 Claude Code、Codex、Cursor 等 Agent 与人在同一条非破坏性多轨时间线上剪辑。
+
+- 分类：视频编辑器与制作工作台；核心候选。
+- 适用边界：桌面包内置 FFmpeg（GPLv3）等第三方组件；字幕用可选的本地 faster-whisper，模型需首次下载；所连接的 Agent 多为云服务，账号、费用与数据政策另计；v0.3.6 为冻结预览且与 main 不同步，官方列出导出窗口复用、试听超时、竖屏长字幕裁切等已知问题，macOS 包仅 ad-hoc 签名未公证；项目 2026-09 创建，成熟度低。
+- 维护状态：近90天有提交；30 天提交 412 次，90 天提交 504 次。
+- 许可：[MIT](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT；桌面包附带 FFmpeg（GPLv3）等自有许可的第三方组件，社区特效配方、faster-whisper 模型与所连 AI 服务条款另计
+- 功能核验：2026-11-25；[来源1](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L28) · [来源2](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L121) · [来源3](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L159)。
 
 ## [OpenReel Video](https://github.com/Augani/openreel-video)
 
@@ -169,7 +179,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent 视频生产与自动化；受限许可。
 - 适用边界：热门视频复刻涉及原视频、人物、音乐、素材和品牌授权；生成模型与 API 为可选外部服务，费用和数据路径依各提供商。
-- 维护状态：近90天有提交；30 天提交 14 次，90 天提交 806 次。
+- 维护状态：近90天有提交；30 天提交 14 次，90 天提交 783 次。
 - 许可：[Hypit Open Source License（修改版 Apache-2.0）](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/LICENSE)；源码可见但非 OSI 开源。限制多租户托管、商业再分发及移除品牌/版权信息；需要这些用途时须取得商业许可，不是标准 Apache-2.0
 - 功能核验：2026-11-13；[来源1](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L51) · [来源2](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L164) · [来源3](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L338)。
 
@@ -179,7 +189,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：部分生成与语音提供商为付费服务；大量 Skill 文件不等于全部流程已统一实测。
-- 维护状态：近90天有提交；30 天提交 149 次，90 天提交 276 次。
+- 维护状态：近90天有提交；30 天提交 149 次，90 天提交 272 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/OpenMontageInc/OpenMontage/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/OpenMontageInc/OpenMontage/blob/fecb9a1e3cc23ef84de30b272059457a427f16f8/README.md#L14)。
 
@@ -189,7 +199,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：参考视频、人物、音乐、品牌和素材须另行取得授权；媒体生成依赖自备 API/订阅，内置模板与第三方组件遵循各自 LICENSE/NOTICE。
-- 维护状态：近90天有提交；30 天提交 728 次，90 天提交 733 次。
+- 维护状态：近90天有提交；30 天提交 753 次，90 天提交 758 次。
 - 许可：[Apache-2.0](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/LICENSE)；开放许可证已核验。仓库根 LICENSE 为标准 Apache-2.0；内置模板、模型图标和 vendor 组件含各自 LICENSE/NOTICE，分发或复用时需分别保留并核验
 - 功能核验：2026-11-17；[来源1](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L40) · [来源2](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L308) · [来源3](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L386)。
 
@@ -199,7 +209,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：代码化镜头与传统素材时间线不同；素材和声音库许可需按资产核验。
-- 维护状态：近90天有提交；30 天提交 146 次，90 天提交 298 次。
+- 维护状态：近90天有提交；30 天提交 137 次，90 天提交 298 次。
 - 许可：[MIT](https://api.github.com/repos/openfilm/openfilm/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/openfilm/openfilm/blob/f59cd4e0973feaf6917dcf3229b178b6baf9ad3f/README.md#L7)。
 
@@ -209,7 +219,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent 视频生产与自动化；相邻基础设施。
 - 适用边界：主要做分析与复刻规划，不直接等同最终剪辑或生成器。
-- 维护状态：近90天有提交；30 天提交 207 次，90 天提交 207 次。
+- 维护状态：近90天有提交；30 天提交 215 次，90 天提交 215 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/JuneYaooo/rea-video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/JuneYaooo/rea-video/blob/4111ad9adb4936d92f6d57657000b414fee9f01f/README.md#L8)。
 
@@ -259,7 +269,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：知识类短视频、切片与讲解；核心候选。
 - 适用边界：剪辑依赖 yt-dlp、Streamlink、faster-whisper、FFmpeg 与可选本地 Ollama 模型；无 YouTube 字幕的素材需本地识别或导入字幕，质量会下降；README 的速度与 187 项检查为作者自测，非独立基准；下载与再分发受平台条款和素材授权约束。
-- 维护状态：近90天有提交；30 天提交 87 次，90 天提交 87 次。
+- 维护状态：近90天有提交；30 天提交 89 次，90 天提交 89 次。
 - 许可：[MIT](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT；requirements 中的 yt-dlp、faster-whisper、Streamlink、av、static-ffmpeg 等依赖，以及 Ollama 拉取的模型权重与系统字体许可另计
 - 功能核验：2026-11-23；[来源1](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L5) · [来源2](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L45) · [来源3](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L114)。
 
@@ -279,7 +289,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：知识类短视频、切片与讲解；核心候选。
 - 适用边界：Codex 完整成片质量尚未验证；公开资料使用和肖像授权需由用户负责。
-- 维护状态：近90天有提交；30 天提交 196 次，90 天提交 196 次。
+- 维护状态：近90天有提交；30 天提交 198 次，90 天提交 198 次。
 - 许可：[MIT](https://api.github.com/repos/ChrisHKAI/ChrisHKAI-Video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/ChrisHKAI/ChrisHKAI-Video/blob/15b66ee613e621f82ba781d27547a67e76c55f50/README.md#L7)。
 
@@ -359,7 +369,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent Skills、MCP 与剪辑工具；核心候选。
 - 适用边界：需要本机 FFmpeg 和 Python；技能、FFmpeg 构建及素材遵循各自许可，具体效果未实测。
-- 维护状态：近90天有提交；30 天提交 546 次，90 天提交 966 次。
+- 维护状态：近90天有提交；30 天提交 541 次，90 天提交 966 次。
 - 许可：[MIT](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/LICENSE)；开放许可证已核验。技能仓库根 LICENSE 为 MIT；FFmpeg 及编码器许可需按具体构建核验。
 - 功能核验：2026-11-21；[来源1](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/README.md#L67)。
 
@@ -369,7 +379,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent Skills、MCP 与剪辑工具；核心候选。
 - 适用边界：需要 Node 22+ 与 Claude Code，AI 模型部署在你自己的 Modal/RunPod 云 GPU 账户按成本计费；README 的 $0.33 成本与示例片为作者自测；社区插件、第三方设计 Skill 与托管发布服务各有许可与条款；生成内容、克隆声音和素材授权需自行核验。
-- 维护状态：近90天有提交；30 天提交 390 次，90 天提交 515 次。
+- 维护状态：近90天有提交；30 天提交 420 次，90 天提交 537 次。
 - 许可：[MIT](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT（版权 Digital Samba）；调用的 Qwen3-TTS、FLUX.2、Ideogram 4、ACE-Step、LTX-Video 等模型权重、ElevenLabs 等外部服务、Remotion 渲染器与社区插件（如 PolyForm Perimeter 的 arkiv）许可各自独立
 - 功能核验：2026-11-24；[来源1](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L9) · [来源2](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L12) · [来源3](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L66)。
 
@@ -389,7 +399,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent Skills、MCP 与剪辑工具；核心候选。
 - 适用边界：包装 FFmpeg 和可选 Whisper/HyperFrames；类型化工具不保证剪辑审美。
-- 维护状态：近90天有提交；30 天提交 270 次，90 天提交 579 次。
+- 维护状态：近90天有提交；30 天提交 350 次，90 天提交 659 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/KyaniteLabs/kinocut/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/KyaniteLabs/kinocut/blob/4ad02dba114cf12163663e7cd39da92d4f735212/README.md#L13)。
 
@@ -399,7 +409,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent Skills、MCP 与剪辑工具；核心候选。
 - 适用边界：需 Remotion 与支持 Agent Skills 的宿主；本仓库根目录未发现许可证，Remotion 本身有独立许可条款。
-- 维护状态：近90天有提交；30 天提交 9 次，90 天提交 31 次。
+- 维护状态：近90天有提交；30 天提交 10 次，90 天提交 31 次。
 - 许可：[许可待核验](https://github.com/remotion-dev/skills/tree/6f55706d1069e512430582ad86e4e57dc07afe1b)；许可待核验。仓库根目录和文件树未发现 LICENSE；Remotion 产品及各包许可须单独核对。
 - 功能核验：2026-11-20；[来源1](https://github.com/remotion-dev/skills/blob/6f55706d1069e512430582ad86e4e57dc07afe1b/README.md#L5)。
 
@@ -519,7 +529,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：项目与 HeyGen 托管生成服务是不同层级；具体模板和外部素材许可另计。
-- 维护状态：近90天有提交；30 天提交 1907 次，90 天提交 3913 次。
+- 维护状态：近90天有提交；30 天提交 1903 次，90 天提交 3963 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5)。
 
@@ -529,7 +539,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Code-to-video 与动效；受限许可。
 - 适用边界：是通用代码视频基础设施，不自带 Agent 规划或生成模型。
-- 维护状态：近90天有提交；30 天提交 2460 次，90 天提交 6711 次。
+- 维护状态：近90天有提交；30 天提交 2473 次，90 天提交 6717 次。
 - 许可：[Remotion License](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/LICENSE.md)；源码可见但非 OSI 开源。个人、非营利及小型组织可免费使用；达到条件的营利组织需要公司许可，不是常规 OSI 开源
 - 功能核验：2026-11-12；[来源1](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/README.md#L2)。
 
@@ -559,7 +569,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：适合代码化讲解；不是自动生成内容的 AI Agent，渲染依赖和字体等另计。
-- 维护状态：近90天有提交；30 天提交 28 次，90 天提交 80 次。
+- 维护状态：近90天有提交；30 天提交 28 次，90 天提交 78 次。
 - 许可：[MIT](https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/README.md#L20)。
 
@@ -569,7 +579,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：代码动画适合动效和讲解，不等同真实素材剪辑或扩散视频生成。
-- 维护状态：近90天有提交；30 天提交 90 次，90 天提交 243 次。
+- 维护状态：近90天有提交；30 天提交 87 次，90 天提交 243 次。
 - 许可：[MIT](https://api.github.com/repos/givemotion/givemotion/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/givemotion/givemotion/blob/8a7949e685bbfaec8bde20fad9aa8734cdfa6038/README.md#L6)。
 
@@ -603,25 +613,25 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 - 许可：[MIT](https://api.github.com/repos/motion-canvas/motion-canvas/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/README.md#L6)。
 
-## [three.js](https://github.com/mrdoob/three.js)
-
-JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
-
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：通用渲染库，不自动输出视频；素材和 WebGL/WebGPU 环境需自行处理。
-- 维护状态：近90天有提交；30 天提交 330 次，90 天提交 873 次。
-- 许可：[MIT](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/README.md#L11)。
-
 ## [Godot](https://github.com/godotengine/godot)
 
 用于构建二维和三维场景、交互及动画的开源游戏引擎。
 
 - 分类：动画、3D 与编码基础组件；相邻基础设施。
 - 适用边界：游戏引擎与视频自动生成系统不同，成片录制或导出需设计额外流程。
-- 维护状态：近90天有提交；30 天提交 529 次，90 天提交 1943 次。
+- 维护状态：近90天有提交；30 天提交 525 次，90 天提交 1923 次。
 - 许可：[MIT](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/LICENSE.txt)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/README.md#L11)。
+
+## [three.js](https://github.com/mrdoob/three.js)
+
+JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
+
+- 分类：动画、3D 与编码基础组件；相邻基础设施。
+- 适用边界：通用渲染库，不自动输出视频；素材和 WebGL/WebGPU 环境需自行处理。
+- 维护状态：近90天有提交；30 天提交 328 次，90 天提交 874 次。
+- 许可：[MIT](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
+- 功能核验：2026-11-20；[来源1](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/README.md#L11)。
 
 ## [Motion](https://github.com/motiondivision/motion)
 
@@ -639,7 +649,7 @@ JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
 
 - 分类：动画、3D 与编码基础组件；相邻基础设施。
 - 适用边界：GitHub 仓库是官方镜像；第三方插件、模型和素材遵循各自许可。
-- 维护状态：近90天有提交；30 天提交 1190 次，90 天提交 3223 次。
+- 维护状态：近90天有提交；30 天提交 1285 次，90 天提交 3308 次。
 - 许可：[GPL-2.0-or-later](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/COPYING)；开放许可证已核验。COPYING 指向 GPL 许可正文；第三方资产和组件另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/.github/README.md#L14)。
 
@@ -649,7 +659,7 @@ JavaScript 3D 场景、游戏与渲染引擎，可作为代码动效基础。
 
 - 分类：动画、3D 与编码基础组件；相邻基础设施。
 - 适用边界：默认是实时 3D 渲染引擎；视频编码需另接工具，官方提示演示 CDN 不用于生产。
-- 维护状态：近90天有提交；30 天提交 165 次，90 天提交 348 次。
+- 维护状态：近90天有提交；30 天提交 166 次，90 天提交 342 次。
 - 许可：[Apache-2.0](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/license.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/readme.md#L1)。
 
@@ -659,7 +669,7 @@ JavaScript 3D 场景、游戏与渲染引擎，可作为代码动效基础。
 
 - 分类：动画、3D 与编码基础组件；相邻基础设施。
 - 适用边界：通用画布组件；视频或音频导出需搭配其他工具。
-- 维护状态：近90天有提交；30 天提交 30 次，90 天提交 222 次。
+- 维护状态：近90天有提交；30 天提交 30 次，90 天提交 217 次。
 - 许可：[MIT](https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/README.md#L16)。
 
@@ -759,7 +769,7 @@ JavaScript 粒子动画库，可制作火焰、烟花和爆炸等粒子效果。
 
 - 分类：ComfyUI 与开源视频生成；受限许可。
 - 适用边界：部分自定义节点已拆到独立包；模型、显存和安装兼容性需按工作流核验。
-- 维护状态：近90天有提交；30 天提交 134 次，90 天提交 674 次。
+- 维护状态：近90天有提交；30 天提交 132 次，90 天提交 677 次。
 - 许可：[VRGameDevGirl Community and Commercial License](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/LICENSE)；源码可见但非 OSI 开源。可商业化生成内容；销售/托管/商业集成软件本身需要书面商业许可
 - 功能核验：2026-11-12；[来源1](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/README.md#L1)。
 
@@ -899,7 +909,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；相邻基础设施。
 - 适用边界：许可证随构建选项可能为 LGPL/GPL；大量上层项目只是对其封装。
-- 维护状态：近90天有提交；30 天提交 350 次，90 天提交 2990 次。
+- 维护状态：近90天有提交；30 天提交 361 次，90 天提交 2985 次。
 - 许可：[LGPL-2.1+；启用 GPL 组件后为 GPL-2.0+](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/LICENSE.md)；复合/条件许可。最终许可取决于编译选项和链接组件
 - 功能核验：2026-11-12；[来源1](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/README.md#L1)。
 
@@ -909,7 +919,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；核心候选。
 - 适用边界：它是 Downvid/VidBee 等产品的底层解析 CLI，不提供完整编辑工作台。
-- 维护状态：近90天有提交；30 天提交 45 次，90 天提交 86 次。
+- 维护状态：近90天有提交；30 天提交 46 次，90 天提交 81 次。
 - 许可：[Unlicense](https://api.github.com/repos/yt-dlp/yt-dlp/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/yt-dlp/yt-dlp/blob/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md#L16)。
 
@@ -919,7 +929,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；核心候选。
 - 适用边界：主要面向流播放/录制，不等同通用点播下载或编辑器。
-- 维护状态：近90天有提交；30 天提交 35 次，90 天提交 156 次。
+- 维护状态：近90天有提交；30 天提交 35 次，90 天提交 155 次。
 - 许可：[BSD-2-Clause](https://api.github.com/repos/streamlink/streamlink/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/streamlink/streamlink/blob/993f9f1b63bd7a87292e05eda98d461ddc1f62c9/README.md#L13)。
 
@@ -939,7 +949,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；核心候选。
 - 适用边界：下载由 yt-dlp 生态提供；AI 摘要可能调用用户选择的远程模型。
-- 维护状态：近90天有提交；30 天提交 13 次，90 天提交 51 次。
+- 维护状态：近90天有提交；30 天提交 11 次，90 天提交 51 次。
 - 许可：[MIT](https://api.github.com/repos/nexmoe/VidBee/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/nexmoe/VidBee/blob/6082e2604f0c37d942cdb896040aa0c88b5c527f/README.md#L2)。
 
@@ -989,7 +999,7 @@ Go 编写的多站点视频下载 CLI。
 
 - 分类：评测、研究与外部索引；相邻基础设施。
 - 适用边界：外部 star 快照会变化，最终数据回到官方仓库。
-- 维护状态：近90天有提交；30 天提交 14 次，90 天提交 14 次。
+- 维护状态：近90天有提交；30 天提交 12 次，90 天提交 15 次。
 - 许可：[CC0-1.0](https://api.github.com/repos/sasateguh/awesome-ai-video-for-creators/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/sasateguh/awesome-ai-video-for-creators/blob/3b88db72b425a89b751b6ea279532e3ae0a3d6f9/README.md#L1)。
 
