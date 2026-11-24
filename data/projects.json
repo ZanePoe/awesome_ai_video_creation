@@ -1852,6 +1852,44 @@
     }
   },
   {
+    "repo": "patch-gg/pixelfx",
+    "name": "pixelfx",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "244 个以代码绘制的像素特效与动画库，附 Claude Code 特效生成 Skill 和精灵表、GIF/MP4 导出工具。",
+    "boundary": "是特效与动作素材库，不含脚本、剪辑与发布流程；`gallery/fonts` 的 Patch Pixel 字体为 Patch 自有版权、不在 MIT 内；部分代码改编自 Sprite Fusion 与 Hollow Crown（均 MIT），需按 NOTICE 保留归属；导出素材用于视频时仍需自行确认画面中的第三方内容授权。",
+    "baseline": false,
+    "reviewed_at": "2026-11-24",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/README.md#L7",
+        "note": "官方 README 的 244 个代码绘制像素特效与实机播放、调色、导出说明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 89,
+        "url": "https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/README.md#L89",
+        "note": "官方 README 的精灵表 PNG + Aseprite 风格 JSON 导出与整库导出；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 156,
+        "url": "https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/README.md#L156",
+        "note": "官方 README 的 Claude Code Skill 安装与用法（查找、使用、导出、制作特效）"
+      }
+    ],
+    "evidence_commit": "5294518ce7c72e48b6100a744596e0acf57f2826",
+    "license_review": {
+      "status": "custom",
+      "label": "MIT（代码与特效）+ Patch Pixel 字体除外",
+      "source": "https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/NOTICE.md",
+      "note": "README 声明代码与特效 MIT、可商用；NOTICE 列出改编自 Hugo Duprez 的 Sprite Fusion 特效与 Hollow Crown（均 MIT）需保留归属，`gallery/fonts/PatchPixel-Regular.woff2` 为 Patch 保留所有权利、不在 MIT 范围内"
+    }
+  },
+  {
     "repo": "OpenSenseNova/SenseNova-6.8-Code2Video",
     "name": "SenseNova Code2Video",
     "category": "code_motion",
