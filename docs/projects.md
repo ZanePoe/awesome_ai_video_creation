@@ -39,7 +39,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：输出主要是 previs 和镜头参考，最终生成质量取决于外部视频模型。
-- 维护状态：近90天有提交；30 天提交 258 次，90 天提交 2183 次。
+- 维护状态：近90天有提交；30 天提交 258 次，90 天提交 2181 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/HaD0Yun/CozyClay/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/HaD0Yun/CozyClay/blob/297dd2a8a077613b329962d68e2a9bb4355be091/README.md#L6)。
 
@@ -59,7 +59,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：首版项目；完整生产稳定性和模型成本需实测。
-- 维护状态：近90天有提交；30 天提交 341 次，90 天提交 341 次。
+- 维护状态：近90天有提交；30 天提交 342 次，90 天提交 342 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/ThinkFlowLab/OpenDirector/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/ThinkFlowLab/OpenDirector/blob/39288dfdf4f816798e5479c53363258fceeb6e11/README.md#L18)。
 
@@ -169,7 +169,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：部分生成与语音提供商为付费服务；大量 Skill 文件不等于全部流程已统一实测。
-- 维护状态：近90天有提交；30 天提交 151 次，90 天提交 277 次。
+- 维护状态：近90天有提交；30 天提交 150 次，90 天提交 277 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/OpenMontageInc/OpenMontage/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/OpenMontageInc/OpenMontage/blob/fecb9a1e3cc23ef84de30b272059457a427f16f8/README.md#L14)。
 
@@ -189,7 +189,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Agent 视频生产与自动化；核心候选。
 - 适用边界：参考视频、人物、音乐、品牌和素材须另行取得授权；媒体生成依赖自备 API/订阅，内置模板与第三方组件遵循各自 LICENSE/NOTICE。
-- 维护状态：近90天有提交；30 天提交 701 次，90 天提交 706 次。
+- 维护状态：近90天有提交；30 天提交 703 次，90 天提交 708 次。
 - 许可：[Apache-2.0](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/LICENSE)；开放许可证已核验。仓库根 LICENSE 为标准 Apache-2.0；内置模板、模型图标和 vendor 组件含各自 LICENSE/NOTICE，分发或复用时需分别保留并核验
 - 功能核验：2026-11-17；[来源1](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L40) · [来源2](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L308) · [来源3](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L386)。
 
@@ -259,7 +259,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：知识类短视频、切片与讲解；核心候选。
 - 适用边界：剪辑依赖 yt-dlp、Streamlink、faster-whisper、FFmpeg 与可选本地 Ollama 模型；无 YouTube 字幕的素材需本地识别或导入字幕，质量会下降；README 的速度与 187 项检查为作者自测，非独立基准；下载与再分发受平台条款和素材授权约束。
-- 维护状态：近90天有提交；30 天提交 70 次，90 天提交 70 次。
+- 维护状态：近90天有提交；30 天提交 71 次，90 天提交 71 次。
 - 许可：[MIT](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT；requirements 中的 yt-dlp、faster-whisper、Streamlink、av、static-ffmpeg 等依赖，以及 Ollama 拉取的模型权重与系统字体许可另计
 - 功能核验：2026-11-23；[来源1](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L5) · [来源2](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L45) · [来源3](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L114)。
 
@@ -279,7 +279,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：知识类短视频、切片与讲解；核心候选。
 - 适用边界：Codex 完整成片质量尚未验证；公开资料使用和肖像授权需由用户负责。
-- 维护状态：近90天有提交；30 天提交 190 次，90 天提交 190 次。
+- 维护状态：近90天有提交；30 天提交 192 次，90 天提交 192 次。
 - 许可：[MIT](https://api.github.com/repos/ChrisHKAI/ChrisHKAI-Video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/ChrisHKAI/ChrisHKAI-Video/blob/15b66ee613e621f82ba781d27547a67e76c55f50/README.md#L7)。
 
@@ -362,6 +362,16 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 - 维护状态：近90天有提交；30 天提交 543 次，90 天提交 963 次。
 - 许可：[MIT](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/LICENSE)；开放许可证已核验。技能仓库根 LICENSE 为 MIT；FFmpeg 及编码器许可需按具体构建核验。
 - 功能核验：2026-11-21；[来源1](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/README.md#L67)。
+
+## [Claude Code Video Toolkit](https://github.com/digitalsamba/claude-code-video-toolkit)
+
+为 Claude Code 提供脚本、配音、音乐、图像与视频生成、质检、渲染和发布的 Skills、模板、命令与工具，并可迁移到 Codex、Kiro CLI。
+
+- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
+- 适用边界：需要 Node 22+ 与 Claude Code，AI 模型部署在你自己的 Modal/RunPod 云 GPU 账户按成本计费；README 的 $0.33 成本与示例片为作者自测；社区插件、第三方设计 Skill 与托管发布服务各有许可与条款；生成内容、克隆声音和素材授权需自行核验。
+- 维护状态：近90天有提交；30 天提交 390 次，90 天提交 515 次。
+- 许可：[MIT](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT（版权 Digital Samba）；调用的 Qwen3-TTS、FLUX.2、Ideogram 4、ACE-Step、LTX-Video 等模型权重、ElevenLabs 等外部服务、Remotion 渲染器与社区插件（如 PolyForm Perimeter 的 arkiv）许可各自独立
+- 功能核验：2026-11-24；[来源1](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L9) · [来源2](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L12) · [来源3](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L66)。
 
 ## [Video Shotcraft](https://github.com/Vincentwei1021/video-shotcraft)
 
@@ -509,7 +519,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：项目与 HeyGen 托管生成服务是不同层级；具体模板和外部素材许可另计。
-- 维护状态：近90天有提交；30 天提交 1871 次，90 天提交 3863 次。
+- 维护状态：近90天有提交；30 天提交 1871 次，90 天提交 3868 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5)。
 
@@ -519,7 +529,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Code-to-video 与动效；受限许可。
 - 适用边界：是通用代码视频基础设施，不自带 Agent 规划或生成模型。
-- 维护状态：近90天有提交；30 天提交 2437 次，90 天提交 6729 次。
+- 维护状态：近90天有提交；30 天提交 2436 次，90 天提交 6726 次。
 - 许可：[Remotion License](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/LICENSE.md)；源码可见但非 OSI 开源。个人、非营利及小型组织可免费使用；达到条件的营利组织需要公司许可，不是常规 OSI 开源
 - 功能核验：2026-11-12；[来源1](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/README.md#L2)。
 
@@ -609,7 +619,7 @@ JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
 
 - 分类：动画、3D 与编码基础组件；相邻基础设施。
 - 适用边界：游戏引擎与视频自动生成系统不同，成片录制或导出需设计额外流程。
-- 维护状态：近90天有提交；30 天提交 530 次，90 天提交 1951 次。
+- 维护状态：近90天有提交；30 天提交 530 次，90 天提交 1950 次。
 - 许可：[MIT](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/LICENSE.txt)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/README.md#L11)。
 

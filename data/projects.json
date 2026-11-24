@@ -1890,6 +1890,44 @@
     }
   },
   {
+    "repo": "digitalsamba/claude-code-video-toolkit",
+    "name": "Claude Code Video Toolkit",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "为 Claude Code 提供脚本、配音、音乐、图像与视频生成、质检、渲染和发布的 Skills、模板、命令与工具，并可迁移到 Codex、Kiro CLI。",
+    "boundary": "需要 Node 22+ 与 Claude Code，AI 模型部署在你自己的 Modal/RunPod 云 GPU 账户按成本计费；README 的 $0.33 成本与示例片为作者自测；社区插件、第三方设计 Skill 与托管发布服务各有许可与条款；生成内容、克隆声音和素材授权需自行核验。",
+    "baseline": false,
+    "reviewed_at": "2026-11-24",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 9,
+        "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L9",
+        "note": "官方 README 的「说出需求即产出脚本、配音、画面与渲染」定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 12,
+        "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L12",
+        "note": "官方 README 的开源模型自托管云 GPU 与按成本计费说明"
+      },
+      {
+        "path": "README.md",
+        "line": 66,
+        "url": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L66",
+        "note": "官方 README 的模板、Skills、工具与品牌四类构成；非实机测试"
+      }
+    ],
+    "evidence_commit": "b3437fcd462c23b3c46cfd28f8cb61b71039269b",
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/LICENSE",
+      "note": "仓库根 LICENSE 为 MIT（版权 Digital Samba）；调用的 Qwen3-TTS、FLUX.2、Ideogram 4、ACE-Step、LTX-Video 等模型权重、ElevenLabs 等外部服务、Remotion 渲染器与社区插件（如 PolyForm Perimeter 的 arkiv）许可各自独立"
+    }
+  },
+  {
     "repo": "OpenSenseNova/SenseNova-6.8-Code2Video",
     "name": "SenseNova Code2Video",
     "category": "code_motion",
