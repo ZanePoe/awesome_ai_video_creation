@@ -142,6 +142,82 @@
     }
   },
   {
+    "repo": "MemeCalculate/moyin-creator",
+    "name": "魔因漫创 Moyin Creator",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "AI 影视生产级 Electron 桌面工具，按剧本→角色→场景→导演→Seedance 2.0 五段流水线上自动衔接，批量产出短剧与动漫番剧。",
+    "boundary": "需自备 AI 服务商 API Key（支持多供应商调度与 Key 轮询），生成按供应商计费；采用 AGPL-3.0 与商业许可双许可，闭源修改、集成进商业产品或做 SaaS 需购买商业许可；角色一致性依赖角色圣经与参考图，跨镜一致性和成片质量需按所用模型核验；默认分支自 2026-08-27 后仅有 README 改动，最新发布为赞助商标注的定制版标签，README 网盘包版本与 Releases 也不一致。",
+    "baseline": false,
+    "reviewed_at": "2026-11-25",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 70,
+        "url": "https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L70",
+        "note": "官方 README 的五大板块与剧本到成片链路说明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 105,
+        "url": "https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L105",
+        "note": "官方 README 的 6 层身份锚点与角色圣经一致性机制；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 122,
+        "url": "https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L122",
+        "note": "官方 README 的一键全流程与批量并行队列说明；非实机测试"
+      }
+    ],
+    "evidence_commit": "7e5c5655de94d49885e13c369f0a71212893a0aa",
+    "license_review": {
+      "status": "custom",
+      "label": "AGPL-3.0 + 商业双重许可",
+      "source": "https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/COMMERCIAL_LICENSE.md",
+      "note": "LICENSE 为 AGPL-3.0 正文，README 与 COMMERCIAL_LICENSE.md 声明双重许可：闭源修改、集成商业产品或 SaaS 不开源需取得商业许可；内部使用 `@opencut/ai-core` 等依赖及模型服务条款另计"
+    }
+  },
+  {
+    "repo": "chatfire-AI/huobao-drama",
+    "name": "火宝短剧 Huobao Drama",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "一句话或粘贴小说即可自动改写剧本、出图、生成分镜视频、配音、上字幕并合成整部短剧的 Web/桌面平台，后端由 Mastra Agent 编排且技能可在界面编辑。",
+    "boundary": "许可为 CC BY-NC-SA-4.0，明确禁止商用（含付费服务、商业部署与转售）；文本、图片与视频能力都需自行配置模型服务 API Key，README 引导使用作者的 FireMux 密钥；Seedance 引用本地参考资源需要 PUBLIC_BASE_URL 公网地址，桌面版无公网入口会直接报错；SQLite 与 data 目录存储，迁移需手动拷贝媒体文件。",
+    "baseline": false,
+    "reviewed_at": "2026-11-25",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 33,
+        "url": "https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L33",
+        "note": "官方 README 的剧本、角色、分镜到合成的全流程自动化定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 55,
+        "url": "https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L55",
+        "note": "官方 README 的后端 Mastra Agent 技能目录与界面在线编辑说明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 131,
+        "url": "https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L131",
+        "note": "官方 README 的视频模型支持范围（Seedance 2.0、MiniMax H3、Wan 3.0）"
+      }
+    ],
+    "evidence_commit": "24d4c17612e71cf10c8eeb1a8b6439afa73e2c07",
+    "license_review": {
+      "status": "source_available",
+      "label": "CC BY-NC-SA-4.0（禁止商用）",
+      "source": "https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/LICENSE",
+      "note": "LICENSE 为 CC BY-NC-SA 4.0 全文，README 许可证一节明确禁止商用，商业用途需作者书面许可；GitHub licenseInfo 因此识别为 NOASSERTION；所调用模型服务、素材与配音版权另计"
+    }
+  },
+  {
     "repo": "HaD0Yun/CozyClay",
     "name": "CozyClay",
     "category": "workbenches",

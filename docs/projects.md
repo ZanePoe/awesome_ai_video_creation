@@ -9,7 +9,7 @@
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：离线模型需首次下载；产品内 AI 与完整生成式工作流不是同一范围。
-- 维护状态：近90天有提交；30 天提交 457 次，90 天提交 1676 次。
+- 维护状态：近90天有提交；30 天提交 458 次，90 天提交 1677 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/jub0t/Concat/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/jub0t/Concat/blob/504a814ebe61d4f47bba4cd7949dc2580ecc405c/README.md#L6)。
 
@@ -42,6 +42,16 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 - 维护状态：近90天有提交；30 天提交 220 次，90 天提交 2169 次。
 - 许可：[AGPL-3.0](https://api.github.com/repos/HaD0Yun/CozyClay/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/HaD0Yun/CozyClay/blob/297dd2a8a077613b329962d68e2a9bb4355be091/README.md#L6)。
+
+## [火宝短剧 Huobao Drama](https://github.com/chatfire-AI/huobao-drama)
+
+一句话或粘贴小说即可自动改写剧本、出图、生成分镜视频、配音、上字幕并合成整部短剧的 Web/桌面平台，后端由 Mastra Agent 编排且技能可在界面编辑。
+
+- 分类：视频编辑器与制作工作台；核心候选。
+- 适用边界：许可为 CC BY-NC-SA-4.0，明确禁止商用（含付费服务、商业部署与转售）；文本、图片与视频能力都需自行配置模型服务 API Key，README 引导使用作者的 FireMux 密钥；Seedance 引用本地参考资源需要 PUBLIC_BASE_URL 公网地址，桌面版无公网入口会直接报错；SQLite 与 data 目录存储，迁移需手动拷贝媒体文件。
+- 维护状态：近90天有提交；30 天提交 19 次，90 天提交 108 次。
+- 许可：[CC BY-NC-SA-4.0（禁止商用）](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/LICENSE)；源码可见但非 OSI 开源。LICENSE 为 CC BY-NC-SA 4.0 全文，README 许可证一节明确禁止商用，商业用途需作者书面许可；GitHub licenseInfo 因此识别为 NOASSERTION；所调用模型服务、素材与配音版权另计
+- 功能核验：2026-11-25；[来源1](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L33) · [来源2](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L55) · [来源3](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L131)。
 
 ## [OpenChatCut](https://github.com/0xsline/OpenChatCut)
 
@@ -79,7 +89,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：桌面包内置 FFmpeg（GPLv3）等第三方组件；字幕用可选的本地 faster-whisper，模型需首次下载；所连接的 Agent 多为云服务，账号、费用与数据政策另计；v0.3.6 为冻结预览且与 main 不同步，官方列出导出窗口复用、试听超时、竖屏长字幕裁切等已知问题，macOS 包仅 ad-hoc 签名未公证；项目 2026-09 创建，成熟度低。
-- 维护状态：近90天有提交；30 天提交 412 次，90 天提交 504 次。
+- 维护状态：近90天有提交；30 天提交 413 次，90 天提交 505 次。
 - 许可：[MIT](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT；桌面包附带 FFmpeg（GPLv3）等自有许可的第三方组件，社区特效配方、faster-whisper 模型与所连 AI 服务条款另计
 - 功能核验：2026-11-25；[来源1](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L28) · [来源2](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L121) · [来源3](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L159)。
 
@@ -129,7 +139,7 @@ Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
 
 - 分类：视频编辑器与制作工作台；核心候选。
 - 适用边界：默认分支为开发分支；移动端和生成能力需按当前实现验证。
-- 维护状态：近90天有提交；30 天提交 37 次，90 天提交 112 次。
+- 维护状态：近90天有提交；30 天提交 38 次，90 天提交 113 次。
 - 许可：[MIT](https://api.github.com/repos/Theorvane/OpenScene/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Theorvane/OpenScene/blob/4bd3d3c4c15fb27dd0b521065643b3a2d516be08/README.md#L8)。
 
@@ -172,6 +182,16 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 - 维护状态：近90天有提交；30 天提交 0 次，90 天提交 109 次。
 - 许可：[MIT](https://api.github.com/repos/Aepzie/cutline/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/Aepzie/cutline/blob/ab71520285881d8dfa78f5ebca00f8a166e84962/README.md#L8)。
+
+## [魔因漫创 Moyin Creator](https://github.com/MemeCalculate/moyin-creator)
+
+AI 影视生产级 Electron 桌面工具，按剧本→角色→场景→导演→Seedance 2.0 五段流水线上自动衔接，批量产出短剧与动漫番剧。
+
+- 分类：视频编辑器与制作工作台；核心候选。
+- 适用边界：需自备 AI 服务商 API Key（支持多供应商调度与 Key 轮询），生成按供应商计费；采用 AGPL-3.0 与商业许可双许可，闭源修改、集成进商业产品或做 SaaS 需购买商业许可；角色一致性依赖角色圣经与参考图，跨镜一致性和成片质量需按所用模型核验；默认分支自 2026-08-27 后仅有 README 改动，最新发布为赞助商标注的定制版标签，README 网盘包版本与 Releases 也不一致。
+- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 2 次。
+- 许可：[AGPL-3.0 + 商业双重许可](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/COMMERCIAL_LICENSE.md)；复合/条件许可。LICENSE 为 AGPL-3.0 正文，README 与 COMMERCIAL_LICENSE.md 声明双重许可：闭源修改、集成商业产品或 SaaS 不开源需取得商业许可；内部使用 `@opencut/ai-core` 等依赖及模型服务条款另计
+- 功能核验：2026-11-25；[来源1](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L70) · [来源2](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L105) · [来源3](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L122)。
 
 ## [Hypit](https://github.com/hypit-ai/hypit)
 
@@ -289,7 +309,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：知识类短视频、切片与讲解；核心候选。
 - 适用边界：Codex 完整成片质量尚未验证；公开资料使用和肖像授权需由用户负责。
-- 维护状态：近90天有提交；30 天提交 198 次，90 天提交 198 次。
+- 维护状态：近90天有提交；30 天提交 194 次，90 天提交 198 次。
 - 许可：[MIT](https://api.github.com/repos/ChrisHKAI/ChrisHKAI-Video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/ChrisHKAI/ChrisHKAI-Video/blob/15b66ee613e621f82ba781d27547a67e76c55f50/README.md#L7)。
 
@@ -529,7 +549,7 @@ AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材
 
 - 分类：Code-to-video 与动效；核心候选。
 - 适用边界：项目与 HeyGen 托管生成服务是不同层级；具体模板和外部素材许可另计。
-- 维护状态：近90天有提交；30 天提交 1903 次，90 天提交 3963 次。
+- 维护状态：近90天有提交；30 天提交 1902 次，90 天提交 3965 次。
 - 许可：[Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
 - 功能核验：2026-11-12；[来源1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5)。
 
@@ -649,7 +669,7 @@ JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
 
 - 分类：动画、3D 与编码基础组件；相邻基础设施。
 - 适用边界：GitHub 仓库是官方镜像；第三方插件、模型和素材遵循各自许可。
-- 维护状态：近90天有提交；30 天提交 1285 次，90 天提交 3308 次。
+- 维护状态：近90天有提交；30 天提交 1288 次，90 天提交 3310 次。
 - 许可：[GPL-2.0-or-later](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/COPYING)；开放许可证已核验。COPYING 指向 GPL 许可正文；第三方资产和组件另计。
 - 功能核验：2026-11-20；[来源1](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/.github/README.md#L14)。
 
@@ -909,7 +929,7 @@ Genmo 的开源视频生成模型与推理代码。
 
 - 分类：下载、采集、转码与素材 CLI；相邻基础设施。
 - 适用边界：许可证随构建选项可能为 LGPL/GPL；大量上层项目只是对其封装。
-- 维护状态：近90天有提交；30 天提交 361 次，90 天提交 2985 次。
+- 维护状态：近90天有提交；30 天提交 362 次，90 天提交 2986 次。
 - 许可：[LGPL-2.1+；启用 GPL 组件后为 GPL-2.0+](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/LICENSE.md)；复合/条件许可。最终许可取决于编译选项和链接组件
 - 功能核验：2026-11-12；[来源1](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/README.md#L1)。
 
