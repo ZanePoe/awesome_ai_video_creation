@@ -1,6 +1,6 @@
 # Méthode de classement et limites
 
-Les métriques GitHub sont collectées en lots via l'API GraphQL à un instant UTC figé. L'instantané n'est remplacé de façon atomique que si tous les lots réussissent.
+Les métriques GitHub sont collectées en lots via l'API GraphQL à un instant UTC figé. L'instantané n'est remplacé de façon atomique que si tous les lots réussissent. Seule exception : un dépôt que GitHub ne résout plus (renommé ou supprimé) conserve son enregistrement précédent, marqué `missing_upstream` avec un horodatage `missing_since`, afin qu'un projet disparu ne bloque pas la mise à jour quotidienne. Les limites de débit, les pannes de transport et les réponses GraphQL partielles interrompent toujours l'exécution et laissent l'instantané précédent intact.
 
 - étoiles : proxy de l'attention de la communauté.
 - commits 30/90 jours : historique complet de la branche par défaut, commits de documentation, de fusion et de robots inclus.

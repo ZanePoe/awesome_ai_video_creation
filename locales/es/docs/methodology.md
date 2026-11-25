@@ -1,6 +1,6 @@
 # Metodología de ordenación y limitaciones
 
-Las métricas de GitHub se recogen por lotes en un momento UTC fijo mediante la API GraphQL. La instantánea solo se reemplaza de forma atómica si todos los lotes tienen éxito.
+Las métricas de GitHub se recogen por lotes en un momento UTC fijo mediante la API GraphQL. La instantánea solo se reemplaza de forma atómica si todos los lotes tienen éxito. La única excepción es un repositorio que GitHub ya no resuelve (renombrado o borrado): su registro anterior se conserva y se marca con `missing_upstream` y una marca de tiempo `missing_since`, de modo que un proyecto desaparecido no rompe la actualización diaria. Los límites de tasa, los fallos de transporte y las respuestas parciales de GraphQL siguen interrumpiendo la ejecución y manteniendo intacta la instantánea previa.
 
 - stars: proxy de atención de la comunidad.
 - Commits a 30/90 días: conteo del historial completo de la rama por defecto, incluidos commits de documentación, merges y bots.

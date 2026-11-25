@@ -1,6 +1,6 @@
 # Ranking method and limits
 
-GitHub metrics are collected in batches at a fixed UTC time through the GraphQL API. A snapshot is replaced atomically only when every batch succeeds.
+GitHub metrics are collected in batches at a fixed UTC time through the GraphQL API. A snapshot is replaced atomically only when every batch succeeds. The one exception is a repository GitHub can no longer resolve (renamed away or deleted): its previous record is carried forward and marked `missing_upstream` with a `missing_since` timestamp, so a single vanished project cannot break the daily refresh. Rate limits, transport failures and partial GraphQL responses still abort the run and keep the previous snapshot whole.
 
 - stars: a proxy for community attention.
 - 30/90-day commits: full-history counts on the default branch, including docs, merge, and bot commits.
