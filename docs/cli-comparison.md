@@ -1,23 +1,23 @@
-# Downvid 与视频 CLI 对比
+# Downvid and video CLI comparison
 
-用户提到曾使用过另一款 CLI，但当前可检索的 OpenViking与本地历史记录无法唯一定位其名称。本页比较可核验的主流项目，不猜测历史工具身份。
+The user mentioned having used another CLI in the past, but the currently searchable OpenViking and local history cannot uniquely identify its name. This page compares verifiable mainstream projects and does not guess the identity of the historical tool.
 
-| 项目 | 形态 | 主要用途 | 与 Downvid 的关系 | 关键边界 |
+| Project | Form | Primary use | Relationship to Downvid | Key boundaries |
 | --- | --- | --- | --- | --- |
-| Downvid | 桌面 GUI / WebUI | 多站点下载、格式选择与 FFmpeg 合并 | 产品层，内部依赖 yt-dlp 与 FFmpeg | 解析能力随 yt-dlp；遵守站点条款 |
-| VidBee | 桌面应用 + CLI | 下载、转录、说话人标注、摘要、翻译和媒体问答 | 比 Downvid 多媒体理解链路 | AI 提供商可能出网；下载仍依赖 yt-dlp |
-| yt-dlp | Python CLI | 多站点音视频解析、下载、元数据、后处理 | Downvid/VidBee 的主要底层解析器 | CLI 学习成本高，站点变化需频繁更新 |
-| you-get | Python CLI | 简洁的网页媒体下载 | 更轻的直接 CLI 替代 | 活跃度与站点覆盖需对比 yt-dlp |
-| Lux | Go CLI | 多站点视频下载 | 单二进制风格替代 | 站点适配和维护频率是核心风险 |
-| Streamlink | Python CLI | 把直播流送入播放器或录制管线 | 直播场景补充，不是通用点播下载器 | 更偏实时流而非编辑 |
-| FFmpeg | C 工具链 | 转码、滤镜、合并、封装、推流 | Downvid 的合并/转码底层 | 构建选项决定 LGPL/GPL；不是站点解析器 |
+| Downvid | Desktop GUI / WebUI | Multi-site download, format selection, and FFmpeg merging | Product layer; depends internally on yt-dlp and FFmpeg | Extraction capability follows yt-dlp; site terms must be respected |
+| VidBee | Desktop app + CLI | Download, transcription, speaker labeling, summarization, translation, and media Q&A | Adds a media-understanding chain beyond Downvid | AI providers may involve network calls; downloading still relies on yt-dlp |
+| yt-dlp | Python CLI | Multi-site audio/video extraction, download, metadata, and post-processing | The main underlying extractor for Downvid/VidBee | Steep CLI learning curve; frequent updates needed as sites change |
+| you-get | Python CLI | Simple web media download | Lighter direct CLI alternative | Activity and site coverage should be compared against yt-dlp |
+| Lux | Go CLI | Multi-site video download | Single-binary-style alternative | Site adaptation and update cadence are the core risks |
+| Streamlink | Python CLI | Pipes livestreams into a player or recording pipeline | Live-stream complement, not a general on-demand downloader | More oriented to live streams than editing |
+| FFmpeg | C toolchain | Transcoding, filters, merging, muxing, and streaming | Downvid's merge/transcode layer | Build options decide LGPL/GPL; not a site extractor |
 
-## 选型建议
+## Choosing advice
 
-- 想要“点开即用”：Downvid。
-- 想在下载后直接做转录、摘要和素材检索：VidBee。
-- 想写脚本、批处理、精确控制格式和后处理：yt-dlp + FFmpeg。
-- 主要处理直播：Streamlink。
-- 想要简单 CLI 或单二进制体验：分别考察 you-get 与 Lux，并先确认目标站点仍受支持。
+- Want click-and-go: Downvid.
+- Want transcription, summarization, and asset search right after download: VidBee.
+- Want scripting, batch processing, and precise control of formats and post-processing: yt-dlp + FFmpeg.
+- Mostly handle livestreams: Streamlink.
+- Want a simple CLI or single-binary experience: evaluate you-get and Lux separately, and first confirm the target sites are still supported.
 
-本目录不把下载能力等同“无水印授权”。工具能解析内容不代表用户拥有下载、去水印、再编辑或发布权利。
+This catalogue does not equate download capability with a "watermark-free" entitlement. A tool being able to extract content does not mean the user holds the rights to download, remove watermarks, re-edit, or publish.

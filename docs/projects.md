@@ -1,1094 +1,1094 @@
-# 项目说明与证据
+# Project notes and evidence
 
-每项定位来自固定提交的官方 README，未安装运行全部项目。指标刷新不会自动重审功能和许可证。
+Each positioning statement comes from the official README at a pinned commit; not every project was installed and run. Metrics refreshes do not automatically re-audit features or licenses.
 
 
 ## [Concat](https://github.com/jub0t/Concat)
 
-本地跨平台多轨编辑器，含字幕、TTS、抠图、关键帧、特效和 4K 导出。
+Local-first cross-platform multitrack editor with subtitles, TTS, background removal, keyframes, effects and 4K export.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：离线模型需首次下载；产品内 AI 与完整生成式工作流不是同一范围。
-- 维护状态：近90天有提交；30 天提交 458 次，90 天提交 1677 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/jub0t/Concat/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/jub0t/Concat/blob/504a814ebe61d4f47bba4cd7949dc2580ecc405c/README.md#L6)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Offline models need a first-run download; in-product AI is not the same scope as full generative workflows.
+- Maintenance: Commits within the last 90 days; 458 commits in 30 days, 1677 commits in 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/jub0t/Concat/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/jub0t/Concat/blob/504a814ebe61d4f47bba4cd7949dc2580ecc405c/README.md#L6).
 
 ## [Jellyfish](https://github.com/Forget-C/Jellyfish)
 
-AI 短剧生产工作台，覆盖剧本拆解、分镜、角色与场景资产管理、镜头生成和导出。
+AI short-drama production workbench covering script breakdown, storyboards, character and scene asset management, shot generation and export.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：资产复用可帮助保持一致性，但不保证生成质量；模型服务、成本和部署要求需按配置核验。
-- 维护状态：近90天有提交；30 天提交 1289 次，90 天提交 1665 次。
-- 许可：[Apache-2.0](https://github.com/Forget-C/Jellyfish/blob/a9678194ddf2d9be3ccbe78d4287d87d5089e123/LICENSE)；开放许可证已核验。根目录 LICENSE 为 Apache-2.0；模型、素材和第三方服务条款另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/Forget-C/Jellyfish/blob/a9678194ddf2d9be3ccbe78d4287d87d5089e123/README.md#L30)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Asset reuse aids consistency but does not guarantee generation quality; model services, costs and deployment requirements depend on configuration.
+- Maintenance: Commits within the last 90 days; 1289 commits in 30 days, 1665 commits in 90 days.
+- License: [Apache-2.0](https://github.com/Forget-C/Jellyfish/blob/a9678194ddf2d9be3ccbe78d4287d87d5089e123/LICENSE); Open license verified. Root LICENSE is Apache-2.0; model, media and third-party service terms are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/Forget-C/Jellyfish/blob/a9678194ddf2d9be3ccbe78d4287d87d5089e123/README.md#L30).
 
 ## [Clypra](https://github.com/AIEraDev/Clypra)
 
-Rust/Tauri/React 构建的硬件加速跨平台视频编辑器。
+Rust/Tauri/React hardware-accelerated cross-platform video editor.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：通用编辑器为主；AI 功能范围和移动端成熟度需按版本验证。
-- 维护状态：近90天有提交；30 天提交 271 次，90 天提交 1916 次。
-- 许可：[MIT](https://api.github.com/repos/AIEraDev/Clypra/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/AIEraDev/Clypra/blob/aa6b9c619cf98f7a1dfab6446345ec5f5660b93c/README.md#L9)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Primarily a general-purpose editor; AI feature scope and mobile maturity must be verified per release.
+- Maintenance: Commits within the last 90 days; 271 commits in 30 days, 1916 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/AIEraDev/Clypra/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/AIEraDev/Clypra/blob/aa6b9c619cf98f7a1dfab6446345ec5f5660b93c/README.md#L9).
 
 ## [CozyClay](https://github.com/HaD0Yun/CozyClay)
 
-浏览器内的场景搭建、角色走位、镜头剪切与 AI 视频预演工具。
+In-browser scene blocking, character staging, shot cutting and AI video previs tool.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：输出主要是 previs 和镜头参考，最终生成质量取决于外部视频模型。
-- 维护状态：近90天有提交；30 天提交 220 次，90 天提交 2169 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/HaD0Yun/CozyClay/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/HaD0Yun/CozyClay/blob/297dd2a8a077613b329962d68e2a9bb4355be091/README.md#L6)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Output is mainly previs and shot references; final generation quality depends on external video models.
+- Maintenance: Commits within the last 90 days; 220 commits in 30 days, 2169 commits in 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/HaD0Yun/CozyClay/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/HaD0Yun/CozyClay/blob/297dd2a8a077613b329962d68e2a9bb4355be091/README.md#L6).
 
-## [火宝短剧 Huobao Drama](https://github.com/chatfire-AI/huobao-drama)
+## [Huobao Drama](https://github.com/chatfire-AI/huobao-drama)
 
-一句话或粘贴小说即可自动改写剧本、出图、生成分镜视频、配音、上字幕并合成整部短剧的 Web/桌面平台，后端由 Mastra Agent 编排且技能可在界面编辑。
+Web/desktop platform that turns a one-line idea or a pasted novel into rewritten script, images, storyboard videos, voiceover, subtitles and a finished short drama, orchestrated by a Mastra agent backend with UI-editable skills.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：许可为 CC BY-NC-SA-4.0，明确禁止商用（含付费服务、商业部署与转售）；文本、图片与视频能力都需自行配置模型服务 API Key，README 引导使用作者的 FireMux 密钥；Seedance 引用本地参考资源需要 PUBLIC_BASE_URL 公网地址，桌面版无公网入口会直接报错；SQLite 与 data 目录存储，迁移需手动拷贝媒体文件。
-- 维护状态：近90天有提交；30 天提交 19 次，90 天提交 108 次。
-- 许可：[CC BY-NC-SA-4.0（禁止商用）](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/LICENSE)；源码可见但非 OSI 开源。LICENSE 为 CC BY-NC-SA 4.0 全文，README 许可证一节明确禁止商用，商业用途需作者书面许可；GitHub licenseInfo 因此识别为 NOASSERTION；所调用模型服务、素材与配音版权另计
-- 功能核验：2026-11-25；[来源1](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L33) · [来源2](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L55) · [来源3](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L131)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Licensed CC BY-NC-SA-4.0, which explicitly forbids commercial use (including paid services, commercial deployment and resale); text, image and video capabilities all need your own model-service API keys, and the README steers users to the author's FireMux keys; referencing local files for Seedance requires a PUBLIC_BASE_URL with a public address, and the desktop version errors out without one; SQLite plus a data directory storage, so migration means copying media files manually.
+- Maintenance: Commits within the last 90 days; 19 commits in 30 days, 108 commits in 90 days.
+- License: [CC BY-NC-SA-4.0 (no commercial use)](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/LICENSE); Source-available, not OSI open source. LICENSE is the full CC BY-NC-SA 4.0 text; the README's license section explicitly forbids commercial use, which requires written permission from the author; GitHub licenseInfo therefore reports NOASSERTION; the terms of invoked model services, media and voiceover copyrights are separate
+- Feature verified: 2026-11-25; [Source 1](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L33) · [Source 2](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L55) · [Source 3](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L131).
 
 ## [OpenChatCut](https://github.com/0xsline/OpenChatCut)
 
-本地优先的对话式 AI 视频编辑器，含多轨时间线、Agent Skills、MCP 与 Remotion 渲染。
+Local-first conversational AI video editor with a multitrack timeline, Agent Skills, MCP and Remotion rendering.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：内置 Agent、桌面版和外部 coding agent 的能力边界需分开验证。
-- 维护状态：近90天有提交；30 天提交 22 次，90 天提交 403 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/0xsline/OpenChatCut/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/0xsline/OpenChatCut/blob/9242a95aea248ff3a8dab495514384e858320d47/README.md#L12)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Capabilities of the built-in agent, the desktop app and external coding agents must be verified separately.
+- Maintenance: Commits within the last 90 days; 22 commits in 30 days, 403 commits in 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/0xsline/OpenChatCut/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/0xsline/OpenChatCut/blob/9242a95aea248ff3a8dab495514384e858320d47/README.md#L12).
 
 ## [OpenDirector](https://github.com/ThinkFlowLab/OpenDirector)
 
-从对话、画布、素材组织到时间线导出的 Agent 视频创作工作流。
+Agent video creation workflow from conversation, canvas and asset organization through timeline export.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：首版项目；完整生产稳定性和模型成本需实测。
-- 维护状态：近90天有提交；30 天提交 348 次，90 天提交 348 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/ThinkFlowLab/OpenDirector/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/ThinkFlowLab/OpenDirector/blob/39288dfdf4f816798e5479c53363258fceeb6e11/README.md#L18)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: First release; full production stability and model costs need hands-on testing.
+- Maintenance: Commits within the last 90 days; 348 commits in 30 days, 348 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/ThinkFlowLab/OpenDirector/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/ThinkFlowLab/OpenDirector/blob/39288dfdf4f816798e5479c53363258fceeb6e11/README.md#L18).
 
 ## [AID Studio](https://github.com/shijue-aid/aid-studio)
 
-可自托管的 AI 漫剧、短剧与影视创作工作台，覆盖剧本、角色场景、分镜、图片与视频生成、配音、无限画布和 3D 预演。
+Self-hostable AI workbench for comic dramas, short dramas and film/TV creation covering scripts, characters and scenes, storyboards, image and video generation, voiceover, infinite canvas and 3D previs.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：模型调用、存储和计算资源可能另行收费；官方示例图片、音频和视频资产包随版本单独分发；部署需要 MySQL、Redis、Docker 等依赖，生成内容与剧本、人物、素材的授权须自行核验。
-- 维护状态：近90天有提交；30 天提交 41 次，90 天提交 125 次。
-- 许可：[MIT](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT，NOTICE 保留 RuoYi-Vue 等第三方归属；官方示例资产包单独分发，模型供应商、存储和计算资源条款另计
-- 功能核验：2026-11-23；[来源1](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L13) · [来源2](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L43) · [来源3](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L46)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Model calls, storage and compute may cost extra; official example image/audio/video asset packs ship separately per release; deployment needs MySQL, Redis, Docker and other dependencies, and rights for generated content, scripts, characters and assets must be verified by the user.
+- Maintenance: Commits within the last 90 days; 41 commits in 30 days, 125 commits in 90 days.
+- License: [MIT](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/LICENSE); Open license verified. Repo-root LICENSE is MIT, with NOTICE retaining attribution such as RuoYi-Vue; official example asset packs ship separately, and model-provider, storage and compute terms are separate
+- Feature verified: 2026-11-23; [Source 1](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L13) · [Source 2](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L43) · [Source 3](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L46).
 
 ## [CutVoke](https://github.com/frankShan001/CutVoke)
 
-本地优先的跨平台开源视频剪辑器，内置 MCP server，让 Claude Code、Codex、Cursor 等 Agent 与人在同一条非破坏性多轨时间线上剪辑。
+Local-first cross-platform open-source video editor with a built-in MCP server, letting agents such as Claude Code, Codex and Cursor edit alongside humans on one non-destructive multitrack timeline.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：桌面包内置 FFmpeg（GPLv3）等第三方组件；字幕用可选的本地 faster-whisper，模型需首次下载；所连接的 Agent 多为云服务，账号、费用与数据政策另计；v0.3.6 为冻结预览且与 main 不同步，官方列出导出窗口复用、试听超时、竖屏长字幕裁切等已知问题，macOS 包仅 ad-hoc 签名未公证；项目 2026-09 创建，成熟度低。
-- 维护状态：近90天有提交；30 天提交 413 次，90 天提交 505 次。
-- 许可：[MIT](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT；桌面包附带 FFmpeg（GPLv3）等自有许可的第三方组件，社区特效配方、faster-whisper 模型与所连 AI 服务条款另计
-- 功能核验：2026-11-25；[来源1](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L28) · [来源2](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L121) · [来源3](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L159)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: The desktop bundle ships third-party components with their own licenses such as FFmpeg (GPLv3); subtitles use optional local faster-whisper, and models need a first-run download; connected agents are mostly cloud services, so accounts, fees and data policies are separate; v0.3.6 is a frozen preview not synced with main, and the README lists known issues such as export-window reuse, preview timeouts and cropping of long subtitles in vertical video; the macOS build is ad-hoc signed but not notarized; the project was created in 2026-09 and maturity is low.
+- Maintenance: Commits within the last 90 days; 413 commits in 30 days, 505 commits in 90 days.
+- License: [MIT](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/LICENSE); Open license verified. Repo-root LICENSE is MIT; the desktop bundle ships third-party components with their own licenses such as FFmpeg (GPLv3), and community effect recipes, the faster-whisper model and the terms of connected AI services are counted separately
+- Feature verified: 2026-11-25; [Source 1](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L28) · [Source 2](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L121) · [Source 3](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L159).
 
 ## [OpenReel Video](https://github.com/Augani/openreel-video)
 
-浏览器与桌面端开源时间线编辑器，支持剪切、字幕、混音和无水印导出。
+Open-source timeline editor for browser and desktop with cutting, subtitles, mixing and watermark-free export.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：通用编辑能力为主，不将其自动视为生成式 AI Agent。
-- 维护状态：近90天有提交；30 天提交 8 次，90 天提交 19 次。
-- 许可：[MIT](https://api.github.com/repos/Augani/openreel-video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Augani/openreel-video/blob/367d7e90b61b5181f9861b852bb8b9d7a7d2954a/README.md#L7)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: General editing capabilities; not automatically a generative AI agent.
+- Maintenance: Commits within the last 90 days; 8 commits in 30 days, 19 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Augani/openreel-video/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Augani/openreel-video/blob/367d7e90b61b5181f9861b852bb8b9d7a7d2954a/README.md#L7).
 
 ## [AI Video Production Editor](https://github.com/LudwigKienle/ai-video-production-editor)
 
-从脚本、导演处理、故事板、生成镜头到剪辑、调色和导出的本地工作台。
+Local workbench covering script, directing, storyboarding and shot generation through editing, grading and export.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：BYOK 仍会把请求发送至配置的模型服务；部分托管/计费能力需自备外部项目。
-- 维护状态：近90天有提交；30 天提交 40 次，90 天提交 144 次。
-- 许可：[GPL-3.0](https://api.github.com/repos/LudwigKienle/ai-video-production-editor/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/LudwigKienle/ai-video-production-editor/blob/a368af45b6cfd35e22bd3b5e101db198e1ac89a9/README.md#L4)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: BYOK still sends requests to the configured model services; some hosted/billed features require external projects.
+- Maintenance: Commits within the last 90 days; 40 commits in 30 days, 144 commits in 90 days.
+- License: [GPL-3.0](https://api.github.com/repos/LudwigKienle/ai-video-production-editor/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/LudwigKienle/ai-video-production-editor/blob/a368af45b6cfd35e22bd3b5e101db198e1ac89a9/README.md#L4).
 
 ## [MakeMyClip Editor](https://github.com/MakeMyClip/editor)
 
-用本地浏览器时间线、CLI、MCP 和 Skill 封装 FFmpeg 剪辑能力。
+Wraps FFmpeg editing in a local browser timeline, CLI, MCP and Skill.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：本地编辑不需要其云 API；浏览器 UI、CLI 与 Agent 工具是同一项目的不同入口。
-- 维护状态：近90天有提交；30 天提交 151 次，90 天提交 153 次。
-- 许可：[MIT](https://api.github.com/repos/MakeMyClip/editor/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/MakeMyClip/editor/blob/f6f05206c1d2234d74134da27d322caebb260e6d/README.md#L7)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Local editing does not require its cloud API; the browser UI, CLI and agent tools are different entry points of one project.
+- Maintenance: Commits within the last 90 days; 151 commits in 30 days, 153 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/MakeMyClip/editor/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/MakeMyClip/editor/blob/f6f05206c1d2234d74134da27d322caebb260e6d/README.md#L7).
 
 ## [OpenKatana](https://github.com/rk0neki/OpenKatana)
 
-由 Agent 驱动的 Studio、CLI、MCP 与 ComfyUI 视频编辑引擎。
+Agent-driven studio, CLI, MCP and ComfyUI video editing engine.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：更偏代码化编辑引擎，实际生成模型和 ComfyUI 应用需另行配置。
-- 维护状态：近90天有提交；30 天提交 92 次，90 天提交 126 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/rk0neki/OpenKatana/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/rk0neki/OpenKatana/blob/b9282bf0740a7df5b5a8862b5e289ef4cd642641/README.md#L7)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: More of a code-driven editing engine; actual generation models and ComfyUI apps need separate setup.
+- Maintenance: Commits within the last 90 days; 92 commits in 30 days, 126 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/rk0neki/OpenKatana/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/rk0neki/OpenKatana/blob/b9282bf0740a7df5b5a8862b5e289ef4cd642641/README.md#L7).
 
 ## [OpenScene](https://github.com/Theorvane/OpenScene)
 
-本地桌面视频编辑器，允许 AI Agent 操作时间线、生成媒体并导出。
+Local desktop video editor that lets AI agents operate the timeline, generate media and export.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：默认分支为开发分支；移动端和生成能力需按当前实现验证。
-- 维护状态：近90天有提交；30 天提交 38 次，90 天提交 113 次。
-- 许可：[MIT](https://api.github.com/repos/Theorvane/OpenScene/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Theorvane/OpenScene/blob/4bd3d3c4c15fb27dd0b521065643b3a2d516be08/README.md#L8)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Default branch is a development branch; mobile and generation capabilities must be verified against the current implementation.
+- Maintenance: Commits within the last 90 days; 38 commits in 30 days, 113 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Theorvane/OpenScene/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Theorvane/OpenScene/blob/4bd3d3c4c15fb27dd0b521065643b3a2d516be08/README.md#L8).
 
 ## [Waoowaoo](https://github.com/waooAI/waoowaoo)
 
-AI 图片与视频创作工作台，通过画布和 Assistant 管理参考素材、生成内容并合并视频片段。
+AI image and video creation workbench that manages reference media, generates content and merges clips via a canvas and an Assistant.
 
-- 分类：视频编辑器与制作工作台；受限许可。
-- 适用边界：当前为测试版，图像与视频能力取决于模型；OpenRouter 等外部模型调用可能收费。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 6 次。
-- 许可：[Elastic License 2.0](https://github.com/waooAI/waoowaoo/blob/dfec20e32298ed675050329e4a41477024148399/LICENSE)；源码可见但非 OSI 开源。自 v0.5.0-beta.1 起采用 ELv2，禁止未经许可向第三方提供主要功能的托管服务；不是 OSI 开源许可，旧版本许可可能不同。
-- 功能核验：2026-11-20；[来源1](https://github.com/waooAI/waoowaoo/blob/dfec20e32298ed675050329e4a41477024148399/README_zh.md#L24)。
+- Category: Video editors and production workbenches; Restricted license.
+- Scope boundary: Currently a beta; image and video capabilities depend on the models; calls to external models such as OpenRouter may cost money.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 6 commits in 90 days.
+- License: [Elastic License 2.0](https://github.com/waooAI/waoowaoo/blob/dfec20e32298ed675050329e4a41477024148399/LICENSE); Source-available, not OSI open source. ELv2 since v0.5.0-beta.1, forbidding hosted provision of the main functionality to third parties without permission; not an OSI open-source license, and older versions may differ.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/waooAI/waoowaoo/blob/dfec20e32298ed675050329e4a41477024148399/README_zh.md#L24).
 
 ## [SeeCut](https://github.com/YeJe-cpu/SeeCut)
 
-让 coding agent 自动理解、剪辑、渲染并视觉质检口播短视频的 Skill 工作区。
+Skill workspace where a coding agent understands, cuts, renders and visually QA-checks talking-head shorts.
 
-- 分类：视频编辑器与制作工作台；受限许可。
-- 适用边界：它是 Skill/流程，不是独立桌面 NLE；剪映草稿仅为可选后续微调。
-- 维护状态：近90天有提交；30 天提交 1 次，90 天提交 11 次。
-- 许可：[PolyForm Noncommercial-1.0.0](https://github.com/YeJe-cpu/SeeCut/blob/b05d7ed27404a064060e0d370402f562b0c0c02e/LICENSE)；源码可见但非 OSI 开源。仅非商业用途，不是 OSI 开源许可
-- 功能核验：2026-11-12；[来源1](https://github.com/YeJe-cpu/SeeCut/blob/b05d7ed27404a064060e0d370402f562b0c0c02e/README.md#L5)。
+- Category: Video editors and production workbenches; Restricted license.
+- Scope boundary: It is a Skill/workflow, not a standalone desktop NLE; CapCut drafts are only optional follow-up fine-tuning.
+- Maintenance: Commits within the last 90 days; 1 commits in 30 days, 11 commits in 90 days.
+- License: [PolyForm Noncommercial-1.0.0](https://github.com/YeJe-cpu/SeeCut/blob/b05d7ed27404a064060e0d370402f562b0c0c02e/LICENSE); Source-available, not OSI open source. Non-commercial use only; not an OSI open-source license
+- Feature verified: 2026-11-12; [Source 1](https://github.com/YeJe-cpu/SeeCut/blob/b05d7ed27404a064060e0d370402f562b0c0c02e/README.md#L5).
 
 ## [ScriptCut](https://github.com/FernandoAbishai/ScriptCut)
 
-通过编辑转录文本完成本地剪辑、短视频打包和社交媒体导出。
+Edit the transcript to cut locally, package shorts and export for social media.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：聚焦文本式粗剪，不等于完整视觉特效与生成工作台。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 62 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/FernandoAbishai/ScriptCut/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/FernandoAbishai/ScriptCut/blob/12c6fe495939da344e6af3e942a45dfdfb2132fa/README.md#L7)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Focused on text-based rough cuts, not a full VFX and generative workbench.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 62 commits in 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/FernandoAbishai/ScriptCut/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/FernandoAbishai/ScriptCut/blob/12c6fe495939da344e6af3e942a45dfdfb2132fa/README.md#L7).
 
 ## [Cutline](https://github.com/Aepzie/cutline)
 
-浏览器时间线编辑器，提供一等 MCP 接口让 Agent 实时操作。
+Browser timeline editor with a first-class MCP interface for live agent operation.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：大素材代理文件和浏览器编码路径仍需按部署方式评估。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 109 次。
-- 许可：[MIT](https://api.github.com/repos/Aepzie/cutline/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Aepzie/cutline/blob/ab71520285881d8dfa78f5ebca00f8a166e84962/README.md#L8)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Proxy files for large media and the browser encoding path still need evaluation per deployment setup.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 109 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Aepzie/cutline/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Aepzie/cutline/blob/ab71520285881d8dfa78f5ebca00f8a166e84962/README.md#L8).
 
-## [魔因漫创 Moyin Creator](https://github.com/MemeCalculate/moyin-creator)
+## [Moyin Creator](https://github.com/MemeCalculate/moyin-creator)
 
-AI 影视生产级 Electron 桌面工具，按剧本→角色→场景→导演→Seedance 2.0 五段流水线上自动衔接，批量产出短剧与动漫番剧。
+Electron desktop tool for AI film/TV production that chains a five-stage pipeline — script → characters → scenes → directing → Seedance 2.0 — to batch-produce short dramas and anime series.
 
-- 分类：视频编辑器与制作工作台；核心候选。
-- 适用边界：需自备 AI 服务商 API Key（支持多供应商调度与 Key 轮询），生成按供应商计费；采用 AGPL-3.0 与商业许可双许可，闭源修改、集成进商业产品或做 SaaS 需购买商业许可；角色一致性依赖角色圣经与参考图，跨镜一致性和成片质量需按所用模型核验；默认分支自 2026-08-27 后仅有 README 改动，最新发布为赞助商标注的定制版标签，README 网盘包版本与 Releases 也不一致。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 2 次。
-- 许可：[AGPL-3.0 + 商业双重许可](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/COMMERCIAL_LICENSE.md)；复合/条件许可。LICENSE 为 AGPL-3.0 正文，README 与 COMMERCIAL_LICENSE.md 声明双重许可：闭源修改、集成商业产品或 SaaS 不开源需取得商业许可；内部使用 `@opencut/ai-core` 等依赖及模型服务条款另计
-- 功能核验：2026-11-25；[来源1](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L70) · [来源2](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L105) · [来源3](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L122)。
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Requires your own AI provider API keys (multi-provider scheduling and key rotation supported); generation is billed by the provider; dual-licensed AGPL-3.0 + commercial, so closed-source modifications, commercial-product integration or SaaS require a commercial license; character consistency relies on a character bible and reference images, and cross-shot consistency and final quality depend on the model used; the default branch has seen README-only changes since 2026-08-27, the latest release tag is a sponsor-labeled custom build, and the README's netdisk package version differs from Releases.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 2 commits in 90 days.
+- License: [AGPL-3.0 + commercial dual license](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/COMMERCIAL_LICENSE.md); Composite/conditional license. LICENSE is the AGPL-3.0 text; README and COMMERCIAL_LICENSE.md declare dual licensing: closed-source modifications, integration into commercial products, or SaaS without open-sourcing require a commercial license; internal use of dependencies such as `@opencut/ai-core` and model-service terms are separate
+- Feature verified: 2026-11-25; [Source 1](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L70) · [Source 2](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L105) · [Source 3](https://github.com/MemeCalculate/moyin-creator/blob/7e5c5655de94d49885e13c369f0a71212893a0aa/README.md#L122).
 
 ## [Hypit](https://github.com/hypit-ai/hypit)
 
-让 coding agent 把参考视频复刻为可编辑、可重复运行的完整工作流，并批量生成内容变体。
+Lets coding agents clone reference videos into editable, repeatable full workflows and batch-generate content variants.
 
-- 分类：Agent 视频生产与自动化；受限许可。
-- 适用边界：热门视频复刻涉及原视频、人物、音乐、素材和品牌授权；生成模型与 API 为可选外部服务，费用和数据路径依各提供商。
-- 维护状态：近90天有提交；30 天提交 14 次，90 天提交 783 次。
-- 许可：[Hypit Open Source License（修改版 Apache-2.0）](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/LICENSE)；源码可见但非 OSI 开源。限制多租户托管、商业再分发及移除品牌/版权信息；需要这些用途时须取得商业许可，不是标准 Apache-2.0
-- 功能核验：2026-11-13；[来源1](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L51) · [来源2](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L164) · [来源3](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L338)。
+- Category: Agent video production and automation; Restricted license.
+- Scope boundary: Cloning popular videos involves the source video, people, music, assets and brand permissions; generation models and APIs are optional external services whose costs and data paths follow each provider.
+- Maintenance: Commits within the last 90 days; 14 commits in 30 days, 783 commits in 90 days.
+- License: [Hypit Open Source License (modified Apache-2.0)](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/LICENSE); Source-available, not OSI open source. Restricts multi-tenant hosting, commercial redistribution and removal of branding/copyright notices; those uses require a commercial license, so it is not standard Apache-2.0
+- Feature verified: 2026-11-13; [Source 1](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L51) · [Source 2](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L164) · [Source 3](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L338).
 
 ## [OpenMontage](https://github.com/OpenMontageInc/OpenMontage)
 
-面向 coding agent 的多管线视频生产系统，覆盖研究、脚本、素材、配音、字幕和渲染。
+Multi-pipeline video production system for coding agents covering research, scripts, assets, voiceover, subtitles and rendering.
 
-- 分类：Agent 视频生产与自动化；核心候选。
-- 适用边界：部分生成与语音提供商为付费服务；大量 Skill 文件不等于全部流程已统一实测。
-- 维护状态：近90天有提交；30 天提交 149 次，90 天提交 272 次。
-- 许可：[AGPL-3.0](https://api.github.com/repos/OpenMontageInc/OpenMontage/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/OpenMontageInc/OpenMontage/blob/fecb9a1e3cc23ef84de30b272059457a427f16f8/README.md#L14)。
+- Category: Agent video production and automation; Core candidate.
+- Scope boundary: Some generation and speech providers are paid services; a large skill file count does not mean all pipelines were tested end to end.
+- Maintenance: Commits within the last 90 days; 149 commits in 30 days, 272 commits in 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/OpenMontageInc/OpenMontage/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/OpenMontageInc/OpenMontage/blob/fecb9a1e3cc23ef84de30b272059457a427f16f8/README.md#L14).
 
 ## [OpenMotion](https://github.com/nexu-io/openmotion)
 
-面向本地 coding agent 的参考视频复刻与品牌化动效工作台，支持 Motion.md、可视化时间线和 MP4 导出。
+Reference-video cloning and branded motion workbench for local coding agents, with Motion.md, a visual timeline and MP4 export.
 
-- 分类：Agent 视频生产与自动化；核心候选。
-- 适用边界：参考视频、人物、音乐、品牌和素材须另行取得授权；媒体生成依赖自备 API/订阅，内置模板与第三方组件遵循各自 LICENSE/NOTICE。
-- 维护状态：近90天有提交；30 天提交 753 次，90 天提交 758 次。
-- 许可：[Apache-2.0](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/LICENSE)；开放许可证已核验。仓库根 LICENSE 为标准 Apache-2.0；内置模板、模型图标和 vendor 组件含各自 LICENSE/NOTICE，分发或复用时需分别保留并核验
-- 功能核验：2026-11-17；[来源1](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L40) · [来源2](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L308) · [来源3](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L386)。
+- Category: Agent video production and automation; Core candidate.
+- Scope boundary: Reference videos, people, music, brands and assets need separate clearance; media generation relies on your own APIs/subscriptions, and built-in templates and third-party components follow their own LICENSE/NOTICE.
+- Maintenance: Commits within the last 90 days; 753 commits in 30 days, 758 commits in 90 days.
+- License: [Apache-2.0](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/LICENSE); Open license verified. Repo-root LICENSE is standard Apache-2.0; built-in templates, model icons and vendored components carry their own LICENSE/NOTICE, which must be retained and verified when redistributing or reusing
+- Feature verified: 2026-11-17; [Source 1](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L40) · [Source 2](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L308) · [Source 3](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L386).
 
 ## [OpenFilm](https://github.com/openfilm/openfilm)
 
-让 coding agent 以代码创建、检查、编辑和渲染视频，并提供可编辑界面。
+Lets coding agents create, inspect, edit and render videos in code, with an editable interface.
 
-- 分类：Agent 视频生产与自动化；核心候选。
-- 适用边界：代码化镜头与传统素材时间线不同；素材和声音库许可需按资产核验。
-- 维护状态：近90天有提交；30 天提交 137 次，90 天提交 298 次。
-- 许可：[MIT](https://api.github.com/repos/openfilm/openfilm/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/openfilm/openfilm/blob/f59cd4e0973feaf6917dcf3229b178b6baf9ad3f/README.md#L7)。
+- Category: Agent video production and automation; Core candidate.
+- Scope boundary: Code-driven shots differ from traditional footage timelines; asset and sound-library licenses must be verified per asset.
+- Maintenance: Commits within the last 90 days; 137 commits in 30 days, 298 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/openfilm/openfilm/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/openfilm/openfilm/blob/f59cd4e0973feaf6917dcf3229b178b6baf9ad3f/README.md#L7).
 
 ## [Rea Video](https://github.com/JuneYaooo/rea-video)
 
-逆向拆解视频的实拍、AI 与代码成分，输出分镜级复刻方案和 VIDEO.md。
+Reverse-analyzes a video's live, AI and code components and outputs a shot-level replication plan and VIDEO.md.
 
-- 分类：Agent 视频生产与自动化；相邻基础设施。
-- 适用边界：主要做分析与复刻规划，不直接等同最终剪辑或生成器。
-- 维护状态：近90天有提交；30 天提交 215 次，90 天提交 215 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/JuneYaooo/rea-video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/JuneYaooo/rea-video/blob/4111ad9adb4936d92f6d57657000b414fee9f01f/README.md#L8)。
+- Category: Agent video production and automation; Adjacent infrastructure.
+- Scope boundary: Mainly analysis and replication planning, not a final editor or generator.
+- Maintenance: Commits within the last 90 days; 215 commits in 30 days, 215 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/JuneYaooo/rea-video/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/JuneYaooo/rea-video/blob/4111ad9adb4936d92f6d57657000b414fee9f01f/README.md#L8).
 
 ## [Video Autopilot Kit](https://github.com/Hao0321/video-autopilot-kit)
 
-负责视频计划、审计、审片和效果学习的自动化框架。
+Automation framework for video planning, auditing, review and learning from results.
 
-- 分类：Agent 视频生产与自动化；核心候选。
-- 适用边界：实际剪辑和渲染依赖 Editkin；单独安装本仓库不能完成成片。
-- 维护状态：近90天有提交；30 天提交 9 次，90 天提交 51 次。
-- 许可：[MIT](https://api.github.com/repos/Hao0321/video-autopilot-kit/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Hao0321/video-autopilot-kit/blob/b48c7d9a624ebceaa3a99f3f4aad6006e2be53fb/README.md#L1)。
+- Category: Agent video production and automation; Core candidate.
+- Scope boundary: Actual editing and rendering depend on Editkin; installing this repo alone cannot finish a video.
+- Maintenance: Commits within the last 90 days; 9 commits in 30 days, 51 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Hao0321/video-autopilot-kit/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Hao0321/video-autopilot-kit/blob/b48c7d9a624ebceaa3a99f3f4aad6006e2be53fb/README.md#L1).
 
 ## [Video Use](https://github.com/browser-use/video-use)
 
-通过 coding agent 与 FFmpeg 对原始素材进行剪辑、字幕、调色、动效叠加和输出检查。
+Editing, subtitles, grading, motion overlays and output checks on raw footage via a coding agent plus FFmpeg.
 
-- 分类：Agent 视频生产与自动化；核心候选。
-- 适用边界：不是浏览器自动化视频操作工具；具体依赖和云服务路径按项目配置核验。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 5 次。
-- 许可：[MIT](https://github.com/browser-use/video-use/blob/43cfc566833548093455c9d4a46bd69913b7e552/LICENSE)；开放许可证已核验。根 LICENSE 为 MIT；模型服务、素材和外部依赖许可另计。
-- 功能核验：2026-11-21；[来源1](https://github.com/browser-use/video-use/blob/43cfc566833548093455c9d4a46bd69913b7e552/README.md#L7)。
+- Category: Agent video production and automation; Core candidate.
+- Scope boundary: Not a browser-automation video tool; exact dependencies and cloud paths follow project configuration.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 5 commits in 90 days.
+- License: [MIT](https://github.com/browser-use/video-use/blob/43cfc566833548093455c9d4a46bd69913b7e552/LICENSE); Open license verified. Root LICENSE is MIT; model services, media and external dependency licenses are separate.
+- Feature verified: 2026-11-21; [Source 1](https://github.com/browser-use/video-use/blob/43cfc566833548093455c9d4a46bd69913b7e552/README.md#L7).
 
 ## [Video Director](https://github.com/win4r/video-director)
 
-指导 Claude Code 用 HTML/Canvas/SVG/Three.js/GSAP/Remotion 计划、渲染和检查短片。
+Guides Claude Code to plan, render and check short films with HTML/Canvas/SVG/Three.js/GSAP/Remotion.
 
-- 分类：Agent 视频生产与自动化；核心候选。
-- 适用边界：主要针对特定 Claude 模型调优；其他 Agent 的质量未自动继承。
-- 维护状态：近90天有提交；30 天提交 19 次，90 天提交 19 次。
-- 许可：[MIT](https://api.github.com/repos/win4r/video-director/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/win4r/video-director/blob/02d1912ab251bf5235b45e8e7aad81b4bc786b15/README.md#L11)。
+- Category: Agent video production and automation; Core candidate.
+- Scope boundary: Tuned mainly for specific Claude models; quality on other agents is not inherited automatically.
+- Maintenance: Commits within the last 90 days; 19 commits in 30 days, 19 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/win4r/video-director/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/win4r/video-director/blob/02d1912ab251bf5235b45e8e7aad81b4bc786b15/README.md#L11).
 
 ## [WeVisCut](https://github.com/Tencent/WeVisCut)
 
-将知识文章或解说稿通过规划、素材检索、剪辑、检查和修复生成多分钟视频。
+Turns knowledge articles or narration scripts into multi-minute videos through planning, media retrieval, editing, checking and repair.
 
-- 分类：Agent 视频生产与自动化；核心候选。
-- 适用边界：9B 策略模型、工具运行时与 Studio 需要按官方环境部署；作者结果不作为跨项目排名。
-- 维护状态：近90天有提交；30 天提交 9 次，90 天提交 29 次。
-- 许可：[Apache-2.0](https://github.com/Tencent/WeVisCut/blob/94dc8a7fe43a5e0da21e97d5aaf470a39329db3a/LICENSE)；开放许可证已核验。根目录 LICENSE 明确代码、参数和公开权重采用 Apache-2.0；第三方组件另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Tencent/WeVisCut/blob/94dc8a7fe43a5e0da21e97d5aaf470a39329db3a/README.md#L7)。
+- Category: Agent video production and automation; Core candidate.
+- Scope boundary: The 9B policy model, tool runtime and Studio must be deployed per the official environment; author results are not a cross-project ranking.
+- Maintenance: Commits within the last 90 days; 9 commits in 30 days, 29 commits in 90 days.
+- License: [Apache-2.0](https://github.com/Tencent/WeVisCut/blob/94dc8a7fe43a5e0da21e97d5aaf470a39329db3a/LICENSE); Open license verified. Root LICENSE states code, parameters and public weights are Apache-2.0; third-party components are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Tencent/WeVisCut/blob/94dc8a7fe43a5e0da21e97d5aaf470a39329db3a/README.md#L7).
 
 ## [NeonClipping](https://github.com/iamajmeena/neonclipping)
 
-粘贴链接就在本地把 YouTube/Twitch/Kick 长视频或自有 MP4 切成带烧录字幕的 9:16 片段，并生成标题与钩子。
+Paste a link to cut long YouTube/Twitch/Kick videos or your own MP4s locally into 9:16 clips with burned-in subtitles, titles and hooks.
 
-- 分类：知识类短视频、切片与讲解；核心候选。
-- 适用边界：剪辑依赖 yt-dlp、Streamlink、faster-whisper、FFmpeg 与可选本地 Ollama 模型；无 YouTube 字幕的素材需本地识别或导入字幕，质量会下降；README 的速度与 187 项检查为作者自测，非独立基准；下载与再分发受平台条款和素材授权约束。
-- 维护状态：近90天有提交；30 天提交 89 次，90 天提交 89 次。
-- 许可：[MIT](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT；requirements 中的 yt-dlp、faster-whisper、Streamlink、av、static-ffmpeg 等依赖，以及 Ollama 拉取的模型权重与系统字体许可另计
-- 功能核验：2026-11-23；[来源1](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L5) · [来源2](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L45) · [来源3](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L114)。
+- Category: Knowledge shorts, clipping and explainers; Core candidate.
+- Scope boundary: Clipping depends on yt-dlp, Streamlink, faster-whisper, FFmpeg and an optional local Ollama model; media without YouTube captions needs local transcription or imported captions, with quality degradation; the README's speed claims and 187 checks are author self-tests, not an independent benchmark; downloading and redistribution are bound by platform terms and media rights.
+- Maintenance: Commits within the last 90 days; 89 commits in 30 days, 89 commits in 90 days.
+- License: [MIT](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/LICENSE); Open license verified. Repo-root LICENSE is MIT; requirements pull yt-dlp, faster-whisper, Streamlink, av, static-ffmpeg and other dependencies, and Ollama-pulled model weights and system fonts carry their own licenses
+- Feature verified: 2026-11-23; [Source 1](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L5) · [Source 2](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L45) · [Source 3](https://github.com/iamajmeena/neonclipping/blob/052500437bc8d44ed5c8311e8ce686373e098086/README.md#L114).
 
 ## [Clipmint](https://github.com/kleZ799/clipmint)
 
-把播客、访谈、教程和 VOD 变成带字幕的竖屏 Shorts/Reels/TikTok。
+Turns podcasts, interviews, tutorials and VODs into subtitled vertical Shorts/Reels/TikToks.
 
-- 分类：知识类短视频、切片与讲解；核心候选。
-- 适用边界：亮点识别、裁切和上传依赖本地模型及平台配置。
-- 维护状态：近90天有提交；30 天提交 184 次，90 天提交 620 次。
-- 许可：[MIT](https://api.github.com/repos/kleZ799/clipmint/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/kleZ799/clipmint/blob/f2f7ed16871a390d0fd5274fb28b157f22ac57e3/README.md#L7)。
+- Category: Knowledge shorts, clipping and explainers; Core candidate.
+- Scope boundary: Highlight detection, cropping and upload depend on local models and platform configuration.
+- Maintenance: Commits within the last 90 days; 184 commits in 30 days, 620 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/kleZ799/clipmint/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/kleZ799/clipmint/blob/f2f7ed16871a390d0fd5274fb28b157f22ac57e3/README.md#L7).
 
 ## [ChrisHKAI Video](https://github.com/ChrisHKAI/ChrisHKAI-Video)
 
-把创作者公开资料组织为 3D 玩具风短片的 coding-agent Skill。
+Coding-agent Skill organizing a creator's public materials into 3D toy-style short films.
 
-- 分类：知识类短视频、切片与讲解；核心候选。
-- 适用边界：Codex 完整成片质量尚未验证；公开资料使用和肖像授权需由用户负责。
-- 维护状态：近90天有提交；30 天提交 194 次，90 天提交 198 次。
-- 许可：[MIT](https://api.github.com/repos/ChrisHKAI/ChrisHKAI-Video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/ChrisHKAI/ChrisHKAI-Video/blob/15b66ee613e621f82ba781d27547a67e76c55f50/README.md#L7)。
+- Category: Knowledge shorts, clipping and explainers; Core candidate.
+- Scope boundary: Full-film quality on Codex is unverified; use of public materials and portrait consent are the user's responsibility.
+- Maintenance: Commits within the last 90 days; 194 commits in 30 days, 198 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/ChrisHKAI/ChrisHKAI-Video/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/ChrisHKAI/ChrisHKAI-Video/blob/15b66ee613e621f82ba781d27547a67e76c55f50/README.md#L7).
 
 ## [Lanshu AI Presenter Video](https://github.com/cclank/lanshu-create-ai-presenter-video)
 
-把主题或脚本制作成经核验的数字人/风格化讲解视频的 Agent Skill。
+Agent Skill turning a topic or script into a verified digital-human/stylized explainer video.
 
-- 分类：知识类短视频、切片与讲解；核心候选。
-- 适用边界：数字人、声音、唇同步和识别由运行时选择的外部提供商决定。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 16 次。
-- 许可：[MIT](https://api.github.com/repos/cclank/lanshu-create-ai-presenter-video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/cclank/lanshu-create-ai-presenter-video/blob/762d3ee42623b75a4ec63ad6aa61ace69d78ce6e/README.md#L23)。
+- Category: Knowledge shorts, clipping and explainers; Core candidate.
+- Scope boundary: Digital human, voice, lip sync and recognition are decided by external providers chosen at runtime.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 16 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/cclank/lanshu-create-ai-presenter-video/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/cclank/lanshu-create-ai-presenter-video/blob/762d3ee42623b75a4ec63ad6aa61ace69d78ce6e/README.md#L23).
 
 ## [Claude Animated Shorts](https://github.com/mromidev/claude-animated-shorts)
 
-用 Three.js、Remotion、配乐与音效制作竖屏动画故事短片的 Skill。
+Skill for vertical animated story shorts made with Three.js, Remotion, score and sound effects.
 
-- 分类：知识类短视频、切片与讲解；核心候选。
-- 适用边界：基于一个已完成样片的方法包，题材和视觉泛化需实测。
-- 维护状态：近90天有提交；30 天提交 2 次，90 天提交 2 次。
-- 许可：[MIT](https://api.github.com/repos/mromidev/claude-animated-shorts/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/mromidev/claude-animated-shorts/blob/e3b817b6afc6cd413466d43f11ba31209e034bbf/README.md#L5)。
+- Category: Knowledge shorts, clipping and explainers; Core candidate.
+- Scope boundary: A method pack based on one finished sample; topical and visual generalization needs testing.
+- Maintenance: Commits within the last 90 days; 2 commits in 30 days, 2 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/mromidev/claude-animated-shorts/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/mromidev/claude-animated-shorts/blob/e3b817b6afc6cd413466d43f11ba31209e034bbf/README.md#L5).
 
 ## [Vibe Knowledge](https://github.com/andyhuo520/vibe-knowledge)
 
-从知识点查证、写稿、配音、代码成片到质检和发布包的知识短片 Skill。
+Knowledge-short Skill from fact-checking and script writing, voiceover and code-to-video to QA and release packages.
 
-- 分类：知识类短视频、切片与讲解；核心候选。
-- 适用边界：增强镜头可能调用外部生成平台；基础代码插画与增强档应分开比较。
-- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 3 次。
-- 许可：[MIT](https://api.github.com/repos/andyhuo520/vibe-knowledge/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/andyhuo520/vibe-knowledge/blob/c3a13a85f7cc560e5d396f063baecea4b2748e1e/README.md#L5)。
+- Category: Knowledge shorts, clipping and explainers; Core candidate.
+- Scope boundary: Enhanced shots may call external generation platforms; baseline code illustrations and the enhanced tier should be compared separately.
+- Maintenance: Commits within the last 90 days; 3 commits in 30 days, 3 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/andyhuo520/vibe-knowledge/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/andyhuo520/vibe-knowledge/blob/c3a13a85f7cc560e5d396f063baecea4b2748e1e/README.md#L5).
 
 ## [Vox Director](https://github.com/alisa0808/vox-director)
 
-从主题到 Vox 风纸张拼贴讲解/广告视频的端到端 Agent Skill。
+End-to-end agent Skill from topic to Vox-style paper-collage explainer/ad videos.
 
-- 分类：知识类短视频、切片与讲解；核心候选。
-- 适用边界：素材生成依赖 Atlas Cloud 与 FFmpeg；风格模仿需注意品牌和版权边界。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 1 次。
-- 许可：[MIT](https://api.github.com/repos/alisa0808/vox-director/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/alisa0808/vox-director/blob/6a85a7c341610442a6a5b1885e6e0217ab82a11f/README.md#L5)。
+- Category: Knowledge shorts, clipping and explainers; Core candidate.
+- Scope boundary: Asset generation depends on Atlas Cloud and FFmpeg; style imitation needs brand and copyright care.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 1 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/alisa0808/vox-director/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/alisa0808/vox-director/blob/6a85a7c341610442a6a5b1885e6e0217ab82a11f/README.md#L5).
 
 ## [Video to Shorts Skill](https://github.com/social-media-skills/video-to-shorts-skill)
 
-让 Agent 把长视频或播客变成逐词字幕竖屏短片并可选发布。
+Lets an agent turn long videos or podcasts into vertical shorts with word-level captions and optional publishing.
 
-- 分类：知识类短视频、切片与讲解；核心候选。
-- 适用边界：自动发布涉及平台凭证；下载源视频时应遵守平台条款和授权。
-- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 3 次。
-- 许可：[MIT](https://api.github.com/repos/social-media-skills/video-to-shorts-skill/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/social-media-skills/video-to-shorts-skill/blob/2e20fb008b584f3927798f36f580401d75318600/README.md#L3)。
+- Category: Knowledge shorts, clipping and explainers; Core candidate.
+- Scope boundary: Auto-publishing involves platform credentials; downloading source videos should respect platform terms and permissions.
+- Maintenance: Commits within the last 90 days; 3 commits in 30 days, 3 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/social-media-skills/video-to-shorts-skill/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/social-media-skills/video-to-shorts-skill/blob/2e20fb008b584f3927798f36f580401d75318600/README.md#L3).
 
 ## [Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video)
 
-输入主题后生成文案、配图或视频、配音并合成短视频，支持 ComfyUI 工作流与媒体 API。
+Generates copy, images or video, voiceover and composited shorts from a topic, with ComfyUI workflows and media APIs.
 
-- 分类：知识类短视频、切片与讲解；核心候选。
-- 适用边界：原 AIDC-AI 地址已迁移；本地 ComfyUI、RunningHub 或模型 API 的配置、费用和素材许可需分别核验。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://github.com/ATH-MaaS/Pixelle-Video/blob/848b054e4fae40dabc62ec58e960b573e83793ac/LICENSE)；开放许可证已核验。根目录 LICENSE 为 Apache-2.0；NOTICE 列出第三方依赖及相应许可。
-- 功能核验：2026-11-20；[来源1](https://github.com/ATH-MaaS/Pixelle-Video/blob/848b054e4fae40dabc62ec58e960b573e83793ac/README.md#L52)。
+- Category: Knowledge shorts, clipping and explainers; Core candidate.
+- Scope boundary: The original AIDC-AI address has moved; configuration, fees and asset licenses for local ComfyUI, RunningHub or model APIs must be verified separately.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://github.com/ATH-MaaS/Pixelle-Video/blob/848b054e4fae40dabc62ec58e960b573e83793ac/LICENSE); Open license verified. Root LICENSE is Apache-2.0; NOTICE lists third-party dependencies and their licenses.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/ATH-MaaS/Pixelle-Video/blob/848b054e4fae40dabc62ec58e960b573e83793ac/README.md#L52).
 
 ## [Atlas Explainer](https://github.com/AtlasCloudAI/atlas-explainer)
 
-从一个主题生成配音、纸艺风知识讲解视频的 Skill/CLI。
+Skill/CLI generating a voiceover papercraft-style explainer video from one topic.
 
-- 分类：知识类短视频、切片与讲解；核心候选。
-- 适用边界：图像、语音等生成依赖 Atlas Cloud API，不是完全本地生产链。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/AtlasCloudAI/atlas-explainer/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/AtlasCloudAI/atlas-explainer/blob/02f0d82392191a1c980a8a40348eb686b9e157dd/README.md#L3)。
+- Category: Knowledge shorts, clipping and explainers; Core candidate.
+- Scope boundary: Image and speech generation depend on the Atlas Cloud API, not a fully local production chain.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/AtlasCloudAI/atlas-explainer/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/AtlasCloudAI/atlas-explainer/blob/02f0d82392191a1c980a8a40348eb686b9e157dd/README.md#L3).
 
 ## [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)
 
-为 coding agent 提供本地 FFmpeg 剪辑、字幕、格式导出和输出检查的 CLI 与 MCP。
+CLI and MCP giving coding agents local FFmpeg cutting, subtitles, format export and output checks.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：需要本机 FFmpeg 和 Python；技能、FFmpeg 构建及素材遵循各自许可，具体效果未实测。
-- 维护状态：近90天有提交；30 天提交 541 次，90 天提交 966 次。
-- 许可：[MIT](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/LICENSE)；开放许可证已核验。技能仓库根 LICENSE 为 MIT；FFmpeg 及编码器许可需按具体构建核验。
-- 功能核验：2026-11-21；[来源1](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/README.md#L67)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Needs local FFmpeg and Python; the skill, FFmpeg build and media follow their own licenses, and specific results were not tested.
+- Maintenance: Commits within the last 90 days; 541 commits in 30 days, 966 commits in 90 days.
+- License: [MIT](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/LICENSE); Open license verified. Skill repo root LICENSE is MIT; FFmpeg and encoder licenses must be verified per build.
+- Feature verified: 2026-11-21; [Source 1](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/README.md#L67).
 
 ## [Claude Code Video Toolkit](https://github.com/digitalsamba/claude-code-video-toolkit)
 
-为 Claude Code 提供脚本、配音、音乐、图像与视频生成、质检、渲染和发布的 Skills、模板、命令与工具，并可迁移到 Codex、Kiro CLI。
+Skills, templates, commands and tools for Claude Code covering scripts, voiceover, music, image and video generation, QA, rendering and publishing, portable to Codex and Kiro CLI.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：需要 Node 22+ 与 Claude Code，AI 模型部署在你自己的 Modal/RunPod 云 GPU 账户按成本计费；README 的 $0.33 成本与示例片为作者自测；社区插件、第三方设计 Skill 与托管发布服务各有许可与条款；生成内容、克隆声音和素材授权需自行核验。
-- 维护状态：近90天有提交；30 天提交 420 次，90 天提交 537 次。
-- 许可：[MIT](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 MIT（版权 Digital Samba）；调用的 Qwen3-TTS、FLUX.2、Ideogram 4、ACE-Step、LTX-Video 等模型权重、ElevenLabs 等外部服务、Remotion 渲染器与社区插件（如 PolyForm Perimeter 的 arkiv）许可各自独立
-- 功能核验：2026-11-24；[来源1](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L9) · [来源2](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L12) · [来源3](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L66)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Needs Node 22+ and Claude Code; AI models deploy to your own Modal/RunPod cloud GPU account at cost; the README's $0.33 figure and sample films are author self-tests; community plugins, third-party design skills and hosted publishing services carry their own licenses and terms; generated content, voice cloning and media rights need self-verification.
+- Maintenance: Commits within the last 90 days; 420 commits in 30 days, 537 commits in 90 days.
+- License: [MIT](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/LICENSE); Open license verified. Repo-root LICENSE is MIT (copyright Digital Samba); licenses for invoked model weights such as Qwen3-TTS, FLUX.2, Ideogram 4, ACE-Step and LTX-Video, external services such as ElevenLabs, the Remotion renderer and community plugins (e.g. arkiv under PolyForm Perimeter) are each separate
+- Feature verified: 2026-11-24; [Source 1](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L9) · [Source 2](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L12) · [Source 3](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L66).
 
 ## [Video Shotcraft](https://github.com/Vincentwei1021/video-shotcraft)
 
-为 Agent 提供镜头配方、故事板、Remotion 动画、节拍剪辑与逐帧检查。
+Shot recipes, storyboards, Remotion animation, beat editing and frame-by-frame checks for agents.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：镜头库是创作方法和代码资产，不能替代通用时间线编辑器。
-- 维护状态：近90天有提交；30 天提交 32 次，90 天提交 54 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/Vincentwei1021/video-shotcraft/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Vincentwei1021/video-shotcraft/blob/6700db2ba80572ebc777b99d72049679fed9840c/README.md#L26)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: The shot library is a creative method and code asset, not a replacement for a general timeline editor.
+- Maintenance: Commits within the last 90 days; 32 commits in 30 days, 54 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/Vincentwei1021/video-shotcraft/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Vincentwei1021/video-shotcraft/blob/6700db2ba80572ebc777b99d72049679fed9840c/README.md#L26).
 
 ## [Kinocut](https://github.com/KyaniteLabs/kinocut)
 
-带防护、预检、收据和质量门的本地视频编辑 MCP/Python/CLI。
+Local video editing MCP/Python/CLI with guardrails, preflight checks, receipts and quality gates.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：包装 FFmpeg 和可选 Whisper/HyperFrames；类型化工具不保证剪辑审美。
-- 维护状态：近90天有提交；30 天提交 350 次，90 天提交 659 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/KyaniteLabs/kinocut/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/KyaniteLabs/kinocut/blob/4ad02dba114cf12163663e7cd39da92d4f735212/README.md#L13)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Wraps FFmpeg plus optional Whisper/HyperFrames; typed tools do not guarantee editing taste.
+- Maintenance: Commits within the last 90 days; 350 commits in 30 days, 659 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/KyaniteLabs/kinocut/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/KyaniteLabs/kinocut/blob/4ad02dba114cf12163663e7cd39da92d4f735212/README.md#L13).
 
 ## [Remotion Agent Skills](https://github.com/remotion-dev/skills)
 
-供 coding agent 创建、预览和渲染 Remotion 视频的官方 Skills。
+Official Skills for coding agents to create, preview and render Remotion videos.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：需 Remotion 与支持 Agent Skills 的宿主；本仓库根目录未发现许可证，Remotion 本身有独立许可条款。
-- 维护状态：近90天有提交；30 天提交 10 次，90 天提交 31 次。
-- 许可：[许可待核验](https://github.com/remotion-dev/skills/tree/6f55706d1069e512430582ad86e4e57dc07afe1b)；许可待核验。仓库根目录和文件树未发现 LICENSE；Remotion 产品及各包许可须单独核对。
-- 功能核验：2026-11-20；[来源1](https://github.com/remotion-dev/skills/blob/6f55706d1069e512430582ad86e4e57dc07afe1b/README.md#L5)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Requires Remotion and an Agent-Skills-capable host; no license was found at this repo's root, and Remotion itself has separate license terms.
+- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 31 commits in 90 days.
+- License: [License unverified](https://github.com/remotion-dev/skills/tree/6f55706d1069e512430582ad86e4e57dc07afe1b); License unverified. No LICENSE found in the repo root or file tree; Remotion's product and per-package licenses must be checked separately.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/remotion-dev/skills/blob/6f55706d1069e512430582ad86e4e57dc07afe1b/README.md#L5).
 
-## [漫剧老李 Skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill)
+## [Manju Laoli Skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill)
 
-面向 AI 漫剧与短剧的 OpenClaw Skill 套装，覆盖剧本、资产锁定、分镜、打戏、Seedance 投喂提示词与机检。
+OpenClaw skill suite for AI comic dramas and short dramas covering scripts, asset locking, storyboards, fight scenes, Seedance prompting and machine checks.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：面向 OpenClaw、Coze、Dify 等 Agent 平台，包内唯一视频模型线为 Seedance 2.5/2.0；作者标注为测试版且整合开源内容，外部规则与素材来源未逐项列明；包内不持有图片，素材需在外部平台生成并自行取得授权。
-- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 50 次。
-- 许可：[MIT](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/LICENSE)；开放许可证已核验。仓库根与 short-drama-director 均为 MIT；作者标注为测试版并整合开源内容，未提供逐项第三方 NOTICE，规则库文本与示例的再分发需自行核验
-- 功能核验：2026-11-23；[来源1](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L60) · [来源2](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L72) · [来源3](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L137)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Targets agent platforms such as OpenClaw, Coze and Dify; the only in-pack video-model line is Seedance 2.5/2.0; the author labels it beta assembled from open-source content, with external rule and asset sources not itemized; the package holds no images, so assets are generated on external platforms and licensed by the user.
+- Maintenance: Commits within the last 90 days; 3 commits in 30 days, 50 commits in 90 days.
+- License: [MIT](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/LICENSE); Open license verified. Repo root and short-drama-director are both MIT; the author labels it a beta assembled from open-source content without an itemized third-party NOTICE, so redistributing rule text and examples needs self-verification
+- Feature verified: 2026-11-23; [Source 1](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L60) · [Source 2](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L72) · [Source 3](https://github.com/lixiaoxiao9888-create/manju-laoli-skill/blob/a01e647ac10134918a5de1b18bfe9317e5541a44/README.md#L137).
 
 ## [pixelfx](https://github.com/patch-gg/pixelfx)
 
-244 个以代码绘制的像素特效与动画库，附 Claude Code 特效生成 Skill 和精灵表、GIF/MP4 导出工具。
+Library of 244 code-drawn pixel effects and animations with a Claude Code effect-generation skill plus sprite-sheet and GIF/MP4 export tools.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：是特效与动作素材库，不含脚本、剪辑与发布流程；`gallery/fonts` 的 Patch Pixel 字体为 Patch 自有版权、不在 MIT 内；部分代码改编自 Sprite Fusion 与 Hollow Crown（均 MIT），需按 NOTICE 保留归属；导出素材用于视频时仍需自行确认画面中的第三方内容授权。
-- 维护状态：近90天有提交；30 天提交 10 次，90 天提交 10 次。
-- 许可：[MIT（代码与特效）+ Patch Pixel 字体除外](https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/NOTICE.md)；复合/条件许可。README 声明代码与特效 MIT、可商用；NOTICE 列出改编自 Hugo Duprez 的 Sprite Fusion 特效与 Hollow Crown（均 MIT）需保留归属，`gallery/fonts/PatchPixel-Regular.woff2` 为 Patch 保留所有权利、不在 MIT 范围内
-- 功能核验：2026-11-24；[来源1](https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/README.md#L7) · [来源2](https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/README.md#L89) · [来源3](https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/README.md#L156)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: An effects and motion asset library without script, editing or publishing flows; the Patch Pixel font under `gallery/fonts` is Patch's own copyright, excluded from MIT; some code is adapted from Sprite Fusion and Hollow Crown (both MIT) and attribution must be kept per NOTICE; exporting into video still requires clearing third-party content visible on screen.
+- Maintenance: Commits within the last 90 days; 10 commits in 30 days, 10 commits in 90 days.
+- License: [MIT (code and effects) + Patch Pixel font excluded](https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/NOTICE.md); Composite/conditional license. README states code and effects are MIT and commercially usable; NOTICE lists effects adapted from Hugo Duprez's Sprite Fusion and Hollow Crown (both MIT) requiring attribution, while `gallery/fonts/PatchPixel-Regular.woff2` is All Rights Reserved by Patch, outside MIT
+- Feature verified: 2026-11-24; [Source 1](https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/README.md#L7) · [Source 2](https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/README.md#L89) · [Source 3](https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/README.md#L156).
 
 ## [Wallstreet Explainer](https://github.com/HeyChengC/wallstreet-explainer)
 
-华尔街式财经/科技解读短片的 coding agent Skill，含风格语言、图形组件模板与找片、截图、配音、抠像、渲染、混音脚本。
+Coding-agent Skill for Wall-Street-style finance/tech explainer shorts with style language, graphic component templates, and footage-finding, screenshot, voiceover, keying, rendering and mixing scripts.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：需要 Claude Code 等宿主，另装 ffmpeg、Python/Node 依赖、Playwright 并自行下载五种字体；素材靠 yt-dlp 下载和新闻网页截图，按评论解读引用，出处与再分发授权需自行核验；样片中的第三方画面、截图、logo 和人物不在 MIT 范围内。
-- 维护状态：近90天有提交；30 天提交 11 次，90 天提交 16 次。
-- 许可：[MIT（代码与文档）+ 样片第三方素材除外](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/LICENSE)；复合/条件许可。LICENSE 为 MIT 正文加附加条款，明确 examples/ 的视频帧、新闻截图、logo 和照片不在许可内；GitHub 因此识别为 NOASSERTION。字体需自行下载，遵循各自字体许可
-- 功能核验：2026-11-23；[来源1](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L3) · [来源2](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L37) · [来源3](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L92)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Needs a host such as Claude Code plus ffmpeg, Python/Node dependencies, Playwright, and five fonts you download yourself; media comes from yt-dlp downloads and news-page screenshots quoted as commentary, so provenance and redistribution rights are yours to verify; third-party footage, screenshots, logos and people in the samples are not covered by MIT.
+- Maintenance: Commits within the last 90 days; 11 commits in 30 days, 16 commits in 90 days.
+- License: [MIT (code and docs) + third-party sample assets excluded](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/LICENSE); Composite/conditional license. LICENSE is the MIT text plus additional terms explicitly excluding video frames, news screenshots, logos and photos under examples/; GitHub therefore reports NOASSERTION. Fonts are downloaded by the user under their own licenses
+- Feature verified: 2026-11-23; [Source 1](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L3) · [Source 2](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L37) · [Source 3](https://github.com/HeyChengC/wallstreet-explainer/blob/b79bc0573455cb5fe335e78f653012e658fa9758/README.md#L92).
 
 ## [ReelBench Skills](https://github.com/eternityspring/reelbench-skills)
 
-面向 Claude Code/Codex 的视频分析、复刻和制作 Skill 集合。
+Video analysis, cloning and production skill set for Claude Code/Codex.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：部分关联产品和素材服务为付费或外部提供，需按具体 Skill 核验。
-- 维护状态：近90天有提交；30 天提交 1 次，90 天提交 21 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/eternityspring/reelbench-skills/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/eternityspring/reelbench-skills/blob/8d8444894524c9beedbf8815dab517afb3ce3cbe/README.md#L5)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Some related products and asset services are paid or external, verified per skill.
+- Maintenance: Commits within the last 90 days; 1 commits in 30 days, 21 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/eternityspring/reelbench-skills/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/eternityspring/reelbench-skills/blob/8d8444894524c9beedbf8815dab517afb3ce3cbe/README.md#L5).
 
 ## [Video Agent Skills](https://github.com/Melvynx/video-agent-skills)
 
-用 Markdown Skills 组织短视频/YouTube 的脚本、研究、剪辑、翻译和发布。
+Organizes scripts, research, editing, translation and publishing for shorts/YouTube via Markdown skills.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：Skill 本身不包含所有模型与渲染器，需要宿主和本地工具。
-- 维护状态：近90天有提交；30 天提交 1 次，90 天提交 26 次。
-- 许可：[MIT](https://api.github.com/repos/Melvynx/video-agent-skills/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Melvynx/video-agent-skills/blob/f4542923f7f796a1fa0e544cbfc1109d5eec87d8/README.md#L3)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: The skills do not bundle all models and renderers; you need a host and local tools.
+- Maintenance: Commits within the last 90 days; 1 commits in 30 days, 26 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Melvynx/video-agent-skills/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Melvynx/video-agent-skills/blob/f4542923f7f796a1fa0e544cbfc1109d5eec87d8/README.md#L3).
 
 ## [HyperFrames Motion Library](https://github.com/nutllwhy/hyperframes-motion-library)
 
-以 HyperFrames 为内核的本地动效模板与参数化资产库。
+Local motion template and parameterized asset library built on HyperFrames.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：是动效资产库，不包含完整脚本、素材生成和发布流程。
-- 维护状态：近90天有提交；30 天提交 2 次，90 天提交 2 次。
-- 许可：[MIT](https://api.github.com/repos/nutllwhy/hyperframes-motion-library/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/nutllwhy/hyperframes-motion-library/blob/98c40ca18f23d7dc021a5d84308ab10599482cff/README.md#L3)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: A motion asset library without full scripting, asset generation or publishing flows.
+- Maintenance: Commits within the last 90 days; 2 commits in 30 days, 2 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/nutllwhy/hyperframes-motion-library/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/nutllwhy/hyperframes-motion-library/blob/98c40ca18f23d7dc021a5d84308ab10599482cff/README.md#L3).
 
 ## [Video Editing Skill](https://github.com/social-media-skills/video-editing-skill)
 
-让 Agent 对口播、课程、访谈和 vlog 执行第一遍剪辑与字幕处理。
+Runs the first editing pass and caption handling for talking heads, courses, interviews and vlogs.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：针对第一遍粗剪，不代替人工终审、调色和复杂包装。
-- 维护状态：近90天有提交；30 天提交 3 次，90 天提交 3 次。
-- 许可：[MIT](https://api.github.com/repos/social-media-skills/video-editing-skill/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/social-media-skills/video-editing-skill/blob/f94d0517d717de281ee23569094aac616d32f4ef/README.md#L1)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Targets the first rough cut, not replacing human final review, grading and complex packaging.
+- Maintenance: Commits within the last 90 days; 3 commits in 30 days, 3 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/social-media-skills/video-editing-skill/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/social-media-skills/video-editing-skill/blob/f94d0517d717de281ee23569094aac616d32f4ef/README.md#L1).
 
 ## [GSAP Skills](https://github.com/greensock/gsap-skills)
 
-官方 Agent Skills，指导 coding agent 使用 GSAP 时间线、动效和插件。
+Official Agent Skills teaching coding agents the GSAP timeline, motion and plugins.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：网页动画 Skill，需要宿主 Agent；渲染成视频需配合视频工具，GSAP 产品许可另核。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE)；开放许可证已核验。Skills 仓库根 LICENSE 为 MIT；GSAP 库和第三方素材按各自条款。
-- 功能核验：2026-11-21；[来源1](https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/README.md#L23)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Web animation skills needing a host agent; rendering to video requires video tooling, and GSAP product licensing is separate.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/LICENSE); Open license verified. Skills repo root LICENSE is MIT; the GSAP library and third-party assets follow their own terms.
+- Feature verified: 2026-11-21; [Source 1](https://github.com/greensock/gsap-skills/blob/aed9cfd3277740755f6bfc1155c7aa645403b760/README.md#L23).
 
 ## [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill)
 
-指导 Agent 调用 narrator-ai-cli 自动制作影视解说视频。
+Guides an agent to drive narrator-ai-cli for automated film-commentary videos.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：是 CLI 的机器可读 Skill，不是独立渲染引擎；后端服务和模板另计。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/NarratorAI-Studio/narrator-ai-cli-skill/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill/blob/4b17c6f2175bd532c92db778a847f8fb6bdd3177/README.md#L9)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: A machine-readable skill for that CLI, not a standalone rendering engine; backend services and templates are separate.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/NarratorAI-Studio/narrator-ai-cli-skill/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill/blob/4b17c6f2175bd532c92db778a847f8fb6bdd3177/README.md#L9).
 
 ## [OpenClip Agent Skills](https://github.com/OpenClip-App/agent-skills)
 
-为 Agent 提供长视频切片、转录、转换、缩略图、抠图和 UGC 创意 Skill。
+Agent skills for long-video clipping, transcription, conversion, thumbnails, cutouts and UGC creative.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：Skill 驱动托管 OpenClip MCP；视频和凭证会经过外部服务。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/OpenClip-App/agent-skills/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/OpenClip-App/agent-skills/blob/ea02c98db69c437616df1db4a4400cde1f4a0832/README.md#L1)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Skills drive the hosted OpenClip MCP; video and credentials pass through an external service.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/OpenClip-App/agent-skills/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/OpenClip-App/agent-skills/blob/ea02c98db69c437616df1db4a4400cde1f4a0832/README.md#L1).
 
 ## [MCP Video Editing](https://github.com/mfortne/mcp-video-editing)
 
-以 MCP、Python 库和 CLI 封装 FFmpeg、HyperFrames 与本地复用流程。
+Wraps FFmpeg, HyperFrames and local reusable pipelines in an MCP, Python library and CLI.
 
-- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
-- 适用边界：实际效果依赖外部工具版本；项目与 Kinocut 同类但并非同一仓库。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/mfortne/mcp-video-editing/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/mfortne/mcp-video-editing/blob/97ecab83d26c24bfe77be663784399b203b1fa55/README.md#L3)。
+- Category: Agent Skills, MCP and editing tools; Core candidate.
+- Scope boundary: Results depend on external tool versions; same category as Kinocut but a different repository.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/mfortne/mcp-video-editing/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/mfortne/mcp-video-editing/blob/97ecab83d26c24bfe77be663784399b203b1fa55/README.md#L3).
 
 ## [HyperFrames](https://github.com/heygen-com/hyperframes)
 
-基于 HTML/CSS/JS 的代码视频与 Agent Skill 生态，可从 Remotion 等迁移并逐帧验证。
+HTML/CSS/JS-based code video and agent skill ecosystem, migratable from Remotion with frame-by-frame verification.
 
-- 分类：Code-to-video 与动效；核心候选。
-- 适用边界：项目与 HeyGen 托管生成服务是不同层级；具体模板和外部素材许可另计。
-- 维护状态：近90天有提交；30 天提交 1902 次，90 天提交 3965 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5)。
+- Category: Code-to-video and motion graphics; Core candidate.
+- Scope boundary: The project and HeyGen's hosted generation service are different tiers; specific templates and external assets carry separate licenses.
+- Maintenance: Commits within the last 90 days; 1902 commits in 30 days, 3965 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5).
 
 ## [Remotion](https://github.com/remotion-dev/remotion)
 
-用 React/TypeScript 以代码创建和渲染视频的基础框架。
+Base framework for creating and rendering video in code with React/TypeScript.
 
-- 分类：Code-to-video 与动效；受限许可。
-- 适用边界：是通用代码视频基础设施，不自带 Agent 规划或生成模型。
-- 维护状态：近90天有提交；30 天提交 2473 次，90 天提交 6717 次。
-- 许可：[Remotion License](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/LICENSE.md)；源码可见但非 OSI 开源。个人、非营利及小型组织可免费使用；达到条件的营利组织需要公司许可，不是常规 OSI 开源
-- 功能核验：2026-11-12；[来源1](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/README.md#L2)。
+- Category: Code-to-video and motion graphics; Restricted license.
+- Scope boundary: General code-video infrastructure without built-in agent planning or generation models.
+- Maintenance: Commits within the last 90 days; 2473 commits in 30 days, 6717 commits in 90 days.
+- License: [Remotion License](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/LICENSE.md); Source-available, not OSI open source. Free for individuals, non-profits and small organizations; for-profit organizations meeting the thresholds need a company license, so this is not regular OSI open source
+- Feature verified: 2026-11-12; [Source 1](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/README.md#L2).
 
 ## [raea](https://github.com/shinyobjectz/raea)
 
-用 React/TypeScript 编写视频、动效、3D 与游戏，并在本地 GPU 渲染的引擎与桌面 Agent 工作台。
+Engine and desktop agent workbench for writing video, motion, 3D and games in React/TypeScript, rendered on the local GPU.
 
-- 分类：Code-to-video 与动效；核心候选。
-- 适用边界：引擎、CLI 和桌面应用可免费使用，云存储、跨机搜索与发布属于 Pro/Team；FSL-1.1-ALv2 禁止竞争性产品，各版本发布两年后转为 Apache-2.0；示例片源、模型、二进制运行时、第三方组件和账户内素材的许可另计。
-- 维护状态：近90天有提交；30 天提交 1454 次，90 天提交 1457 次。
-- 许可：[FSL-1.1-ALv2](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/LICENSE)；源码可见但非 OSI 开源。仓库根 LICENSE 为 Functional Source License 1.1（ALv2 Future License），禁止将软件用于替代 raea 或其现有产品的商业产品/服务，各版本发布两年后转 Apache-2.0；NOTICE 与 LICENSES 另列 HyperFrames 移植、Bevy、FFmpeg、QuickJS 等第三方许可
-- 功能核验：2026-11-22；[来源1](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L13) · [来源2](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L42) · [来源3](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L111)。
+- Category: Code-to-video and motion graphics; Core candidate.
+- Scope boundary: Engine, CLI and desktop app are free to use; cloud storage, cross-machine search and publishing are Pro/Team; FSL-1.1-ALv2 forbids competing products, and each release converts to Apache-2.0 two years after publication; licenses for sample footage, models, binary runtimes, third-party components and assets in your account are separate.
+- Maintenance: Commits within the last 90 days; 1454 commits in 30 days, 1457 commits in 90 days.
+- License: [FSL-1.1-ALv2](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/LICENSE); Source-available, not OSI open source. Repo-root LICENSE is Functional Source License 1.1 (ALv2 Future License), forbidding use of the software in commercial products/services that replace raea or its existing products, with each version converting to Apache-2.0 two years after release; NOTICE and LICENSES separately list HyperFrames ports, Bevy, FFmpeg, QuickJS and other third-party licenses
+- Feature verified: 2026-11-22; [Source 1](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L13) · [Source 2](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L42) · [Source 3](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L111).
 
 ## [Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar)
 
-提供电影风格、示例与 STYLE.md 指引，供 coding agent 用代码制作视频。
+Cinematic style, examples and STYLE.md guidance for coding agents making video in code.
 
-- 分类：Code-to-video 与动效；受限许可。
-- 适用边界：项目建议使用 Claude 并提高推理强度；复用演示中的素材、人物、品牌与声音需分别核验。
-- 维护状态：近90天有提交；30 天提交 94 次，90 天提交 148 次。
-- 许可：[MIT 代码 + CC BY-NC 文档（附加许可）](https://github.com/lemomo-ai/lemo-opuscar/blob/f9e204293930952b61ba921cd8944d05f121beee/LICENSE)；复合/条件许可。代码为 MIT；Markdown 文档为 CC BY-NC 4.0，另允许为自制或客户影片阅读、修改并随项目文件交付；超出该范围的商业使用需要许可。示例素材及部分配音另有限制。
-- 功能核验：2026-11-21；[来源1](https://github.com/lemomo-ai/lemo-opuscar/blob/f9e204293930952b61ba921cd8944d05f121beee/README.md#L7)。
+- Category: Code-to-video and motion graphics; Restricted license.
+- Scope boundary: The project recommends Claude with higher reasoning effort; reusing footage, people, brands and voices from the demos must be verified individually.
+- Maintenance: Commits within the last 90 days; 94 commits in 30 days, 148 commits in 90 days.
+- License: [MIT code + CC BY-NC docs (additional license)](https://github.com/lemomo-ai/lemo-opuscar/blob/f9e204293930952b61ba921cd8944d05f121beee/LICENSE); Composite/conditional license. Code is MIT; Markdown docs are CC BY-NC 4.0, which additionally allows reading, modifying and delivering them with project files for your own or client films; commercial use beyond that needs a license. Sample media and some voiceovers have further restrictions.
+- Feature verified: 2026-11-21; [Source 1](https://github.com/lemomo-ai/lemo-opuscar/blob/f9e204293930952b61ba921cd8944d05f121beee/README.md#L7).
 
 ## [Manim Community](https://github.com/ManimCommunity/manim)
 
-用 Python 编程制作数学与知识讲解动画的视频引擎。
+Video engine for programmatic math and explainer animations in Python.
 
-- 分类：Code-to-video 与动效；核心候选。
-- 适用边界：适合代码化讲解；不是自动生成内容的 AI Agent，渲染依赖和字体等另计。
-- 维护状态：近90天有提交；30 天提交 28 次，90 天提交 78 次。
-- 许可：[MIT](https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/README.md#L20)。
+- Category: Code-to-video and motion graphics; Core candidate.
+- Scope boundary: Suited to code-driven explainers; not an AI agent that generates content automatically; render dependencies and fonts are separate.
+- Maintenance: Commits within the last 90 days; 28 commits in 30 days, 78 commits in 90 days.
+- License: [MIT](https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/LICENSE); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/README.md#L20).
 
 ## [GiveMotion](https://github.com/givemotion/givemotion)
 
-让 Agent 编写 HTML/CSS、预览检查并渲染 MP4 的代码视频引擎。
+Code video engine where agents write HTML/CSS, preview, check and render MP4s.
 
-- 分类：Code-to-video 与动效；核心候选。
-- 适用边界：代码动画适合动效和讲解，不等同真实素材剪辑或扩散视频生成。
-- 维护状态：近90天有提交；30 天提交 87 次，90 天提交 243 次。
-- 许可：[MIT](https://api.github.com/repos/givemotion/givemotion/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/givemotion/givemotion/blob/8a7949e685bbfaec8bde20fad9aa8734cdfa6038/README.md#L6)。
+- Category: Code-to-video and motion graphics; Core candidate.
+- Scope boundary: Code animation suits motion and explainers, not real-footage editing or diffusion video generation.
+- Maintenance: Commits within the last 90 days; 87 commits in 30 days, 243 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/givemotion/givemotion/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/givemotion/givemotion/blob/8a7949e685bbfaec8bde20fad9aa8734cdfa6038/README.md#L6).
 
 ## [Manim](https://github.com/3b1b/manim)
 
-面向数学讲解的 Python 动画引擎。
+Python animation engine for math explainers.
 
-- 分类：Code-to-video 与动效；相邻基础设施。
-- 适用边界：是通用动画工具且该仓库为 3Blue1Brown 版本，不是完整 AI 视频 Agent。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 1 次。
-- 许可：[MIT](https://api.github.com/repos/3b1b/manim/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/README.md#L2)。
+- Category: Code-to-video and motion graphics; Adjacent infrastructure.
+- Scope boundary: General animation tool and this is the 3Blue1Brown version, not a complete AI video agent.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 1 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/3b1b/manim/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/README.md#L2).
 
 ## [SenseNova Code2Video](https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video)
 
-用小型开放模型生成可执行代码并渲染短视频。
+Small open model that generates executable code rendered into short videos.
 
-- 分类：Code-to-video 与动效；核心候选。
-- 适用边界：当前聚焦纯代码短视频；模型权重、推理环境和生成工具许可需分别核验。
-- 维护状态：近90天有提交；30 天提交 1 次，90 天提交 2 次。
-- 许可：[待核验](https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video/blob/776ae79824e338ba5d63fef66167455edc94ad26/README.md)；许可待核验。未找到根目录许可证；模型权重和代码复用条件需另行确认
-- 功能核验：2026-11-12；[来源1](https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video/blob/776ae79824e338ba5d63fef66167455edc94ad26/README.md#L3)。
+- Category: Code-to-video and motion graphics; Core candidate.
+- Scope boundary: Currently focused on pure-code shorts; model weights, inference environment and generation-tool licenses need separate verification.
+- Maintenance: Commits within the last 90 days; 1 commits in 30 days, 2 commits in 90 days.
+- License: [Unverified](https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video/blob/776ae79824e338ba5d63fef66167455edc94ad26/README.md); License unverified. No root license found; model weights and code-reuse conditions need separate confirmation
+- Feature verified: 2026-11-12; [Source 1](https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video/blob/776ae79824e338ba5d63fef66167455edc94ad26/README.md#L3).
 
 ## [Motion Canvas](https://github.com/motion-canvas/motion-canvas)
 
-用 TypeScript 和生成器函数创建动画、讲解和动态图形。
+Creates animations, explainers and motion graphics with TypeScript and generator functions.
 
-- 分类：Code-to-video 与动效；相邻基础设施。
-- 适用边界：通用动画框架，Agent 能力来自上层 Skill 或宿主。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/motion-canvas/motion-canvas/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/README.md#L6)。
+- Category: Code-to-video and motion graphics; Adjacent infrastructure.
+- Scope boundary: General animation framework; agent capability comes from upper-layer skills or the host.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/motion-canvas/motion-canvas/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/README.md#L6).
 
 ## [Godot](https://github.com/godotengine/godot)
 
-用于构建二维和三维场景、交互及动画的开源游戏引擎。
+Open-source game engine for building 2D/3D scenes, interaction and animation.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：游戏引擎与视频自动生成系统不同，成片录制或导出需设计额外流程。
-- 维护状态：近90天有提交；30 天提交 525 次，90 天提交 1923 次。
-- 许可：[MIT](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/LICENSE.txt)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/README.md#L11)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: A game engine is not an automated video generator; capturing or exporting finished footage needs an extra designed pipeline.
+- Maintenance: Commits within the last 90 days; 525 commits in 30 days, 1923 commits in 90 days.
+- License: [MIT](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/LICENSE.txt); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/README.md#L11).
 
 ## [three.js](https://github.com/mrdoob/three.js)
 
-JavaScript 三维场景和渲染库，可为代码动效提供 3D 内容。
+JavaScript 3D scene and rendering library that supplies 3D content for code motion.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：通用渲染库，不自动输出视频；素材和 WebGL/WebGPU 环境需自行处理。
-- 维护状态：近90天有提交；30 天提交 328 次，90 天提交 874 次。
-- 许可：[MIT](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/README.md#L11)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: General rendering library that does not output video by itself; assets and the WebGL/WebGPU environment are yours to handle.
+- Maintenance: Commits within the last 90 days; 328 commits in 30 days, 874 commits in 90 days.
+- License: [MIT](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/LICENSE); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/README.md#L11).
 
 ## [Motion](https://github.com/motiondivision/motion)
 
-面向 JavaScript、React 和 Vue 的界面与布局动画库。
+UI and layout animation library for JavaScript, React and Vue.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：通用动效组件；与视频渲染器配合使用，不直接提供视频 Agent。
-- 维护状态：近90天有提交；30 天提交 574 次，90 天提交 1390 次。
-- 许可：[MIT](https://github.com/motiondivision/motion/blob/cd009de7a4314e065d4d9df683057124792d5b34/LICENSE.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/motiondivision/motion/blob/cd009de7a4314e065d4d9df683057124792d5b34/README.md#L3)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: General motion component; pairs with video renderers and does not itself provide a video agent.
+- Maintenance: Commits within the last 90 days; 574 commits in 30 days, 1390 commits in 90 days.
+- License: [MIT](https://github.com/motiondivision/motion/blob/cd009de7a4314e065d4d9df683057124792d5b34/LICENSE.md); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/motiondivision/motion/blob/cd009de7a4314e065d4d9df683057124792d5b34/README.md#L3).
 
 ## [Blender](https://github.com/blender/blender)
 
-覆盖建模、角色绑定、动画、渲染、合成和视频剪辑的 3D 创作套件。
+3D creation suite covering modeling, rigging, animation, rendering, compositing and video editing.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：GitHub 仓库是官方镜像；第三方插件、模型和素材遵循各自许可。
-- 维护状态：近90天有提交；30 天提交 1288 次，90 天提交 3310 次。
-- 许可：[GPL-2.0-or-later](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/COPYING)；开放许可证已核验。COPYING 指向 GPL 许可正文；第三方资产和组件另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/.github/README.md#L14)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: The GitHub repo is the official mirror; third-party add-ons, models and assets follow their own licenses.
+- Maintenance: Commits within the last 90 days; 1288 commits in 30 days, 3310 commits in 90 days.
+- License: [GPL-2.0-or-later](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/COPYING); Open license verified. COPYING points to the GPL license text; third-party assets and components are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/.github/README.md#L14).
 
 ## [Babylon.js](https://github.com/BabylonJS/Babylon.js)
 
-JavaScript 3D 场景、游戏与渲染引擎，可作为代码动效基础。
+JavaScript 3D scene, game and rendering engine usable as code-motion infrastructure.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：默认是实时 3D 渲染引擎；视频编码需另接工具，官方提示演示 CDN 不用于生产。
-- 维护状态：近90天有提交；30 天提交 166 次，90 天提交 342 次。
-- 许可：[Apache-2.0](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/license.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/readme.md#L1)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: Primarily a real-time 3D renderer; video encoding needs extra tools, and the docs warn demo CDNs are not for production.
+- Maintenance: Commits within the last 90 days; 166 commits in 30 days, 342 commits in 90 days.
+- License: [Apache-2.0](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/license.md); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/readme.md#L1).
 
 ## [Konva](https://github.com/konvajs/konva)
 
-二维 Canvas 场景图库，支持对象交互、变换、动画和导出。
+2D Canvas scene graph with object interaction, transforms, animation and export.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：通用画布组件；视频或音频导出需搭配其他工具。
-- 维护状态：近90天有提交；30 天提交 30 次，90 天提交 217 次。
-- 许可：[MIT](https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/README.md#L16)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: General canvas component; video or audio export needs other tools.
+- Maintenance: Commits within the last 90 days; 30 commits in 30 days, 217 commits in 90 days.
+- License: [MIT](https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/LICENSE); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/README.md#L16).
 
 ## [Two.js](https://github.com/jonobr1/two.js)
 
-通过 WebGL、Canvas 或 SVG 创建二维图形和动画场景。
+2D shapes and animated scenes via WebGL, Canvas or SVG.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：二维绘图基础库；生成音视频文件需要另接渲染与编码。
-- 维护状态：近90天有提交；30 天提交 15 次，90 天提交 47 次。
-- 许可：[MIT](https://github.com/jonobr1/two.js/blob/bd48e27ff8f3333ef442fb3d032cb6b5391f26dc/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/jonobr1/two.js/blob/bd48e27ff8f3333ef442fb3d032cb6b5391f26dc/README.md#L8)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: 2D drawing base library; producing audio/video files needs separate rendering and encoding.
+- Maintenance: Commits within the last 90 days; 15 commits in 30 days, 47 commits in 90 days.
+- License: [MIT](https://github.com/jonobr1/two.js/blob/bd48e27ff8f3333ef442fb3d032cb6b5391f26dc/LICENSE); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/jonobr1/two.js/blob/bd48e27ff8f3333ef442fb3d032cb6b5391f26dc/README.md#L8).
 
 ## [Shifty](https://github.com/jeremyckahn/shifty)
 
-TypeScript 补间动画引擎，提供缓动与播放控制。
+TypeScript tweening engine with easings and playback control.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：底层补间库，不自带视频生成或导出工作流。
-- 维护状态：近90天有提交；30 天提交 8 次，90 天提交 14 次。
-- 许可：[MIT](https://github.com/jeremyckahn/shifty/blob/ee4c8ed53503d5a6bf658ccdbba5af58674e3245/LICENSE-MIT)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/jeremyckahn/shifty/blob/ee4c8ed53503d5a6bf658ccdbba5af58674e3245/README.md#L7)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: Low-level tween library without video generation or export workflows.
+- Maintenance: Commits within the last 90 days; 8 commits in 30 days, 14 commits in 90 days.
+- License: [MIT](https://github.com/jeremyckahn/shifty/blob/ee4c8ed53503d5a6bf658ccdbba5af58674e3245/LICENSE-MIT); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/jeremyckahn/shifty/blob/ee4c8ed53503d5a6bf658ccdbba5af58674e3245/README.md#L7).
 
 ## [Ola](https://github.com/franciscop/ola)
 
-用于实时数值平滑插值的轻量动画库。
+Lightweight animation library for real-time numeric smoothing.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：仅处理数值插值，需自行提供场景、时间线与导出。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 3 次。
-- 许可：[MIT](https://github.com/franciscop/ola/blob/b269059c570405421acfcc55c84b3347cbeb0674/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/franciscop/ola/blob/b269059c570405421acfcc55c84b3347cbeb0674/readme.md#L3)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: Handles numeric interpolation only; you supply scenes, timelines and export.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 3 commits in 90 days.
+- License: [MIT](https://github.com/franciscop/ola/blob/b269059c570405421acfcc55c84b3347cbeb0674/LICENSE); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/franciscop/ola/blob/b269059c570405421acfcc55c84b3347cbeb0674/readme.md#L3).
 
 ## [Anime.js](https://github.com/juliangarnier/anime)
 
-对 CSS、SVG、DOM 和 JavaScript 属性制作时间线动画。
+Timeline animation of CSS, SVG, DOM and JavaScript properties.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：通用网页动效引擎；视频渲染和音频同步需额外工具。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/LICENSE.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/README.md#L13)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: General web motion engine; video rendering and audio sync need extra tools.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/LICENSE.md); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/juliangarnier/anime/blob/01b81be1df6843ccfe0a71c0699a746bf740dd77/README.md#L13).
 
 ## [Proton](https://github.com/drawcall/Proton)
 
-JavaScript 粒子动画库，可制作火焰、烟花和爆炸等粒子效果。
+JavaScript particle animation library for fire, fireworks, explosions and similar effects.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：特效基础库，不是独立视频渲染或剪辑工具。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://github.com/drawcall/Proton/blob/b4fdef5e5416d70a788978bec0fb4a1be26514b4/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/drawcall/Proton/blob/b4fdef5e5416d70a788978bec0fb4a1be26514b4/README.md#L26)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: Effects base library, not a standalone video renderer or editor.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://github.com/drawcall/Proton/blob/b4fdef5e5416d70a788978bec0fb4a1be26514b4/LICENSE); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/drawcall/Proton/blob/b4fdef5e5416d70a788978bec0fb4a1be26514b4/README.md#L26).
 
 ## [Lottie Web](https://github.com/airbnb/lottie-web)
 
-在网页中解析和渲染导出的 Lottie 矢量动画。
+Parses and renders exported Lottie vector animations in the web.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：播放器不等于视频编辑器；动画资源及生成方式的许可另计。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://github.com/airbnb/lottie-web/blob/bede03d25d232826e0c9dca1733d542d8a7754fb/LICENSE.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/airbnb/lottie-web/blob/bede03d25d232826e0c9dca1733d542d8a7754fb/README.md#L3)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: A player is not a video editor; licenses for animation assets and their creation tools are separate.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://github.com/airbnb/lottie-web/blob/bede03d25d232826e0c9dca1733d542d8a7754fb/LICENSE.md); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/airbnb/lottie-web/blob/bede03d25d232826e0c9dca1733d542d8a7754fb/README.md#L3).
 
 ## [TweenJS](https://github.com/CreateJS/TweenJS)
 
-为 JavaScript 数值和 CSS 属性提供补间及链式播放。
+Tweens and chained playback for JavaScript numbers and CSS properties.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：补间库需要搭配渲染器和导出工具。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://github.com/CreateJS/TweenJS/blob/6df2b9ce7e68d3d824cc490b67cab2bc3204810a/LICENSE.txt)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/CreateJS/TweenJS/blob/6df2b9ce7e68d3d824cc490b67cab2bc3204810a/README.md#L3)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: Tween library that needs a renderer and export tooling alongside.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://github.com/CreateJS/TweenJS/blob/6df2b9ce7e68d3d824cc490b67cab2bc3204810a/LICENSE.txt); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/CreateJS/TweenJS/blob/6df2b9ce7e68d3d824cc490b67cab2bc3204810a/README.md#L3).
 
 ## [LUME](https://github.com/lume/lume)
 
-使用 HTML 元素构建交互式二维和三维图形场景。
+Builds interactive 2D and 3D graphic scenes using HTML elements.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：通用 3D/图形组件，不提供完整的视频生产流程。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://github.com/lume/lume/blob/6336e365f1c02af6316017bcd6d7f79bd2efe13b/LICENSE)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/lume/lume/blob/6336e365f1c02af6316017bcd6d7f79bd2efe13b/README.md#L23)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: General 3D/graphics component without a complete video production pipeline.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://github.com/lume/lume/blob/6336e365f1c02af6316017bcd6d7f79bd2efe13b/LICENSE); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/lume/lume/blob/6336e365f1c02af6316017bcd6d7f79bd2efe13b/README.md#L23).
 
 ## [gifenc](https://github.com/mattdesl/gifenc)
 
-在浏览器或 Node.js 中编码支持动画和透明度的 GIF。
+Encodes GIFs with animation and transparency in the browser or Node.js.
 
-- 分类：动画、3D 与编码基础组件；相邻基础设施。
-- 适用边界：输出 GIF，不直接提供 MP4 导出、视频编辑或 AI 生成。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://github.com/mattdesl/gifenc/blob/27db5b982dba701ca440b55ea36fad3999040973/LICENSE.md)；开放许可证已核验。已核验项目许可文件；第三方组件、素材与托管服务另计。
-- 功能核验：2026-11-20；[来源1](https://github.com/mattdesl/gifenc/blob/27db5b982dba701ca440b55ea36fad3999040973/README.md#L5)。
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: Outputs GIF only; no MP4 export, video editing or AI generation.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://github.com/mattdesl/gifenc/blob/27db5b982dba701ca440b55ea36fad3999040973/LICENSE.md); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/mattdesl/gifenc/blob/27db5b982dba701ca440b55ea36fad3999040973/README.md#L5).
 
 ## [VRGameDevGirl AI Video Builder](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl)
 
-在 ComfyUI 中按场景管理规划、提示、生成、节奏、审阅和最终拼接。
+ComfyUI workflow suite managing planning, prompts, generation, pacing, review and final assembly per scenario.
 
-- 分类：ComfyUI 与开源视频生成；受限许可。
-- 适用边界：部分自定义节点已拆到独立包；模型、显存和安装兼容性需按工作流核验。
-- 维护状态：近90天有提交；30 天提交 132 次，90 天提交 677 次。
-- 许可：[VRGameDevGirl Community and Commercial License](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/LICENSE)；源码可见但非 OSI 开源。可商业化生成内容；销售/托管/商业集成软件本身需要书面商业许可
-- 功能核验：2026-11-12；[来源1](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/README.md#L1)。
+- Category: ComfyUI and open-source video generation; Restricted license.
+- Scope boundary: Some custom nodes moved to separate packages; models, VRAM and install compatibility need verification per workflow.
+- Maintenance: Commits within the last 90 days; 132 commits in 30 days, 677 commits in 90 days.
+- License: [VRGameDevGirl Community and Commercial License](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/LICENSE); Source-available, not OSI open source. Generated content may be commercialized; selling/hosting/commercially integrating the software itself requires a written commercial license
+- Feature verified: 2026-11-12; [Source 1](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/README.md#L1).
 
 ## [LTX-Video](https://github.com/Lightricks/LTX-Video)
 
-面向文本/图像到视频及音画生成的开放视频模型与推理工具。
+Open video models and inference tools for text/image-to-video and audio-visual generation.
 
-- 分类：ComfyUI 与开源视频生成；核心候选。
-- 适用边界：不同 LTX 版本硬件、权重和音频能力差异明显。
-- 维护状态：近90天有提交；30 天提交 2 次，90 天提交 2 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/Lightricks/LTX-Video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Lightricks/LTX-Video/blob/50f0aef1297574a4b29acbdb874e3a363a6d5f2e/README.md#L4)。
+- Category: ComfyUI and open-source video generation; Core candidate.
+- Scope boundary: Hardware, weights and audio capabilities differ markedly across LTX versions.
+- Maintenance: Commits within the last 90 days; 2 commits in 30 days, 2 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/Lightricks/LTX-Video/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Lightricks/LTX-Video/blob/50f0aef1297574a4b29acbdb874e3a363a6d5f2e/README.md#L4).
 
 ## [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo)
 
-腾讯开源的大型视频生成基础模型与推理框架。
+Tencent's open large video-generation foundation model and inference framework.
 
-- 分类：ComfyUI 与开源视频生成；受限许可。
-- 适用边界：高硬件要求；代码许可与模型权重/输出政策需分别核验。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 3 次。
-- 许可：[Tencent Hunyuan Community License](https://github.com/Tencent-Hunyuan/HunyuanVideo/blob/4eda9cb44c3be82a6b9c4261897cb6bd3cfb084e/LICENSE.txt)；源码可见但非 OSI 开源。存在地域排除、使用政策和模型衍生条款，不是标准 OSI 开源许可
-- 功能核验：2026-11-12；[来源1](https://github.com/Tencent-Hunyuan/HunyuanVideo/blob/4eda9cb44c3be82a6b9c4261897cb6bd3cfb084e/README.md#L1)。
+- Category: ComfyUI and open-source video generation; Restricted license.
+- Scope boundary: High hardware requirements; code license vs. model weights/output policy must be verified separately.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 3 commits in 90 days.
+- License: [Tencent Hunyuan Community License](https://github.com/Tencent-Hunyuan/HunyuanVideo/blob/4eda9cb44c3be82a6b9c4261897cb6bd3cfb084e/LICENSE.txt); Source-available, not OSI open source. Includes territory exclusions, an acceptable-use policy and model derivative terms, so it is not a standard OSI open-source license
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Tencent-Hunyuan/HunyuanVideo/blob/4eda9cb44c3be82a6b9c4261897cb6bd3cfb084e/README.md#L1).
 
 ## [Wan2.2](https://github.com/Wan-Video/Wan2.2)
 
-阿里 Wan 系列开放视频生成模型，覆盖文本/图像到视频等任务。
+Alibaba's Wan family of open video generation models covering text/image-to-video and related tasks.
 
-- 分类：ComfyUI 与开源视频生成；核心候选。
-- 适用边界：不同模型尺寸、活跃参数与许可条件需按具体 checkpoint 核对。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 2 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/Wan-Video/Wan2.2/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Wan-Video/Wan2.2/blob/1ea34ff48f87168174e12956e200b1d908b1c5ff/README.md#L1)。
+- Category: ComfyUI and open-source video generation; Core candidate.
+- Scope boundary: Model sizes, active parameters and license conditions must be checked per checkpoint.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 2 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/Wan-Video/Wan2.2/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Wan-Video/Wan2.2/blob/1ea34ff48f87168174e12956e200b1d908b1c5ff/README.md#L1).
 
 ## [Mochi](https://github.com/genmoai/mochi)
 
-Genmo 的开源视频生成模型与推理代码。
+Genmo's open video generation model and inference code.
 
-- 分类：ComfyUI 与开源视频生成；核心候选。
-- 适用边界：模型权重、显存、时长与分辨率限制需按版本验证。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 2 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/genmoai/mochi/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/genmoai/mochi/blob/15c9bad662df1fa3e7b53136423695b286484c08/README.md#L1)。
+- Category: ComfyUI and open-source video generation; Core candidate.
+- Scope boundary: Model weights, VRAM, duration and resolution limits need verification per version.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 2 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/genmoai/mochi/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/genmoai/mochi/blob/15c9bad662df1fa3e7b53136423695b286484c08/README.md#L1).
 
 ## [Open-Sora](https://github.com/hpcaitech/Open-Sora)
 
-开源高效视频生成训练与推理框架。
+Open-source efficient video generation training and inference framework.
 
-- 分类：ComfyUI 与开源视频生成；核心候选。
-- 适用边界：研究框架和模型 checkpoint 不等于桌面成片工具。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/hpcaitech/Open-Sora/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/hpcaitech/Open-Sora/blob/7ad6a96a135feb81f755c84fb391818718f6beb2/README.md#L2)。
+- Category: ComfyUI and open-source video generation; Core candidate.
+- Scope boundary: A research framework and model checkpoints are not a desktop finishing tool.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/hpcaitech/Open-Sora/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/hpcaitech/Open-Sora/blob/7ad6a96a135feb81f755c84fb391818718f6beb2/README.md#L2).
 
 ## [Bernini](https://github.com/bytedance/Bernini)
 
-结合语义规划器和 DiT 渲染器的视频生成与编辑研究框架。
+Video generation and editing research framework combining a semantic planner and a DiT renderer.
 
-- 分类：ComfyUI 与开源视频生成；研究/评测。
-- 适用边界：论文 benchmark 不与产品编辑器维护分混为能力结论。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/bytedance/Bernini/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/bytedance/Bernini/blob/e6c2cf11843470b08491745947abcba9c3c6b079/README.md#L3)。
+- Category: ComfyUI and open-source video generation; Research/benchmark.
+- Scope boundary: Paper benchmarks are not capability conclusions when mixed with product-editor maintenance scores.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/bytedance/Bernini/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/bytedance/Bernini/blob/e6c2cf11843470b08491745947abcba9c3c6b079/README.md#L3).
 
 ## [HunyuanVideo-I2V](https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V)
 
-基于 HunyuanVideo 的可定制图生视频框架。
+Customizable image-to-video framework built on HunyuanVideo.
 
-- 分类：ComfyUI 与开源视频生成；受限许可。
-- 适用边界：与基础 T2V 项目分开；输入参考和权重许可需核对。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Tencent Hunyuan Community License](https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V/blob/c8bba70b9517f08d770a9a2a3d1e93cc6d5b7949/LICENSE.txt)；源码可见但非 OSI 开源。存在地域排除、使用政策和模型衍生条款，不是标准 OSI 开源许可
-- 功能核验：2026-11-12；[来源1](https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V/blob/c8bba70b9517f08d770a9a2a3d1e93cc6d5b7949/README.md#L9)。
+- Category: ComfyUI and open-source video generation; Restricted license.
+- Scope boundary: Separate from the base T2V project; input references and weight licenses need checking.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Tencent Hunyuan Community License](https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V/blob/c8bba70b9517f08d770a9a2a3d1e93cc6d5b7949/LICENSE.txt); Source-available, not OSI open source. Includes territory exclusions, an acceptable-use policy and model derivative terms, so it is not a standard OSI open-source license
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V/blob/c8bba70b9517f08d770a9a2a3d1e93cc6d5b7949/README.md#L9).
 
 ## [CogVideo / CogVideoX](https://github.com/zai-org/CogVideo)
 
-开源文本/图像到视频模型与推理代码。
+Open text/image-to-video models and inference code.
 
-- 分类：ComfyUI 与开源视频生成；核心候选。
-- 适用边界：模型生成器不是编辑工作台；权重、显存、分辨率和模型许可需按版本核对。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/zai-org/CogVideo/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/zai-org/CogVideo/blob/7a1af7154511e0ce4e4be8d62faa8c5e5a3532d2/README.md#L1)。
+- Category: ComfyUI and open-source video generation; Core candidate.
+- Scope boundary: A model generator is not an editing workbench; weights, VRAM, resolution and model license must be checked per version.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/zai-org/CogVideo/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/zai-org/CogVideo/blob/7a1af7154511e0ce4e4be8d62faa8c5e5a3532d2/README.md#L1).
 
 ## [LiveTalking](https://github.com/lipku/LiveTalking)
 
-结合多种数字人后端的实时交互式流媒体系统。
+Real-time interactive streaming system combining multiple digital-human backends.
 
-- 分类：数字人、肖像动画与唇同步；核心候选。
-- 适用边界：不同后端的许可、硬件、延迟和效果差异很大。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 8 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/lipku/LiveTalking/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/lipku/LiveTalking/blob/c7269433a2b6ecebcd9342445d2ecc882c98b0da/README.md#L250)。
+- Category: Digital humans, portrait animation and lip sync; Core candidate.
+- Scope boundary: License, hardware, latency and quality differ widely across backends.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 8 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/lipku/LiveTalking/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/lipku/LiveTalking/blob/c7269433a2b6ecebcd9342445d2ecc882c98b0da/README.md#L250).
 
 ## [MuseTalk](https://github.com/TMElyralab/MuseTalk)
 
-面向实时高质量唇同步的音频驱动虚拟人模型。
+Audio-driven virtual human model for real-time high-quality lip sync.
 
-- 分类：数字人、肖像动画与唇同步；核心候选。
-- 适用边界：代码、模型权重、输入肖像与商业使用边界需分别核验。
-- 维护状态：近90天有提交；30 天提交 1 次，90 天提交 1 次。
-- 许可：[MIT](https://github.com/TMElyralab/MuseTalk/blob/0a89dec45a0192b824e3cf4daf96c239440c5ed8/LICENSE)；开放许可证已核验。根目录 LICENSE 人工核验；模型、数据和人物素材权利另计
-- 功能核验：2026-11-12；[来源1](https://github.com/TMElyralab/MuseTalk/blob/0a89dec45a0192b824e3cf4daf96c239440c5ed8/README.md#L1)。
+- Category: Digital humans, portrait animation and lip sync; Core candidate.
+- Scope boundary: Code, model weights, input portraits and commercial-use boundaries each need verification.
+- Maintenance: Commits within the last 90 days; 1 commits in 30 days, 1 commits in 90 days.
+- License: [MIT](https://github.com/TMElyralab/MuseTalk/blob/0a89dec45a0192b824e3cf4daf96c239440c5ed8/LICENSE); Open license verified. Root LICENSE manually verified; model, data and performer-asset rights are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/TMElyralab/MuseTalk/blob/0a89dec45a0192b824e3cf4daf96c239440c5ed8/README.md#L1).
 
 ## [LivePortrait](https://github.com/KlingAIResearch/LivePortrait)
 
-高效肖像动画、拼接和重定向控制框架。
+Efficient portrait animation, retargeting and control framework.
 
-- 分类：数字人、肖像动画与唇同步；核心候选。
-- 适用边界：仓库已转移到 KlingAIResearch；驱动素材与人物授权由用户负责。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://github.com/KlingAIResearch/LivePortrait/blob/9b294b3d0536135442ea73cb01e6cb3ca7029dd3/LICENSE)；开放许可证已核验。根目录 LICENSE 人工核验；模型、数据和肖像权另计
-- 功能核验：2026-11-12；[来源1](https://github.com/KlingAIResearch/LivePortrait/blob/9b294b3d0536135442ea73cb01e6cb3ca7029dd3/readme.md#L1)。
+- Category: Digital humans, portrait animation and lip sync; Core candidate.
+- Scope boundary: The repo moved to KlingAIResearch; driving media and person consent are the user's responsibility.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://github.com/KlingAIResearch/LivePortrait/blob/9b294b3d0536135442ea73cb01e6cb3ca7029dd3/LICENSE); Open license verified. Root LICENSE manually verified; model, data and portrait rights are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/KlingAIResearch/LivePortrait/blob/9b294b3d0536135442ea73cb01e6cb3ca7029dd3/readme.md#L1).
 
 ## [SadTalker](https://github.com/OpenTalker/SadTalker)
 
-从单张人像和音频生成说话头像视频。
+Generates talking-head video from a single portrait and audio.
 
-- 分类：数字人、肖像动画与唇同步；核心候选。
-- 适用边界：生成肖像涉及人物授权；模型与依赖许可需按当前仓库说明。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://github.com/OpenTalker/SadTalker/blob/cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8/LICENSE)；开放许可证已核验。根目录 LICENSE 人工核验；第三方组件另计
-- 功能核验：2026-11-12；[来源1](https://github.com/OpenTalker/SadTalker/blob/cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8/README.md#L6)。
+- Category: Digital humans, portrait animation and lip sync; Core candidate.
+- Scope boundary: Generated portraits involve person consent; model and dependency licenses follow the current repo's terms.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://github.com/OpenTalker/SadTalker/blob/cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8/LICENSE); Open license verified. Root LICENSE manually verified; third-party components are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/OpenTalker/SadTalker/blob/cd4c0465ae0b54a6f85af57f5c65fec9fe23e7f8/README.md#L6).
 
 ## [Wav2Lip](https://github.com/Rudrabha/Wav2Lip)
 
-经典音视频唇同步研究实现。
+Classic audio-video lip-sync research implementation.
 
-- 分类：数字人、肖像动画与唇同步；受限许可。
-- 适用边界：开放代码/权重主要限个人、研究和非商业用途，不列入普通商用开源推荐。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[个人/研究/非商业许可](https://github.com/Rudrabha/Wav2Lip/blob/bac9a81e63ecc153202353372e5724b83d9e6322/README.md#L207)；源码可见但非 OSI 开源。README 明确禁止开源模型的商业使用
-- 功能核验：2026-11-12；[来源1](https://github.com/Rudrabha/Wav2Lip/blob/bac9a81e63ecc153202353372e5724b83d9e6322/README.md#L1)。
+- Category: Digital humans, portrait animation and lip sync; Restricted license.
+- Scope boundary: Open code/weights are mostly limited to personal, research and non-commercial use; not recommended as ordinary commercial open source.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Personal/research/non-commercial license](https://github.com/Rudrabha/Wav2Lip/blob/bac9a81e63ecc153202353372e5724b83d9e6322/README.md#L207); Source-available, not OSI open source. README explicitly forbids commercial use of the released model
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Rudrabha/Wav2Lip/blob/bac9a81e63ecc153202353372e5724b83d9e6322/README.md#L1).
 
 ## [FFmpeg](https://github.com/FFmpeg/FFmpeg)
 
-视频转码、滤镜、封装、合成和流处理的底层工具链。
+Low-level toolchain for transcoding, filtering, muxing, compositing and stream processing.
 
-- 分类：下载、采集、转码与素材 CLI；相邻基础设施。
-- 适用边界：许可证随构建选项可能为 LGPL/GPL；大量上层项目只是对其封装。
-- 维护状态：近90天有提交；30 天提交 362 次，90 天提交 2986 次。
-- 许可：[LGPL-2.1+；启用 GPL 组件后为 GPL-2.0+](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/LICENSE.md)；复合/条件许可。最终许可取决于编译选项和链接组件
-- 功能核验：2026-11-12；[来源1](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/README.md#L1)。
+- Category: Download, capture, transcoding and media CLIs; Adjacent infrastructure.
+- Scope boundary: License may become LGPL/GPL depending on build options; many higher-level projects merely wrap it.
+- Maintenance: Commits within the last 90 days; 362 commits in 30 days, 2986 commits in 90 days.
+- License: [LGPL-2.1+; GPL-2.0+ once GPL components are enabled](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/LICENSE.md); Composite/conditional license. Final license depends on compile options and linked components
+- Feature verified: 2026-11-12; [Source 1](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/README.md#L1).
 
 ## [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
-支持大量站点的功能丰富命令行音视频下载器。
+Feature-rich command-line audio/video downloader supporting a large number of sites.
 
-- 分类：下载、采集、转码与素材 CLI；核心候选。
-- 适用边界：它是 Downvid/VidBee 等产品的底层解析 CLI，不提供完整编辑工作台。
-- 维护状态：近90天有提交；30 天提交 46 次，90 天提交 81 次。
-- 许可：[Unlicense](https://api.github.com/repos/yt-dlp/yt-dlp/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/yt-dlp/yt-dlp/blob/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md#L16)。
+- Category: Download, capture, transcoding and media CLIs; Core candidate.
+- Scope boundary: The underlying extraction CLI for products such as Downvid/VidBee; not a full editing workbench.
+- Maintenance: Commits within the last 90 days; 46 commits in 30 days, 81 commits in 90 days.
+- License: [Unlicense](https://api.github.com/repos/yt-dlp/yt-dlp/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/yt-dlp/yt-dlp/blob/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md#L16).
 
 ## [Streamlink](https://github.com/streamlink/streamlink)
 
-把在线直播流解析并管道传给本地播放器的 CLI。
+CLI that resolves online livestreams and pipes them to a local player.
 
-- 分类：下载、采集、转码与素材 CLI；核心候选。
-- 适用边界：主要面向流播放/录制，不等同通用点播下载或编辑器。
-- 维护状态：近90天有提交；30 天提交 35 次，90 天提交 155 次。
-- 许可：[BSD-2-Clause](https://api.github.com/repos/streamlink/streamlink/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/streamlink/streamlink/blob/993f9f1b63bd7a87292e05eda98d461ddc1f62c9/README.md#L13)。
+- Category: Download, capture, transcoding and media CLIs; Core candidate.
+- Scope boundary: Aimed at stream playback/recording, not general on-demand downloading or editing.
+- Maintenance: Commits within the last 90 days; 35 commits in 30 days, 155 commits in 90 days.
+- License: [BSD-2-Clause](https://api.github.com/repos/streamlink/streamlink/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/streamlink/streamlink/blob/993f9f1b63bd7a87292e05eda98d461ddc1f62c9/README.md#L13).
 
 ## [Downvid](https://github.com/Downvid/downvid)
 
-基于 yt-dlp 与 FFmpeg 的跨平台视频下载 GUI/WebUI。
+Cross-platform video download GUI/WebUI built on yt-dlp and FFmpeg.
 
-- 分类：下载、采集、转码与素材 CLI；核心候选。
-- 适用边界：主要是产品层封装；站点解析能力来自 yt-dlp，使用需遵守平台条款和内容授权。
-- 维护状态：近90天有提交；30 天提交 100 次，90 天提交 354 次。
-- 许可：[MIT](https://api.github.com/repos/Downvid/downvid/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Downvid/downvid/blob/770bd3e3bf6157f1a2dd0ccb67ea6ce2a4b31807/README.md#L7)。
+- Category: Download, capture, transcoding and media CLIs; Core candidate.
+- Scope boundary: Mainly a product-layer wrapper; site extraction comes from yt-dlp, and use must respect platform terms and content rights.
+- Maintenance: Commits within the last 90 days; 100 commits in 30 days, 354 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/Downvid/downvid/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Downvid/downvid/blob/770bd3e3bf6157f1a2dd0ccb67ea6ce2a4b31807/README.md#L7).
 
 ## [VidBee](https://github.com/nexmoe/VidBee)
 
-下载媒体，并在本地执行转录、说话人标注、摘要、翻译和媒体对话。
+Downloads media, then runs local transcription, speaker labeling, summarization, translation and media chat.
 
-- 分类：下载、采集、转码与素材 CLI；核心候选。
-- 适用边界：下载由 yt-dlp 生态提供；AI 摘要可能调用用户选择的远程模型。
-- 维护状态：近90天有提交；30 天提交 11 次，90 天提交 51 次。
-- 许可：[MIT](https://api.github.com/repos/nexmoe/VidBee/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/nexmoe/VidBee/blob/6082e2604f0c37d942cdb896040aa0c88b5c527f/README.md#L2)。
+- Category: Download, capture, transcoding and media CLIs; Core candidate.
+- Scope boundary: Downloading comes from the yt-dlp ecosystem; AI summaries may call a remote model you choose.
+- Maintenance: Commits within the last 90 days; 11 commits in 30 days, 51 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/nexmoe/VidBee/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/nexmoe/VidBee/blob/6082e2604f0c37d942cdb896040aa0c88b5c527f/README.md#L2).
 
 ## [cobalt](https://github.com/imputnet/cobalt)
 
-无广告和追踪的媒体下载 Web 应用与可自托管 API，覆盖 YouTube、TikTok、Instagram 等站点。
+Ad- and tracker-free media download web app and self-hostable API covering YouTube, TikTok, Instagram and more.
 
-- 分类：下载、采集、转码与素材 CLI；核心候选。
-- 适用边界：monorepo 含 api、web 与文档，没有公开预托管 API，需自行部署实例；只处理公开可访问内容，下载与再分发授权由用户负责；品牌与吉祥物为版权所有，不随代码许可。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[AGPL-3.0（api 与其余部分）+ CC-BY-NC-SA-4.0（web）](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L59)；复合/条件许可。api 与仓库其余部分为 AGPL-3.0，web 代码为禁止商用的 CC-BY-NC-SA-4.0；品牌和吉祥物单独版权，仅允许非商业托管未修改实例；ffmpeg/libav.js 等组件许可另计
-- 功能核验：2026-11-23；[来源1](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L28) · [来源2](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L33) · [来源3](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L45)。
+- Category: Download, capture, transcoding and media CLIs; Core candidate.
+- Scope boundary: The monorepo holds api, web and docs, with no public pre-hosted API, so you deploy your own instance; it handles only publicly accessible content, and download/redistribution rights are the user's responsibility; brand and mascot are copyrighted and not covered by the code license.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [AGPL-3.0 (api and the rest) + CC-BY-NC-SA-4.0 (web)](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L59); Composite/conditional license. api and the rest of the repo are AGPL-3.0, web code is non-commercial CC-BY-NC-SA-4.0; brand and mascot are separately copyrighted, allowing only non-commercial hosting of unmodified instances; licenses for components such as ffmpeg/libav.js are separate
+- Feature verified: 2026-11-23; [Source 1](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L28) · [Source 2](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L33) · [Source 3](https://github.com/imputnet/cobalt/blob/a636575b09de1fc55d9b8cd98cac88f5f2f16b42/README.md#L45).
 
 ## [Lux](https://github.com/iawia002/lux)
 
-Go 编写的多站点视频下载 CLI。
+Multi-site video download CLI written in Go.
 
-- 分类：下载、采集、转码与素材 CLI；核心候选。
-- 适用边界：解析覆盖与站点更新频率是主要维护风险。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://api.github.com/repos/iawia002/lux/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/iawia002/lux/blob/dd00f6d258d80b6684a0b9402d7124e5c18ef42f/README.md#L1)。
+- Category: Download, capture, transcoding and media CLIs; Core candidate.
+- Scope boundary: Extraction coverage and site-update cadence are the main maintenance risks.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/iawia002/lux/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/iawia002/lux/blob/dd00f6d258d80b6684a0b9402d7124e5c18ef42f/README.md#L1).
 
 ## [you-get](https://github.com/soimort/you-get)
 
-从网页下载媒体内容的 Python 命令行工具。
+Python command-line tool downloading media from web pages.
 
-- 分类：下载、采集、转码与素材 CLI；核心候选。
-- 适用边界：站点支持与维护活跃度需和 yt-dlp 分开比较。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[MIT](https://github.com/soimort/you-get/blob/049548f3f3f35e67ba8d3181c71fdc71d11cf260/LICENSE.txt)；开放许可证已核验。根目录 LICENSE.txt 人工核验
-- 功能核验：2026-11-12；[来源1](https://github.com/soimort/you-get/blob/049548f3f3f35e67ba8d3181c71fdc71d11cf260/README.md#L1)。
+- Category: Download, capture, transcoding and media CLIs; Core candidate.
+- Scope boundary: Site coverage and maintenance activity should be compared with yt-dlp separately.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [MIT](https://github.com/soimort/you-get/blob/049548f3f3f35e67ba8d3181c71fdc71d11cf260/LICENSE.txt); Open license verified. Root LICENSE.txt manually verified
+- Feature verified: 2026-11-12; [Source 1](https://github.com/soimort/you-get/blob/049548f3f3f35e67ba8d3181c71fdc71d11cf260/README.md#L1).
 
 ## [Aurora / AgentEdit-Bench](https://github.com/yeates/Aurora)
 
-用工具使用型 Agent 统一视频编辑，并提供 AgentEdit-Bench。
+Unifies video editing through a tool-using agent and ships AgentEdit-Bench.
 
-- 分类：评测、研究与外部索引；研究/评测。
-- 适用边界：AgentEdit-Bench 与 VEFX/EditVerse 指标不可直接横比。
-- 维护状态：近90天有提交；30 天提交 4 次，90 天提交 4 次。
-- 许可：[MIT](https://api.github.com/repos/yeates/Aurora/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/yeates/Aurora/blob/2599b748c56b29b67b9be352dc091b8ddf72ae8f/README.md#L3)。
+- Category: Benchmarks, research and external indexes; Research/benchmark.
+- Scope boundary: AgentEdit-Bench scores are not directly comparable with VEFX/EditVerse metrics.
+- Maintenance: Commits within the last 90 days; 4 commits in 30 days, 4 commits in 90 days.
+- License: [MIT](https://api.github.com/repos/yeates/Aurora/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/yeates/Aurora/blob/2599b748c56b29b67b9be352dc091b8ddf72ae8f/README.md#L3).
 
 ## [Awesome AI Video for Creators](https://github.com/sasateguh/awesome-ai-video-for-creators)
 
-按创作者工作流整理开源剪辑、字幕、切片、配音和代码视频工具。
+Organizes open-source editing, captioning, clipping, voiceover and code-video tools by creator workflow.
 
-- 分类：评测、研究与外部索引；相邻基础设施。
-- 适用边界：外部 star 快照会变化，最终数据回到官方仓库。
-- 维护状态：近90天有提交；30 天提交 12 次，90 天提交 15 次。
-- 许可：[CC0-1.0](https://api.github.com/repos/sasateguh/awesome-ai-video-for-creators/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/sasateguh/awesome-ai-video-for-creators/blob/3b88db72b425a89b751b6ea279532e3ae0a3d6f9/README.md#L1)。
+- Category: Benchmarks, research and external indexes; Adjacent infrastructure.
+- Scope boundary: External star snapshots drift; final data comes from official repos.
+- Maintenance: Commits within the last 90 days; 12 commits in 30 days, 15 commits in 90 days.
+- License: [CC0-1.0](https://api.github.com/repos/sasateguh/awesome-ai-video-for-creators/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/sasateguh/awesome-ai-video-for-creators/blob/3b88db72b425a89b751b6ea279532e3ae0a3d6f9/README.md#L1).
 
 ## [CutCraft Bench](https://github.com/AlibabaResearch/cut-craft-bench)
 
-评测多镜头音视频生成中的专业剪辑技法执行，并提供 Agent baseline。
+Benchmarks professional editing-technique execution in multi-shot audio-video generation, with agent baselines.
 
-- 分类：评测、研究与外部索引；研究/评测。
-- 适用边界：生成连贯性与可编辑性是不同指标，不能只取综合分。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 5 次。
-- 许可：[待核验](https://github.com/AlibabaResearch/cut-craft-bench/blob/df2b35d63822d0832679fe675a274c33c51f7f75/README.md)；许可待核验。未找到根目录许可证
-- 功能核验：2026-11-12；[来源1](https://github.com/AlibabaResearch/cut-craft-bench/blob/df2b35d63822d0832679fe675a274c33c51f7f75/README.md#L6)。
+- Category: Benchmarks, research and external indexes; Research/benchmark.
+- Scope boundary: Generation coherence and editability are different metrics and should not be collapsed into one composite score.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 5 commits in 90 days.
+- License: [Unverified](https://github.com/AlibabaResearch/cut-craft-bench/blob/df2b35d63822d0832679fe675a274c33c51f7f75/README.md); License unverified. No root license found
+- Feature verified: 2026-11-12; [Source 1](https://github.com/AlibabaResearch/cut-craft-bench/blob/df2b35d63822d0832679fe675a274c33c51f7f75/README.md#L6).
 
 ## [Awesome Video Editing](https://github.com/devanasolver/awesome-video-editing)
 
-整理开源视频编辑工具、Agent Skills 与可用素材。
+Curates open-source video editing tools, agent skills and usable media.
 
-- 分类：评测、研究与外部索引；相邻基础设施。
-- 适用边界：作为发现和覆盖基线，不参与能力判断。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 2 次。
-- 许可：[CC0-1.0](https://github.com/devanasolver/awesome-video-editing/blob/637c0b63835cccaca2c5362baa7e564fee89a6dc/LICENSE)；开放许可证已核验。目录内容采用 CC0
-- 功能核验：2026-11-12；[来源1](https://github.com/devanasolver/awesome-video-editing/blob/637c0b63835cccaca2c5362baa7e564fee89a6dc/README.md#L1)。
+- Category: Benchmarks, research and external indexes; Adjacent infrastructure.
+- Scope boundary: Used as a discovery and coverage baseline, not for capability judgments.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 2 commits in 90 days.
+- License: [CC0-1.0](https://github.com/devanasolver/awesome-video-editing/blob/637c0b63835cccaca2c5362baa7e564fee89a6dc/LICENSE); Open license verified. Directory content is CC0
+- Feature verified: 2026-11-12; [Source 1](https://github.com/devanasolver/awesome-video-editing/blob/637c0b63835cccaca2c5362baa7e564fee89a6dc/README.md#L1).
 
 ## [Awesome AI Video](https://github.com/thoxakihiko/awesome-ai-video)
 
-整理文本/图像到视频模型、工具和资源。
+Curates text/image-to-video models, tools and resources.
 
-- 分类：评测、研究与外部索引；相邻基础设施。
-- 适用边界：包含商业产品和模型，不能直接视为开源工具清单。
-- 维护状态：近90天有提交；30 天提交 0 次，90 天提交 3 次。
-- 许可：[CC0-1.0](https://api.github.com/repos/thoxakihiko/awesome-ai-video/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/thoxakihiko/awesome-ai-video/blob/45e9e2bfb3e1e1193e4725ce94bba45d0f342c5a/README.md#L1)。
+- Category: Benchmarks, research and external indexes; Adjacent infrastructure.
+- Scope boundary: Includes commercial products and models, so it is not directly an open-source tool list.
+- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 3 commits in 90 days.
+- License: [CC0-1.0](https://api.github.com/repos/thoxakihiko/awesome-ai-video/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/thoxakihiko/awesome-ai-video/blob/45e9e2bfb3e1e1193e4725ce94bba45d0f342c5a/README.md#L1).
 
 ## [VEFX-Bench](https://github.com/Visko-Platform/VEFX-Bench)
 
-评测通用视频编辑和视觉特效的指令遵循与质量。
+Benchmarks instruction following and quality for general video editing and visual effects.
 
-- 分类：评测、研究与外部索引；研究/评测。
-- 适用边界：模型、数据、reward 和商业 API 版本必须固定后才可比较。
-- 维护状态：91–365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/Visko-Platform/VEFX-Bench/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Visko-Platform/VEFX-Bench/blob/a82437764d1e2a2068e5e183075f437d5bd0568b/README.md#L9)。
+- Category: Benchmarks, research and external indexes; Research/benchmark.
+- Scope boundary: Model, data, reward and commercial-API versions must be pinned before comparison.
+- Maintenance: No commits for 91–365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/Visko-Platform/VEFX-Bench/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Visko-Platform/VEFX-Bench/blob/a82437764d1e2a2068e5e183075f437d5bd0568b/README.md#L9).
 
 ## [EditVerse](https://github.com/adobe-research/EditVerse)
 
-图像/视频生成与编辑研究代码及 EditVerseBench。
+Image/video generation and editing research code plus EditVerseBench.
 
-- 分类：评测、研究与外部索引；受限许可。
-- 适用边界：研究代码与数据下载依赖外部源，结果需按论文设置复现。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Adobe Research License（部分文件）](https://github.com/adobe-research/EditVerse/blob/eeca9ce9f99db2d5c90e775853735025523c9334/LICENSE.md)；源码可见但非 OSI 开源。LICENSE 仅覆盖明确列出的文件，其余文件不在该许可范围内
-- 功能核验：2026-11-12；[来源1](https://github.com/adobe-research/EditVerse/blob/eeca9ce9f99db2d5c90e775853735025523c9334/README.md#L1)。
+- Category: Benchmarks, research and external indexes; Restricted license.
+- Scope boundary: Research code and data downloads depend on external sources; results need reproduction under the paper's settings.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Adobe Research License (some files)](https://github.com/adobe-research/EditVerse/blob/eeca9ce9f99db2d5c90e775853735025523c9334/LICENSE.md); Source-available, not OSI open source. LICENSE covers only the explicitly listed files; the remaining files are outside that license
+- Feature verified: 2026-11-12; [Source 1](https://github.com/adobe-research/EditVerse/blob/eeca9ce9f99db2d5c90e775853735025523c9334/README.md#L1).
 
 ## [Video-Bench](https://github.com/Video-Bench/Video-Bench)
 
-整理和运行视频生成模型的多维评测。
+Organizes and runs multi-dimensional evaluations of video generation models.
 
-- 分类：评测、研究与外部索引；研究/评测。
-- 适用边界：生成 benchmark 不等于时间线编辑器或生产系统质量。
-- 维护状态：超过365天未提交；30 天提交 0 次，90 天提交 0 次。
-- 许可：[Apache-2.0](https://api.github.com/repos/Video-Bench/Video-Bench/license)；开放许可证已核验。GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计
-- 功能核验：2026-11-12；[来源1](https://github.com/Video-Bench/Video-Bench/blob/d40b917c4238011aea27d24f85b1e3bf996715bd/README.md#L1)。
+- Category: Benchmarks, research and external indexes; Research/benchmark.
+- Scope boundary: A generation benchmark is not timeline-editor or production-system quality.
+- Maintenance: No commits for over 365 days; 0 commits in 30 days, 0 commits in 90 days.
+- License: [Apache-2.0](https://api.github.com/repos/Video-Bench/Video-Bench/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/Video-Bench/Video-Bench/blob/d40b917c4238011aea27d24f85b1e3bf996715bd/README.md#L1).
 
 ## [Palmier Pro](https://github.com/palmier-io/palmier-pro)
 
-面向 AI 的视频编辑器，旧版本源码曾以 GPLv3 发布。
+AI-oriented video editor whose older sources were released under GPLv3.
 
-- 分类：历史与受限版本；历史参考。
-- 适用边界：v0.7.6 后二进制为专有，当前对应源码未公开；仅把 last-gpl-source 视为历史开源版本。
-- 维护状态：归档 / 历史；30 天提交 4 次，90 天提交 10 次。
-- 许可：[GPL-3.0（至 v0.7.6 源码）/ 后续二进制专有](https://github.com/palmier-io/palmier-pro/blob/dfc810b561f1692947eb81bbb689e078923ebb59/README.md#L112)；复合/条件许可。last-gpl-source 及 v0.7.6 前源码为 GPLv3；后续二进制无对应公开源码
-- 功能核验：2026-11-12；[来源1](https://github.com/palmier-io/palmier-pro/blob/dfc810b561f1692947eb81bbb689e078923ebb59/README.md#L2)。
+- Category: Historical and restricted versions; Historical reference.
+- Scope boundary: Binaries after v0.7.6 are proprietary with no corresponding public source; treat last-gpl-source as the historical open-source version only.
+- Maintenance: Archived / historical; 4 commits in 30 days, 10 commits in 90 days.
+- License: [GPL-3.0 (source up to v0.7.6) / later binaries proprietary](https://github.com/palmier-io/palmier-pro/blob/dfc810b561f1692947eb81bbb689e078923ebb59/README.md#L112); Composite/conditional license. last-gpl-source and sources before v0.7.6 are GPLv3; later binaries have no corresponding public source
+- Feature verified: 2026-11-12; [Source 1](https://github.com/palmier-io/palmier-pro/blob/dfc810b561f1692947eb81bbb689e078923ebb59/README.md#L2).

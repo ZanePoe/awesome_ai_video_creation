@@ -1,0 +1,104 @@
+{
+  "language": "es",
+  "language_name": "Español",
+  "list_separator": ", ",
+  "categories": {
+    "workbenches": "Editores de vídeo y estudios de producción",
+    "agent_production": "Producción de vídeo con agentes y automatización",
+    "short_video": "Vídeos cortos de conocimiento, clips y explicaciones",
+    "skills_mcp": "Agent Skills, MCP y herramientas de edición",
+    "code_motion": "Code-to-video y motion graphics",
+    "animation_infra": "Animación, 3D y componentes base de codificación",
+    "generation_models": "ComfyUI y modelos de vídeo abiertos",
+    "avatar": "Avatares digitales, animación de retratos y sincronización labial",
+    "media_cli": "Descarga, captura, transcodificación y CLIs de material",
+    "research_resources": "Evaluación, investigación e índices externos",
+    "historical_restricted": "Versiones históricas y restringidas"
+  },
+  "scopes": {
+    "core": "Candidato principal",
+    "adjacent": "Infraestructura adyacente",
+    "research": "Investigación/evaluación",
+    "historical": "Referencia histórica",
+    "restricted": "Licencia restringida"
+  },
+  "license_status": {
+    "verified": "Licencia abierta verificada",
+    "custom": "Licencia compuesta/condicional",
+    "source_available": "Código fuente visible pero no open source OSI",
+    "unverified": "Licencia pendiente de verificación"
+  },
+  "modes": {
+    "balanced": "Puntuación de mantenimiento combinada",
+    "stars": "Prioridad a las estrellas",
+    "activity": "Prioridad a los commits de 90 días",
+    "recent": "Prioridad al último commit de la rama por defecto"
+  },
+  "tiers": [
+    "Con commits en los últimos 90 días",
+    "Sin commits desde hace 91–365 días",
+    "Sin commits desde hace más de 365 días",
+    "Archivado / histórico"
+  ],
+  "tags": {
+    "baseline": "★Referencia del usuario",
+    "archived": "Archivado/histórico",
+    "license": "Aviso de licencia"
+  },
+  "headers": {
+    "shortlist": [
+      "Proyecto",
+      "Propósito",
+      "Estrellas",
+      "Commits 90 d",
+      "Último commit UTC",
+      "Puntuación de mantenimiento"
+    ],
+    "categories": [
+      "Categoría",
+      "Cantidad",
+      "Proyectos mejor posicionados por mantenimiento"
+    ],
+    "detail": [
+      "Proyecto",
+      "Propósito",
+      "Estrellas",
+      "Commits 90 d",
+      "Último commit UTC",
+      "Puntuación de mantenimiento",
+      "Licencia"
+    ],
+    "rankings": [
+      "Proyecto",
+      "Categoría",
+      "Capa de mantenimiento",
+      "Estrellas",
+      "Commits 90 d",
+      "Último commit UTC",
+      "Puntuación de mantenimiento"
+    ]
+  },
+  "sections": {
+    "current": "Catálogo actual",
+    "shortlist": "Vistazo rápido a los proyectos nucleares activos",
+    "toc": "Índice de categorías",
+    "choose": "Cómo elegir",
+    "data": "Datos y mantenimiento",
+    "thanks": "Licencias y agradecimientos",
+    "detail_title": "Descripciones de proyectos y evidencia",
+    "rankings_title": "Vistas de ordenación"
+  },
+  "templates": {
+    "current": "**{total} proyectos, de los cuales {baseline} son proyectos de referencia del usuario y {added} se han añadido en esta ronda.** Verificación funcional: {reviewed}; instantánea de métricas: `{as_of}` (UTC).\n\nDentro de cada categoría se estratifica primero por estado de mantenimiento y luego se ordena combinando estrellas (40%), commits en la rama por defecto a 90 días (35%) y último commit (25%). La puntuación de mantenimiento no representa la calidad del montaje final, la capacidad de los modelos, la seguridad de derechos ni la madurez de producción.",
+    "shortlist_note": "Solo se muestran los candidatos principales con licencia abierta verificada y commits en los últimos 90 días; las licencias restringidas, los modelos base, los benchmarks de investigación y las herramientas adyacentes no entran en esta tabla.",
+    "toc_note": "`★Referencia del usuario` indica proyectos aportados directamente por el usuario. Modelos, editores, Skills, CLIs y benchmarks se clasifican por separado.",
+    "detail_intro": "Cada propósito proviene del README oficial en un commit fijo; no se instalaron ni ejecutaron todos los proyectos. Actualizar las métricas no revalida automáticamente funciones ni licencias.",
+    "rankings_intro": "Instantánea: `{as_of}`. Es una ordenación por metadatos de mantenimiento de GitHub, no un ranking de calidad de vídeo. Todas las vistas se estratifican primero por estado de mantenimiento.",
+    "entry": "- Categoría: {category}; {scope}.\n- Frontera de aplicación: {boundary}\n- Estado de mantenimiento: {maintenance}; {commits_30d} commits en 30 días, {commits_90d} en 90 días.\n- Licencia: [{license}]({license_source}); {license_status}. {license_note}\n- Verificación funcional: {reviewed_at}; {sources}.",
+    "source_link": "Fuente {index}",
+    "choose": "- Si ya tienes material y necesitas montar: mira los editores/estudios o las Skills/MCP.\n- Del tema y el guion al montaje final: mira la producción con agentes y los vídeos cortos de conocimiento.\n- Para motion graphics, demos de producto e historias de datos: mira Code-to-video.\n- Para generación por difusión en local: mira ComfyUI y los modelos abiertos.\n- Para avatares digitales o presentación hablada: mira la animación de retratos y la sincronización labial, y revisa primero los derechos de las personas.\n- Para obtener material con licencia legítima: mira [Comparativa de CLIs](docs/cli-comparison.md).\n\nLas fronteras completas están en [Ficha detallada de proyectos](docs/projects.md) y los criterios de clasificación en [Alcance y categorías](docs/taxonomy.md).",
+    "data": "- [Ordenaciones combinada, por estrellas, por actividad y por último commit](docs/rankings.md)\n- [Comparativa de Downvid y de las CLIs de descarga/medios](docs/cli-comparison.md)\n- [Metodología de ordenación y limitaciones](docs/methodology.md)\n- [Palabras clave de búsqueda, fuentes y cobertura](docs/research.md)\n- [Guía de contribución](CONTRIBUTING.md)\n\n```sh\npython scripts/refresh_metrics.py\npython scripts/build.py\npython -m unittest discover -s tests -v\npython scripts/build.py --check\n```",
+    "thanks": "La compilación original y los scripts de este catálogo están bajo [MIT]({R}LICENSE); los proyectos enlazados, modelos, pesos, material y fuentes siguen sus propias licencias. Las fronteras de source-available, uso no comercial, modelos comunitarios y licencias condicionales se conservan tal cual.\n\nEl descubrimiento de proyectos tomó como referencia índices externos como [Awesome Video Editing](https://github.com/devanasolver/awesome-video-editing); cada entrada final se verificó en el repositorio oficial.",
+    "records_note": "El [registro de cambios]({R}record/) conserva el texto original tal como se redactó en el momento de cada verificación (en chino), para poder auditar el origen y la formulación de cada juicio."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "language": "en",
+  "language_name": "English",
+  "list_separator": ", ",
+  "categories": {
+    "workbenches": "Video editors and production workbenches",
+    "agent_production": "Agent video production and automation",
+    "short_video": "Knowledge shorts, clipping and explainers",
+    "skills_mcp": "Agent Skills, MCP and editing tools",
+    "code_motion": "Code-to-video and motion graphics",
+    "animation_infra": "Animation, 3D and coding building blocks",
+    "generation_models": "ComfyUI and open-source video generation",
+    "avatar": "Digital humans, portrait animation and lip sync",
+    "media_cli": "Download, capture, transcoding and media CLIs",
+    "research_resources": "Benchmarks, research and external indexes",
+    "historical_restricted": "Historical and restricted versions"
+  },
+  "scopes": {
+    "core": "Core candidate",
+    "adjacent": "Adjacent infrastructure",
+    "research": "Research/benchmark",
+    "historical": "Historical reference",
+    "restricted": "Restricted license"
+  },
+  "license_status": {
+    "verified": "Open license verified",
+    "custom": "Composite/conditional license",
+    "source_available": "Source-available, not OSI open source",
+    "unverified": "License unverified"
+  },
+  "modes": {
+    "balanced": "Balanced maintenance score",
+    "stars": "Star priority",
+    "activity": "90-day commits priority",
+    "recent": "Most recent default-branch commit priority"
+  },
+  "tiers": [
+    "Commits within the last 90 days",
+    "No commits for 91–365 days",
+    "No commits for over 365 days",
+    "Archived / historical"
+  ],
+  "tags": {
+    "baseline": "★User reference",
+    "archived": "Archived/historical",
+    "license": "License caution"
+  },
+  "headers": {
+    "shortlist": ["Project", "Positioning", "Stars", "90-day commits", "Last commit (UTC)", "Maintenance score"],
+    "categories": ["Category", "Count", "Top projects by maintenance rank"],
+    "detail": ["Project", "Positioning", "Stars", "90-day commits", "Last commit (UTC)", "Maintenance score", "License"],
+    "rankings": ["Project", "Category", "Maintenance tier", "Stars", "90-day commits", "Last commit (UTC)", "Maintenance score"]
+  },
+  "sections": {
+    "current": "Current coverage",
+    "shortlist": "Active core projects at a glance",
+    "toc": "Category index",
+    "choose": "How to choose",
+    "data": "Data and maintenance",
+    "thanks": "Licenses and acknowledgements",
+    "detail_title": "Project notes and evidence",
+    "rankings_title": "Ranking views"
+  },
+  "templates": {
+    "current": "**{total} projects, of which {baseline} are user-reference projects and {added} were added in this round.** Feature verification: {reviewed}; metrics snapshot: `{as_of}` (UTC).\n\nWithin each category, projects are first tiered by maintenance status, then ranked by a blend of stars (40%), 90-day default-branch commits (35%) and recency of the last commit (25%). The maintenance score does not represent final-video quality, model capability, copyright safety or production readiness.",
+    "shortlist_note": "Shows only core candidates with a verified open license and commits in the last 90 days; restricted-license projects, base models, research benchmarks and adjacent tools are excluded from this table.",
+    "toc_note": "`★User reference` marks projects provided directly by the user. Models, editors, Skills, CLIs and benchmarks are categorized separately.",
+    "detail_intro": "Each positioning statement comes from the official README at a pinned commit; not every project was installed and run. Metrics refreshes do not automatically re-audit features or licenses.",
+    "rankings_intro": "Snapshot: `{as_of}`. This is a ranking of GitHub maintenance metadata, not a video-quality leaderboard. All views tier by maintenance status first.",
+    "entry": "- Category: {category}; {scope}.\n- Scope boundary: {boundary}\n- Maintenance: {maintenance}; {commits_30d} commits in 30 days, {commits_90d} commits in 90 days.\n- License: [{license}]({license_source}); {license_status}. {license_note}\n- Feature verified: {reviewed_at}; {sources}.",
+    "source_link": "Source {index}",
+    "choose": "- Have footage and need to cut: see editors/workbenches or Skills/MCP.\n- From topic and script to finished video: see Agent production and knowledge shorts.\n- Motion graphics, product demos and data stories: see Code-to-video.\n- Local diffusion generation: see ComfyUI and open models.\n- Digital humans/talking heads: see portrait animation and lip sync, and check person consent first.\n- Getting properly licensed media: see [CLI comparison](docs/cli-comparison.md).\n\nFull boundaries in [project details](docs/projects.md); category definitions in [Scope and taxonomy](docs/taxonomy.md).",
+    "data": "- [Balanced, stars, activity and recent-commit rankings](docs/rankings.md)\n- [Downvid and download/media CLI comparison](docs/cli-comparison.md)\n- [Ranking method and limits](docs/methodology.md)\n- [Search keywords, sources and coverage](docs/research.md)\n- [Contributing guide](CONTRIBUTING.md)\n\n```sh\npython scripts/refresh_metrics.py\npython scripts/build.py\npython -m unittest discover -s tests -v\npython scripts/build.py --check\n```",
+    "thanks": "Original curation and scripts in this catalogue use the [MIT]({R}LICENSE) license; linked projects, models, weights, media and fonts follow their own licenses. Source-available, non-commercial, community-model and conditional licenses keep their original boundaries.\n\nProject discovery referenced external indexes such as [Awesome Video Editing](https://github.com/devanasolver/awesome-video-editing); every final entry was verified against its official repository.",
+    "records_note": "The [change records]({R}record/) keep each entry in the language used at verification time (Chinese), so the source and original wording of every decision stay auditable."
+  }
+}

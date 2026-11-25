@@ -1,23 +1,23 @@
-# 排序方法与限制
+# Ranking method and limits
 
-GitHub 指标通过 GraphQL API 在固定 UTC 时刻批量采集。只有全部批次成功才原子替换快照。
+GitHub metrics are collected in batches at a fixed UTC time through the GraphQL API. A snapshot is replaced atomically only when every batch succeeds.
 
-- stars：社区关注度代理。
-- 30/90 天提交：默认分支完整历史计数，包含文档、合并和机器人提交。
-- 最近提交：默认分支 HEAD 时间；不拿其他分支 push 或仓库元数据变化冒充代码更新。
-- release、归档与许可证识别另存作审计。
+- stars: a proxy for community attention.
+- 30/90-day commits: full-history counts on the default branch, including docs, merge, and bot commits.
+- Last commit: the default-branch HEAD time; pushes to other branches or repository metadata changes are not passed off as code updates.
+- Release, archive, and license identification are stored separately for audit.
 
-先分为近 90 天活跃、91–365 天未提交、超过 365 天未提交、归档/历史四层，再计算：
+Projects are first split into four tiers — commits within the last 90 days, no commits for 91–365 days, no commits for over 365 days, and archived/historical — and then scored:
 
 ```text
 P = min(1, ln(1 + stars) / ln(1 + 100000))
 A = min(1, ln(1 + commits_90d) / ln(1 + 500))
 R = exp(-days_since_default_branch_HEAD / 90)
-维护分 = 100 × (0.40P + 0.35A + 0.25R)
+maintenance_score = 100 × (0.40P + 0.35A + 0.25R)
 ```
 
-维护分不是成片质量、剪辑审美、生成模型能力、速度、显存、成本或版权安全评分。monorepo 和机器人提交可能放大活动量；稳定模型仓库也可能长期少提交。
+The maintenance score is not a score for final-video quality, editing taste, generation-model capability, speed, VRAM, cost, or copyright safety. Monorepos and bot commits can inflate activity; a stable model repository may also commit rarely for long.
 
-许可证自动识别与人工审核分开。Remotion、Hunyuan、Wav2Lip、Palmier、FFmpeg 等采用条件、复合或版本相关许可；模型权重、素材、字体和第三方服务可能另有条款。
+Automated license detection and manual review are kept separate. Remotion, Hunyuan, Wav2Lip, Palmier, FFmpeg, and others use conditional, composite, or version-dependent licenses; model weights, media assets, fonts, and third-party services may carry additional terms.
 
-统一能力测评应固定素材、脚本、模型版本、预算和硬件，分别记录生成成功率、镜头一致性、字幕/口型、时间线可编辑性、人工修订量、渲染时长、显存、API 成本和输出许可。
+A unified capability evaluation should fix the media, script, model versions, budget, and hardware, and separately record generation success rate, shot consistency, subtitle/lip sync, timeline editability, amount of manual revision, render time, VRAM, API cost, and output licensing.

@@ -1,14 +1,14 @@
-# 贡献指南
+# Contributing guide
 
-欢迎新增项目、纠正分类、功能边界或许可证。
+New projects and corrections to category, feature boundary, or license are welcome.
 
-1. 修改 `data/projects.json`，不要直接编辑生成表格。
-2. 提供 canonical GitHub 仓库、一个主分类、用途、限制和固定提交的 README 证据。
-3. 明确它是工作台、Agent 系统、Skill/MCP、代码动效、生成模型、数字人、CLI 还是 benchmark。
-4. 不把 roadmap、样片和作者 benchmark 写成独立实测结论。
-5. 分开核验代码、模型权重、素材、字体、第三方 API 和输出内容许可。
-6. 下载/采集项目必须保留平台条款与内容授权边界。
-7. 新增项目后运行：
+1. Edit `data/projects.json`; do not edit generated tables directly.
+2. Provide the canonical GitHub repository, one primary category, purpose, limitations, and README evidence at a pinned commit.
+3. State clearly whether it is a workbench, agent system, Skill/MCP, code motion, generation model, digital human, CLI, or benchmark.
+4. Do not present roadmaps, demo reels, or author benchmarks as independently tested conclusions.
+5. Verify code, model weights, media assets, fonts, third-party APIs, and output-content licensing separately.
+6. Download/capture projects must retain the platform-terms and content-rights boundaries.
+7. After adding a project, run:
 
 ```sh
 python scripts/refresh_metrics.py
@@ -17,4 +17,12 @@ python -m unittest discover -s tests -v
 python scripts/build.py --check
 ```
 
-不要提交 API key、私有视频、未授权素材、内部内容工厂地址或个人数据。变更记录放在 `record/YYYY-MM-DD-中文主题.md`。
+Do not commit API keys, private videos, unauthorized assets, internal content-factory addresses, or personal data. Change records go under `record/` as `YYYY-MM-DD-<topic>.md`, in the language used at verification time.
+
+## Multilingual files
+
+- `data/projects.json` is the canonical reviewed wording in Chinese; a fact changes there once.
+- Other languages read `locales/<lang>/entries.json` (`description`, `boundary`, `license_label`, `license_note`, plus `name` when the canonical name contains Chinese) and `locales/<lang>/ui.json`. `zh` falls back to `data/projects.json`, so there is no `locales/zh/entries.json`.
+- When you add a project or re-word its purpose, boundary or licence verdict, update the es/hi/fr locales in the same pull request; otherwise `python scripts/build.py --check` and `python -m unittest discover -s tests -v` fail.
+- Static prose: English lives in root `docs/` and `CONTRIBUTING.md`, the other locales in the same relative paths under `locales/<lang>/`. Links inside a mirror resolve from that file's own directory — `docs/research.md` needs `../../../research/…` there, `CONTRIBUTING.md` needs `../../…` — while `docs/readme-intro.md` is inlined into the README and resolves from the locale root.
+- Generated files (`README.md`, `docs/projects.md`, `docs/rankings.md`, `data/rankings.csv` and their locale mirrors) are never edited by hand; run `python scripts/build.py`.

@@ -1,0 +1,77 @@
+{
+  "language": "zh",
+  "language_name": "简体中文",
+  "list_separator": "、",
+  "categories": {
+    "workbenches": "视频编辑器与制作工作台",
+    "agent_production": "Agent 视频生产与自动化",
+    "short_video": "知识类短视频、切片与讲解",
+    "skills_mcp": "Agent Skills、MCP 与剪辑工具",
+    "code_motion": "Code-to-video 与动效",
+    "animation_infra": "动画、3D 与编码基础组件",
+    "generation_models": "ComfyUI 与开源视频生成",
+    "avatar": "数字人、肖像动画与唇同步",
+    "media_cli": "下载、采集、转码与素材 CLI",
+    "research_resources": "评测、研究与外部索引",
+    "historical_restricted": "历史与受限版本"
+  },
+  "scopes": {
+    "core": "核心候选",
+    "adjacent": "相邻基础设施",
+    "research": "研究/评测",
+    "historical": "历史参考",
+    "restricted": "受限许可"
+  },
+  "license_status": {
+    "verified": "开放许可证已核验",
+    "custom": "复合/条件许可",
+    "source_available": "源码可见但非 OSI 开源",
+    "unverified": "许可待核验"
+  },
+  "modes": {
+    "balanced": "综合维护分",
+    "stars": "Star 优先",
+    "activity": "90 天提交优先",
+    "recent": "最近默认分支提交优先"
+  },
+  "tiers": [
+    "近90天有提交",
+    "91–365天未提交",
+    "超过365天未提交",
+    "归档 / 历史"
+  ],
+  "tags": {
+    "baseline": "★用户参考",
+    "archived": "归档/历史",
+    "license": "许可注意"
+  },
+  "headers": {
+    "shortlist": ["项目", "定位", "Stars", "90天提交", "最近提交 UTC", "维护分"],
+    "categories": ["分类", "数量", "维护排序靠前的项目"],
+    "detail": ["项目", "定位", "Stars", "90天提交", "最近提交 UTC", "维护分", "许可"],
+    "rankings": ["项目", "分类", "维护层", "Stars", "90天提交", "最近提交 UTC", "维护分"]
+  },
+  "sections": {
+    "current": "当前收录",
+    "shortlist": "活跃核心项目速览",
+    "toc": "分类目录",
+    "choose": "如何选择",
+    "data": "数据与维护",
+    "thanks": "许可与致谢",
+    "detail_title": "项目说明与证据",
+    "rankings_title": "排序视图"
+  },
+  "templates": {
+    "current": "**{total} 个项目，其中 {baseline} 个为用户参考项目，{added} 个为本轮新增。** 功能核验：{reviewed}；指标快照：`{as_of}`（UTC）。\n\n每个分类先按维护状态分层，再综合 star（40%）、90 天默认分支提交（35%）和最近提交（25%）排序。维护分不代表成片质量、模型能力、版权安全或生产成熟度。",
+    "shortlist_note": "仅展示核心候选、开放许可证已核验且近 90 天有提交的项目；受限许可、基础模型、研究基准和相邻工具不进入此表。",
+    "toc_note": "`★用户参考` 表示用户直接提供的项目。模型、编辑器、Skill、CLI 与 benchmark 分开分类。",
+    "detail_intro": "每项定位来自固定提交的官方 README，未安装运行全部项目。指标刷新不会自动重审功能和许可证。",
+    "rankings_intro": "快照：`{as_of}`。这是 GitHub 维护元数据排序，不是视频质量排行榜。所有视图先按维护状态分层。",
+    "entry": "- 分类：{category}；{scope}。\n- 适用边界：{boundary}\n- 维护状态：{maintenance}；30 天提交 {commits_30d} 次，90 天提交 {commits_90d} 次。\n- 许可：[{license}]({license_source})；{license_status}。{license_note}\n- 功能核验：{reviewed_at}；{sources}。",
+    "source_link": "来源{index}",
+    "choose": "- 有素材、需要剪片：看编辑器/工作台或 Skills/MCP。\n- 从主题、脚本到成片：看 Agent 生产与知识短视频。\n- 做动效、产品演示和数据故事：看 Code-to-video。\n- 本地扩散生成：看 ComfyUI 与开源模型。\n- 做数字人/口播：看肖像动画与唇同步，并优先检查人物授权。\n- 获取合法授权的素材：看 [CLI 对比](docs/cli-comparison.md)。\n\n完整边界见 [项目详表](docs/projects.md)，分类口径见 [范围与分类](docs/taxonomy.md)。",
+    "data": "- [综合、Star、活跃度、最近提交排序](docs/rankings.md)\n- [Downvid 与下载/媒体 CLI 对比](docs/cli-comparison.md)\n- [排序方法与限制](docs/methodology.md)\n- [检索关键词、来源与覆盖](docs/research.md)\n- [贡献指南](CONTRIBUTING.md)\n\n```sh\npython scripts/refresh_metrics.py\npython scripts/build.py\npython -m unittest discover -s tests -v\npython scripts/build.py --check\n```",
+    "thanks": "本目录原创整理与脚本采用 [MIT]({R}LICENSE)，链接项目、模型、权重、素材和字体遵循各自许可。Source-available、非商业、社区模型和条件许可均保留原边界。\n\n项目发现参考 [Awesome Video Editing](https://github.com/devanasolver/awesome-video-editing) 等外部索引，最终条目回到官方仓库核验。",
+    "records_note": "[变更记录]({R}record/) 保留核验当时的原文（中文），用于审计每条判断的来源和当时的措辞。"
+  }
+}

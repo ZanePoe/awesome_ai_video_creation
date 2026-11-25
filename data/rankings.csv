@@ -1,110 +1,110 @@
-repo,name,category,scope,baseline,license,license_status,stars,commits_30d,commits_90d,last_commit_at,maintenance_status,score,as_of
-godotengine/godot,Godot,animation_infra,adjacent,False,MIT,verified,120738,525,1923,2026-11-24T22:30:19Z,近90天有提交,99.98,2026-11-25T00:17:13+00:00
-mrdoob/three.js,three.js,animation_infra,adjacent,False,MIT,verified,119308,328,874,2026-11-24T18:00:03Z,近90天有提交,99.93,2026-11-25T00:17:13+00:00
-heygen-com/hyperframes,HyperFrames,code_motion,core,False,Apache-2.0,verified,89564,1902,3965,2026-11-24T23:49:15Z,近90天有提交,99.61,2026-11-25T00:17:13+00:00
-remotion-dev/remotion,Remotion,code_motion,restricted,False,Remotion License,source_available,75476,2473,6717,2026-11-24T17:54:08Z,近90天有提交,98.95,2026-11-25T00:17:13+00:00
-FFmpeg/FFmpeg,FFmpeg,media_cli,adjacent,False,LGPL-2.1+；启用 GPL 组件后为 GPL-2.0+,custom,68093,362,2986,2026-11-24T23:59:19Z,近90天有提交,98.66,2026-11-25T00:17:13+00:00
-motiondivision/motion,Motion,animation_infra,adjacent,False,MIT,verified,35531,574,1390,2026-11-24T11:52:18Z,近90天有提交,96.26,2026-11-25T00:17:13+00:00
-hypit-ai/hypit,Hypit,agent_production,restricted,False,Hypit Open Source License（修改版 Apache-2.0）,source_available,31391,14,783,2026-11-24T11:20:47Z,近90天有提交,95.83,2026-11-25T00:17:13+00:00
-blender/blender,Blender,animation_infra,adjacent,False,GPL-2.0-or-later,verified,22468,1288,3310,2026-11-25T00:01:00Z,近90天有提交,94.81,2026-11-25T00:17:13+00:00
-jub0t/Concat,Concat,workbenches,core,True,AGPL-3.0,verified,19997,458,1677,2026-11-25T00:00:22Z,近90天有提交,94.4,2026-11-25T00:17:13+00:00
-OpenMontageInc/OpenMontage,OpenMontage,agent_production,core,False,AGPL-3.0,verified,83059,149,272,2026-11-16T06:55:20Z,近90天有提交,93.63,2026-11-25T00:17:13+00:00
-nexu-io/openmotion,OpenMotion,agent_production,core,False,Apache-2.0,verified,16018,753,758,2026-11-24T18:54:17Z,近90天有提交,93.57,2026-11-25T00:17:13+00:00
-BabylonJS/Babylon.js,Babylon.js,animation_infra,adjacent,False,Apache-2.0,verified,26439,166,342,2026-11-24T19:17:13Z,近90天有提交,93.19,2026-11-25T00:17:13+00:00
-kajisho5/ffmpeg-skill,FFmpeg Skill,skills_mcp,core,False,MIT,verified,10672,541,966,2026-11-24T09:13:54Z,近90天有提交,92.05,2026-11-25T00:17:13+00:00
-Forget-C/Jellyfish,Jellyfish,workbenches,core,False,Apache-2.0,verified,7311,1289,1665,2026-11-23T02:31:19Z,近90天有提交,90.39,2026-11-25T00:17:13+00:00
-yt-dlp/yt-dlp,yt-dlp,media_cli,core,False,Unlicense,verified,210460,46,81,2026-11-24T18:07:08Z,近90天有提交,89.74,2026-11-25T00:17:13+00:00
-shinyobjectz/raea,raea,code_motion,core,False,FSL-1.1-ALv2,source_available,5002,1454,1457,2026-11-24T02:22:23Z,近90天有提交,89.34,2026-11-25T00:17:13+00:00
-konvajs/konva,Konva,animation_infra,adjacent,False,MIT,verified,15012,30,217,2026-11-23T20:56:01Z,近90天有提交,88.41,2026-11-25T00:17:13+00:00
-openfilm/openfilm,OpenFilm,agent_production,core,False,MIT,verified,9289,137,298,2026-11-23T11:05:06Z,近90天有提交,88.41,2026-11-25T00:17:13+00:00
-JuneYaooo/rea-video,Rea Video,agent_production,adjacent,True,Apache-2.0,verified,12996,215,215,2026-11-24T16:26:10Z,近90天有提交,88.08,2026-11-25T00:17:13+00:00
-AIEraDev/Clypra,Clypra,workbenches,core,True,MIT,verified,3374,271,1916,2026-11-22T10:56:35Z,近90天有提交,87.53,2026-11-25T00:17:13+00:00
-digitalsamba/claude-code-video-toolkit,Claude Code Video Toolkit,skills_mcp,core,False,MIT,verified,2751,420,537,2026-11-24T22:57:56Z,近90天有提交,87.5,2026-11-25T00:17:13+00:00
-lemomo-ai/lemo-opuscar,Lemo Opuscar,code_motion,restricted,False,MIT 代码 + CC BY-NC 文档（附加许可）,custom,20684,94,148,2026-11-23T04:50:36Z,近90天有提交,87.2,2026-11-25T00:17:13+00:00
-HaD0Yun/CozyClay,CozyClay,workbenches,core,True,AGPL-3.0,verified,2026,220,2169,2026-11-24T14:52:01Z,近90天有提交,86.35,2026-11-25T00:17:13+00:00
-ManimCommunity/manim,Manim Community,code_motion,core,False,MIT,verified,42881,28,78,2026-11-23T16:33:10Z,近90天有提交,86.29,2026-11-25T00:17:13+00:00
-chatfire-AI/huobao-drama,火宝短剧 Huobao Drama,workbenches,core,False,CC BY-NC-SA-4.0（禁止商用）,source_available,17971,19,108,2026-11-21T07:09:25Z,近90天有提交,84.44,2026-11-25T00:17:13+00:00
-streamlink/streamlink,Streamlink,media_cli,core,False,BSD-2-Clause,verified,11998,35,155,2026-11-18T21:42:24Z,近90天有提交,84.42,2026-11-25T00:17:13+00:00
-0xsline/OpenChatCut,OpenChatCut,workbenches,core,True,AGPL-3.0,verified,3310,22,403,2026-11-12T12:08:41Z,近90天有提交,83.7,2026-11-25T00:17:13+00:00
-vrgamegirl19/comfyui-vrgamedevgirl,VRGameDevGirl AI Video Builder,generation_models,restricted,True,VRGameDevGirl Community and Commercial License,source_available,904,132,677,2026-11-24T19:28:44Z,近90天有提交,83.6,2026-11-25T00:17:13+00:00
-Vincentwei1021/video-shotcraft,Video Shotcraft,skills_mcp,core,True,Apache-2.0,verified,22444,32,54,2026-11-21T15:08:04Z,近90天有提交,81.45,2026-11-25T00:17:13+00:00
-Downvid/downvid,Downvid,media_cli,core,True,MIT,verified,1678,100,354,2026-11-11T17:51:13Z,近90天有提交,80.43,2026-11-25T00:17:13+00:00
-KyaniteLabs/kinocut,Kinocut,skills_mcp,core,False,Apache-2.0,verified,280,350,659,2026-11-24T19:35:23Z,近90天有提交,79.54,2026-11-25T00:17:13+00:00
-ThinkFlowLab/OpenDirector,OpenDirector,workbenches,core,False,Apache-2.0,verified,437,348,348,2026-11-24T15:47:24Z,近90天有提交,79.0,2026-11-25T00:17:13+00:00
-nexmoe/VidBee,VidBee,media_cli,core,False,MIT,verified,11207,11,51,2026-11-21T06:57:45Z,近90天有提交,78.63,2026-11-25T00:17:13+00:00
-shijue-aid/aid-studio,AID Studio,workbenches,core,False,MIT,verified,1764,41,125,2026-11-22T19:49:41Z,近90天有提交,77.6,2026-11-25T00:17:13+00:00
-iamajmeena/neonclipping,NeonClipping,short_video,core,False,MIT,verified,2482,89,89,2026-11-24T13:27:43Z,近90天有提交,77.37,2026-11-25T00:17:13+00:00
-jonobr1/two.js,Two.js,animation_infra,adjacent,False,MIT,verified,8762,15,47,2026-11-17T05:54:40Z,近90天有提交,76.27,2026-11-25T00:17:13+00:00
-remotion-dev/skills,Remotion Agent Skills,skills_mcp,core,False,许可待核验,unverified,7954,10,31,2026-11-24T17:19:17Z,近90天有提交,75.64,2026-11-25T00:17:13+00:00
-kleZ799/clipmint,Clipmint,short_video,core,False,MIT,verified,68,184,620,2026-11-24T08:16:00Z,近90天有提交,74.53,2026-11-25T00:17:13+00:00
-lixiaoxiao9888-create/manju-laoli-skill,漫剧老李 Skill,skills_mcp,core,False,MIT,verified,3081,3,50,2026-11-19T01:44:09Z,近90天有提交,73.45,2026-11-25T00:17:13+00:00
-frankShan001/CutVoke,CutVoke,workbenches,core,False,MIT,verified,45,413,505,2026-11-24T23:54:29Z,近90天有提交,73.3,2026-11-25T00:17:13+00:00
-ChrisHKAI/ChrisHKAI-Video,ChrisHKAI Video,short_video,core,True,MIT,verified,162,194,198,2026-11-24T18:19:45Z,近90天有提交,72.43,2026-11-25T00:17:13+00:00
-Augani/openreel-video,OpenReel Video,workbenches,core,True,MIT,verified,6446,8,19,2026-11-23T06:03:20Z,近90天有提交,71.86,2026-11-25T00:17:13+00:00
-Hao0321/video-autopilot-kit,Video Autopilot Kit,agent_production,core,True,MIT,verified,2358,9,51,2026-11-13T03:45:10Z,近90天有提交,71.14,2026-11-25T00:17:13+00:00
-givemotion/givemotion,GiveMotion,code_motion,core,False,MIT,verified,92,87,243,2026-11-19T04:12:46Z,近90天有提交,70.13,2026-11-25T00:17:13+00:00
-LudwigKienle/ai-video-production-editor,AI Video Production Editor,workbenches,core,True,GPL-3.0,verified,194,40,144,2026-11-20T09:55:24Z,近90天有提交,70.09,2026-11-25T00:17:13+00:00
-patch-gg/pixelfx,pixelfx,skills_mcp,core,False,MIT（代码与特效）+ Patch Pixel 字体除外,custom,9055,10,10,2026-11-12T08:42:34Z,近90天有提交,66.88,2026-11-25T00:17:13+00:00
-HeyChengC/wallstreet-explainer,Wallstreet Explainer,skills_mcp,core,False,MIT（代码与文档）+ 样片第三方素材除外,custom,1312,11,16,2026-11-20T12:33:51Z,近90天有提交,64.68,2026-11-25T00:17:13+00:00
-MakeMyClip/editor,MakeMyClip Editor,workbenches,core,False,MIT,verified,36,151,153,2026-11-16T04:46:11Z,近90天有提交,63.57,2026-11-25T00:17:13+00:00
-eternityspring/reelbench-skills,ReelBench Skills,skills_mcp,core,True,Apache-2.0,verified,1253,1,21,2026-11-09T14:58:46Z,近90天有提交,63.26,2026-11-25T00:17:13+00:00
-jeremyckahn/shifty,Shifty,animation_infra,adjacent,False,MIT,verified,1598,8,14,2026-11-14T23:05:09Z,近90天有提交,63.24,2026-11-25T00:17:13+00:00
-rk0neki/OpenKatana,OpenKatana,workbenches,core,False,Apache-2.0,verified,85,92,126,2026-11-04T01:13:09Z,近90天有提交,62.55,2026-11-25T00:17:13+00:00
-lipku/LiveTalking,LiveTalking,avatar,core,False,Apache-2.0,verified,11131,0,8,2026-10-20T03:39:26Z,近90天有提交,61.53,2026-11-25T00:17:13+00:00
-browser-use/video-use,Video Use,agent_production,core,False,MIT,verified,31531,0,5,2026-10-08T22:16:59Z,近90天有提交,60.89,2026-11-25T00:17:13+00:00
-Theorvane/OpenScene,OpenScene,workbenches,core,False,MIT,verified,11,38,113,2026-11-24T23:58:03Z,近90天有提交,60.29,2026-11-25T00:17:13+00:00
-win4r/video-director,Video Director,agent_production,core,True,MIT,verified,528,19,19,2026-11-07T13:07:58Z,近90天有提交,59.24,2026-11-25T00:17:13+00:00
-cclank/lanshu-create-ai-presenter-video,Lanshu AI Presenter Video,short_video,core,True,MIT,verified,3079,0,16,2026-10-11T23:50:21Z,近90天有提交,59.19,2026-11-25T00:17:13+00:00
-Lightricks/LTX-Video,LTX-Video,generation_models,core,False,Apache-2.0,verified,11479,2,2,2026-11-02T19:25:42Z,近90天有提交,58.2,2026-11-25T00:17:13+00:00
-TMElyralab/MuseTalk,MuseTalk,avatar,core,False,MIT,verified,7031,1,1,2026-11-19T08:52:03Z,近90天有提交,58.16,2026-11-25T00:17:13+00:00
-Melvynx/video-agent-skills,Video Agent Skills,skills_mcp,core,False,MIT,verified,211,1,26,2026-11-06T04:20:53Z,近90天有提交,57.45,2026-11-25T00:17:13+00:00
-waooAI/waoowaoo,Waoowaoo,workbenches,restricted,False,Elastic License 2.0,source_available,14979,0,6,2026-09-21T10:39:25Z,近90天有提交,56.56,2026-11-25T00:17:13+00:00
-Tencent-Hunyuan/HunyuanVideo,HunyuanVideo,generation_models,restricted,False,Tencent Hunyuan Community License,source_available,12827,0,3,2026-10-08T08:57:06Z,近90天有提交,55.4,2026-11-25T00:17:13+00:00
-mromidev/claude-animated-shorts,Claude Animated Shorts,short_video,core,True,MIT,verified,4811,2,2,2026-11-01T05:56:54Z,近90天有提交,54.84,2026-11-25T00:17:13+00:00
-3b1b/manim,Manim,code_motion,adjacent,False,MIT,verified,96918,0,1,2026-09-09T16:23:48Z,近90天有提交,54.5,2026-11-25T00:17:13+00:00
-Tencent/WeVisCut,WeVisCut,agent_production,core,False,Apache-2.0,verified,114,9,29,2026-10-30T01:56:37Z,近90天有提交,54.38,2026-11-25T00:17:13+00:00
-YeJe-cpu/SeeCut,SeeCut,workbenches,restricted,True,PolyForm Noncommercial-1.0.0,source_available,487,1,11,2026-10-30T09:46:33Z,近90天有提交,54.31,2026-11-25T00:17:13+00:00
-Wan-Video/Wan2.2,Wan2.2,generation_models,core,False,Apache-2.0,verified,18891,0,2,2026-09-21T06:16:22Z,近90天有提交,52.57,2026-11-25T00:17:13+00:00
-yeates/Aurora,Aurora / AgentEdit-Bench,research_resources,research,False,MIT,verified,461,4,4,2026-11-13T23:48:40Z,近90天有提交,52.5,2026-11-25T00:17:13+00:00
-genmoai/mochi,Mochi,generation_models,core,False,Apache-2.0,verified,3767,0,2,2026-10-22T23:35:02Z,近90天有提交,52.11,2026-11-25T00:17:13+00:00
-franciscop/ola,Ola,animation_infra,adjacent,False,MIT,verified,1869,0,3,2026-10-24T18:23:28Z,近90天有提交,51.65,2026-11-25T00:17:13+00:00
-sasateguh/awesome-ai-video-for-creators,Awesome AI Video for Creators,research_resources,adjacent,False,CC0-1.0,verified,19,12,15,2026-11-24T16:28:03Z,近90天有提交,50.93,2026-11-25T00:17:13+00:00
-FernandoAbishai/ScriptCut,ScriptCut,workbenches,core,False,AGPL-3.0,verified,23,0,62,2026-10-14T05:32:56Z,近90天有提交,50.08,2026-11-25T00:17:13+00:00
-andyhuo520/vibe-knowledge,Vibe Knowledge,short_video,core,True,MIT,verified,805,3,3,2026-10-28T15:30:52Z,近90天有提交,49.5,2026-11-25T00:17:13+00:00
-OpenSenseNova/SenseNova-6.8-Code2Video,SenseNova Code2Video,code_motion,core,True,待核验,unverified,767,1,2,2026-10-27T14:14:39Z,近90天有提交,47.5,2026-11-25T00:17:13+00:00
-alisa0808/vox-director,Vox Director,short_video,core,False,MIT,verified,3127,0,1,2026-10-05T16:15:08Z,近90天有提交,46.16,2026-11-25T00:17:13+00:00
-Aepzie/cutline,Cutline,workbenches,core,False,MIT,verified,1,0,109,2026-10-16T11:40:09Z,近90天有提交,44.99,2026-11-25T00:17:13+00:00
-MemeCalculate/moyin-creator,魔因漫创 Moyin Creator,workbenches,core,False,AGPL-3.0 + 商业双重许可,custom,4871,0,2,2026-08-27T09:06:43Z,近90天有提交,44.92,2026-11-25T00:17:13+00:00
-nutllwhy/hyperframes-motion-library,HyperFrames Motion Library,skills_mcp,core,True,MIT,verified,326,2,2,2026-10-28T16:07:22Z,近90天有提交,44.75,2026-11-25T00:17:13+00:00
-social-media-skills/video-editing-skill,Video Editing Skill,skills_mcp,core,False,MIT,verified,10,3,3,2026-11-11T17:15:41Z,近90天有提交,37.7,2026-11-25T00:17:13+00:00
-social-media-skills/video-to-shorts-skill,Video to Shorts Skill,short_video,core,False,MIT,verified,4,3,3,2026-11-11T17:15:47Z,近90天有提交,34.96,2026-11-25T00:17:13+00:00
-AlibabaResearch/cut-craft-bench,CutCraft Bench,research_resources,research,False,待核验,unverified,43,0,5,2026-09-14T07:22:26Z,近90天有提交,34.51,2026-11-25T00:17:13+00:00
-devanasolver/awesome-video-editing,Awesome Video Editing,research_resources,adjacent,False,CC0-1.0,verified,5,0,2,2026-10-17T18:59:11Z,近90天有提交,28.76,2026-11-25T00:17:13+00:00
-thoxakihiko/awesome-ai-video,Awesome AI Video,research_resources,adjacent,False,CC0-1.0,verified,3,0,3,2026-09-27T17:55:55Z,近90天有提交,25.71,2026-11-25T00:17:13+00:00
-juliangarnier/anime,Anime.js,animation_infra,adjacent,False,MIT,verified,75039,0,0,2026-08-09T16:40:07Z,91–365天未提交,46.59,2026-11-25T00:17:13+00:00
-ATH-MaaS/Pixelle-Video,Pixelle-Video,short_video,core,False,Apache-2.0,verified,30491,0,0,2026-06-14T12:40:58Z,91–365天未提交,39.94,2026-11-25T00:17:13+00:00
-motion-canvas/motion-canvas,Motion Canvas,code_motion,adjacent,False,MIT,verified,20204,0,0,2026-07-02T20:01:32Z,91–365天未提交,39.43,2026-11-25T00:17:13+00:00
-imputnet/cobalt,cobalt,media_cli,core,False,AGPL-3.0（api 与其余部分）+ CC-BY-NC-SA-4.0（web）,custom,47172,0,0,2026-04-06T11:59:51Z,91–365天未提交,39.28,2026-11-25T00:17:13+00:00
-KlingAIResearch/LivePortrait,LivePortrait,avatar,core,False,MIT,verified,19566,0,0,2026-06-01T17:24:54Z,91–365天未提交,37.86,2026-11-25T00:17:13+00:00
-hpcaitech/Open-Sora,Open-Sora,generation_models,core,False,Apache-2.0,verified,29949,0,0,2026-04-09T01:52:40Z,91–365天未提交,37.75,2026-11-25T00:17:13+00:00
-iawia002/lux,Lux,media_cli,core,False,MIT,verified,31857,0,0,2025-12-29T05:52:01Z,91–365天未提交,36.66,2026-11-25T00:17:13+00:00
-greensock/gsap-skills,GSAP Skills,skills_mcp,core,False,MIT,verified,19019,0,0,2026-04-21T23:47:02Z,91–365天未提交,36.48,2026-11-25T00:17:13+00:00
-NarratorAI-Studio/narrator-ai-cli-skill,Narrator AI CLI Skill,skills_mcp,core,True,MIT,verified,3323,0,0,2026-07-05T14:10:20Z,91–365天未提交,33.31,2026-11-25T00:17:13+00:00
-bytedance/Bernini,Bernini,generation_models,research,False,Apache-2.0,verified,1373,0,0,2026-08-13T12:11:19Z,91–365天未提交,33.02,2026-11-25T00:17:13+00:00
-drawcall/Proton,Proton,animation_infra,adjacent,False,MIT,verified,2531,0,0,2026-03-06T08:19:02Z,91–365天未提交,28.56,2026-11-25T00:17:13+00:00
-Tencent-Hunyuan/HunyuanVideo-I2V,HunyuanVideo-I2V,generation_models,restricted,False,Tencent Hunyuan Community License,source_available,1858,0,0,2026-04-07T06:13:08Z,91–365天未提交,28.06,2026-11-25T00:17:13+00:00
-Visko-Platform/VEFX-Bench,VEFX-Bench,research_resources,research,False,Apache-2.0,verified,177,0,0,2026-05-16T13:47:37Z,91–365天未提交,20.95,2026-11-25T00:17:13+00:00
-AtlasCloudAI/atlas-explainer,Atlas Explainer,short_video,core,False,MIT,verified,3,0,0,2026-07-10T06:51:55Z,91–365天未提交,10.23,2026-11-25T00:17:13+00:00
-OpenClip-App/agent-skills,OpenClip Agent Skills,skills_mcp,core,False,MIT,verified,1,0,0,2026-08-07T10:44:21Z,91–365天未提交,9.81,2026-11-25T00:17:13+00:00
-mfortne/mcp-video-editing,MCP Video Editing,skills_mcp,core,False,Apache-2.0,verified,2,0,0,2026-06-04T20:36:29Z,91–365天未提交,7.47,2026-11-25T00:17:13+00:00
-soimort/you-get,you-get,media_cli,core,False,MIT,verified,56849,0,0,2025-04-27T15:32:00Z,超过365天未提交,38.08,2026-11-25T00:17:13+00:00
-airbnb/lottie-web,Lottie Web,animation_infra,adjacent,False,MIT,verified,32572,0,0,2024-11-19T12:25:21Z,超过365天未提交,36.11,2026-11-25T00:17:13+00:00
-zai-org/CogVideo,CogVideo / CogVideoX,generation_models,core,False,Apache-2.0,verified,13229,0,0,2025-11-04T11:15:43Z,超过365天未提交,33.32,2026-11-25T00:17:13+00:00
-OpenTalker/SadTalker,SadTalker,avatar,core,False,Apache-2.0,verified,14220,0,0,2023-10-10T16:10:21Z,超过365天未提交,33.22,2026-11-25T00:17:13+00:00
-Rudrabha/Wav2Lip,Wav2Lip,avatar,restricted,False,个人/研究/非商业许可,source_available,13284,0,0,2025-06-22T02:41:20Z,超过365天未提交,33.06,2026-11-25T00:17:13+00:00
-CreateJS/TweenJS,TweenJS,animation_infra,adjacent,False,MIT,verified,3578,0,0,2021-03-27T15:49:43Z,超过365天未提交,28.43,2026-11-25T00:17:13+00:00
-lume/lume,LUME,animation_infra,adjacent,False,MIT,verified,1576,0,0,2025-10-14T00:54:01Z,超过365天未提交,25.85,2026-11-25T00:17:13+00:00
-mattdesl/gifenc,gifenc,animation_infra,adjacent,False,MIT,verified,382,0,0,2024-09-19T16:55:32Z,超过365天未提交,20.67,2026-11-25T00:17:13+00:00
-adobe-research/EditVerse,EditVerse,research_resources,restricted,False,Adobe Research License（部分文件）,source_available,140,0,0,2025-10-09T03:55:32Z,超过365天未提交,17.45,2026-11-25T00:17:13+00:00
-Video-Bench/Video-Bench,Video-Bench,research_resources,research,False,Apache-2.0,verified,82,0,0,2025-06-09T15:29:25Z,超过365天未提交,15.42,2026-11-25T00:17:13+00:00
-palmier-io/palmier-pro,Palmier Pro,historical_restricted,historical,True,GPL-3.0（至 v0.7.6 源码）/ 后续二进制专有,custom,14803,4,10,2026-11-20T01:38:59Z,归档 / 历史,70.53,2026-11-25T00:17:13+00:00
+repo,name,category,scope,baseline,license,license_status,stars,commits_30d,commits_90d,last_commit_at,maintenance_tier,score,as_of
+godotengine/godot,Godot,animation_infra,adjacent,False,MIT,verified,120738,525,1923,2026-11-24T22:30:19Z,0,99.98,2026-11-25T00:17:13+00:00
+mrdoob/three.js,three.js,animation_infra,adjacent,False,MIT,verified,119308,328,874,2026-11-24T18:00:03Z,0,99.93,2026-11-25T00:17:13+00:00
+heygen-com/hyperframes,HyperFrames,code_motion,core,False,Apache-2.0,verified,89564,1902,3965,2026-11-24T23:49:15Z,0,99.61,2026-11-25T00:17:13+00:00
+remotion-dev/remotion,Remotion,code_motion,restricted,False,Remotion License,source_available,75476,2473,6717,2026-11-24T17:54:08Z,0,98.95,2026-11-25T00:17:13+00:00
+FFmpeg/FFmpeg,FFmpeg,media_cli,adjacent,False,LGPL-2.1+；启用 GPL 组件后为 GPL-2.0+,custom,68093,362,2986,2026-11-24T23:59:19Z,0,98.66,2026-11-25T00:17:13+00:00
+motiondivision/motion,Motion,animation_infra,adjacent,False,MIT,verified,35531,574,1390,2026-11-24T11:52:18Z,0,96.26,2026-11-25T00:17:13+00:00
+hypit-ai/hypit,Hypit,agent_production,restricted,False,Hypit Open Source License（修改版 Apache-2.0）,source_available,31391,14,783,2026-11-24T11:20:47Z,0,95.83,2026-11-25T00:17:13+00:00
+blender/blender,Blender,animation_infra,adjacent,False,GPL-2.0-or-later,verified,22468,1288,3310,2026-11-25T00:01:00Z,0,94.81,2026-11-25T00:17:13+00:00
+jub0t/Concat,Concat,workbenches,core,True,AGPL-3.0,verified,19997,458,1677,2026-11-25T00:00:22Z,0,94.4,2026-11-25T00:17:13+00:00
+OpenMontageInc/OpenMontage,OpenMontage,agent_production,core,False,AGPL-3.0,verified,83059,149,272,2026-11-16T06:55:20Z,0,93.63,2026-11-25T00:17:13+00:00
+nexu-io/openmotion,OpenMotion,agent_production,core,False,Apache-2.0,verified,16018,753,758,2026-11-24T18:54:17Z,0,93.57,2026-11-25T00:17:13+00:00
+BabylonJS/Babylon.js,Babylon.js,animation_infra,adjacent,False,Apache-2.0,verified,26439,166,342,2026-11-24T19:17:13Z,0,93.19,2026-11-25T00:17:13+00:00
+kajisho5/ffmpeg-skill,FFmpeg Skill,skills_mcp,core,False,MIT,verified,10672,541,966,2026-11-24T09:13:54Z,0,92.05,2026-11-25T00:17:13+00:00
+Forget-C/Jellyfish,Jellyfish,workbenches,core,False,Apache-2.0,verified,7311,1289,1665,2026-11-23T02:31:19Z,0,90.39,2026-11-25T00:17:13+00:00
+yt-dlp/yt-dlp,yt-dlp,media_cli,core,False,Unlicense,verified,210460,46,81,2026-11-24T18:07:08Z,0,89.74,2026-11-25T00:17:13+00:00
+shinyobjectz/raea,raea,code_motion,core,False,FSL-1.1-ALv2,source_available,5002,1454,1457,2026-11-24T02:22:23Z,0,89.34,2026-11-25T00:17:13+00:00
+konvajs/konva,Konva,animation_infra,adjacent,False,MIT,verified,15012,30,217,2026-11-23T20:56:01Z,0,88.41,2026-11-25T00:17:13+00:00
+openfilm/openfilm,OpenFilm,agent_production,core,False,MIT,verified,9289,137,298,2026-11-23T11:05:06Z,0,88.41,2026-11-25T00:17:13+00:00
+JuneYaooo/rea-video,Rea Video,agent_production,adjacent,True,Apache-2.0,verified,12996,215,215,2026-11-24T16:26:10Z,0,88.08,2026-11-25T00:17:13+00:00
+AIEraDev/Clypra,Clypra,workbenches,core,True,MIT,verified,3374,271,1916,2026-11-22T10:56:35Z,0,87.53,2026-11-25T00:17:13+00:00
+digitalsamba/claude-code-video-toolkit,Claude Code Video Toolkit,skills_mcp,core,False,MIT,verified,2751,420,537,2026-11-24T22:57:56Z,0,87.5,2026-11-25T00:17:13+00:00
+lemomo-ai/lemo-opuscar,Lemo Opuscar,code_motion,restricted,False,MIT 代码 + CC BY-NC 文档（附加许可）,custom,20684,94,148,2026-11-23T04:50:36Z,0,87.2,2026-11-25T00:17:13+00:00
+HaD0Yun/CozyClay,CozyClay,workbenches,core,True,AGPL-3.0,verified,2026,220,2169,2026-11-24T14:52:01Z,0,86.35,2026-11-25T00:17:13+00:00
+ManimCommunity/manim,Manim Community,code_motion,core,False,MIT,verified,42881,28,78,2026-11-23T16:33:10Z,0,86.29,2026-11-25T00:17:13+00:00
+chatfire-AI/huobao-drama,火宝短剧 Huobao Drama,workbenches,core,False,CC BY-NC-SA-4.0（禁止商用）,source_available,17971,19,108,2026-11-21T07:09:25Z,0,84.44,2026-11-25T00:17:13+00:00
+streamlink/streamlink,Streamlink,media_cli,core,False,BSD-2-Clause,verified,11998,35,155,2026-11-18T21:42:24Z,0,84.42,2026-11-25T00:17:13+00:00
+0xsline/OpenChatCut,OpenChatCut,workbenches,core,True,AGPL-3.0,verified,3310,22,403,2026-11-12T12:08:41Z,0,83.7,2026-11-25T00:17:13+00:00
+vrgamegirl19/comfyui-vrgamedevgirl,VRGameDevGirl AI Video Builder,generation_models,restricted,True,VRGameDevGirl Community and Commercial License,source_available,904,132,677,2026-11-24T19:28:44Z,0,83.6,2026-11-25T00:17:13+00:00
+Vincentwei1021/video-shotcraft,Video Shotcraft,skills_mcp,core,True,Apache-2.0,verified,22444,32,54,2026-11-21T15:08:04Z,0,81.45,2026-11-25T00:17:13+00:00
+Downvid/downvid,Downvid,media_cli,core,True,MIT,verified,1678,100,354,2026-11-11T17:51:13Z,0,80.43,2026-11-25T00:17:13+00:00
+KyaniteLabs/kinocut,Kinocut,skills_mcp,core,False,Apache-2.0,verified,280,350,659,2026-11-24T19:35:23Z,0,79.54,2026-11-25T00:17:13+00:00
+ThinkFlowLab/OpenDirector,OpenDirector,workbenches,core,False,Apache-2.0,verified,437,348,348,2026-11-24T15:47:24Z,0,79.0,2026-11-25T00:17:13+00:00
+nexmoe/VidBee,VidBee,media_cli,core,False,MIT,verified,11207,11,51,2026-11-21T06:57:45Z,0,78.63,2026-11-25T00:17:13+00:00
+shijue-aid/aid-studio,AID Studio,workbenches,core,False,MIT,verified,1764,41,125,2026-11-22T19:49:41Z,0,77.6,2026-11-25T00:17:13+00:00
+iamajmeena/neonclipping,NeonClipping,short_video,core,False,MIT,verified,2482,89,89,2026-11-24T13:27:43Z,0,77.37,2026-11-25T00:17:13+00:00
+jonobr1/two.js,Two.js,animation_infra,adjacent,False,MIT,verified,8762,15,47,2026-11-17T05:54:40Z,0,76.27,2026-11-25T00:17:13+00:00
+remotion-dev/skills,Remotion Agent Skills,skills_mcp,core,False,许可待核验,unverified,7954,10,31,2026-11-24T17:19:17Z,0,75.64,2026-11-25T00:17:13+00:00
+kleZ799/clipmint,Clipmint,short_video,core,False,MIT,verified,68,184,620,2026-11-24T08:16:00Z,0,74.53,2026-11-25T00:17:13+00:00
+lixiaoxiao9888-create/manju-laoli-skill,漫剧老李 Skill,skills_mcp,core,False,MIT,verified,3081,3,50,2026-11-19T01:44:09Z,0,73.45,2026-11-25T00:17:13+00:00
+frankShan001/CutVoke,CutVoke,workbenches,core,False,MIT,verified,45,413,505,2026-11-24T23:54:29Z,0,73.3,2026-11-25T00:17:13+00:00
+ChrisHKAI/ChrisHKAI-Video,ChrisHKAI Video,short_video,core,True,MIT,verified,162,194,198,2026-11-24T18:19:45Z,0,72.43,2026-11-25T00:17:13+00:00
+Augani/openreel-video,OpenReel Video,workbenches,core,True,MIT,verified,6446,8,19,2026-11-23T06:03:20Z,0,71.86,2026-11-25T00:17:13+00:00
+Hao0321/video-autopilot-kit,Video Autopilot Kit,agent_production,core,True,MIT,verified,2358,9,51,2026-11-13T03:45:10Z,0,71.14,2026-11-25T00:17:13+00:00
+givemotion/givemotion,GiveMotion,code_motion,core,False,MIT,verified,92,87,243,2026-11-19T04:12:46Z,0,70.13,2026-11-25T00:17:13+00:00
+LudwigKienle/ai-video-production-editor,AI Video Production Editor,workbenches,core,True,GPL-3.0,verified,194,40,144,2026-11-20T09:55:24Z,0,70.09,2026-11-25T00:17:13+00:00
+patch-gg/pixelfx,pixelfx,skills_mcp,core,False,MIT（代码与特效）+ Patch Pixel 字体除外,custom,9055,10,10,2026-11-12T08:42:34Z,0,66.88,2026-11-25T00:17:13+00:00
+HeyChengC/wallstreet-explainer,Wallstreet Explainer,skills_mcp,core,False,MIT（代码与文档）+ 样片第三方素材除外,custom,1312,11,16,2026-11-20T12:33:51Z,0,64.68,2026-11-25T00:17:13+00:00
+MakeMyClip/editor,MakeMyClip Editor,workbenches,core,False,MIT,verified,36,151,153,2026-11-16T04:46:11Z,0,63.57,2026-11-25T00:17:13+00:00
+eternityspring/reelbench-skills,ReelBench Skills,skills_mcp,core,True,Apache-2.0,verified,1253,1,21,2026-11-09T14:58:46Z,0,63.26,2026-11-25T00:17:13+00:00
+jeremyckahn/shifty,Shifty,animation_infra,adjacent,False,MIT,verified,1598,8,14,2026-11-14T23:05:09Z,0,63.24,2026-11-25T00:17:13+00:00
+rk0neki/OpenKatana,OpenKatana,workbenches,core,False,Apache-2.0,verified,85,92,126,2026-11-04T01:13:09Z,0,62.55,2026-11-25T00:17:13+00:00
+lipku/LiveTalking,LiveTalking,avatar,core,False,Apache-2.0,verified,11131,0,8,2026-10-20T03:39:26Z,0,61.53,2026-11-25T00:17:13+00:00
+browser-use/video-use,Video Use,agent_production,core,False,MIT,verified,31531,0,5,2026-10-08T22:16:59Z,0,60.89,2026-11-25T00:17:13+00:00
+Theorvane/OpenScene,OpenScene,workbenches,core,False,MIT,verified,11,38,113,2026-11-24T23:58:03Z,0,60.29,2026-11-25T00:17:13+00:00
+win4r/video-director,Video Director,agent_production,core,True,MIT,verified,528,19,19,2026-11-07T13:07:58Z,0,59.24,2026-11-25T00:17:13+00:00
+cclank/lanshu-create-ai-presenter-video,Lanshu AI Presenter Video,short_video,core,True,MIT,verified,3079,0,16,2026-10-11T23:50:21Z,0,59.19,2026-11-25T00:17:13+00:00
+Lightricks/LTX-Video,LTX-Video,generation_models,core,False,Apache-2.0,verified,11479,2,2,2026-11-02T19:25:42Z,0,58.2,2026-11-25T00:17:13+00:00
+TMElyralab/MuseTalk,MuseTalk,avatar,core,False,MIT,verified,7031,1,1,2026-11-19T08:52:03Z,0,58.16,2026-11-25T00:17:13+00:00
+Melvynx/video-agent-skills,Video Agent Skills,skills_mcp,core,False,MIT,verified,211,1,26,2026-11-06T04:20:53Z,0,57.45,2026-11-25T00:17:13+00:00
+waooAI/waoowaoo,Waoowaoo,workbenches,restricted,False,Elastic License 2.0,source_available,14979,0,6,2026-09-21T10:39:25Z,0,56.56,2026-11-25T00:17:13+00:00
+Tencent-Hunyuan/HunyuanVideo,HunyuanVideo,generation_models,restricted,False,Tencent Hunyuan Community License,source_available,12827,0,3,2026-10-08T08:57:06Z,0,55.4,2026-11-25T00:17:13+00:00
+mromidev/claude-animated-shorts,Claude Animated Shorts,short_video,core,True,MIT,verified,4811,2,2,2026-11-01T05:56:54Z,0,54.84,2026-11-25T00:17:13+00:00
+3b1b/manim,Manim,code_motion,adjacent,False,MIT,verified,96918,0,1,2026-09-09T16:23:48Z,0,54.5,2026-11-25T00:17:13+00:00
+Tencent/WeVisCut,WeVisCut,agent_production,core,False,Apache-2.0,verified,114,9,29,2026-10-30T01:56:37Z,0,54.38,2026-11-25T00:17:13+00:00
+YeJe-cpu/SeeCut,SeeCut,workbenches,restricted,True,PolyForm Noncommercial-1.0.0,source_available,487,1,11,2026-10-30T09:46:33Z,0,54.31,2026-11-25T00:17:13+00:00
+Wan-Video/Wan2.2,Wan2.2,generation_models,core,False,Apache-2.0,verified,18891,0,2,2026-09-21T06:16:22Z,0,52.57,2026-11-25T00:17:13+00:00
+yeates/Aurora,Aurora / AgentEdit-Bench,research_resources,research,False,MIT,verified,461,4,4,2026-11-13T23:48:40Z,0,52.5,2026-11-25T00:17:13+00:00
+genmoai/mochi,Mochi,generation_models,core,False,Apache-2.0,verified,3767,0,2,2026-10-22T23:35:02Z,0,52.11,2026-11-25T00:17:13+00:00
+franciscop/ola,Ola,animation_infra,adjacent,False,MIT,verified,1869,0,3,2026-10-24T18:23:28Z,0,51.65,2026-11-25T00:17:13+00:00
+sasateguh/awesome-ai-video-for-creators,Awesome AI Video for Creators,research_resources,adjacent,False,CC0-1.0,verified,19,12,15,2026-11-24T16:28:03Z,0,50.93,2026-11-25T00:17:13+00:00
+FernandoAbishai/ScriptCut,ScriptCut,workbenches,core,False,AGPL-3.0,verified,23,0,62,2026-10-14T05:32:56Z,0,50.08,2026-11-25T00:17:13+00:00
+andyhuo520/vibe-knowledge,Vibe Knowledge,short_video,core,True,MIT,verified,805,3,3,2026-10-28T15:30:52Z,0,49.5,2026-11-25T00:17:13+00:00
+OpenSenseNova/SenseNova-6.8-Code2Video,SenseNova Code2Video,code_motion,core,True,待核验,unverified,767,1,2,2026-10-27T14:14:39Z,0,47.5,2026-11-25T00:17:13+00:00
+alisa0808/vox-director,Vox Director,short_video,core,False,MIT,verified,3127,0,1,2026-10-05T16:15:08Z,0,46.16,2026-11-25T00:17:13+00:00
+Aepzie/cutline,Cutline,workbenches,core,False,MIT,verified,1,0,109,2026-10-16T11:40:09Z,0,44.99,2026-11-25T00:17:13+00:00
+MemeCalculate/moyin-creator,魔因漫创 Moyin Creator,workbenches,core,False,AGPL-3.0 + 商业双重许可,custom,4871,0,2,2026-08-27T09:06:43Z,0,44.92,2026-11-25T00:17:13+00:00
+nutllwhy/hyperframes-motion-library,HyperFrames Motion Library,skills_mcp,core,True,MIT,verified,326,2,2,2026-10-28T16:07:22Z,0,44.75,2026-11-25T00:17:13+00:00
+social-media-skills/video-editing-skill,Video Editing Skill,skills_mcp,core,False,MIT,verified,10,3,3,2026-11-11T17:15:41Z,0,37.7,2026-11-25T00:17:13+00:00
+social-media-skills/video-to-shorts-skill,Video to Shorts Skill,short_video,core,False,MIT,verified,4,3,3,2026-11-11T17:15:47Z,0,34.96,2026-11-25T00:17:13+00:00
+AlibabaResearch/cut-craft-bench,CutCraft Bench,research_resources,research,False,待核验,unverified,43,0,5,2026-09-14T07:22:26Z,0,34.51,2026-11-25T00:17:13+00:00
+devanasolver/awesome-video-editing,Awesome Video Editing,research_resources,adjacent,False,CC0-1.0,verified,5,0,2,2026-10-17T18:59:11Z,0,28.76,2026-11-25T00:17:13+00:00
+thoxakihiko/awesome-ai-video,Awesome AI Video,research_resources,adjacent,False,CC0-1.0,verified,3,0,3,2026-09-27T17:55:55Z,0,25.71,2026-11-25T00:17:13+00:00
+juliangarnier/anime,Anime.js,animation_infra,adjacent,False,MIT,verified,75039,0,0,2026-08-09T16:40:07Z,1,46.59,2026-11-25T00:17:13+00:00
+ATH-MaaS/Pixelle-Video,Pixelle-Video,short_video,core,False,Apache-2.0,verified,30491,0,0,2026-06-14T12:40:58Z,1,39.94,2026-11-25T00:17:13+00:00
+motion-canvas/motion-canvas,Motion Canvas,code_motion,adjacent,False,MIT,verified,20204,0,0,2026-07-02T20:01:32Z,1,39.43,2026-11-25T00:17:13+00:00
+imputnet/cobalt,cobalt,media_cli,core,False,AGPL-3.0（api 与其余部分）+ CC-BY-NC-SA-4.0（web）,custom,47172,0,0,2026-04-06T11:59:51Z,1,39.28,2026-11-25T00:17:13+00:00
+KlingAIResearch/LivePortrait,LivePortrait,avatar,core,False,MIT,verified,19566,0,0,2026-06-01T17:24:54Z,1,37.86,2026-11-25T00:17:13+00:00
+hpcaitech/Open-Sora,Open-Sora,generation_models,core,False,Apache-2.0,verified,29949,0,0,2026-04-09T01:52:40Z,1,37.75,2026-11-25T00:17:13+00:00
+iawia002/lux,Lux,media_cli,core,False,MIT,verified,31857,0,0,2025-12-29T05:52:01Z,1,36.66,2026-11-25T00:17:13+00:00
+greensock/gsap-skills,GSAP Skills,skills_mcp,core,False,MIT,verified,19019,0,0,2026-04-21T23:47:02Z,1,36.48,2026-11-25T00:17:13+00:00
+NarratorAI-Studio/narrator-ai-cli-skill,Narrator AI CLI Skill,skills_mcp,core,True,MIT,verified,3323,0,0,2026-07-05T14:10:20Z,1,33.31,2026-11-25T00:17:13+00:00
+bytedance/Bernini,Bernini,generation_models,research,False,Apache-2.0,verified,1373,0,0,2026-08-13T12:11:19Z,1,33.02,2026-11-25T00:17:13+00:00
+drawcall/Proton,Proton,animation_infra,adjacent,False,MIT,verified,2531,0,0,2026-03-06T08:19:02Z,1,28.56,2026-11-25T00:17:13+00:00
+Tencent-Hunyuan/HunyuanVideo-I2V,HunyuanVideo-I2V,generation_models,restricted,False,Tencent Hunyuan Community License,source_available,1858,0,0,2026-04-07T06:13:08Z,1,28.06,2026-11-25T00:17:13+00:00
+Visko-Platform/VEFX-Bench,VEFX-Bench,research_resources,research,False,Apache-2.0,verified,177,0,0,2026-05-16T13:47:37Z,1,20.95,2026-11-25T00:17:13+00:00
+AtlasCloudAI/atlas-explainer,Atlas Explainer,short_video,core,False,MIT,verified,3,0,0,2026-07-10T06:51:55Z,1,10.23,2026-11-25T00:17:13+00:00
+OpenClip-App/agent-skills,OpenClip Agent Skills,skills_mcp,core,False,MIT,verified,1,0,0,2026-08-07T10:44:21Z,1,9.81,2026-11-25T00:17:13+00:00
+mfortne/mcp-video-editing,MCP Video Editing,skills_mcp,core,False,Apache-2.0,verified,2,0,0,2026-06-04T20:36:29Z,1,7.47,2026-11-25T00:17:13+00:00
+soimort/you-get,you-get,media_cli,core,False,MIT,verified,56849,0,0,2025-04-27T15:32:00Z,2,38.08,2026-11-25T00:17:13+00:00
+airbnb/lottie-web,Lottie Web,animation_infra,adjacent,False,MIT,verified,32572,0,0,2024-11-19T12:25:21Z,2,36.11,2026-11-25T00:17:13+00:00
+zai-org/CogVideo,CogVideo / CogVideoX,generation_models,core,False,Apache-2.0,verified,13229,0,0,2025-11-04T11:15:43Z,2,33.32,2026-11-25T00:17:13+00:00
+OpenTalker/SadTalker,SadTalker,avatar,core,False,Apache-2.0,verified,14220,0,0,2023-10-10T16:10:21Z,2,33.22,2026-11-25T00:17:13+00:00
+Rudrabha/Wav2Lip,Wav2Lip,avatar,restricted,False,个人/研究/非商业许可,source_available,13284,0,0,2025-06-22T02:41:20Z,2,33.06,2026-11-25T00:17:13+00:00
+CreateJS/TweenJS,TweenJS,animation_infra,adjacent,False,MIT,verified,3578,0,0,2021-03-27T15:49:43Z,2,28.43,2026-11-25T00:17:13+00:00
+lume/lume,LUME,animation_infra,adjacent,False,MIT,verified,1576,0,0,2025-10-14T00:54:01Z,2,25.85,2026-11-25T00:17:13+00:00
+mattdesl/gifenc,gifenc,animation_infra,adjacent,False,MIT,verified,382,0,0,2024-09-19T16:55:32Z,2,20.67,2026-11-25T00:17:13+00:00
+adobe-research/EditVerse,EditVerse,research_resources,restricted,False,Adobe Research License（部分文件）,source_available,140,0,0,2025-10-09T03:55:32Z,2,17.45,2026-11-25T00:17:13+00:00
+Video-Bench/Video-Bench,Video-Bench,research_resources,research,False,Apache-2.0,verified,82,0,0,2025-06-09T15:29:25Z,2,15.42,2026-11-25T00:17:13+00:00
+palmier-io/palmier-pro,Palmier Pro,historical_restricted,historical,True,GPL-3.0（至 v0.7.6 源码）/ 后续二进制专有,custom,14803,4,10,2026-11-20T01:38:59Z,3,70.53,2026-11-25T00:17:13+00:00

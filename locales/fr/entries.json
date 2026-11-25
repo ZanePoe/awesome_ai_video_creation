@@ -1,0 +1,659 @@
+{
+ "AIEraDev/Clypra": {
+  "description": "Éditeur vidéo multiplateforme accéléré par le matériel, construit en Rust/Tauri/React.",
+  "boundary": "Éditeur généraliste avant tout ; l'étendue des fonctions IA et la maturité mobile sont à vérifier version par version.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "jub0t/Concat": {
+  "description": "Éditeur multi-piste local multiplateforme avec sous-titres, TTS, détourage, images clés, effets et export 4K.",
+  "boundary": "Les modèles locaux doivent être téléchargés au premier usage ; l'IA intégrée et un workflow génératif complet ne relèvent pas du même périmètre.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "LudwigKienle/ai-video-production-editor": {
+  "description": "Atelier local couvrant script, traitement de mise en scène, storyboard, génération des plans, puis montage, étalonnage et export.",
+  "boundary": "Le BYOK envoie quand même les requêtes aux services de modèles configurés ; certaines capacités managées/facturées supposent des projets externes.",
+  "license_label": "GPL-3.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "0xsline/OpenChatCut": {
+  "description": "Éditeur vidéo conversationnel IA local-first avec timeline multi-piste, Agent Skills, MCP et rendu Remotion.",
+  "boundary": "Les capacités respectives de l'agent intégré, de la version desktop et des coding agents externes doivent être vérifiées séparément.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "frankShan001/CutVoke": {
+  "description": "Éditeur vidéo open source local-first multiplateforme avec serveur MCP intégré, permettant à des agents comme Claude Code, Codex ou Cursor de monter aux côtés des humains sur la même timeline multi-piste non destructive.",
+  "boundary": "Le package desktop embarque des composants tiers dont FFmpeg (GPLv3) ; les sous-titres peuvent utiliser faster-whisper en local, le modèle devant être téléchargé au premier usage ; les agents connectés sont majoritairement des services cloud — compte, coûts et politiques de données à part ; v0.3.6 est un aperçu gelé, désynchronisé de main, dont le README liste des problèmes connus (réutilisation de la fenêtre d'export, expiration de la préécoute, rognage des sous-titres verticaux longs) ; le package macOS est signé ad-hoc sans notarisation ; le projet a été créé en 2026-09 et reste peu mature.",
+  "license_label": "MIT",
+  "license_note": "LICENSE racine du dépôt sous MIT ; le package desktop embarque des composants tiers sous leurs propres licences dont FFmpeg (GPLv3) ; les recettes d'effets communautaires, le modèle faster-whisper et les conditions des services IA connectés sont à part"
+ },
+ "MemeCalculate/moyin-creator": {
+  "name": "Moyin Creator",
+  "description": "Outil desktop Electron de production audiovisuelle IA qui enchaîne automatiquement un pipeline en cinq étapes — script, personnages, scènes, mise en scène, Seedance 2.0 — pour produire en série des dramas courts et des séries d'animation.",
+  "boundary": "Les clés API du fournisseur d'IA sont à la charge de l'utilisateur (multi-fournisseurs et rotation de clés pris en charge), la génération étant facturée par le fournisseur ; double licence AGPL-3.0 et commerciale : modifications fermées, intégration dans un produit commercial ou SaaS supposent l'achat d'une licence commerciale ; la cohérence des personnages dépend de la bible des personnages et des images de référence — cohérence inter-plans et qualité du montage final à valider selon le modèle utilisé ; depuis le 2026-08-27, la branche par défaut ne porte que des modifications de README ; la dernière release est une étiquette de version custom annotée sponsor ; les versions des paquets hébergés citées dans le README divergent de celles des Releases.",
+  "license_label": "AGPL-3.0 + double licence commerciale",
+  "license_note": "LICENSE contient le texte AGPL-3.0 ; le README et COMMERCIAL_LICENSE.md déclarent une double licence : modifications fermées, intégration dans un produit commercial ou un SaaS sans ouverture du code supposent une licence commerciale ; l'usage interne de dépendances comme `@opencut/ai-core` et les conditions des services de modèles sont à part"
+ },
+ "chatfire-AI/huobao-drama": {
+  "name": "Huobao Drama",
+  "description": "Plateforme web/desktop qui, d'une phrase ou d'un roman collé, réécrit le script, génère images, vidéos de plans, doublage et sous-titres, puis assemble un drame court complet ; l'arrière-plan est orchestré par des agents Mastra et les skills sont éditables dans l'interface.",
+  "boundary": "Licence CC BY-NC-SA-4.0 interdisant explicitement l'usage commercial (services payants, déploiements commerciaux et revente inclus) ; les capacités de texte, d'image et de vidéo exigent chacune de configurer ses propres clés API de services de modèles, le README orientant vers les clés FireMux de l'auteur ; la référence à des ressources locales pour Seedance suppose une adresse publique accessible PUBLIC_BASE_URL, la version desktop sans entrée publique échoue directement ; stockage via SQLite et le répertoire data — la migration exige la copie manuelle des fichiers médias.",
+  "license_label": "CC BY-NC-SA-4.0 (usage commercial interdit)",
+  "license_note": "LICENSE contient le texte intégral CC BY-NC-SA 4.0 ; la section licence du README interdit explicitement l'usage commercial, qui suppose une autorisation écrite de l'auteur ; GitHub licenseInfo l'identifie donc comme NOASSERTION ; les services de modèles appelés, les médias et les droits des doublages sont à part"
+ },
+ "HaD0Yun/CozyClay": {
+  "description": "Outil navigateur de construction de décors, placement des personnages, découpage de plans et prévisualisation vidéo par IA.",
+  "boundary": "La sortie est surtout de la prévisualisation et des références de plans ; la qualité de la génération finale dépend du modèle vidéo externe.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "Augani/openreel-video": {
+  "description": "Éditeur timeline open source, navigateur et desktop, avec coupe, sous-titres, mixage audio et export sans filigrane.",
+  "boundary": "Capacités d'édition généralistes avant tout ; ne pas le considérer automatiquement comme un agent génératif.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "rk0neki/OpenKatana": {
+  "description": "Moteur de montage vidéo piloté par agent : Studio, CLI, MCP et ComfyUI.",
+  "boundary": "Plutôt un moteur d'édition par code ; les modèles de génération effectifs et les applications ComfyUI restent à configurer.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "ThinkFlowLab/OpenDirector": {
+  "description": "Workflow de création vidéo agentique, de la conversation et du canvas à l'organisation des médias jusqu'à l'export de la timeline.",
+  "boundary": "Première version du projet ; stabilité de production complète et coûts de modèles restent à éprouver.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "MakeMyClip/editor": {
+  "description": "Encapsule les capacités de montage de FFmpeg via une timeline dans le navigateur local, un CLI, MCP et un Skill.",
+  "boundary": "L'édition locale ne nécessite pas son API cloud ; UI navigateur, CLI et outils agent sont des entrées différentes du même projet.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "Theorvane/OpenScene": {
+  "description": "Éditeur vidéo desktop local où des agents IA peuvent manipuler la timeline, générer des médias et exporter.",
+  "boundary": "La branche par défaut est une branche de développement ; le mobile et les capacités de génération sont à valider contre l'implémentation courante.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "Aepzie/cutline": {
+  "description": "Éditeur timeline dans le navigateur offrant une interface MCP de premier plan pour une manipulation en direct par des agents.",
+  "boundary": "Les fichiers proxy pour les gros médias et le chemin d'encodage du navigateur restent à évaluer selon le mode de déploiement.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "FernandoAbishai/ScriptCut": {
+  "description": "Montage local, découpage en formats courts et export réseaux sociaux pilotés depuis l'édition du texte de transcription.",
+  "boundary": "Axé sur le dégrossissage par le texte ; cela ne remplace pas un atelier complet d'effets visuels et de génération.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "YeJe-cpu/SeeCut": {
+  "description": "Espace de skills faisant comprendre, monter, rendre et contrôler visuellement par un coding agent des vidéos courtes d'explication face caméra.",
+  "boundary": "C'est un skill/processus, pas un NLE desktop autonome ; le brouillon CapCut n'est qu'un ajustement ultérieur optionnel.",
+  "license_label": "PolyForm Noncommercial-1.0.0",
+  "license_note": "Usage non commercial uniquement, ce n'est pas une licence open source OSI"
+ },
+ "openfilm/openfilm": {
+  "description": "Permet aux coding agents de créer, inspecter, éditer et rendre des vidéos par le code, avec une interface éditable.",
+  "boundary": "Les plans par code diffèrent d'une timeline de médias réels ; les licences des banques de médias et de sons sont à vérifier asset par asset.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "OpenMontageInc/OpenMontage": {
+  "description": "Système de production vidéo multi-pipelines pour coding agents : recherche, script, médias, doublage, sous-titres et rendu.",
+  "boundary": "Certains fournisseurs de génération et de voix sont des services payants ; un grand nombre de fichiers de skill n'égale pas une chaîne validée de bout en bout.",
+  "license_label": "AGPL-3.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "hypit-ai/hypit": {
+  "description": "Permet aux coding agents de dupliquer des vidéos de référence en workflows éditables et rejouables, puis de générer des variantes de contenu par lot.",
+  "boundary": "Dupliquer des vidéos populaires engage la vidéo source, les personnes, la musique, les médias et les droits de marque ; les modèles de génération et les API sont des services externes optionnels, coûts et flux de données dépendant du fournisseur.",
+  "license_label": "Hypit Open Source License (Apache-2.0 modifiée)",
+  "license_note": "Restreint l'hébergement multi-locataire, la redistribution commerciale et la suppression des mentions de marque/copyright ; ces usages supposent une licence commerciale — ce n'est pas un Apache-2.0 standard"
+ },
+ "nexu-io/openmotion": {
+  "description": "Atelier de duplication de vidéos de référence et de motion design de marque pour coding agents locaux, avec Motion.md, timeline visuelle et export MP4.",
+  "boundary": "Les vidéos de référence, les personnes, la musique, la marque et les médias doivent être autorisés séparément ; la génération de médias dépend d'API/abonnements fournis, les modèles embarqués et les composants tiers suivant leurs propres LICENSE/NOTICE.",
+  "license_label": "Apache-2.0",
+  "license_note": "LICENSE racine du dépôt sous Apache-2.0 standard ; les templates intégrés, les icônes de modèles et les composants vendor ont leurs propres LICENSE/NOTICE, à conserver et vérifier en cas de distribution ou de réutilisation"
+ },
+ "shinyobjectz/raea": {
+  "description": "Moteur et atelier agent desktop pour écrire vidéos, animations, 3D et jeux en React/TypeScript, rendus sur un GPU local.",
+  "boundary": "Le moteur, le CLI et l'application desktop sont utilisables gratuitement ; le stockage cloud, la recherche multi-machines et la publication relèvent des offres Pro/Team ; la FSL-1.1-ALv2 interdit les produits concurrents, chaque version passant sous Apache-2.0 deux ans après sa publication ; les sources d'exemple, les modèles, les runtime binaires, les composants tiers et les médias des comptes suivent des licences distinctes.",
+  "license_label": "FSL-1.1-ALv2",
+  "license_note": "LICENSE racine du dépôt sous Functional Source License 1.1 (ALv2 Future License) : interdit d'utiliser le logiciel pour un produit ou service commercial concurrent de raea ou de ses produits existants ; chaque version passe sous Apache-2.0 deux ans après sa publication ; NOTICE et LICENSES listent en plus les licences tierces des ports HyperFrames, de Bevy, FFmpeg, QuickJS, etc."
+ },
+ "ATH-MaaS/Pixelle-Video": {
+  "description": "Génère texte, images ou vidéos, doublage et assemblage en vidéo courte à partir d'un sujet ; workflows ComfyUI et API médias pris en charge.",
+  "boundary": "L'adresse AIDC-AI d'origine a migré ; la configuration, les coûts et les licences des médias de ComfyUI local, RunningHub ou des API de modèles sont à vérifier séparément.",
+  "license_label": "Apache-2.0",
+  "license_note": "LICENSE racine sous Apache-2.0 ; NOTICE énumère les dépendances tierces et leurs licences."
+ },
+ "Forget-C/Jellyfish": {
+  "description": "Atelier de production de dramas courts IA couvrant découpage du script, plans, gestion des assets personnages et décors, génération de shots et export.",
+  "boundary": "La réutilisation des assets aide à la cohérence sans garantir la qualité de génération ; les services de modèles, les coûts et les contraintes de déploiement restent à valider selon la configuration.",
+  "license_label": "Apache-2.0",
+  "license_note": "LICENSE racine sous Apache-2.0 ; les modèles, les médias et les conditions des services tiers sont à part."
+ },
+ "shijue-aid/aid-studio": {
+  "description": "Atelier auto-hébergeable de création de BD animées, dramas courts et productions audiovisuelles IA : script, personnages et décors, storyboard, génération d'images et de vidéos, doublage, canvas infini et prévisualisation 3D.",
+  "boundary": "Les appels de modèles, le stockage et le calcul peuvent être facturés séparément ; les packs officiels d'assets (images, audio, vidéos) sont distribués séparément selon les versions ; le déploiement exige MySQL, Redis, Docker et d'autres dépendances ; les droits du contenu généré sur le script, les personnages et les médias restent à vérifier.",
+  "license_label": "MIT",
+  "license_note": "LICENSE racine du dépôt sous MIT ; NOTICE conserve les paternités tierces comme RuoYi-Vue ; le pack d'assets d'exemple officiel est distribué séparément ; les conditions des fournisseurs de modèles, du stockage et des ressources de calcul sont à part"
+ },
+ "waooAI/waoowaoo": {
+  "description": "Atelier de création d'images et de vidéos IA gérant médias de référence et contenus générés via canvas et Assistant, avec assemblage de segments vidéo.",
+  "boundary": "Version encore en bêta ; les capacités image et vidéo dépendent du modèle ; les appels à des modèles externes comme OpenRouter peuvent être payants.",
+  "license_label": "Elastic License 2.0",
+  "license_note": "Sous ELv2 depuis v0.5.0-beta.1 : interdit d'héberger les fonctions principales comme service pour des tiers sans autorisation ; ce n'est pas une licence OSI open source, les versions anciennes peuvent être sous une autre licence."
+ },
+ "remotion-dev/skills": {
+  "description": "Skills officiels permettant aux coding agents de créer, prévisualiser et rendre des vidéos Remotion.",
+  "boundary": "Nécessite Remotion et un hôte prenant en charge les Agent Skills ; aucune licence trouvée à la racine de ce dépôt ; Remotion lui-même a ses propres conditions.",
+  "license_label": "Licence à vérifier",
+  "license_note": "Aucun LICENSE trouvé à la racine ni dans l'arborescence du dépôt ; les licences du produit Remotion et de chaque paquet sont à vérifier séparément."
+ },
+ "ManimCommunity/manim": {
+  "description": "Moteur vidéo d'animation mathématique et de vulgarisation programmée en Python.",
+  "boundary": "Adapté à la vulgarisation par code ; ce n'est pas un agent IA génératif ; dépendances de rendu et polices à vérifier à part.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "motiondivision/motion": {
+  "description": "Bibliothèque d'animation d'interfaces et de mises en page pour JavaScript, React et Vue.",
+  "boundary": "Composant de motion design généraliste ; se combine avec un moteur de rendu vidéo, ne fournit pas d'agent vidéo en soi.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "franciscop/ola": {
+  "description": "Bibliothèque légère d'interpolation temporelle en temps réel de valeurs numériques.",
+  "boundary": "Ne traite que l'interpolation de valeurs ; scènes, timeline et export restent à votre charge.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "juliangarnier/anime": {
+  "description": "Animations en timeline sur des propriétés CSS, SVG, DOM et JavaScript.",
+  "boundary": "Moteur d'animation web généraliste ; le rendu vidéo et la synchronisation audio demandent des outils supplémentaires.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "jeremyckahn/shifty": {
+  "description": "Moteur d'animation de tweening en TypeScript avec easings et contrôles de lecture.",
+  "boundary": "Bibliothèque de tweening bas niveau ; aucun flux de génération ni d'export vidéo embarqué.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "jonobr1/two.js": {
+  "description": "Crée des figures 2D et des scènes animées via WebGL, Canvas ou SVG.",
+  "boundary": "Bibliothèque fondamentale de dessin 2D ; produire des fichiers audio/vidéo suppose d'y raccorder rendu et encodage.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "airbnb/lottie-web": {
+  "description": "Analyse et affiche dans le web des animations vectorielles Lottie exportées.",
+  "boundary": "Un lecteur n'est pas un éditeur vidéo ; les licences des ressources d'animation et de leur mode de génération restent à part.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "CreateJS/TweenJS": {
+  "description": "Tweening et lecture en chaîne pour des valeurs JavaScript et des propriétés CSS.",
+  "boundary": "Bibliothèque de tweening à coupler avec un moteur de rendu et des outils d'export.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "lume/lume": {
+  "description": "Construit des scènes graphiques interactives 2D et 3D avec des éléments HTML.",
+  "boundary": "Composant 3D/graphique généraliste ; ne fournit pas de chaîne de production vidéo complète.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "mattdesl/gifenc": {
+  "description": "Encode des GIFs animés avec transparence dans le navigateur ou sous Node.js.",
+  "boundary": "Produit du GIF ; pas d'export MP4, de montage ni de génération IA directs.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "konvajs/konva": {
+  "description": "Bibliothèque de scène Canvas 2D avec interaction d'objets, transformations, animations et export.",
+  "boundary": "Composant canvas généraliste ; l'export vidéo ou audio demande d'autres outils.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "blender/blender": {
+  "description": "Suite de création 3D couvrant modélisation, rigging, animation, rendu, compositing et montage vidéo.",
+  "boundary": "Le dépôt GitHub est un miroir officiel ; les add-ons tiers, les modèles et les médias suivent leurs propres licences.",
+  "license_label": "GPL-2.0-or-later",
+  "license_note": "COPYING renvoie au texte de licence GPL ; les assets et composants tiers sont à part."
+ },
+ "mrdoob/three.js": {
+  "description": "Bibliothèque JavaScript de scènes et de rendu 3D, pour alimenter des animations par code en contenu 3D.",
+  "boundary": "Bibliothèque de rendu généraliste ; ne sort pas de vidéo automatiquement ; les médias et les environnements WebGL/WebGPU sont à gérer soi-même.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "godotengine/godot": {
+  "description": "Moteur de jeu open source pour construire des scènes 2D et 3D, des interactions et des animations.",
+  "boundary": "Un moteur de jeu n'est pas un système de génération vidéo automatique ; l'enregistrement ou l'export d'un montage supposent un flux dédié.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "BabylonJS/Babylon.js": {
+  "description": "Moteur JavaScript de scènes 3D, de jeux et de rendu, base possible pour le motion design par code.",
+  "boundary": "Moteur de rendu 3D temps réel par défaut ; l'encodage vidéo suppose des outils raccordés ; le README précise que le CDN de démo n'est pas destiné à la production.",
+  "license_label": "Apache-2.0",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "drawcall/Proton": {
+  "description": "Bibliothèque JavaScript d'animation de particules pour des effets de flammes, feux d'artifice et explosions.",
+  "boundary": "Bibliothèque d'effets fondamentale, pas un outil autonome de rendu ou de montage vidéo.",
+  "license_label": "MIT",
+  "license_note": "Fichier de licence du projet vérifié ; composants tiers, médias et services managés à part."
+ },
+ "browser-use/video-use": {
+  "description": "Montage, sous-titres, étalonnage, incrustation de motion design et contrôle de sortie sur des rushes bruts via coding agent et FFmpeg.",
+  "boundary": "Ce n'est pas un outil d'automatisation de la vidéo par le navigateur ; les dépendances exactes et les flux cloud sont à vérifier selon la configuration du projet.",
+  "license_label": "MIT",
+  "license_note": "LICENSE racine sous MIT ; les services de modèles, les médias et les dépendances externes relèvent d'autres licences."
+ },
+ "greensock/gsap-skills": {
+  "description": "Agent Skills officiels guidant les coding agents sur les timelines, l'animation et les plugins GSAP.",
+  "boundary": "Skill d'animation web nécessitant un agent hôte ; le rendu effectif en vidéo se fait avec des outils vidéo ; la licence des produits GSAP est à vérifier à part.",
+  "license_label": "MIT",
+  "license_note": "LICENSE racine du dépôt de skills sous MIT ; la bibliothèque GSAP et les médias tiers suivent leurs propres conditions."
+ },
+ "lemomo-ai/lemo-opuscar": {
+  "description": "Fournit des styles cinéma, des exemples et des consignes STYLE.md pour que les coding agents fassent des vidéos par code.",
+  "boundary": "Le projet recommande Claude avec un effort de raisonnement rehaussé ; réutiliser les médias, personnes, marques et voix des démos demande des vérifications séparées.",
+  "license_label": "Code MIT + documentation CC BY-NC (licence additive)",
+  "license_note": "Code sous MIT ; la documentation Markdown sous CC BY-NC 4.0, avec permission supplémentaire de lire, modifier et livrer avec les fichiers du projet pour des vidéos personnelles ou de clients ; tout autre usage commercial suppose une licence. Les médias d'exemple et certains doublages ont des restrictions propres."
+ },
+ "kajisho5/ffmpeg-skill": {
+  "description": "CLI et MCP offrant aux coding agents montage FFmpeg local, sous-titres, export de formats et contrôle de sortie.",
+  "boundary": "Nécessite FFmpeg et Python sur la machine ; le skill, le build FFmpeg et les médias suivent leurs propres licences, et les résultats effectifs n'ont pas été testés.",
+  "license_label": "MIT",
+  "license_note": "LICENSE racine du dépôt de skill sous MIT ; les licences de FFmpeg et des encodeurs sont à vérifier selon le build précis."
+ },
+ "Tencent/WeVisCut": {
+  "description": "Transforme des articles de savoir ou des scripts d'explication en vidéos de plusieurs minutes via planification, recherche de médias, montage, contrôle et réparation.",
+  "boundary": "Le modèle de stratégie 9B, le runtime d'outils et Studio doivent être déployés dans l'environnement officiel ; les résultats de l'auteur ne valent pas classement inter-projets.",
+  "license_label": "Apache-2.0",
+  "license_note": "La LICENSE racine précise que le code, les paramètres et les poids publics sont sous Apache-2.0 ; les composants tiers sont à part"
+ },
+ "Hao0321/video-autopilot-kit": {
+  "description": "Framework d'automatisation pour la planification vidéo, l'audit, la revue et l'apprentissage des effets.",
+  "boundary": "Le montage et le rendu effectifs dépendent d'Editkin ; installer seul ce dépôt ne produit pas de montage fini.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "win4r/video-director": {
+  "description": "Guide Claude Code pour planifier, rendre et contrôler des courts métrages via HTML/Canvas/SVG/Three.js/GSAP/Remotion.",
+  "boundary": "Surtout optimisé pour des modèles Claude précis ; la qualité n'est pas héritée automatiquement par d'autres agents.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "JuneYaooo/rea-video": {
+  "description": "Déconstruit en retour les parts tournées, IA et code d'une vidéo et produit un plan de duplication au niveau du plan ainsi qu'un VIDEO.md.",
+  "boundary": "Fait surtout de l'analyse et de la planification de duplication ; ne se confond pas avec un montageur ou un générateur final.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "palmier-io/palmier-pro": {
+  "description": "Éditeur vidéo pensé pour l'IA dont les anciennes versions du code source sont sorties sous GPLv3.",
+  "boundary": "Après v0.7.6, les binaires sont propriétaires et le code source correspondant n'est pas public ; seul last-gpl-source compte comme version open source historique.",
+  "license_label": "GPL-3.0 (sources jusqu'à v0.7.6) / binaires propriétaires ensuite",
+  "license_note": "last-gpl-source et les sources antérieures à v0.7.6 sont sous GPLv3 ; les binaires suivants n'ont pas de code source public correspondant"
+ },
+ "cclank/lanshu-create-ai-presenter-video": {
+  "description": "Agent Skill transformant un sujet ou un script en vidéo d'explication validée avec avatar numérique ou style.",
+  "boundary": "L'avatar, la voix, la synchronisation labiale et la reconnaissance dépendent des fournisseurs externes choisis au runtime.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "andyhuo520/vibe-knowledge": {
+  "description": "Skill de capsules de savoir : vérification du point de savoir, rédaction, doublage, vidéo par code, contrôle qualité et pack de publication.",
+  "boundary": "Les plans enrichis peuvent appeler des plateformes de génération externes ; comparer séparément l'illustration de base par code et le niveau enrichi.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "ChrisHKAI/ChrisHKAI-Video": {
+  "description": "Skill de coding agent organisant les ressources publiques d'un créateur en courts métrages 3D façon jouet.",
+  "boundary": "La qualité du montage complet sous Codex n'est pas encore validée ; l'usage des ressources publiques et les droits à l'image incombent à l'utilisateur.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "mromidev/claude-animated-shorts": {
+  "description": "Skill de courts métrages verticaux d'histoires animées avec Three.js, Remotion, musique et effets sonores.",
+  "boundary": "Pack méthodologique bâti sur un seul exemple terminé ; la généralisation thématique et visuelle reste à éprouver.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "kleZ799/clipmint": {
+  "description": "Convertit podcasts, interviews, tutoriels et VOD en Shorts/Reels/TikTok verticaux sous-titrés.",
+  "boundary": "La détection des moments forts, le recadrage et la publication dépendent de modèles locaux et de la configuration des plateformes.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "iamajmeena/neonclipping": {
+  "description": "Collez un lien pour découper localement de longues vidéos YouTube/Twitch/Kick ou vos propres MP4 en segments 9:16 aux sous-titres incrustés, avec titres et accroches générés.",
+  "boundary": "Le montage repose sur yt-dlp, Streamlink, faster-whisper, FFmpeg et éventuellement un modèle Ollama local ; sans sous-titres YouTube, la source exige une reconnaissance locale ou une importation de sous-titres, avec perte de qualité ; la vitesse annoncée et les 187 contrôles du README sont des auto-tests de l'auteur, pas un benchmark indépendant ; le téléchargement et la redistribution sont encadrés par les conditions des plateformes et les droits des médias.",
+  "license_label": "MIT",
+  "license_note": "LICENSE racine du dépôt sous MIT ; les dépendances du fichier requirements comme yt-dlp, faster-whisper, Streamlink, av et static-ffmpeg, ainsi que les poids téléchargés via Ollama et les polices système relèvent d'autres licences"
+ },
+ "social-media-skills/video-to-shorts-skill": {
+  "description": "Fait transformer par un agent de longues vidéos ou des podcasts en shorts verticaux sous-titrés mot à mot, avec publication optionnelle.",
+  "boundary": "La publication automatique engage des identifiants de plateforme ; le téléchargement de la vidéo source doit respecter les conditions et les autorisations.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "AtlasCloudAI/atlas-explainer": {
+  "description": "Skill/CLI générant une vidéo d'explication papercraft doublée à partir d'un seul sujet.",
+  "boundary": "La génération des images et de la voix dépend de l'API Atlas Cloud — ce n'est pas une chaîne entièrement locale.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "alisa0808/vox-director": {
+  "description": "Agent Skill de bout en bout : du sujet à une vidéo d'explication/publicité en collage papier façon Vox.",
+  "boundary": "La génération des médias dépend d'Atlas Cloud et de FFmpeg ; l'imitation de style appelle la prudence sur la marque et les droits.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "eternityspring/reelbench-skills": {
+  "description": "Ensemble de skills d'analyse, de duplication et de production vidéo pour Claude Code/Codex.",
+  "boundary": "Certains produits liés et services de médias sont payants ou externes ; vérifier skill par skill.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "NarratorAI-Studio/narrator-ai-cli-skill": {
+  "description": "Guide l'agent pour piloter narrator-ai-cli et produire automatiquement des vidéos de commentaire de films et séries.",
+  "boundary": "Skill machine-readable d'un CLI, pas un moteur de rendu autonome ; les services backend et les templates sont à part.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "Vincentwei1021/video-shotcraft": {
+  "description": "Fournit aux agents des recettes de plans, des storyboards, des animations Remotion, un montage rythmé et un contrôle image par image.",
+  "boundary": "La bibliothèque de plans est une méthode créative et un actif de code ; elle ne remplace pas un éditeur timeline généraliste.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "KyaniteLabs/kinocut": {
+  "description": "MCP/Python/CLI de montage vidéo local avec garde-fous, pré-vols, reçus et portes qualité.",
+  "boundary": "Encapsule FFmpeg ainsi que Whisper/HyperFrames en option ; des outils typés ne garantissent pas le sens du montage.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "OpenClip-App/agent-skills": {
+  "description": "Skills agent pour le découpage de longues vidéos, la transcription, la conversion, les miniatures, le détourage et les idées UGC.",
+  "boundary": "Les skills pilotent un MCP OpenClip managé ; les vidéos et les identifiants transitent par un service externe.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "lixiaoxiao9888-create/manju-laoli-skill": {
+  "name": "Manju Laoli Skill",
+  "description": "Pack de skills OpenClaw pour BD animées et dramas courts IA : script, verrouillage des assets, storyboard, scènes de combat, prompts d'alimentation Seedance et contrôles automatiques.",
+  "boundary": "Cible les plateformes d'agents OpenClaw, Coze, Dify, etc. ; la seule filière de modèle vidéo du pack est Seedance 2.5/2.0 ; l'auteur marque le pack en bêta et agrège du contenu open source sans lister item par item les NOTICE externes de règles et de médias ; le pack ne contient aucune image — les médias sont générés sur des plateformes externes et leurs droits restent à obtenir.",
+  "license_label": "MIT",
+  "license_note": "Racine du dépôt et short-drama-director tous deux sous MIT ; l'auteur marque le projet en bêta et agrège du contenu open source sans NOTICE tiers item par item — la redistribution des textes de la base de règles et des exemples reste à vérifier"
+ },
+ "HeyChengC/wallstreet-explainer": {
+  "description": "Skill de coding agent pour capsules financières/tech en style Wall Street : langage visuel de style, templates de composants graphiques, scripts de recherche d'extraits, de captures d'écran, de doublage, de détourage, de rendu et de mixage.",
+  "boundary": "Nécessite un hôte comme Claude Code, plus ffmpeg installé, des dépendances Python/Node, Playwright et le téléchargement de cinq polices ; les médias proviennent de téléchargements yt-dlp et de captures de pages d'actualité citées en commentaire — la provenance et les droits de redistribution restent à vérifier ; les images tiers, captures, logos et personnes de l'échantillon ne sont pas sous MIT.",
+  "license_label": "MIT (code et documentation) + médias tiers des échantillons exclus",
+  "license_note": "LICENSE = texte MIT avec clauses additionnelles excluant explicitement les images de vidéos, captures de presse, logos et photos de examples/ ; GitHub l'identifie donc comme NOASSERTION. Les polices se téléchargent séparément et suivent leurs propres licences"
+ },
+ "Melvynx/video-agent-skills": {
+  "description": "Organisation par skills Markdown du script, de la recherche, du montage, de la traduction et de la publication pour shorts/YouTube.",
+  "boundary": "Les skills n'embarquent ni tous les modèles ni les moteurs de rendu ; il faut un hôte et des outils locaux.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "social-media-skills/video-editing-skill": {
+  "description": "Fait effectuer par l'agent la première passe de montage et le traitement des sous-titres sur des explications face caméra, des cours, des interviews et des vlogs.",
+  "boundary": "Ciblé sur la première passe de dégrossissage ; ne remplace pas la revue finale humaine, l'étalonnage ni l'habillage complexe.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "mfortne/mcp-video-editing": {
+  "description": "Encapsulation MCP, bibliothèque Python et CLI de FFmpeg, HyperFrames et flux réutilisables en local.",
+  "boundary": "Le rendu effectif dépend des versions des outils externes ; apparenté à Kinocut mais dépôt distinct.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "nutllwhy/hyperframes-motion-library": {
+  "description": "Bibliothèque locale de templates de motion design et d'assets paramétriques reposant sur HyperFrames.",
+  "boundary": "Bibliothèque d'assets animés, sans script complet, génération de médias ni flux de publication.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "patch-gg/pixelfx": {
+  "description": "Bibliothèque de 244 effets pixel et animations dessinés par code, avec un skill Claude Code de génération d'effets et des outils de spritesheet et d'export GIF/MP4.",
+  "boundary": "Bibliothèque d'effets et d'assets de mouvements, sans script, montage ni publication ; la police Patch Pixel de `gallery/fonts` est sous copyright Patch, hors MIT ; une partie du code est adaptée de Sprite Fusion et Hollow Crown (tous deux MIT), la paternité est à conserver selon NOTICE ; utiliser les assets exportés dans une vidéo suppose de vérifier les contenus tiers affichés.",
+  "license_label": "MIT (code et effets) + police Patch Pixel exclue",
+  "license_note": "Le README déclare code et effets sous MIT, usage commercial autorisé ; NOTICE liste les effets Sprite Fusion adaptés de Hugo Duprez et Hollow Crown (tous deux MIT), dont la paternité est à conserver ; `gallery/fonts/PatchPixel-Regular.woff2` reste tous droits réservés par Patch, hors MIT"
+ },
+ "digitalsamba/claude-code-video-toolkit": {
+  "description": "Skills, templates, commandes et outils pour Claude Code : script, doublage, musique, génération d'images et de vidéos, contrôle qualité, rendu et publication, avec migration possible vers Codex et Kiro CLI.",
+  "boundary": "Nécessite Node 22+ et Claude Code ; les modèles IA sont déployés sur vos propres comptes cloud GPU Modal/RunPod à votre coût ; le coût de 0,33 $ et la vidéo d'exemple du README sont des auto-tests de l'auteur ; les add-ons communautaires, les skills de design tiers et les services de publication managés ont leurs propres licences et conditions ; les contenus générés, les voix clonées et les médias restent à vérifier.",
+  "license_label": "MIT",
+  "license_note": "LICENSE racine du dépôt sous MIT (copyright Digital Samba) ; les poids des modèles appelés (Qwen3-TTS, FLUX.2, Ideogram 4, ACE-Step, LTX-Video, etc.), les services externes comme ElevenLabs, le moteur de rendu Remotion et les add-ons communautaires (par exemple arkiv sous PolyForm Perimeter) ont des licences indépendantes"
+ },
+ "OpenSenseNova/SenseNova-6.8-Code2Video": {
+  "description": "Génère du code exécutable avec un petit modèle ouvert pour rendre de courtes vidéos.",
+  "boundary": "Axé pour l'instant sur la vidéo courte en code pur ; les poids du modèle, l'environnement d'inférence et les outils de génération sont à vérifier séparément.",
+  "license_label": "À vérifier",
+  "license_note": "Aucune licence racine trouvée ; les conditions sur les poids du modèle et la réutilisation du code restent à confirmer"
+ },
+ "givemotion/givemotion": {
+  "description": "Moteur de code-video où l'agent écrit HTML/CSS, prévisualise, contrôle puis rend un MP4.",
+  "boundary": "L'animation par code convient au motion design et à l'explication ; elle ne vaut pas montage de rushes réels ni génération par diffusion.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "heygen-com/hyperframes": {
+  "description": "Écosystème de code-video HTML/CSS/JS et d'Agent Skills, avec migration possible depuis Remotion et validation image par image.",
+  "boundary": "Le projet et le service de génération managé HeyGen relèvent de niveaux différents ; les templates précis et les médias externes sont à licencier à part.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "remotion-dev/remotion": {
+  "description": "Framework de base pour créer et rendre des vidéos par code en React/TypeScript.",
+  "boundary": "Infrastructure de code-video généraliste, sans planification agentique ni modèles de génération embarqués.",
+  "license_label": "Remotion License",
+  "license_note": "Gratuit pour particuliers, organisations à but non lucratif et petites structures ; les organisations commerciales au-delà des seuils supposent une licence d'entreprise — ce n'est pas de l'open source OSI courant"
+ },
+ "motion-canvas/motion-canvas": {
+  "description": "Crée des animations, des explications et du motion design en TypeScript via des fonctions génératrices.",
+  "boundary": "Framework d'animation généraliste ; les capacités agent viennent de skills ou d'un hôte de niveau supérieur.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "3b1b/manim": {
+  "description": "Moteur d'animation Python pour la vulgarisation mathématique.",
+  "boundary": "Outil d'animation généraliste et dépôt correspondant à la version de 3Blue1Brown ; pas un agent vidéo IA complet.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "vrgamegirl19/comfyui-vrgamedevgirl": {
+  "description": "Gère dans ComfyUI, scène par scène, la planification, les prompts, la génération, le rythme, la revue et l'assemblage final.",
+  "boundary": "Certains nœuds personnalisés ont été extraits en paquets séparés ; les modèles, la VRAM et la compatibilité d'installation sont à valider workflow par workflow.",
+  "license_label": "VRGameDevGirl Community and Commercial License",
+  "license_note": "Les contenus générés sont commercialisables ; la vente, l'hébergement ou l'intégration commerciale du logiciel lui-même supposent une licence commerciale écrite"
+ },
+ "zai-org/CogVideo": {
+  "description": "Modèles open source texte/image-vers-vidéo et code d'inférence.",
+  "boundary": "Un générateur de modèle n'est pas un atelier de montage ; les poids, la VRAM, la résolution et la licence du modèle restent à vérifier version par version.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "Tencent-Hunyuan/HunyuanVideo": {
+  "description": "Modèle de base de génération vidéo à grande échelle open source de Tencent, avec cadre d'inférence.",
+  "boundary": "Exigences matérielles élevées ; la licence du code et les politiques des poids et des sorties sont à vérifier séparément.",
+  "license_label": "Tencent Hunyuan Community License",
+  "license_note": "Comporte des exclusions géographiques, une politique d'utilisation et des clauses dérivées sur les modèles ; ce n'est pas une licence OSI standard"
+ },
+ "Tencent-Hunyuan/HunyuanVideo-I2V": {
+  "description": "Cadre image-vers-vidéo personnalisable bâti sur HunyuanVideo.",
+  "boundary": "Distinct du projet T2V de base ; vérifier les références d'entrée et la licence des poids.",
+  "license_label": "Tencent Hunyuan Community License",
+  "license_note": "Comporte des exclusions géographiques, une politique d'utilisation et des clauses dérivées sur les modèles ; ce n'est pas une licence OSI standard"
+ },
+ "Lightricks/LTX-Video": {
+  "description": "Modèles vidéo ouverts et outils d'inférence pour le texte et l'image vers la vidéo ainsi que la génération audio-visuelle.",
+  "boundary": "Selon les versions LTX, le matériel, les poids et les capacités audio varient fortement.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "hpcaitech/Open-Sora": {
+  "description": "Cadre open source efficace d'entraînement et d'inférence pour la génération vidéo.",
+  "boundary": "Un cadre de recherche et des checkpoints de modèle ne valent pas un outil desktop de montage fini.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "genmoai/mochi": {
+  "description": "Modèle de génération vidéo open source de Genmo avec code d'inférence.",
+  "boundary": "Les poids, la VRAM, la durée et les limites de résolution sont à valider selon la version.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "Wan-Video/Wan2.2": {
+  "description": "Modèles ouverts de génération vidéo de la série Wan d'Alibaba, couvrant le texte et l'image vers la vidéo.",
+  "boundary": "Les tailles de modèle, les paramètres actifs et les conditions de licence varient selon le checkpoint précis.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "bytedance/Bernini": {
+  "description": "Cadre de recherche en génération et édition vidéo associant un planificateur sémantique et un rendu DiT.",
+  "boundary": "Les benchmarks du papier ne se confondent pas avec un verdict de capacité déduit du score de maintenance d'un éditeur produit.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "TMElyralab/MuseTalk": {
+  "description": "Modèle de présentateur virtuel piloté par l'audio pour une synchronisation labiale temps réel de haute qualité.",
+  "boundary": "Le code, les poids du modèle, les portraits d'entrée et les limites d'usage commercial sont à vérifier séparément.",
+  "license_label": "MIT",
+  "license_note": "LICENSE racine vérifiée manuellement ; les droits sur les modèles, les données et les médias de personnes sont à part"
+ },
+ "KlingAIResearch/LivePortrait": {
+  "description": "Cadre efficace d'animation de portrait, d'assemblage et de contrôle par redirection.",
+  "boundary": "Le dépôt a été transféré à KlingAIResearch ; les droits des médias conducteurs et des personnes incombent à l'utilisateur.",
+  "license_label": "MIT",
+  "license_note": "LICENSE racine vérifiée manuellement ; les droits sur les modèles, les données et les images de personnes sont à part"
+ },
+ "Rudrabha/Wav2Lip": {
+  "description": "Implémentation de recherche classique de la synchronisation labiale audio-vidéo.",
+  "boundary": "Le code et les poids ouverts limitent l'usage surtout au personnel, à la recherche et au non commercial ; exclu des recommandations courantes d'open source commercial.",
+  "license_label": "Licence personnelle/recherche/non commerciale",
+  "license_note": "Le README interdit explicitement l'usage commercial du modèle open source"
+ },
+ "OpenTalker/SadTalker": {
+  "description": "Génère une vidéo de tête parlante à partir d'un seul portrait et d'un fichier audio.",
+  "boundary": "Le portrait généré engage les droits de la personne ; suivre les indications du dépôt actuel pour le modèle et ses dépendances.",
+  "license_label": "Apache-2.0",
+  "license_note": "LICENSE racine vérifiée manuellement ; les composants tiers sont à part"
+ },
+ "lipku/LiveTalking": {
+  "description": "Système de streaming interactif en temps réel combinant plusieurs backends d'avatars numériques.",
+  "boundary": "Les licences, le matériel, la latence et les rendus varient fortement selon le backend.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "Downvid/downvid": {
+  "description": "GUI/WebUI multiplateforme de téléchargement vidéo bâti sur yt-dlp et FFmpeg.",
+  "boundary": "Surtout une couche produit ; la résolution des sites vient de yt-dlp, et l'usage suppose le respect des conditions des plateformes et des droits des contenus.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "nexmoe/VidBee": {
+  "description": "Télécharge les médias puis exécute en local transcription, annotation des locuteurs, résumés, traduction et dialogue avec les médias.",
+  "boundary": "Le téléchargement est fourni par l'écosystème yt-dlp ; les résumés IA peuvent appeler un modèle distant choisi par l'utilisateur.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "yt-dlp/yt-dlp": {
+  "description": "Téléchargeur audio-vidéo en ligne de commande riche en fonctions couvrant un grand nombre de sites.",
+  "boundary": "C'est le CLI de résolution bas niveau de produits comme Downvid/VidBee ; il ne fournit pas d'atelier de montage complet.",
+  "license_label": "Unlicense",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "imputnet/cobalt": {
+  "description": "Application web de téléchargement de médias sans publicité ni pistage, avec API auto-hébergeable, couvrant YouTube, TikTok, Instagram et d'autres sites.",
+  "boundary": "Le monorepo contient api, web et la documentation ; aucune API pré-hébergée publique, il faut déployer sa propre instance ; ne traite que le contenu publiquement accessible, téléchargement et redistribution restant à la charge de l'utilisateur ; la marque et la mascotte sont sous copyright propre et ne suivent pas la licence du code.",
+  "license_label": "AGPL-3.0 (api et reste) + CC-BY-NC-SA-4.0 (web)",
+  "license_note": "api et le reste du dépôt sous AGPL-3.0, le code web sous CC-BY-NC-SA-4.0 à usage non commercial ; marque et mascotte sous copyright séparé, seul l'hébergement non commercial d'instances non modifiées est autorisé ; les composants comme ffmpeg/libav.js relèvent d'autres licences"
+ },
+ "soimort/you-get": {
+  "description": "Utilitaire Python en ligne de commande pour télécharger des médias depuis des pages web.",
+  "boundary": "La couverture des sites et l'activité de maintenance sont à comparer séparément de celles de yt-dlp.",
+  "license_label": "MIT",
+  "license_note": "LICENSE.txt racine vérifiée manuellement"
+ },
+ "iawia002/lux": {
+  "description": "CLI écrit en Go pour le téléchargement vidéo multi-sites.",
+  "boundary": "La couverture de résolution et la fréquence des mises à jour de sites constituent le principal risque de maintenance.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "streamlink/streamlink": {
+  "description": "CLI qui résout les flux en direct en ligne et les enchaîne vers un lecteur local.",
+  "boundary": "Orienté lecture/enregistrement de flux ; pas équivalent à un téléchargement VOD généraliste ni à un éditeur.",
+  "license_label": "BSD-2-Clause",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "FFmpeg/FFmpeg": {
+  "description": "Chaîne à outils bas niveau de transcodage vidéo, filtres, muxing, composition et traitement de flux.",
+  "boundary": "La licence peut être LGPL ou GPL selon les options de build ; beaucoup de projets de niveau supérieur ne sont que des encapsulations.",
+  "license_label": "LGPL-2.1+ ; GPL-2.0+ une fois les composants GPL activés",
+  "license_note": "La licence finale dépend des options de compilation et des composants liés"
+ },
+ "Visko-Platform/VEFX-Bench": {
+  "description": "Évalue le respect des instructions et la qualité en montage vidéo généraliste et effets visuels.",
+  "boundary": "Les versions modèles, données, reward et API commerciales doivent être figées avant toute comparaison.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "AlibabaResearch/cut-craft-bench": {
+  "description": "Évalue l'exécution de techniques de montage professionnelles dans la génération audio-vidéo multi-plans, avec une baseline agent.",
+  "boundary": "La cohérence générée et l'éditabilité sont des métriques distinctes ; ne pas se limiter à un score global.",
+  "license_label": "À vérifier",
+  "license_note": "Aucune licence racine trouvée"
+ },
+ "yeates/Aurora": {
+  "description": "Unifie le montage vidéo par un agent à usage d'outils et fournit AgentEdit-Bench.",
+  "boundary": "AgentEdit-Bench n'est pas directement comparable horizontalement aux métriques de VEFX ou EditVerse.",
+  "license_label": "MIT",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "Video-Bench/Video-Bench": {
+  "description": "Organise et exécute des évaluations multidimensionnelles des modèles de génération vidéo.",
+  "boundary": "Un benchmark de génération ne dit rien de la qualité d'un éditeur timeline ni d'un système de production.",
+  "license_label": "Apache-2.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "adobe-research/EditVerse": {
+  "description": "Code de recherche en génération et édition d'images et de vidéos, avec EditVerseBench.",
+  "boundary": "Le code de recherche et les téléchargements de données dépendent de sources externes ; les résultats doivent être reproduits selon le réglage du papier.",
+  "license_label": "Adobe Research License (fichiers partiels)",
+  "license_note": "LICENSE ne couvre que les fichiers explicitement listés, les autres fichiers sont hors de cette licence"
+ },
+ "devanasolver/awesome-video-editing": {
+  "description": "Recense les outils open source de montage vidéo, les Agent Skills et les médias disponibles.",
+  "boundary": "Sert de base de découverte et de couverture ; ne participe pas aux jugements de capacité.",
+  "license_label": "CC0-1.0",
+  "license_note": "Le contenu du répertoire est sous CC0"
+ },
+ "sasateguh/awesome-ai-video-for-creators": {
+  "description": "Classe les outils open source par workflow de créateur : montage, sous-titres, clipping, doublage et vidéo par code.",
+  "boundary": "Les instantanés externes d'étoiles évoluent ; les données finales reviennent au dépôt officiel.",
+  "license_label": "CC0-1.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "thoxakihiko/awesome-ai-video": {
+  "description": "Recense les modèles, outils et ressources texte/image-vers-vidéo.",
+  "boundary": "Comprend des produits commerciaux et des modèles ; pas directement une liste d'outils open source.",
+  "license_label": "CC0-1.0",
+  "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ }
+}
