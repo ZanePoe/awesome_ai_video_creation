@@ -20,6 +20,10 @@ flowchart LR
 
 The first release provides a verifiable ecosystem map; it does not claim to cover every video model, commercial API or traditional NLE plugin.
 
+## Jump to a category
+
+[Video editors and production workbenches](#video-editors-and-production-workbenches) · [Agent video production and automation](#agent-video-production-and-automation) · [Knowledge shorts, clipping and explainers](#knowledge-shorts-clipping-and-explainers) · [Agent Skills, MCP and editing tools](#agent-skills-mcp-and-editing-tools) · [Code-to-video and motion graphics](#code-to-video-and-motion-graphics) · [Animation, 3D and coding building blocks](#animation-3d-and-coding-building-blocks) · [ComfyUI and open-source video generation](#comfyui-and-open-source-video-generation) · [Digital humans, portrait animation and lip sync](#digital-humans-portrait-animation-and-lip-sync) · [Download, capture, transcoding and media CLIs](#download-capture-transcoding-and-media-clis) · [Benchmarks, research and external indexes](#benchmarks-research-and-external-indexes) · [Historical and restricted versions](#historical-and-restricted-versions)
+
 ## Current coverage
 
 **109 projects, of which 22 are user-reference projects and 87 were added in this round.** Feature verification: 2026-11-25; metrics snapshot: `2026-11-25T00:17:13+00:00` (UTC).

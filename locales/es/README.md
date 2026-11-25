@@ -22,6 +22,10 @@ flowchart LR
 
 La primera versión ofrece un mapa verificable del ecosistema; no pretende agotar todos los modelos de vídeo, las APIs comerciales ni los complementos de NLE tradicionales.
 
+## Ir a una categoría
+
+[Editores de vídeo y estudios de producción](#editores-de-vídeo-y-estudios-de-producción) · [Producción de vídeo con agentes y automatización](#producción-de-vídeo-con-agentes-y-automatización) · [Vídeos cortos de conocimiento, clips y explicaciones](#vídeos-cortos-de-conocimiento-clips-y-explicaciones) · [Agent Skills, MCP y herramientas de edición](#agent-skills-mcp-y-herramientas-de-edición) · [Code-to-video y motion graphics](#code-to-video-y-motion-graphics) · [Animación, 3D y componentes base de codificación](#animación-3d-y-componentes-base-de-codificación) · [ComfyUI y modelos de vídeo abiertos](#comfyui-y-modelos-de-vídeo-abiertos) · [Avatares digitales, animación de retratos y sincronización labial](#avatares-digitales-animación-de-retratos-y-sincronización-labial) · [Descarga, captura, transcodificación y CLIs de material](#descarga-captura-transcodificación-y-clis-de-material) · [Evaluación, investigación e índices externos](#evaluación-investigación-e-índices-externos) · [Versiones históricas y restringidas](#versiones-históricas-y-restringidas)
+
 ## Catálogo actual
 
 **109 proyectos, de los cuales 22 son proyectos de referencia del usuario y 87 se han añadido en esta ronda.** Verificación funcional: 2026-11-25; instantánea de métricas: `2026-11-25T00:17:13+00:00` (UTC).
