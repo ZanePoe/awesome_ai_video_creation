@@ -655,5 +655,17 @@
     "boundary": "Includes commercial products and models, so it is not directly an open-source tool list.",
     "license_label": "CC0-1.0",
     "license_note": "Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate"
+  },
+  "Remocn/remocn": {
+    "description": "Claude Code plugin, agent skill and MCP server for making Remotion videos from 935 MIT-licensed components: the agent plans a storyboard first, then writes the video.",
+    "boundary": "Requires Remotion and the shadcn CLI that installs the components; `scene-reviewer` only checks still frames for clipped text, empty frames and low contrast, so finish quality and render times were not measured; components, fonts and the hosted MCP carry their own terms, and Remotion itself is licensed separately.",
+    "license_label": "MIT",
+    "license_note": "Repo root LICENSE is MIT; the README states the components are MIT-licensed, while the Remotion renderer, fonts and hosted MCP service must be verified under their own terms."
+  },
+  "frankxai/awesome-motion-design-agent-skills": {
+    "description": "Five installable SKILL.md motion workflows (including remotion-video-agent and web-motion-auditor) plus a curated index of GSAP, Motion, Remotion, Rive, Lottie and 3D tools.",
+    "boundary": "Index entries point at third-party repositories whose licenses and availability need separate checks; the skills only supply method, checklists and routing, so motion and video quality depend on the host agent and the libraries chosen; the README advises scanning third-party packs with SkillSpector first.",
+    "license_label": "CC0-1.0",
+    "license_note": "Repo root LICENSE is CC0 1.0 Universal; the third-party projects, fonts and assets the index and skills point to stay under their own licenses."
   }
 }

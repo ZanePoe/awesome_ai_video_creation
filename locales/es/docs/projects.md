@@ -9,7 +9,7 @@ Editor multipista local y multiplataforma con subtítulos, TTS, recorte de fondo
 
 - Categoría: Editores de vídeo y estudios de producción; Candidato principal.
 - Frontera de aplicación: Los modelos locales deben descargarse en el primer uso; la IA dentro del producto y un flujo de trabajo generativo completo no son el mismo alcance.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 451 commits en 30 días, 1694 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 449 commits en 30 días, 1683 en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/jub0t/Concat/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/jub0t/Concat/blob/504a814ebe61d4f47bba4cd7949dc2580ecc405c/README.md#L6).
 
@@ -29,7 +29,7 @@ Editor de vídeo multiplataforma con aceleración por hardware, construido con R
 
 - Categoría: Editores de vídeo y estudios de producción; Candidato principal.
 - Frontera de aplicación: Editor de propósito general principalmente; el alcance de las funciones de IA y la madurez móvil deben verificarse por versión.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 297 commits en 30 días, 1876 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 288 commits en 30 días, 1854 en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/AIEraDev/Clypra/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/AIEraDev/Clypra/blob/aa6b9c619cf98f7a1dfab6446345ec5f5660b93c/README.md#L9).
 
@@ -39,7 +39,7 @@ Herramienta en el navegador para montar escenas, bloquear el movimiento de perso
 
 - Categoría: Editores de vídeo y estudios de producción; Candidato principal.
 - Frontera de aplicación: La salida es principalmente previs y referencias de planos; la calidad de generación final depende de modelos de vídeo externos.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 214 commits en 30 días, 2165 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 210 commits en 30 días, 2164 en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/HaD0Yun/CozyClay/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/HaD0Yun/CozyClay/blob/297dd2a8a077613b329962d68e2a9bb4355be091/README.md#L6).
 
@@ -59,7 +59,7 @@ Editor conversacional de vídeo con IA centrado en lo local, con línea de tiemp
 
 - Categoría: Editores de vídeo y estudios de producción; Candidato principal.
 - Frontera de aplicación: Los límites de capacidad del agente integrado, la versión de escritorio y los agentes de codificación externos deben verificarse por separado.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 22 commits en 30 días, 403 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 22 commits en 30 días, 397 en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/0xsline/OpenChatCut/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/0xsline/OpenChatCut/blob/9242a95aea248ff3a8dab495514384e858320d47/README.md#L12).
 
@@ -69,7 +69,7 @@ Flujo de creación de vídeo con agentes que va del diálogo y el lienzo a la or
 
 - Categoría: Editores de vídeo y estudios de producción; Candidato principal.
 - Frontera de aplicación: Primera versión del proyecto; la estabilidad de producción completa y el coste de los modelos requieren pruebas reales.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 352 commits en 30 días, 353 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 348 commits en 30 días, 357 en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/ThinkFlowLab/OpenDirector/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/ThinkFlowLab/OpenDirector/blob/39288dfdf4f816798e5479c53363258fceeb6e11/README.md#L18).
 
@@ -79,7 +79,7 @@ Estudio autoalojable de creación de dramas animados estilo cómic, dramas corto
 
 - Categoría: Editores de vídeo y estudios de producción; Candidato principal.
 - Frontera de aplicación: Las llamadas a modelos, el almacenamiento y los recursos de cómputo pueden facturarse aparte; el paquete oficial de activos de ejemplo de imagen, audio y vídeo se distribuye por separado según la versión; el despliegue requiere dependencias como MySQL, Redis y Docker, y los derechos del contenido generado sobre guiones, personajes y material deben verificarse por cuenta propia.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 41 commits en 30 días, 123 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 42 commits en 30 días, 124 en 90 días.
 - Licencia: [MIT](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/LICENSE); Licencia abierta verificada. La LICENSE raíz es MIT y NOTICE conserva atribuciones de terceros como RuoYi-Vue; el paquete oficial de activos de ejemplo se distribuye por separado; los términos de proveedores de modelos, almacenamiento y recursos de cómputo se cuentan aparte
 - Verificación funcional: 2026-11-23; [Fuente 1](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L13) · [Fuente 2](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L43) · [Fuente 3](https://github.com/shijue-aid/aid-studio/blob/9b78452d047b577d31d301c8998287139c93a312/README.md#L46).
 
@@ -89,7 +89,7 @@ Editor de vídeo open source multiplataforma centrado en lo local con un servido
 
 - Categoría: Editores de vídeo y estudios de producción; Candidato principal.
 - Frontera de aplicación: El paquete de escritorio incluye componentes de terceros como FFmpeg (GPLv3); los subtítulos usan faster-whisper local opcional, con descarga inicial del modelo; la mayoría de los agentes conectados son servicios cloud, cuyas cuentas, costes y políticas de datos se cuentan aparte; v0.3.6 es una vista previa congelada no sincronizada con main, con problemas conocidos listados oficialmente como reutilización de la ventana de exportación, tiempos de espera agotados en la vista previa y recorte de subtítulos largos en vertical; el paquete de macOS solo tiene firma ad-hoc sin notarizar; el proyecto se creó en 2026-09 y su madurez es baja.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 408 commits en 30 días, 516 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 422 commits en 30 días, 538 en 90 días.
 - Licencia: [MIT](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/LICENSE); Licencia abierta verificada. La LICENSE raíz es MIT; el paquete de escritorio incluye componentes de terceros con licencia propia como FFmpeg (GPLv3); las recetas comunitarias de efectos, el modelo faster-whisper y los términos de los servicios de IA conectados se cuentan aparte
 - Verificación funcional: 2026-11-25; [Fuente 1](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L28) · [Fuente 2](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L121) · [Fuente 3](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L159).
 
@@ -109,7 +109,7 @@ Estudio local que va del guion, la dirección y el guion gráfico a la generaci�
 
 - Categoría: Editores de vídeo y estudios de producción; Candidato principal.
 - Frontera de aplicación: BYOK sigue enviando solicitudes a los servicios de modelos configurados; algunas capacidades gestionadas/de facturación requieren proyectos externos propios.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 40 commits en 30 días, 144 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 22 commits en 30 días, 144 en 90 días.
 - Licencia: [GPL-3.0](https://api.github.com/repos/LudwigKienle/ai-video-production-editor/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/LudwigKienle/ai-video-production-editor/blob/a368af45b6cfd35e22bd3b5e101db198e1ac89a9/README.md#L4).
 
@@ -139,7 +139,7 @@ Editor de vídeo de escritorio local que permite a agentes de IA manipular la l�
 
 - Categoría: Editores de vídeo y estudios de producción; Candidato principal.
 - Frontera de aplicación: La rama por defecto es una rama de desarrollo; la movilidad y las capacidades de generación deben verificarse según la implementación actual.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 40 commits en 30 días, 115 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 41 commits en 30 días, 116 en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/Theorvane/OpenScene/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/Theorvane/OpenScene/blob/4bd3d3c4c15fb27dd0b521065643b3a2d516be08/README.md#L8).
 
@@ -199,7 +199,7 @@ Hace que un agente de codificación replique vídeos de referencia como flujos d
 
 - Categoría: Producción de vídeo con agentes y automatización; Licencia restringida.
 - Frontera de aplicación: Replicar vídeos populares involucra el vídeo original, las personas, la música, el material y las autorizaciones de marca; los modelos de generación y las APIs son servicios externos opcionales, con costes y rutas de datos según el proveedor.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 16 commits en 30 días, 778 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 16 commits en 30 días, 741 en 90 días.
 - Licencia: [Hypit Open Source License (Apache-2.0 modificado)](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/LICENSE); Código fuente visible pero no open source OSI. Restringe el alojamiento multiinquilino, la redistribución comercial y la eliminación de información de marca/copyright; esos usos requieren licencia comercial; no es Apache-2.0 estándar
 - Verificación funcional: 2026-11-13; [Fuente 1](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L51) · [Fuente 2](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L164) · [Fuente 3](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L338).
 
@@ -209,7 +209,7 @@ Estudio de réplica de vídeos de referencia y motion graphics de marca para age
 
 - Categoría: Producción de vídeo con agentes y automatización; Candidato principal.
 - Frontera de aplicación: Los vídeos de referencia, las personas, la música, la marca y el material deben licenciarse aparte; la generación de medios depende de APIs/suscripciones propias, y las plantillas integradas y los componentes de terceros siguen sus propios LICENSE/NOTICE.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 807 commits en 30 días, 812 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 817 commits en 30 días, 822 en 90 días.
 - Licencia: [Apache-2.0](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/LICENSE); Licencia abierta verificada. La LICENSE raíz es Apache-2.0 estándar; las plantillas integradas, los iconos de modelos y los componentes vendor tienen sus propios LICENSE/NOTICE, que deben conservarse y verificarse al redistribuir o reutilizar
 - Verificación funcional: 2026-11-17; [Fuente 1](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L40) · [Fuente 2](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L308) · [Fuente 3](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L386).
 
@@ -219,7 +219,7 @@ Sistema multipipeline de producción de vídeo para agentes de codificación que
 
 - Categoría: Producción de vídeo con agentes y automatización; Candidato principal.
 - Frontera de aplicación: Algunos proveedores de generación y voz son servicios de pago; un gran volumen de archivos de Skill no significa que todos los flujos se hayan probado de forma unificada.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 149 commits en 30 días, 272 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 148 commits en 30 días, 272 en 90 días.
 - Licencia: [AGPL-3.0](https://api.github.com/repos/OpenMontageInc/OpenMontage/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/OpenMontageInc/OpenMontage/blob/fecb9a1e3cc23ef84de30b272059457a427f16f8/README.md#L14).
 
@@ -229,7 +229,7 @@ Permite a los agentes de codificación crear, inspeccionar, editar y renderizar 
 
 - Categoría: Producción de vídeo con agentes y automatización; Candidato principal.
 - Frontera de aplicación: Los planos basados en código difieren de la línea de tiempo con material real; las licencias de material y de librerías de sonido deben verificarse por activo.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 131 commits en 30 días, 298 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 117 commits en 30 días, 299 en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/openfilm/openfilm/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/openfilm/openfilm/blob/f59cd4e0973feaf6917dcf3229b178b6baf9ad3f/README.md#L7).
 
@@ -249,7 +249,7 @@ Marco de automatización encargado de planificar, auditar, revisar el montaje y 
 
 - Categoría: Producción de vídeo con agentes y automatización; Candidato principal.
 - Frontera de aplicación: El montaje y el renderizado reales dependen de Editkin; instalar solo este repositorio no produce el montaje final.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 9 commits en 30 días, 41 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 9 commits en 30 días, 33 en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/Hao0321/video-autopilot-kit/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/Hao0321/video-autopilot-kit/blob/b48c7d9a624ebceaa3a99f3f4aad6006e2be53fb/README.md#L1).
 
@@ -279,7 +279,7 @@ Convierte artículos de conocimiento o guiones explicativos en vídeos de varios
 
 - Categoría: Producción de vídeo con agentes y automatización; Candidato principal.
 - Frontera de aplicación: El modelo de estrategia de 9B, el runtime de herramientas y Studio deben desplegarse según el entorno oficial; los resultados de los autores no equivalen a un ranking entre proyectos.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 7 commits en 30 días, 29 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 2 commits en 30 días, 29 en 90 días.
 - Licencia: [Apache-2.0](https://github.com/Tencent/WeVisCut/blob/94dc8a7fe43a5e0da21e97d5aaf470a39329db3a/LICENSE); Licencia abierta verificada. La LICENSE raíz establece Apache-2.0 para el código, los parámetros y los pesos públicos; componentes de terceros se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/Tencent/WeVisCut/blob/94dc8a7fe43a5e0da21e97d5aaf470a39329db3a/README.md#L7).
 
@@ -299,7 +299,7 @@ Convierte podcasts, entrevistas, tutoriales y VOD en Shorts/Reels/TikTok vertica
 
 - Categoría: Vídeos cortos de conocimiento, clips y explicaciones; Candidato principal.
 - Frontera de aplicación: La detección de momentos destacados, el recorte y la subida dependen de modelos locales y de la configuración de cada plataforma.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 184 commits en 30 días, 620 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 184 commits en 30 días, 614 en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/kleZ799/clipmint/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/kleZ799/clipmint/blob/f2f7ed16871a390d0fd5274fb28b157f22ac57e3/README.md#L7).
 
@@ -309,7 +309,7 @@ Skill de agente de codificación que organiza los materiales públicos de un cre
 
 - Categoría: Vídeos cortos de conocimiento, clips y explicaciones; Candidato principal.
 - Frontera de aplicación: La calidad del montaje final con Codex aún no está verificada; el uso de materiales públicos y las autorizaciones de imagen son responsabilidad del usuario.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 170 commits en 30 días, 198 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 175 commits en 30 días, 205 en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/ChrisHKAI/ChrisHKAI-Video/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/ChrisHKAI/ChrisHKAI-Video/blob/15b66ee613e621f82ba781d27547a67e76c55f50/README.md#L7).
 
@@ -389,7 +389,7 @@ CLI y MCP que dan a los agentes de codificación edición local con FFmpeg: cort
 
 - Categoría: Agent Skills, MCP y herramientas de edición; Candidato principal.
 - Frontera de aplicación: Requiere FFmpeg y Python en la máquina; la skill, la compilación de FFmpeg y el material siguen licencias propias; los resultados concretos no se han probado en ejecución.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 538 commits en 30 días, 966 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 543 commits en 30 días, 971 en 90 días.
 - Licencia: [MIT](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/LICENSE); Licencia abierta verificada. La LICENSE raíz del repositorio de la skill es MIT; las licencias de FFmpeg y sus codificadores deben verificarse según la compilación concreta.
 - Verificación funcional: 2026-11-21; [Fuente 1](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/README.md#L67).
 
@@ -399,7 +399,7 @@ Skills, plantillas, comandos y herramientas para Claude Code: guion, doblaje, m�
 
 - Categoría: Agent Skills, MCP y herramientas de edición; Candidato principal.
 - Frontera de aplicación: Requiere Node 22+ y Claude Code; los modelos de IA se despliegan en tu propia cuenta de GPU cloud Modal/RunPod con coste asociado; el coste de $0.33 y las muestras del README son autoevaluaciones del autor; los plugins comunitarios, las skills de diseño de terceros y los servicios gestionados de publicación tienen licencias y términos propios; los derechos del contenido generado, de la clonación de voces y del material deben verificarse por cuenta propia.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 427 commits en 30 días, 537 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 441 commits en 30 días, 546 en 90 días.
 - Licencia: [MIT](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/LICENSE); Licencia abierta verificada. La LICENSE raíz es MIT (copyright Digital Samba); las licencias son independientes entre sí para los pesos de modelos invocados (Qwen3-TTS, FLUX.2, Ideogram 4, ACE-Step, LTX-Video, etc.), servicios externos como ElevenLabs, el renderizador Remotion y los plugins comunitarios (p. ej. arkiv bajo PolyForm Perimeter)
 - Verificación funcional: 2026-11-24; [Fuente 1](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L9) · [Fuente 2](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L12) · [Fuente 3](https://github.com/digitalsamba/claude-code-video-toolkit/blob/b3437fcd462c23b3c46cfd28f8cb61b71039269b/README.md#L66).
 
@@ -409,9 +409,19 @@ Aporta a los agentes recetas de planos, guiones gráficos, animación Remotion, 
 
 - Categoría: Agent Skills, MCP y herramientas de edición; Candidato principal.
 - Frontera de aplicación: La librería de planos es método creativo y activos de código; no sustituye a un editor de línea de tiempo de propósito general.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 38 commits en 30 días, 60 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 38 commits en 30 días, 58 en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/Vincentwei1021/video-shotcraft/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/Vincentwei1021/video-shotcraft/blob/6700db2ba80572ebc777b99d72049679fed9840c/README.md#L26).
+
+## [Remocn](https://github.com/Remocn/remocn)
+
+Complemento de Claude Code, skill de agente y servidor MCP para crear vídeos con Remotion a partir de 935 componentes con licencia MIT: el agente primero planifica el storyboard y luego escribe el vídeo.
+
+- Categoría: Agent Skills, MCP y herramientas de edición; Candidato principal.
+- Frontera de aplicación: Requiere Remotion y la CLI de shadcn que instala los componentes; `scene-reviewer` solo revisa fotogramas estáticos (texto cortado, fotogramas vacíos y bajo contraste), así que la calidad final y el tiempo de render no se han medido; componentes, fuentes y el MCP alojado tienen sus propias condiciones, y Remotion se licencia aparte.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 147 commits en 30 días, 197 en 90 días.
+- Licencia: [MIT](https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/LICENSE); Licencia abierta verificada. La LICENSE raíz del repositorio es MIT; el README indica que los componentes son MIT, mientras que el renderizador Remotion, las fuentes y el servicio MCP alojado deben verificarse según sus propias condiciones.
+- Verificación funcional: 2026-11-26; [Fuente 1](https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/README.md#L9) · [Fuente 2](https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/README.md#L37) · [Fuente 3](https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/README.md#L73).
 
 ## [Kinocut](https://github.com/KyaniteLabs/kinocut)
 
@@ -419,7 +429,7 @@ MCP/Python/CLI de edición de vídeo local con guardias, prechequeos, recibos y 
 
 - Categoría: Agent Skills, MCP y herramientas de edición; Candidato principal.
 - Frontera de aplicación: Envuelve FFmpeg y Whisper/HyperFrames opcionales; las herramientas tipadas no garantizan el criterio estético del montaje.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 384 commits en 30 días, 698 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 381 commits en 30 días, 698 en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/KyaniteLabs/kinocut/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/KyaniteLabs/kinocut/blob/4ad02dba114cf12163663e7cd39da92d4f735212/README.md#L13).
 
@@ -429,7 +439,7 @@ Skills oficiales para que los agentes de codificación creen, previsualicen y re
 
 - Categoría: Agent Skills, MCP y herramientas de edición; Candidato principal.
 - Frontera de aplicación: Requiere Remotion y un anfitrión compatible con Agent Skills; no se encontró licencia en la raíz de este repositorio y Remotion tiene sus propias condiciones de licencia.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 10 commits en 30 días, 31 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 9 commits en 30 días, 31 en 90 días.
 - Licencia: [Licencia pendiente de verificación](https://github.com/remotion-dev/skills/tree/6f55706d1069e512430582ad86e4e57dc07afe1b); Licencia pendiente de verificación. No se encontró LICENSE en la raíz ni en el árbol del repositorio; las licencias del producto Remotion y de cada paquete deben comprobarse por separado.
 - Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/remotion-dev/skills/blob/6f55706d1069e512430582ad86e4e57dc07afe1b/README.md#L5).
 
@@ -482,6 +492,16 @@ Organiza guion, investigación, edición, traducción y publicación de vídeos 
 - Estado de mantenimiento: Con commits en los últimos 90 días; 1 commits en 30 días, 26 en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/Melvynx/video-agent-skills/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/Melvynx/video-agent-skills/blob/f4542923f7f796a1fa0e544cbfc1109d5eec87d8/README.md#L3).
+
+## [Awesome Motion Design Agent Skills](https://github.com/frankxai/awesome-motion-design-agent-skills)
+
+Cinco flujos de movimiento instalables en SKILL.md (incluidos remotion-video-agent y web-motion-auditor) más un índice seleccionado de herramientas GSAP, Motion, Remotion, Rive, Lottie y 3D.
+
+- Categoría: Agent Skills, MCP y herramientas de edición; Candidato principal.
+- Frontera de aplicación: Las entradas del índice apuntan a repositorios de terceros cuyas licencias y disponibilidad hay que verificar por separado; las skills solo aportan método, listas de revisión y enrutado, de modo que la calidad del movimiento y del vídeo depende del agente anfitrión y de las librerías elegidas; el README recomienda escanear primero los paquetes de terceros con SkillSpector.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 9 commits en 30 días, 19 en 90 días.
+- Licencia: [CC0-1.0](https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/LICENSE); Licencia abierta verificada. La LICENSE raíz es CC0 1.0 Universal; los proyectos, fuentes y materiales de terceros a los que apuntan el índice y las skills conservan sus propias licencias.
+- Verificación funcional: 2026-11-26; [Fuente 1](https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/README.md#L15) · [Fuente 2](https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/README.md#L51) · [Fuente 3](https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/README.md#L57).
 
 ## [HyperFrames Motion Library](https://github.com/nutllwhy/hyperframes-motion-library)
 
@@ -549,7 +569,7 @@ Ecosistema de código-a-vídeo y Agent Skills basado en HTML/CSS/JS, con migraci
 
 - Categoría: Code-to-video y motion graphics; Candidato principal.
 - Frontera de aplicación: El proyecto y el servicio gestionado de generación de HeyGen son capas distintas; las plantillas concretas y el material externo tienen licencias aparte.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 1931 commits en 30 días, 4026 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 1881 commits en 30 días, 4062 en 90 días.
 - Licencia: [Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5).
 
@@ -559,7 +579,7 @@ Marco base para crear y renderizar vídeo con código en React/TypeScript.
 
 - Categoría: Code-to-video y motion graphics; Licencia restringida.
 - Frontera de aplicación: Es infraestructura de código-a-vídeo de propósito general; no trae planificación de agentes ni modelos de generación.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 2500 commits en 30 días, 6709 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 2489 commits en 30 días, 6719 en 90 días.
 - Licencia: [Remotion License](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/LICENSE.md); Código fuente visible pero no open source OSI. Gratis para personas, organizaciones sin ánimo de lucro y organizaciones pequeñas; las empresas lucrativas que alcanzan los umbrales necesitan una licencia de empresa; no es una licencia OSI convencional
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/README.md#L2).
 
@@ -569,7 +589,7 @@ Motor y estudio de agente de escritorio para escribir vídeo, motion graphics, 3
 
 - Categoría: Code-to-video y motion graphics; Candidato principal.
 - Frontera de aplicación: Motor, CLI y aplicación de escritorio pueden usarse gratis; el almacenamiento en la nube, la búsqueda entre máquinas y la publicación pertenecen a Pro/Team; FSL-1.1-ALv2 prohíbe los productos competidores y cada versión pasa a Apache-2.0 dos años después de publicarse; las licencias de las fuentes de vídeo de ejemplo, los modelos, el runtime binario, los componentes de terceros y el material dentro de la cuenta se cuentan aparte.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 1509 commits en 30 días, 1512 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 1532 commits en 30 días, 1535 en 90 días.
 - Licencia: [FSL-1.1-ALv2](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/LICENSE); Código fuente visible pero no open source OSI. La LICENSE raíz es Functional Source License 1.1 (ALv2 Future License); prohíbe usar el software para productos/servicios comerciales que sustituyan a raea o a sus productos existentes; cada versión pasa a Apache-2.0 dos años después de su publicación; NOTICE y LICENSES enumeran por separado licencias de terceros como la portabilidad de HyperFrames, Bevy, FFmpeg y QuickJS
 - Verificación funcional: 2026-11-22; [Fuente 1](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L13) · [Fuente 2](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L42) · [Fuente 3](https://github.com/shinyobjectz/raea/blob/0c9fc255f2287f0530fc773b895cb5d1877a6f54/README.md#L111).
 
@@ -589,7 +609,7 @@ Motor de vídeo para crear animaciones matemáticas y de explicación con códig
 
 - Categoría: Code-to-video y motion graphics; Candidato principal.
 - Frontera de aplicación: Adecuado para explicaciones basadas en código; no es un agente de IA que genere contenido automáticamente; las dependencias de renderizado, las fuentes, etc. se cuentan aparte.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 28 commits en 30 días, 78 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 29 commits en 30 días, 79 en 90 días.
 - Licencia: [MIT](https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/LICENSE); Licencia abierta verificada. Archivo de licencia del proyecto verificado; componentes de terceros, material y servicios gestionados se cuentan aparte.
 - Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/ManimCommunity/manim/blob/ab7f9527fa2b37893aacc367e21b723845f44ef0/README.md#L20).
 
@@ -599,7 +619,7 @@ Motor de código-a-vídeo en el que un agente escribe HTML/CSS, previsualiza, re
 
 - Categoría: Code-to-video y motion graphics; Candidato principal.
 - Frontera de aplicación: La animación por código sirve para motion graphics y explicaciones; no equivale a editar material real ni a generar vídeo por difusión.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 84 commits en 30 días, 243 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 83 commits en 30 días, 243 en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/givemotion/givemotion/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/givemotion/givemotion/blob/8a7949e685bbfaec8bde20fad9aa8734cdfa6038/README.md#L6).
 
@@ -639,7 +659,7 @@ Librería de escenas y renderizado 3D en JavaScript, apta para aportar contenido
 
 - Categoría: Animación, 3D y componentes base de codificación; Infraestructura adyacente.
 - Frontera de aplicación: Librería de renderizado de propósito general; no exporta vídeo automáticamente; el material y el entorno WebGL/WebGPU los gestiona el usuario.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 323 commits en 30 días, 879 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 320 commits en 30 días, 880 en 90 días.
 - Licencia: [MIT](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/LICENSE); Licencia abierta verificada. Archivo de licencia del proyecto verificado; componentes de terceros, material y servicios gestionados se cuentan aparte.
 - Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/README.md#L11).
 
@@ -649,7 +669,7 @@ Motor de videojuegos open source para construir escenas 2D y 3D, interacción y 
 
 - Categoría: Animación, 3D y componentes base de codificación; Infraestructura adyacente.
 - Frontera de aplicación: Un motor de videojuegos no es un sistema automático de generación de vídeo; grabar o exportar el montaje final requiere diseñar flujos adicionales.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 523 commits en 30 días, 1907 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 528 commits en 30 días, 1900 en 90 días.
 - Licencia: [MIT](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/LICENSE.txt); Licencia abierta verificada. Archivo de licencia del proyecto verificado; componentes de terceros, material y servicios gestionados se cuentan aparte.
 - Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/README.md#L11).
 
@@ -659,7 +679,7 @@ Librería de animaciones de interfaz y layout para JavaScript, React y Vue.
 
 - Categoría: Animación, 3D y componentes base de codificación; Infraestructura adyacente.
 - Frontera de aplicación: Componente de motion graphics de propósito general; se combina con un renderizador de vídeo y no aporta por sí mismo un agente de vídeo.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 543 commits en 30 días, 1390 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 488 commits en 30 días, 1390 en 90 días.
 - Licencia: [MIT](https://github.com/motiondivision/motion/blob/cd009de7a4314e065d4d9df683057124792d5b34/LICENSE.md); Licencia abierta verificada. Archivo de licencia del proyecto verificado; componentes de terceros, material y servicios gestionados se cuentan aparte.
 - Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/motiondivision/motion/blob/cd009de7a4314e065d4d9df683057124792d5b34/README.md#L3).
 
@@ -669,7 +689,7 @@ Suite 3D que cubre modelado, rigging, animación, renderizado, composición y ed
 
 - Categoría: Animación, 3D y componentes base de codificación; Infraestructura adyacente.
 - Frontera de aplicación: El repositorio de GitHub es un espejo oficial; los complementos, modelos y material de terceros siguen sus propias licencias.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 1289 commits en 30 días, 3301 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 1245 commits en 30 días, 3314 en 90 días.
 - Licencia: [GPL-2.0-or-later](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/COPYING); Licencia abierta verificada. COPYING apunta al texto de la licencia GPL; activos y componentes de terceros se cuentan aparte.
 - Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/.github/README.md#L14).
 
@@ -679,7 +699,7 @@ Motor de escenas 3D, juegos y renderizado en JavaScript, utilizable como base de
 
 - Categoría: Animación, 3D y componentes base de codificación; Infraestructura adyacente.
 - Frontera de aplicación: De forma predeterminada es un motor de renderizado 3D en tiempo real; la codificación de vídeo exige conectar otras herramientas, y la documentación oficial advierte de que el CDN de demostraciones no debe usarse en producción.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 165 commits en 30 días, 341 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 158 commits en 30 días, 332 en 90 días.
 - Licencia: [Apache-2.0](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/license.md); Licencia abierta verificada. Archivo de licencia del proyecto verificado; componentes de terceros, material y servicios gestionados se cuentan aparte.
 - Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/readme.md#L1).
 
@@ -689,7 +709,7 @@ Librería de escenas Canvas 2D con interacción de objetos, transformaciones, an
 
 - Categoría: Animación, 3D y componentes base de codificación; Infraestructura adyacente.
 - Frontera de aplicación: Componente de lienzo de propósito general; la exportación de vídeo o audio requiere otras herramientas.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 30 commits en 30 días, 217 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 32 commits en 30 días, 219 en 90 días.
 - Licencia: [MIT](https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/LICENSE); Licencia abierta verificada. Archivo de licencia del proyecto verificado; componentes de terceros, material y servicios gestionados se cuentan aparte.
 - Verificación funcional: 2026-11-20; [Fuente 1](https://github.com/konvajs/konva/blob/bf1927c1cfec7f47eb608a470aff6ca99dd09aa9/README.md#L16).
 
@@ -789,7 +809,7 @@ Gestiona en ComfyUI, por escenas, la planificación, los prompts, la generación
 
 - Categoría: ComfyUI y modelos de vídeo abiertos; Licencia restringida.
 - Frontera de aplicación: Algunos nodos custom se han movido a paquetes propios; los modelos, la VRAM y la compatibilidad de instalación deben verificarse según el flujo.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 131 commits en 30 días, 671 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 125 commits en 30 días, 667 en 90 días.
 - Licencia: [VRGameDevGirl Community and Commercial License](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/LICENSE); Código fuente visible pero no open source OSI. El contenido generado puede comercializarse; vender/alojar/integrar comercialmente el software en sí requiere una licencia comercial escrita
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/vrgamegirl19/comfyui-vrgamedevgirl/blob/b419bb5c2468432704e0339035844620f1b3ec18/README.md#L1).
 
@@ -929,7 +949,7 @@ Cadena de herramientas base para transcodificación, filtros, multiplexado, comp
 
 - Categoría: Descarga, captura, transcodificación y CLIs de material; Infraestructura adyacente.
 - Frontera de aplicación: La licencia puede ser LGPL/GPL según las opciones de compilación; gran parte de los proyectos de capa superior solo lo envuelven.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 366 commits en 30 días, 2986 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 389 commits en 30 días, 3000 en 90 días.
 - Licencia: [LGPL-2.1+; GPL-2.0+ si se activan componentes GPL](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/LICENSE.md); Licencia compuesta/condicional. La licencia final depende de las opciones de compilación y de los componentes enlazados
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/README.md#L1).
 
@@ -939,7 +959,7 @@ Descargador de audio/vídeo por línea de órdenes muy completo, compatible con 
 
 - Categoría: Descarga, captura, transcodificación y CLIs de material; Candidato principal.
 - Frontera de aplicación: Es la CLI de análisis subyacente de productos como Downvid/VidBee; no ofrece un estudio de edición completo.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 46 commits en 30 días, 81 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 38 commits en 30 días, 79 en 90 días.
 - Licencia: [Unlicense](https://api.github.com/repos/yt-dlp/yt-dlp/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/yt-dlp/yt-dlp/blob/412e7f0a4b0588fe884a02b344ac66a06538475b/README.md#L16).
 
@@ -959,7 +979,7 @@ GUI/WebUI multiplataforma de descarga de vídeo basada en yt-dlp y FFmpeg.
 
 - Categoría: Descarga, captura, transcodificación y CLIs de material; Candidato principal.
 - Frontera de aplicación: Principalmente una capa de producto; el análisis de sitios proviene de yt-dlp y su uso debe respetar los términos de la plataforma y las autorizaciones del contenido.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 72 commits en 30 días, 355 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 57 commits en 30 días, 354 en 90 días.
 - Licencia: [MIT](https://api.github.com/repos/Downvid/downvid/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/Downvid/downvid/blob/770bd3e3bf6157f1a2dd0ccb67ea6ce2a4b31807/README.md#L7).
 
@@ -1019,7 +1039,7 @@ Organiza herramientas abiertas de edición, subtítulos, troceado, doblaje y ví
 
 - Categoría: Evaluación, investigación e índices externos; Infraestructura adyacente.
 - Frontera de aplicación: Las instantáneas externas de estrellas cambian; los datos finales se toman de los repositorios oficiales.
-- Estado de mantenimiento: Con commits en los últimos 90 días; 11 commits en 30 días, 15 en 90 días.
+- Estado de mantenimiento: Con commits en los últimos 90 días; 10 commits en 30 días, 15 en 90 días.
 - Licencia: [CC0-1.0](https://api.github.com/repos/sasateguh/awesome-ai-video-for-creators/license); Licencia abierta verificada. Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/sasateguh/awesome-ai-video-for-creators/blob/3b88db72b425a89b751b6ea279532e3ae0a3d6f9/README.md#L1).
 
@@ -1089,6 +1109,6 @@ Editor de vídeo orientado a IA cuyas versiones antiguas publicaron el código f
 
 - Categoría: Versiones históricas y restringidas; Referencia histórica.
 - Frontera de aplicación: Los binarios posteriores a v0.7.6 son propietarios y su código fuente actual no es público; solo last-gpl-source debe verse como la versión histórica open source.
-- Estado de mantenimiento: Archivado / histórico; 4 commits en 30 días, 10 en 90 días.
+- Estado de mantenimiento: Archivado / histórico; 5 commits en 30 días, 11 en 90 días.
 - Licencia: [GPL-3.0 (código fuente hasta v0.7.6) / binarios posteriores propietarios](https://github.com/palmier-io/palmier-pro/blob/dfc810b561f1692947eb81bbb689e078923ebb59/README.md#L112); Licencia compuesta/condicional. last-gpl-source y el código anterior a v0.7.6 son GPLv3; los binarios posteriores no tienen código fuente público equivalente
 - Verificación funcional: 2026-11-12; [Fuente 1](https://github.com/palmier-io/palmier-pro/blob/dfc810b561f1692947eb81bbb689e078923ebb59/README.md#L2).

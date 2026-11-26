@@ -655,5 +655,17 @@
     "boundary": "इसमें वाणिज्यिक उत्पाद और मॉडल भी हैं, इसे सीधे ओपन-सोर्स टूल सूची न मानें।",
     "license_label": "CC0-1.0",
     "license_note": "GitHub licenseInfo ने पहचाना; मॉडल वेट, सामग्री, फ़ॉन्ट, थर्ड-पार्टी निर्भरताएँ और होस्टेड सेवाओं के लाइसेंस अलग से जाँचें"
+  },
+  "Remocn/remocn": {
+    "description": "Remotion वीडियो बनाने के लिए Claude Code plugin, Agent Skill और MCP server, 935 MIT-लाइसेंस वाले components के साथ; Agent पहले storyboard बनाता है, फिर वीडियो का कोड लिखता है।",
+    "boundary": "Remotion और components इंस्टॉल करने वाली shadcn CLI जरूरी हैं; `scene-reviewer` केवल स्थिर फ़्रेमों में कटा टेक्स्ट, खाली फ़्रेम और कम कंट्रास्ट जाँचता है, इसलिए फाइनल क्वालिटी व रेंडर समय मापे नहीं गए; components, फ़ॉन्ट और होस्टेड MCP की शर्तें अलग हैं, और Remotion का लाइसेंस भी अलग से देखना होगा।",
+    "license_label": "MIT",
+    "license_note": "रिपॉज़िटरी की जड़ LICENSE MIT है; README कहता है components MIT-लाइसेंस वाले हैं, पर Remotion रेंडरर, फ़ॉन्ट और होस्टेड MCP सेवा अपनी-अपनी शर्तों में जाँचे जाएँ।"
+  },
+  "frankxai/awesome-motion-design-agent-skills": {
+    "description": "पाँच इंस्टॉल करने योग्य SKILL.md मोशन वर्कफ़्लो (remotion-video-agent और web-motion-auditor सहित) और GSAP, Motion, Remotion, Rive, Lottie व 3D टूल्स का चुनिंदा इंडेक्स।",
+    "boundary": "इंडेक्स की प्रविष्टियाँ थर्ड-पार्टी रिपॉज़िटरी की ओर जाती हैं, जिनके लाइसेंस और उपलब्धता अलग से जाँचनी होगी; skills सिर्फ़ विधि, चेकलिस्ट और रूटिंग देती हैं, इसलिए मोशन व वीडियो क्वालिटी होस्ट Agent और चुनी गई लाइब्रेरी पर निर्भर है; README पहले थर्ड-पार्टी पैक SkillSpector से स्कैन करने की सलाह देता है।",
+    "license_label": "CC0-1.0",
+    "license_note": "रिपॉज़िटरी की जड़ LICENSE CC0 1.0 Universal है; इंडेक्स और skills जिन थर्ड-पार्टी प्रोजेक्ट्स, फ़ॉन्ट और सामग्री की ओर जाते हैं, वे अपने-अपने लाइसेंस के अंतर्गत रहेंगे।"
   }
 }

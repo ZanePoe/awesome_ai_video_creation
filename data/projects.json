@@ -2988,5 +2988,81 @@
       "source": "https://api.github.com/repos/thoxakihiko/awesome-ai-video/license",
       "note": "GitHub licenseInfo 识别；模型权重、素材、字体、第三方依赖和托管服务许可另计"
     }
+  },
+  {
+    "repo": "Remocn/remocn",
+    "name": "Remocn",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "面向 Remotion 出片的 Claude Code 插件、Agent Skill 与 MCP server，用 935 个 MIT 组件先出分镜再写视频代码。",
+    "boundary": "前置依赖 Remotion 与 shadcn CLI 安装组件；`scene-reviewer` 只检查静态帧的裁字、空帧与低对比，成片质量与渲染耗时未实测；组件、字体与托管 MCP 各自另有条款，Remotion 本身按其自有许可需单独确认。",
+    "baseline": false,
+    "reviewed_at": "2026-11-26",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 9,
+        "url": "https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/README.md#L9",
+        "note": "官方 README 的插件、Skill 与 MCP 定位及 935 个组件说明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 37,
+        "url": "https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/README.md#L37",
+        "note": "官方 README 的 brief→storyboard→install→compose→visual check 工作流；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 73,
+        "url": "https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/README.md#L73",
+        "note": "官方 README 的工艺规则与 scene-reviewer 静态帧检查范围；非实机测试"
+      }
+    ],
+    "evidence_commit": "ac1e4081edcc70757db4dc4af32b079cb9ae5490",
+    "license_review": {
+      "status": "verified",
+      "label": "MIT",
+      "source": "https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/LICENSE",
+      "note": "仓库根 LICENSE 为 MIT；README 称组件本身 MIT，但 Remotion 渲染器、字体与托管 MCP 服务按各自条款另行核验"
+    }
+  },
+  {
+    "repo": "frankxai/awesome-motion-design-agent-skills",
+    "name": "Awesome Motion Design Agent Skills",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "五个可安装的 SKILL.md 动效工作流（含 remotion-video-agent、web-motion-auditor）加 GSAP、Motion、Remotion、Rive、Lottie 与 3D 工具索引。",
+    "boundary": "索引条目指向第三方仓库，其许可与可用性需各自核验；技能只提供方法、检查清单与路由，实际动效与视频质量取决于宿主 Agent 与所选库；README 建议先用 SkillSpector 扫描第三方技能包再装入真实环境。",
+    "baseline": false,
+    "reviewed_at": "2026-11-26",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 15,
+        "url": "https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/README.md#L15",
+        "note": "官方 README 的五个技能与 GSAP/Motion/Remotion/Rive/Lottie 索引定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 51,
+        "url": "https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/README.md#L51",
+        "note": "官方 README 的第一方技能清单与按需安装说明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 57,
+        "url": "https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/README.md#L57",
+        "note": "官方 README 的 remotion-video-agent（React 确定性视频）与 web-motion-auditor 分工；非实机测试"
+      }
+    ],
+    "evidence_commit": "e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d",
+    "license_review": {
+      "status": "verified",
+      "label": "CC0-1.0",
+      "source": "https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/LICENSE",
+      "note": "仓库根 LICENSE 为 CC0 1.0 Universal；索引与技能所指向的第三方项目、字体与素材仍受各自许可约束"
+    }
   }
 ]

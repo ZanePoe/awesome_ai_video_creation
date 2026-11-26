@@ -655,5 +655,17 @@
     "boundary": "Incluye productos comerciales y modelos; no puede verse directamente como una lista de herramientas open source.",
     "license_label": "CC0-1.0",
     "license_note": "Identificada por GitHub licenseInfo; las licencias de pesos de modelos, material, fuentes, dependencias de terceros y servicios gestionados se cuentan aparte"
+  },
+  "Remocn/remocn": {
+    "description": "Complemento de Claude Code, skill de agente y servidor MCP para crear vídeos con Remotion a partir de 935 componentes con licencia MIT: el agente primero planifica el storyboard y luego escribe el vídeo.",
+    "boundary": "Requiere Remotion y la CLI de shadcn que instala los componentes; `scene-reviewer` solo revisa fotogramas estáticos (texto cortado, fotogramas vacíos y bajo contraste), así que la calidad final y el tiempo de render no se han medido; componentes, fuentes y el MCP alojado tienen sus propias condiciones, y Remotion se licencia aparte.",
+    "license_label": "MIT",
+    "license_note": "La LICENSE raíz del repositorio es MIT; el README indica que los componentes son MIT, mientras que el renderizador Remotion, las fuentes y el servicio MCP alojado deben verificarse según sus propias condiciones."
+  },
+  "frankxai/awesome-motion-design-agent-skills": {
+    "description": "Cinco flujos de movimiento instalables en SKILL.md (incluidos remotion-video-agent y web-motion-auditor) más un índice seleccionado de herramientas GSAP, Motion, Remotion, Rive, Lottie y 3D.",
+    "boundary": "Las entradas del índice apuntan a repositorios de terceros cuyas licencias y disponibilidad hay que verificar por separado; las skills solo aportan método, listas de revisión y enrutado, de modo que la calidad del movimiento y del vídeo depende del agente anfitrión y de las librerías elegidas; el README recomienda escanear primero los paquetes de terceros con SkillSpector.",
+    "license_label": "CC0-1.0",
+    "license_note": "La LICENSE raíz es CC0 1.0 Universal; los proyectos, fuentes y materiales de terceros a los que apuntan el índice y las skills conservan sus propias licencias."
   }
 }

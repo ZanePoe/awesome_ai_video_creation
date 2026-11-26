@@ -655,5 +655,17 @@
   "boundary": "Comprend des produits commerciaux et des modèles ; pas directement une liste d'outils open source.",
   "license_label": "CC0-1.0",
   "license_note": "Identifiée via GitHub licenseInfo ; les poids de modèles, médias, polices, dépendances tierces et services managés relèvent de leurs propres licences"
+ },
+ "Remocn/remocn": {
+  "description": "Plugin Claude Code, skill d'agent et serveur MCP pour produire des vidéos Remotion à partir de 935 composants sous licence MIT : l'agent établit d'abord le storyboard, puis écrit la vidéo.",
+  "boundary": "Exige Remotion et la CLI shadcn qui installe les composants ; `scene-reviewer` ne vérifie que les images fixes (texte rogné, images vides, contraste faible), la qualité finale et le temps de rendu n'ont pas été mesurés ; composants, polices et MCP hébergé ont leurs propres conditions, et Remotion se licence à part.",
+  "license_label": "MIT",
+  "license_note": "La LICENSE racine est MIT ; le README indique les composants sous MIT, tandis que le moteur Remotion, les polices et le service MCP hébergé restent soumis à leurs propres conditions."
+ },
+ "frankxai/awesome-motion-design-agent-skills": {
+  "description": "Cinq workflows de motion livrés en SKILL.md (dont remotion-video-agent et web-motion-auditor) et un index choisi d'outils GSAP, Motion, Remotion, Rive, Lottie et 3D.",
+  "boundary": "Les entrées de l'index pointent vers des dépôts tiers dont il faut vérifier séparément la licence et la disponibilité ; les skills n'apportent que méthode, listes de contrôle et aiguillage, donc la qualité du mouvement et de la vidéo dépend de l'agent hôte et des bibliothèques choisies ; le README conseille de scanner d'abord les packs tiers avec SkillSpector.",
+  "license_label": "CC0-1.0",
+  "license_note": "La LICENSE racine est CC0 1.0 Universal ; les projets, polices et médias tiers visés par l'index et les skills restent sous leurs propres licences."
  }
 }
