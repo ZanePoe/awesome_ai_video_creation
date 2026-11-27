@@ -3114,5 +3114,55 @@
       "source": "https://github.com/robbietilton/Editroom/blob/6390ae7f3847d924126b2d4f7a964b9fee4e71a2/LICENSE",
       "note": "仓库根 LICENSE 为 MIT；应用内附 FFmpeg 9.1（LGPL-2.1+，未启用 GPL 或非自由部件，由 scripts/build-ffmpeg.sh 从 ffmpeg.org 源码构建，仅作独立进程转封装 macOS 打不开格式），更新组件 Sparkle 为 MIT；再分发需按 LGPL 提供 FFmpeg 源码与 configure 选项，Vendor/ffmpeg/README.md 已说明来源与构建方式"
     }
+  },
+  {
+    "repo": "sirioberati/ai-filmmaking-camera-control-seedance-2-5",
+    "name": "AI Filmmaking Camera Control (Seedance 2.5)",
+    "category": "skills_mcp",
+    "scope": "core",
+    "description": "137 套电影级运镜模板与 previs 管线：用 three.js + Remotion 渲染「条纹胶囊」参考视频，配现成提示词交给 Seedance 2.5 生成，含 Tein MCP/API 接入与 cinematic-previs 技能。",
+    "boundary": "成片必须走 Tein（tein.ai）托管的 Seedance 2.5，需自备密钥（仓库不存密钥，但首页与仓库描述直接导流该服务），draft 为 480p 更便宜；渲染需 Node 22.12+、ffmpeg 与首次联网下载 headless Chrome，仓库内 pill.mp4 多为 960 宽缩略副本，完整结果视频在 v0.1.0 release 的 zip 而非 git；137 条方法问答中 4 条被作者标为 UNPROVEN；NOTICE.md 记录 33 条相机预设蒸馏自 E.T. 数据集（源片段为受版权电影，仓库只发曲线）、示例含作者真人面孔与声音、部分产品照带可见品牌标记，均不在 MIT 范围；Remotion 对个人、≤3 人营利组织与非营利免费，更大营利团队需公司许可；仓库 2026-11-07 创建并于同日最后一次推送，运镜效果与成片质量未实机复现。",
+    "baseline": false,
+    "reviewed_at": "2026-11-27",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 3,
+        "url": "https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/README.md#L3",
+        "note": "官方 README 的 137 套运镜与代码控机定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 8,
+        "url": "https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/README.md#L8",
+        "note": "官方 README 的胶囊参考视频原理（模型同时模仿机位与走位）；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 84,
+        "url": "https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/README.md#L84",
+        "note": "官方 README 的 Tein MCP/API 接入与自备密钥要求；非实机测试"
+      },
+      {
+        "path": "NOTICE.md",
+        "line": 9,
+        "url": "https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/NOTICE.md#L9",
+        "note": "官方 NOTICE 的 Remotion 许可适用范围与公司许可要求；非实机测试"
+      },
+      {
+        "path": "NOTICE.md",
+        "line": 14,
+        "url": "https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/NOTICE.md#L14",
+        "note": "官方 NOTICE 的 33 条源自真实电影的相机预设与 E.T. 数据集来源；非实机测试"
+      }
+    ],
+    "evidence_commit": "602aa2348b0ae67589ce533fff571adced724811",
+    "license_review": {
+      "status": "custom",
+      "label": "MIT（代码/提示词/笔记/pill 片段）+ Remotion 自有许可、Quaternius CC0、第三方素材除外",
+      "source": "https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/NOTICE.md",
+      "note": "仓库根 LICENSE 为 MIT，但只覆盖代码、提示词、笔记与自制的 pill 片段；NOTICE.md 另列 Quaternius 动画 rig（CC0，附原文与校验和）、Remotion 4.0.522（个人、≤3 人营利组织与非营利免费，更大营利团队需公司许可）、three.js/React/three-gpu-pathtracer（MIT）与 Rapier（Apache-2.0）；示例中的真人面孔与声音、带品牌标记的产品照、以及蒸馏自受版权电影的 33 条相机曲线均不在 MIT 授权范围，商用前需自行核验数据集与服务条款"
+    }
   }
 ]

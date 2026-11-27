@@ -28,7 +28,7 @@ flowchart LR
 
 ## वर्तमान संग्रह
 
-**कुल 112 प्रोजेक्ट, जिनमें 22 उपयोगकर्ता संदर्भ प्रोजेक्ट हैं और 90 इस दौर में जोड़े गए।** फ़ंक्शन सत्यापन: 2026-11-27; मीट्रिक स्नैपशॉट: `2026-11-27T11:10:23+00:00` (UTC)।
+**कुल 113 प्रोजेक्ट, जिनमें 22 उपयोगकर्ता संदर्भ प्रोजेक्ट हैं और 91 इस दौर में जोड़े गए।** फ़ंक्शन सत्यापन: 2026-11-27; मीट्रिक स्नैपशॉट: `2026-11-27T11:14:15+00:00` (UTC)।
 
 हर श्रेणी में पहले मेंटेनेंस स्थिति के अनुसार लेयर बनाई जाती है, फिर star (40%), 90 दिन की डिफ़ॉल्ट-ब्रांच कमिट (35%) और नवीनतम कमिट (25%) मिलाकर क्रम तय होता है। मेंटेनेंस स्कोर फ़ाइनल वीडियो की गुणवत्ता, मॉडल की क्षमता, कॉपीराइट सुरक्षा या प्रोडक्शन परिपक्वता को नहीं दर्शाता।
 
@@ -38,14 +38,14 @@ flowchart LR
 
 | प्रोजेक्ट | भूमिका | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर |
 | --- | --- | --- | --- | --- | --- |
-| [HyperFrames](https://github.com/heygen-com/hyperframes) | HTML/CSS/JS आधारित कोड-वीडियो और Agent Skill इकोसिस्टम; Remotion आदि से माइग्रेशन और फ़्रेम-दर-फ़्रेम सत्यापन के साथ। | 91,178 | 4,139 | 2026-11-27 | 99.7 |
-| [Concat](https://github.com/jub0t/Concat) | लोकल क्रॉस-प्लेटफ़ॉर्म मल्टी-ट्रैक संपादक, जिसमें सबटाइटल, TTS, बैकग्राउंड हटाना, कीफ़्रेम, इफ़ेक्ट और 4K एक्सपोर्ट है। | 22,056 | 1,633 | 2026-11-27 | 94.7 |
-| [OpenMotion](https://github.com/nexu-io/openmotion) | लोकल coding agent के लिए रेफ़रेंस-वीडियो रिप्लिकेशन और ब्रांडेड मोशन वर्कबेंच; Motion.md, विज़ुअल टाइमलाइन और MP4 एक्सपोर्ट के साथ। | 16,842 | 854 | 2026-11-27 | 93.8 |
-| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | coding agent के लिए मल्टी-पाइपलाइन वीडियो प्रोडक्शन सिस्टम: रिसर्च, स्क्रिप्ट, सामग्री, वॉइसओवर, सबटाइटल और रेंडरिंग। | 83,756 | 272 | 2026-11-16 | 93.0 |
-| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | coding agent के लिए लोकल FFmpeg कट, सबटाइटल, फ़ॉर्मेट एक्सपोर्ट और आउटपुट जाँच का CLI और MCP। | 11,715 | 1,013 | 2026-11-27 | 92.5 |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | HTML/CSS/JS आधारित कोड-वीडियो और Agent Skill इकोसिस्टम; Remotion आदि से माइग्रेशन और फ़्रेम-दर-फ़्रेम सत्यापन के साथ। | 91,180 | 4,139 | 2026-11-27 | 99.7 |
+| [Concat](https://github.com/jub0t/Concat) | लोकल क्रॉस-प्लेटफ़ॉर्म मल्टी-ट्रैक संपादक, जिसमें सबटाइटल, TTS, बैकग्राउंड हटाना, कीफ़्रेम, इफ़ेक्ट और 4K एक्सपोर्ट है। | 22,061 | 1,633 | 2026-11-27 | 94.7 |
+| [OpenMotion](https://github.com/nexu-io/openmotion) | लोकल coding agent के लिए रेफ़रेंस-वीडियो रिप्लिकेशन और ब्रांडेड मोशन वर्कबेंच; Motion.md, विज़ुअल टाइमलाइन और MP4 एक्सपोर्ट के साथ। | 16,844 | 854 | 2026-11-27 | 93.8 |
+| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | coding agent के लिए मल्टी-पाइपलाइन वीडियो प्रोडक्शन सिस्टम: रिसर्च, स्क्रिप्ट, सामग्री, वॉइसओवर, सबटाइटल और रेंडरिंग। | 83,757 | 272 | 2026-11-16 | 93.0 |
+| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | coding agent के लिए लोकल FFmpeg कट, सबटाइटल, फ़ॉर्मेट एक्सपोर्ट और आउटपुट जाँच का CLI और MCP। | 11,716 | 1,013 | 2026-11-27 | 92.5 |
 | [Jellyfish](https://github.com/Forget-C/Jellyfish) | AI शॉर्ट ड्रामा प्रोडक्शन वर्कबेंच: स्क्रिप्ट ब्रेकडाउन, शॉट-वाइज़, कैरेक्टर व सीन एसेट मैनेजमेंट, शॉट जनरेशन और एक्सपोर्ट। | 7,358 | 1,666 | 2026-11-25 | 90.3 |
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | बहुत सारी साइट सपोर्ट करने वाला फ़ीचर-समृद्ध कमांड-लाइन ऑडियो-वीडियो डाउनलोडर। | 211,110 | 79 | 2026-11-24 | 88.9 |
-| [OpenFilm](https://github.com/openfilm/openfilm) | coding agent को कोड से वीडियो बनाने, जाँचने, एडिट करने और रेंडर करने देता है, साथ में एडिट-योग्य इंटरफ़ेस। | 9,568 | 305 | 2026-11-26 | 88.9 |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | बहुत सारी साइट सपोर्ट करने वाला फ़ीचर-समृद्ध कमांड-लाइन ऑडियो-वीडियो डाउनलोडर। | 211,112 | 79 | 2026-11-24 | 88.9 |
+| [OpenFilm](https://github.com/openfilm/openfilm) | coding agent को कोड से वीडियो बनाने, जाँचने, एडिट करने और रेंडर करने देता है, साथ में एडिट-योग्य इंटरफ़ेस। | 9,569 | 305 | 2026-11-26 | 88.9 |
 | [Clypra](https://github.com/AIEraDev/Clypra) | Rust/Tauri/React से बना हार्डवेयर-एक्सेलेरेटेड क्रॉस-प्लेटफ़ॉर्म वीडियो संपादक। | 3,387 | 1,676 | 2026-11-27 | 88.2 |
 | [Claude Code Video Toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) | Claude Code के लिए स्क्रिप्ट, वॉइसओवर, म्यूज़िक, इमेज और वीडियो जनरेशन, क्वालिटी जाँच, रेंडरिंग और पब्लिशिंग की Skills, टेम्पलेट, कमांड व टूल; Codex और Kiro CLI में भी माइग्रेट हो सकता है। | 2,798 | 551 | 2026-11-27 | 87.5 |
 | [Manim Community](https://github.com/ManimCommunity/manim) | Python कोड से गणित और ज्ञान-व्याख्या एनिमेशन बनाने का वीडियो इंजन। | 42,973 | 80 | 2026-11-26 | 86.5 |
@@ -60,7 +60,7 @@ flowchart LR
 | वीडियो संपादक और प्रोडक्शन वर्कबेंच | 20 | Concat, Jellyfish, Clypra |
 | Agent वीडियो प्रोडक्शन और ऑटोमेशन | 9 | Hypit, OpenMotion, OpenMontage |
 | ज्ञान-आधारित शॉर्ट वीडियो, क्लिप और एक्सप्लेनर | 10 | NeonClipping, Clipmint, ChrisHKAI Video |
-| Agent Skills, MCP और संपादन उपकरण | 18 | FFmpeg Skill, Claude Code Video Toolkit, Video Shotcraft |
+| Agent Skills, MCP और संपादन उपकरण | 19 | FFmpeg Skill, Claude Code Video Toolkit, Video Shotcraft |
 | Code-to-video और मोशन | 9 | HyperFrames, Remotion, raea |
 | एनिमेशन, 3D और एन्कोडिंग बुनियादी घटक | 15 | three.js, Godot, Motion |
 | ComfyUI और ओपन-सोर्स वीडियो जनरेशन | 9 | VRGameDevGirl AI Video Builder, LTX-Video, HunyuanVideo |
@@ -73,12 +73,12 @@ flowchart LR
 
 | प्रोजेक्ट | भूमिका | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर | लाइसेंस |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Concat](https://github.com/jub0t/Concat) · ★उपयोगकर्ता संदर्भ | लोकल क्रॉस-प्लेटफ़ॉर्म मल्टी-ट्रैक संपादक, जिसमें सबटाइटल, TTS, बैकग्राउंड हटाना, कीफ़्रेम, इफ़ेक्ट और 4K एक्सपोर्ट है। | 22,056 | 1,633 | 2026-11-27 | 94.7 | AGPL-3.0 |
+| [Concat](https://github.com/jub0t/Concat) · ★उपयोगकर्ता संदर्भ | लोकल क्रॉस-प्लेटफ़ॉर्म मल्टी-ट्रैक संपादक, जिसमें सबटाइटल, TTS, बैकग्राउंड हटाना, कीफ़्रेम, इफ़ेक्ट और 4K एक्सपोर्ट है। | 22,061 | 1,633 | 2026-11-27 | 94.7 | AGPL-3.0 |
 | [Jellyfish](https://github.com/Forget-C/Jellyfish) | AI शॉर्ट ड्रामा प्रोडक्शन वर्कबेंच: स्क्रिप्ट ब्रेकडाउन, शॉट-वाइज़, कैरेक्टर व सीन एसेट मैनेजमेंट, शॉट जनरेशन और एक्सपोर्ट। | 7,358 | 1,666 | 2026-11-25 | 90.3 | Apache-2.0 |
 | [Clypra](https://github.com/AIEraDev/Clypra) · ★उपयोगकर्ता संदर्भ | Rust/Tauri/React से बना हार्डवेयर-एक्सेलेरेटेड क्रॉस-प्लेटफ़ॉर्म वीडियो संपादक। | 3,387 | 1,676 | 2026-11-27 | 88.2 | MIT |
 | [CozyClay](https://github.com/HaD0Yun/CozyClay) · ★उपयोगकर्ता संदर्भ | ब्राउज़र में सीन बनाने, कैरेक्टर मुवमेंट, शॉट कट और AI वीडियो प्रीविज़ करने का टूल। | 2,085 | 2,118 | 2026-11-27 | 86.5 | AGPL-3.0 |
 | [Huobao Drama](https://github.com/chatfire-AI/huobao-drama) · लाइसेंस चेतावनी | एक वाक्य या पेस्ट किया गया उपन्यास लेकर स्वतः स्क्रिप्ट, छवि, शॉट-ब्रेकडाउन वीडियो, वॉइसओवर, सबटाइटल बनाकर पूरी शॉर्ट ड्रामा जोड़ देने वाला Web/डेस्कटॉप प्लेटफ़ॉर्म, जिसका बैकएंड Mastra Agent ऑर्केस्ट्रेट करता है और स्किल UI में एडिट किए जा सकते हैं। | 18,042 | 107 | 2026-11-21 | 83.8 | CC BY-NC-SA-4.0 (व्यावसायिक उपयोग निषिद्ध) |
-| [OpenChatCut](https://github.com/0xsline/OpenChatCut) · ★उपयोगकर्ता संदर्भ | लोकल-प्राथमिक बातचीत-आधारित AI वीडियो संपादक, मल्टी-ट्रैक टाइमलाइन, Agent Skills, MCP और Remotion रेंडरिंग के साथ। | 3,366 | 382 | 2026-11-12 | 82.9 | AGPL-3.0 |
+| [OpenChatCut](https://github.com/0xsline/OpenChatCut) · ★उपयोगकर्ता संदर्भ | लोकल-प्राथमिक बातचीत-आधारित AI वीडियो संपादक, मल्टी-ट्रैक टाइमलाइन, Agent Skills, MCP और Remotion रेंडरिंग के साथ। | 3,367 | 382 | 2026-11-12 | 82.9 | AGPL-3.0 |
 | [Editroom](https://github.com/robbietilton/Editroom) · लाइसेंस चेतावनी | macOS के लिए native Swift वीडियो एडिटर: बिना proxy रियल-टाइम 4K, अंदरूनी ग्रेडिंग, स्पीड-रैंप, ट्रांज़िशन, ऑडियो-मिक्सिंग और loudness-target एक्सपोर्ट, साथ ही Claude, ChatGPT या on-device मॉडल से स्वाभाविक भाषा में कट। | 844 | 428 | 2026-11-27 | 82.4 | MIT (app) + अंदरूनी FFmpeg LGPL-2.1+, Sparkle MIT |
 | [OpenDirector](https://github.com/ThinkFlowLab/OpenDirector) | बातचीत, कैनवास, सामग्री संगठन से लेकर टाइमलाइन एक्सपोर्ट तक का Agent वीडियो क्रिएशन वर्कफ़्लो। | 466 | 370 | 2026-11-27 | 79.7 | Apache-2.0 |
 | [AID Studio](https://github.com/shijue-aid/aid-studio) | सेल्फ-होस्ट होने योग्य AI कॉमिक-ड्रामा, शॉर्ट ड्रामा और फ़िल्म प्रोडक्शन वर्कबेंच: स्क्रिप्ट, कैरेक्टर-सीन, स्टोरीबोर्ड, इमेज व वीडियो जनरेशन, वॉइसओवर, अनंत कैनवास और 3D प्रीविज़। | 1,832 | 112 | 2026-11-27 | 77.6 | MIT |
@@ -98,11 +98,11 @@ flowchart LR
 
 | प्रोजेक्ट | भूमिका | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर | लाइसेंस |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Hypit](https://github.com/hypit-ai/hypit) · लाइसेंस चेतावनी | coding agent को रेफ़रेंस वीडियो को एडिट-योग्य, बार-बार चलने योग्य पूरी वर्कफ़्लो में बदलने और बड़े पैमाने पर कंटेंट वेरिएंट बनाने देता है। | 31,635 | 694 | 2026-11-25 | 95.4 | Hypit Open Source License (संशोधित Apache-2.0) |
-| [OpenMotion](https://github.com/nexu-io/openmotion) | लोकल coding agent के लिए रेफ़रेंस-वीडियो रिप्लिकेशन और ब्रांडेड मोशन वर्कबेंच; Motion.md, विज़ुअल टाइमलाइन और MP4 एक्सपोर्ट के साथ। | 16,842 | 854 | 2026-11-27 | 93.8 | Apache-2.0 |
-| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | coding agent के लिए मल्टी-पाइपलाइन वीडियो प्रोडक्शन सिस्टम: रिसर्च, स्क्रिप्ट, सामग्री, वॉइसओवर, सबटाइटल और रेंडरिंग। | 83,756 | 272 | 2026-11-16 | 93.0 | AGPL-3.0 |
-| [OpenFilm](https://github.com/openfilm/openfilm) | coding agent को कोड से वीडियो बनाने, जाँचने, एडिट करने और रेंडर करने देता है, साथ में एडिट-योग्य इंटरफ़ेस। | 9,568 | 305 | 2026-11-26 | 88.9 | MIT |
-| [Rea Video](https://github.com/JuneYaooo/rea-video) · ★उपयोगकर्ता संदर्भ | वीडियो के लाइव-शूट, AI और कोड हिस्सों का उलटी-तरफ़ा विश्लेषण कर शॉट-स्तर रिप्लिकेशन प्लान और VIDEO.md देता है। | 13,837 | 219 | 2026-11-25 | 88.1 | Apache-2.0 |
+| [Hypit](https://github.com/hypit-ai/hypit) · लाइसेंस चेतावनी | coding agent को रेफ़रेंस वीडियो को एडिट-योग्य, बार-बार चलने योग्य पूरी वर्कफ़्लो में बदलने और बड़े पैमाने पर कंटेंट वेरिएंट बनाने देता है। | 31,636 | 694 | 2026-11-25 | 95.4 | Hypit Open Source License (संशोधित Apache-2.0) |
+| [OpenMotion](https://github.com/nexu-io/openmotion) | लोकल coding agent के लिए रेफ़रेंस-वीडियो रिप्लिकेशन और ब्रांडेड मोशन वर्कबेंच; Motion.md, विज़ुअल टाइमलाइन और MP4 एक्सपोर्ट के साथ। | 16,844 | 854 | 2026-11-27 | 93.8 | Apache-2.0 |
+| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | coding agent के लिए मल्टी-पाइपलाइन वीडियो प्रोडक्शन सिस्टम: रिसर्च, स्क्रिप्ट, सामग्री, वॉइसओवर, सबटाइटल और रेंडरिंग। | 83,757 | 272 | 2026-11-16 | 93.0 | AGPL-3.0 |
+| [OpenFilm](https://github.com/openfilm/openfilm) | coding agent को कोड से वीडियो बनाने, जाँचने, एडिट करने और रेंडर करने देता है, साथ में एडिट-योग्य इंटरफ़ेस। | 9,569 | 305 | 2026-11-26 | 88.9 | MIT |
+| [Rea Video](https://github.com/JuneYaooo/rea-video) · ★उपयोगकर्ता संदर्भ | वीडियो के लाइव-शूट, AI और कोड हिस्सों का उलटी-तरफ़ा विश्लेषण कर शॉट-स्तर रिप्लिकेशन प्लान और VIDEO.md देता है। | 13,839 | 219 | 2026-11-25 | 88.1 | Apache-2.0 |
 | [Video Autopilot Kit](https://github.com/Hao0321/video-autopilot-kit) · ★उपयोगकर्ता संदर्भ | वीडियो प्लानिंग, ऑडिट, स्क्रीनिंग और इफ़ेक्ट-लर्निंग का ऑटोमेशन फ्रेमवर्क। | 2,370 | 33 | 2026-11-13 | 68.2 | MIT |
 | [Video Director](https://github.com/win4r/video-director) · ★उपयोगकर्ता संदर्भ | Claude Code को HTML/Canvas/SVG/Three.js/GSAP/Remotion से शॉर्ट फ़िल्म की प्लानिंग, रेंडरिंग और जाँच करना सिखाता है। | 551 | 20 | 2026-11-26 | 63.8 | MIT |
 | [Video Use](https://github.com/browser-use/video-use) | coding agent और FFmpeg से कच्ची सामग्री काटने, सबटाइटल, कलर ग्रेडिंग, मोशन ओवरले और आउटपुट जाँच। | 31,661 | 5 | 2026-10-08 | 60.5 | MIT |
@@ -116,7 +116,7 @@ flowchart LR
 | [Clipmint](https://github.com/kleZ799/clipmint) | पॉडकास्ट, इंटरव्यू, ट्यूटोरियल और VOD को सबटाइटल वाले 9:16 Shorts/Reels/TikTok में बदलता है। | 73 | 615 | 2026-11-26 | 74.8 | MIT |
 | [ChrisHKAI Video](https://github.com/ChrisHKAI/ChrisHKAI-Video) · ★उपयोगकर्ता संदर्भ | क्रिएटर की सार्वजनिक सामग्री को 3D टॉय-शैली के शॉर्ट वीडियो में बदलने वाला coding-agent Skill। | 167 | 208 | 2026-11-27 | 72.8 | MIT |
 | [Lanshu AI Presenter Video](https://github.com/cclank/lanshu-create-ai-presenter-video) · ★उपयोगकर्ता संदर्भ | विषय या स्क्रिप्ट से जाँचे हुए डिजिटल प्रस्तोता/शैली-आधारित व्याख्या वीडियो बनाने का Agent Skill। | 3,085 | 17 | 2026-11-26 | 69.1 | MIT |
-| [Claude Animated Shorts](https://github.com/mromidev/claude-animated-shorts) · ★उपयोगकर्ता संदर्भ | Three.js, Remotion, बैकग्राउंड म्यूज़िक और SFX से 9:16 एनिमेटेड स्टोरी शॉर्ट्स बनाने का Skill। | 5,141 | 2 | 2026-11-01 | 54.6 | MIT |
+| [Claude Animated Shorts](https://github.com/mromidev/claude-animated-shorts) · ★उपयोगकर्ता संदर्भ | Three.js, Remotion, बैकग्राउंड म्यूज़िक और SFX से 9:16 एनिमेटेड स्टोरी शॉर्ट्स बनाने का Skill। | 5,142 | 2 | 2026-11-01 | 54.6 | MIT |
 | [Vibe Knowledge](https://github.com/andyhuo520/vibe-knowledge) · ★उपयोगकर्ता संदर्भ | ज्ञान-बिंदु की पुष्टि, स्क्रिप्ट, वॉइसओवर, कोड से वीडियो, क्वालिटी जाँच और पब्लिश पैकेज तक का ज्ञान-शॉर्ट वीडियो Skill। | 844 | 3 | 2026-10-28 | 49.2 | MIT |
 | [Vox Director](https://github.com/alisa0808/vox-director) | विषय से Vox-शैली के कागज़-कोलाज व्याख्या/विज्ञापन वीडियो तक का एंड-टू-एंड Agent Skill। | 3,228 | 1 | 2026-10-05 | 45.9 | MIT |
 | [Video to Shorts Skill](https://github.com/social-media-skills/video-to-shorts-skill) | Agent से लंबा वीडियो या पॉडकास्ट शब्द-दर-शब्द सबटाइटल वाले 9:16 शॉर्ट्स में बदलना, वैकल्पिक पब्लिश के साथ। | 4 | 3 | 2026-11-11 | 34.4 | MIT |
@@ -127,21 +127,22 @@ flowchart LR
 
 | प्रोजेक्ट | भूमिका | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर | लाइसेंस |
 | --- | --- | --- | --- | --- | --- | --- |
-| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | coding agent के लिए लोकल FFmpeg कट, सबटाइटल, फ़ॉर्मेट एक्सपोर्ट और आउटपुट जाँच का CLI और MCP। | 11,715 | 1,013 | 2026-11-27 | 92.5 | MIT |
+| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | coding agent के लिए लोकल FFmpeg कट, सबटाइटल, फ़ॉर्मेट एक्सपोर्ट और आउटपुट जाँच का CLI और MCP। | 11,716 | 1,013 | 2026-11-27 | 92.5 | MIT |
 | [Claude Code Video Toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) | Claude Code के लिए स्क्रिप्ट, वॉइसओवर, म्यूज़िक, इमेज और वीडियो जनरेशन, क्वालिटी जाँच, रेंडरिंग और पब्लिशिंग की Skills, टेम्पलेट, कमांड व टूल; Codex और Kiro CLI में भी माइग्रेट हो सकता है। | 2,798 | 551 | 2026-11-27 | 87.5 | MIT |
 | [Video Shotcraft](https://github.com/Vincentwei1021/video-shotcraft) · ★उपयोगकर्ता संदर्भ | Agent के लिए शॉट रेसिपी, स्टोरीबोर्ड, Remotion एनिमेशन, बीट-कटिंग और फ़्रेम-बाय-फ़्रेम जाँच। | 23,009 | 54 | 2026-11-25 | 81.9 | Apache-2.0 |
-| [Remocn](https://github.com/Remocn/remocn) | Remotion वीडियो बनाने के लिए Claude Code plugin, Agent Skill और MCP server, 935 MIT-लाइसेंस वाले components के साथ; Agent पहले storyboard बनाता है, फिर वीडियो का कोड लिखता है। | 1,964 | 189 | 2026-11-27 | 80.9 | MIT |
+| [Remocn](https://github.com/Remocn/remocn) | Remotion वीडियो बनाने के लिए Claude Code plugin, Agent Skill और MCP server, 935 MIT-लाइसेंस वाले components के साथ; Agent पहले storyboard बनाता है, फिर वीडियो का कोड लिखता है। | 1,965 | 189 | 2026-11-27 | 80.9 | MIT |
 | [Kinocut](https://github.com/KyaniteLabs/kinocut) | गार्ड, प्रीफ़्लइट, रसीप्ट और क्वालिटी गेट वाला लोकल वीडियो एडिटिंग MCP/Python/CLI। | 284 | 698 | 2026-11-25 | 79.0 | Apache-2.0 |
 | [Manju Laoli Skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) | AI कॉमिक-ड्रामा और शॉर्ट ड्रामा के लिए OpenClaw Skill सूट: स्क्रिप्ट, एसेट लॉक, स्टोरीबोर्ड, फ़ाइट सीन, Seedance के लिए प्रॉम्प्ट और मशीन जाँच। | 3,308 | 53 | 2026-11-26 | 75.4 | MIT |
-| [Remotion Agent Skills](https://github.com/remotion-dev/skills) · लाइसेंस चेतावनी | coding agent से Remotion वीडियो बनाने, प्रीव्यू और रेंडर करने के लिए आधिकारिक Skills। | 8,097 | 31 | 2026-11-24 | 75.0 | लाइसेंस असत्यापित |
-| [pixelfx](https://github.com/patch-gg/pixelfx) · लाइसेंस चेतावनी | कोड से बने 244 पिक्सल इफ़ेक्ट और एनिमेशन की लाइब्रेरी, साथ में Claude Code इफ़ेक्ट-जनरेशन Skill, spritesheet तथा GIF/MP4 एक्सपोर्ट टूल। | 9,573 | 10 | 2026-11-12 | 66.5 | MIT (कोड और इफ़ेक्ट) + Patch Pixel फ़ॉन्ट छोड़कर |
+| [Remotion Agent Skills](https://github.com/remotion-dev/skills) · लाइसेंस चेतावनी | coding agent से Remotion वीडियो बनाने, प्रीव्यू और रेंडर करने के लिए आधिकारिक Skills। | 8,098 | 31 | 2026-11-24 | 75.0 | लाइसेंस असत्यापित |
+| [pixelfx](https://github.com/patch-gg/pixelfx) · लाइसेंस चेतावनी | कोड से बने 244 पिक्सल इफ़ेक्ट और एनिमेशन की लाइब्रेरी, साथ में Claude Code इफ़ेक्ट-जनरेशन Skill, spritesheet तथा GIF/MP4 एक्सपोर्ट टूल। | 9,574 | 10 | 2026-11-12 | 66.5 | MIT (कोड और इफ़ेक्ट) + Patch Pixel फ़ॉन्ट छोड़कर |
 | [Wallstreet Explainer](https://github.com/HeyChengC/wallstreet-explainer) · लाइसेंस चेतावनी | Wall Street-शैली के वित्त/टेक व्याख्या शॉर्ट्स का coding agent Skill: स्टाइल लैंग्वेज, ग्राफ़िक्स घटक टेम्पलेट, साथ में फ़ुटेज खोज, स्क्रीनशॉट, वॉइसओवर, रोटोस्कोपिंग, रेंडरिंग और मिक्सिंग स्क्रिप्ट। | 1,370 | 16 | 2026-11-20 | 64.2 | MIT (कोड और डॉक) + सैंपल वीडियो की थर्ड-पार्टी सामग्री छोड़कर |
 | [ReelBench Skills](https://github.com/eternityspring/reelbench-skills) · ★उपयोगकर्ता संदर्भ | Claude Code/Codex के लिए वीडियो विश्लेषण, रिप्लिकेशन और प्रोडक्शन Skill का संग्रह। | 1,261 | 21 | 2026-11-09 | 62.7 | Apache-2.0 |
 | [Video Agent Skills](https://github.com/Melvynx/video-agent-skills) | Markdown Skills से शॉर्ट वीडियो/YouTube की स्क्रिप्ट, रिसर्च, एडिटिंग, अनुवाद और पब्लिशिंग व्यवस्थित करता है। | 218 | 26 | 2026-11-06 | 57.0 | MIT |
 | [Awesome Motion Design Agent Skills](https://github.com/frankxai/awesome-motion-design-agent-skills) | पाँच इंस्टॉल करने योग्य SKILL.md मोशन वर्कफ़्लो (remotion-video-agent और web-motion-auditor सहित) और GSAP, Motion, Remotion, Rive, Lottie व 3D टूल्स का चुनिंदा इंडेक्स। | 218 | 19 | 2026-11-12 | 56.7 | CC0-1.0 |
+| [AI Filmmaking Camera Control (Seedance 2.5)](https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5) · लाइसेंस चेतावनी | 137 सिनेमाई कैमरा-मूव टेम्पलेट और previs पाइपलाइन: three.js प्लस Remotion धारीदार pill रैफरेंस क्लिप रेंडर करते हैं, तैयार prompts उन्हें Seedance 2.5 को देते हैं, और Tein MCP/API सेटअप तथा cinematic-previs skill काम चलाती है। | 379 | 5 | 2026-11-07 | 50.8 | MIT (कोड, prompts, नोट्स, pill क्लिप) + Remotion का अपना लाइसेंस, Quaternius CC0, थर्ड-पार्टी सामग्री बाहर |
 | [HyperFrames Motion Library](https://github.com/nutllwhy/hyperframes-motion-library) · ★उपयोगकर्ता संदर्भ | HyperFrames को केंद्र रखकर बनाई गई लोकल मोशन टेम्पलेट और पैरामीट्रिक एसेट लाइब्रेरी। | 330 | 2 | 2026-10-28 | 44.3 | MIT |
 | [Video Editing Skill](https://github.com/social-media-skills/video-editing-skill) | Agent से talking-head, कोर्स, इंटरव्यू और vlog का पहला कट और सबटाइटल प्रोसेसिंग कराना। | 14 | 3 | 2026-11-11 | 38.2 | MIT |
-| [GSAP Skills](https://github.com/greensock/gsap-skills) | आधिकारिक Agent Skills, जो coding agent को GSAP टाइमलाइन, मोशन और प्लगइन इस्तेमाल करना सिखाते हैं। | 19,151 | 0 | 2026-04-21 | 36.4 | MIT |
+| [GSAP Skills](https://github.com/greensock/gsap-skills) | आधिकारिक Agent Skills, जो coding agent को GSAP टाइमलाइन, मोशन और प्लगइन इस्तेमाल करना सिखाते हैं। | 19,152 | 0 | 2026-04-21 | 36.4 | MIT |
 | [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill) · ★उपयोगकर्ता संदर्भ | Agent को narrator-ai-cli बुलाकर फ़िल्म-व्याख्या वीडियो अपने आप बनाने का निर्देश देने वाला Skill। | 3,326 | 0 | 2026-07-05 | 33.2 | MIT |
 | [OpenClip Agent Skills](https://github.com/OpenClip-App/agent-skills) | Agent के लिए लंबे वीडियो की क्लिप, ट्रांसक्रिप्शन, कन्वर्ज़न, थंबनेल, बैकग्राउंड हटाना और UGC क्रिएटिव Skill। | 2 | 0 | 2026-08-07 | 11.0 | MIT |
 | [MCP Video Editing](https://github.com/mfortne/mcp-video-editing) | MCP, Python लाइब्रेरी और CLI से FFmpeg, HyperFrames और लोकल पुन: उपयोग प्रवाह का लपेटा हुआ रूप। | 2 | 0 | 2026-06-04 | 7.4 | Apache-2.0 |
@@ -150,10 +151,10 @@ flowchart LR
 
 | प्रोजेक्ट | भूमिका | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर | लाइसेंस |
 | --- | --- | --- | --- | --- | --- | --- |
-| [HyperFrames](https://github.com/heygen-com/hyperframes) | HTML/CSS/JS आधारित कोड-वीडियो और Agent Skill इकोसिस्टम; Remotion आदि से माइग्रेशन और फ़्रेम-दर-फ़्रेम सत्यापन के साथ। | 91,178 | 4,139 | 2026-11-27 | 99.7 | Apache-2.0 |
-| [Remotion](https://github.com/remotion-dev/remotion) · लाइसेंस चेतावनी | React/TypeScript से कोड द्वारा वीडियो बनाने और रेंडर करने का बुनियादी फ्रेमवर्क। | 76,067 | 6,807 | 2026-11-27 | 99.0 | Remotion License |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | HTML/CSS/JS आधारित कोड-वीडियो और Agent Skill इकोसिस्टम; Remotion आदि से माइग्रेशन और फ़्रेम-दर-फ़्रेम सत्यापन के साथ। | 91,180 | 4,139 | 2026-11-27 | 99.7 | Apache-2.0 |
+| [Remotion](https://github.com/remotion-dev/remotion) · लाइसेंस चेतावनी | React/TypeScript से कोड द्वारा वीडियो बनाने और रेंडर करने का बुनियादी फ्रेमवर्क। | 76,068 | 6,807 | 2026-11-27 | 99.0 | Remotion License |
 | [raea](https://github.com/shinyobjectz/raea) · लाइसेंस चेतावनी | React/TypeScript से वीडियो, मोशन, 3D और गेम लिखकर लोकल GPU पर रेंडर करने वाला इंजन और डेस्कटॉप Agent वर्कबेंच। | 5,329 | 1,610 | 2026-11-27 | 89.7 | FSL-1.1-ALv2 |
-| [Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar) · लाइसेंस चेतावनी | सिनेमैटिक शैली, उदाहरण और STYLE.md मार्गदर्शन देता है ताकि coding agent कोड से वीडियो बना सके। | 21,790 | 151 | 2026-11-26 | 87.7 | MIT कोड + CC BY-NC डॉक (अतिरिक्त लाइसेंस) |
+| [Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar) · लाइसेंस चेतावनी | सिनेमैटिक शैली, उदाहरण और STYLE.md मार्गदर्शन देता है ताकि coding agent कोड से वीडियो बना सके। | 21,792 | 151 | 2026-11-26 | 87.7 | MIT कोड + CC BY-NC डॉक (अतिरिक्त लाइसेंस) |
 | [Manim Community](https://github.com/ManimCommunity/manim) | Python कोड से गणित और ज्ञान-व्याख्या एनिमेशन बनाने का वीडियो इंजन। | 42,973 | 80 | 2026-11-26 | 86.5 | MIT |
 | [GiveMotion](https://github.com/givemotion/givemotion) | Agent को HTML/CSS लिखने, प्रीव्यू-जाँच करने और MP4 रेंडर करने देना वाला कोड-वीडियो इंजन। | 103 | 243 | 2026-11-19 | 69.9 | MIT |
 | [SenseNova Code2Video](https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video) · ★उपयोगकर्ता संदर्भ · लाइसेंस चेतावनी | छोटे ओपन मॉडल से चलने-योग्य कोड जनरेट कर छोटा वीडियो रेंडर करता है। | 786 | 3 | 2026-11-26 | 55.6 | असत्यापित |
@@ -198,7 +199,7 @@ flowchart LR
 
 | प्रोजेक्ट | भूमिका | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर | लाइसेंस |
 | --- | --- | --- | --- | --- | --- | --- |
-| [LiveTalking](https://github.com/lipku/LiveTalking) | कई डिजिटल-प्रस्तोता बैकएंड जोड़ने वाला रियल-टाइम इंटरैक्टिव स्ट्रीमिंग सिस्टम। | 11,362 | 14 | 2026-11-27 | 72.6 | Apache-2.0 |
+| [LiveTalking](https://github.com/lipku/LiveTalking) | कई डिजिटल-प्रस्तोता बैकएंड जोड़ने वाला रियल-टाइम इंटरैक्टिव स्ट्रीमिंग सिस्टम। | 11,363 | 14 | 2026-11-27 | 72.6 | Apache-2.0 |
 | [MuseTalk](https://github.com/TMElyralab/MuseTalk) | रियल-टाइम उच्च-क्वालिटी लिप-सिंक के लिए ऑडियो-ड्रिवन वर्चुअल ह्यूमन मॉडल। | 7,058 | 1 | 2026-11-19 | 57.5 | MIT |
 | [LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | कुशल पोर्ट्रेट एनिमेशन, stitching और रीडायरेक्शन कंट्रोल फ्रेमवर्क। | 19,597 | 0 | 2026-06-01 | 37.8 | MIT |
 | [SadTalker](https://github.com/OpenTalker/SadTalker) | एक पोर्ट्रेट छवि और ऑडियो से बोलते चेहरे का वीडियो बनाना। | 14,226 | 0 | 2023-10-10 | 33.2 | Apache-2.0 |
@@ -209,7 +210,7 @@ flowchart LR
 | प्रोजेक्ट | भूमिका | Stars | 90-दिन कमिट | नवीनतम कमिट UTC | मेंटेनेंस स्कोर | लाइसेंस |
 | --- | --- | --- | --- | --- | --- | --- |
 | [FFmpeg](https://github.com/FFmpeg/FFmpeg) · लाइसेंस चेतावनी | वीडियो ट्रांसकोडिंग, फ़िल्टर, मक्स, कॉम्पोज़िटिंग और स्ट्रीम प्रोसेसिंग की नीचे की टूलचेन। | 68,328 | 3,020 | 2026-11-27 | 98.7 | LGPL-2.1+; GPL घटक चालू करने पर GPL-2.0+ |
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | बहुत सारी साइट सपोर्ट करने वाला फ़ीचर-समृद्ध कमांड-लाइन ऑडियो-वीडियो डाउनलोडर। | 211,110 | 79 | 2026-11-24 | 88.9 | Unlicense |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | बहुत सारी साइट सपोर्ट करने वाला फ़ीचर-समृद्ध कमांड-लाइन ऑडियो-वीडियो डाउनलोडर। | 211,112 | 79 | 2026-11-24 | 88.9 | Unlicense |
 | [Streamlink](https://github.com/streamlink/streamlink) | ऑनलाइन लाइव स्ट्रीम को पार्स कर लोकल प्लेयर में पाइप करने वाला CLI। | 12,002 | 154 | 2026-11-18 | 83.8 | BSD-2-Clause |
 | [Downvid](https://github.com/Downvid/downvid) · ★उपयोगकर्ता संदर्भ | yt-dlp और FFmpeg पर बना क्रॉस-प्लेटफ़ॉर्म वीडियो डाउनलोड GUI/WebUI। | 1,684 | 354 | 2026-11-25 | 83.3 | MIT |
 | [VidBee](https://github.com/nexmoe/VidBee) | मीडिया डाउनलोड करता है, फिर लोकल ट्रांसक्रिप्शन, स्पीकर लेबलिंग, सारांश, अनुवाद और मीडिया से बातचीत कराता है। | 11,222 | 51 | 2026-11-21 | 78.0 | MIT |

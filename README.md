@@ -26,7 +26,7 @@ The first release provides a verifiable ecosystem map; it does not claim to cove
 
 ## Current coverage
 
-**112 projects, of which 22 are user-reference projects and 90 were added in this round.** Feature verification: 2026-11-27; metrics snapshot: `2026-11-27T11:10:23+00:00` (UTC).
+**113 projects, of which 22 are user-reference projects and 91 were added in this round.** Feature verification: 2026-11-27; metrics snapshot: `2026-11-27T11:14:15+00:00` (UTC).
 
 Within each category, projects are first tiered by maintenance status, then ranked by a blend of stars (40%), 90-day default-branch commits (35%) and recency of the last commit (25%). The maintenance score does not represent final-video quality, model capability, copyright safety or production readiness.
 
@@ -36,14 +36,14 @@ Shows only core candidates with a verified open license and commits in the last 
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score |
 | --- | --- | --- | --- | --- | --- |
-| [HyperFrames](https://github.com/heygen-com/hyperframes) | HTML/CSS/JS-based code video and agent skill ecosystem, migratable from Remotion with frame-by-frame verification. | 91,178 | 4,139 | 2026-11-27 | 99.7 |
-| [Concat](https://github.com/jub0t/Concat) | Local-first cross-platform multitrack editor with subtitles, TTS, background removal, keyframes, effects and 4K export. | 22,056 | 1,633 | 2026-11-27 | 94.7 |
-| [OpenMotion](https://github.com/nexu-io/openmotion) | Reference-video cloning and branded motion workbench for local coding agents, with Motion.md, a visual timeline and MP4 export. | 16,842 | 854 | 2026-11-27 | 93.8 |
-| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | Multi-pipeline video production system for coding agents covering research, scripts, assets, voiceover, subtitles and rendering. | 83,756 | 272 | 2026-11-16 | 93.0 |
-| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | CLI and MCP giving coding agents local FFmpeg cutting, subtitles, format export and output checks. | 11,715 | 1,013 | 2026-11-27 | 92.5 |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | HTML/CSS/JS-based code video and agent skill ecosystem, migratable from Remotion with frame-by-frame verification. | 91,180 | 4,139 | 2026-11-27 | 99.7 |
+| [Concat](https://github.com/jub0t/Concat) | Local-first cross-platform multitrack editor with subtitles, TTS, background removal, keyframes, effects and 4K export. | 22,061 | 1,633 | 2026-11-27 | 94.7 |
+| [OpenMotion](https://github.com/nexu-io/openmotion) | Reference-video cloning and branded motion workbench for local coding agents, with Motion.md, a visual timeline and MP4 export. | 16,844 | 854 | 2026-11-27 | 93.8 |
+| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | Multi-pipeline video production system for coding agents covering research, scripts, assets, voiceover, subtitles and rendering. | 83,757 | 272 | 2026-11-16 | 93.0 |
+| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | CLI and MCP giving coding agents local FFmpeg cutting, subtitles, format export and output checks. | 11,716 | 1,013 | 2026-11-27 | 92.5 |
 | [Jellyfish](https://github.com/Forget-C/Jellyfish) | AI short-drama production workbench covering script breakdown, storyboards, character and scene asset management, shot generation and export. | 7,358 | 1,666 | 2026-11-25 | 90.3 |
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Feature-rich command-line audio/video downloader supporting a large number of sites. | 211,110 | 79 | 2026-11-24 | 88.9 |
-| [OpenFilm](https://github.com/openfilm/openfilm) | Lets coding agents create, inspect, edit and render videos in code, with an editable interface. | 9,568 | 305 | 2026-11-26 | 88.9 |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Feature-rich command-line audio/video downloader supporting a large number of sites. | 211,112 | 79 | 2026-11-24 | 88.9 |
+| [OpenFilm](https://github.com/openfilm/openfilm) | Lets coding agents create, inspect, edit and render videos in code, with an editable interface. | 9,569 | 305 | 2026-11-26 | 88.9 |
 | [Clypra](https://github.com/AIEraDev/Clypra) | Rust/Tauri/React hardware-accelerated cross-platform video editor. | 3,387 | 1,676 | 2026-11-27 | 88.2 |
 | [Claude Code Video Toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) | Skills, templates, commands and tools for Claude Code covering scripts, voiceover, music, image and video generation, QA, rendering and publishing, portable to Codex and Kiro CLI. | 2,798 | 551 | 2026-11-27 | 87.5 |
 | [Manim Community](https://github.com/ManimCommunity/manim) | Video engine for programmatic math and explainer animations in Python. | 42,973 | 80 | 2026-11-26 | 86.5 |
@@ -58,7 +58,7 @@ Shows only core candidates with a verified open license and commits in the last 
 | Video editors and production workbenches | 20 | Concat, Jellyfish, Clypra |
 | Agent video production and automation | 9 | Hypit, OpenMotion, OpenMontage |
 | Knowledge shorts, clipping and explainers | 10 | NeonClipping, Clipmint, ChrisHKAI Video |
-| Agent Skills, MCP and editing tools | 18 | FFmpeg Skill, Claude Code Video Toolkit, Video Shotcraft |
+| Agent Skills, MCP and editing tools | 19 | FFmpeg Skill, Claude Code Video Toolkit, Video Shotcraft |
 | Code-to-video and motion graphics | 9 | HyperFrames, Remotion, raea |
 | Animation, 3D and coding building blocks | 15 | three.js, Godot, Motion |
 | ComfyUI and open-source video generation | 9 | VRGameDevGirl AI Video Builder, LTX-Video, HunyuanVideo |
@@ -71,12 +71,12 @@ Shows only core candidates with a verified open license and commits in the last 
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Concat](https://github.com/jub0t/Concat) · ★User reference | Local-first cross-platform multitrack editor with subtitles, TTS, background removal, keyframes, effects and 4K export. | 22,056 | 1,633 | 2026-11-27 | 94.7 | AGPL-3.0 |
+| [Concat](https://github.com/jub0t/Concat) · ★User reference | Local-first cross-platform multitrack editor with subtitles, TTS, background removal, keyframes, effects and 4K export. | 22,061 | 1,633 | 2026-11-27 | 94.7 | AGPL-3.0 |
 | [Jellyfish](https://github.com/Forget-C/Jellyfish) | AI short-drama production workbench covering script breakdown, storyboards, character and scene asset management, shot generation and export. | 7,358 | 1,666 | 2026-11-25 | 90.3 | Apache-2.0 |
 | [Clypra](https://github.com/AIEraDev/Clypra) · ★User reference | Rust/Tauri/React hardware-accelerated cross-platform video editor. | 3,387 | 1,676 | 2026-11-27 | 88.2 | MIT |
 | [CozyClay](https://github.com/HaD0Yun/CozyClay) · ★User reference | In-browser scene blocking, character staging, shot cutting and AI video previs tool. | 2,085 | 2,118 | 2026-11-27 | 86.5 | AGPL-3.0 |
 | [Huobao Drama](https://github.com/chatfire-AI/huobao-drama) · License caution | Web/desktop platform that turns a one-line idea or a pasted novel into rewritten script, images, storyboard videos, voiceover, subtitles and a finished short drama, orchestrated by a Mastra agent backend with UI-editable skills. | 18,042 | 107 | 2026-11-21 | 83.8 | CC BY-NC-SA-4.0 (no commercial use) |
-| [OpenChatCut](https://github.com/0xsline/OpenChatCut) · ★User reference | Local-first conversational AI video editor with a multitrack timeline, Agent Skills, MCP and Remotion rendering. | 3,366 | 382 | 2026-11-12 | 82.9 | AGPL-3.0 |
+| [OpenChatCut](https://github.com/0xsline/OpenChatCut) · ★User reference | Local-first conversational AI video editor with a multitrack timeline, Agent Skills, MCP and Remotion rendering. | 3,367 | 382 | 2026-11-12 | 82.9 | AGPL-3.0 |
 | [Editroom](https://github.com/robbietilton/Editroom) · License caution | Native Swift video editor for macOS: realtime 4K without proxies, built-in grading, speed ramps, transitions, audio mixing and loudness-target exports, plus natural-language cuts through Claude, ChatGPT or an on-device model. | 844 | 428 | 2026-11-27 | 82.4 | MIT (app) + bundled FFmpeg LGPL-2.1+, Sparkle MIT |
 | [OpenDirector](https://github.com/ThinkFlowLab/OpenDirector) | Agent video creation workflow from conversation, canvas and asset organization through timeline export. | 466 | 370 | 2026-11-27 | 79.7 | Apache-2.0 |
 | [AID Studio](https://github.com/shijue-aid/aid-studio) | Self-hostable AI workbench for comic dramas, short dramas and film/TV creation covering scripts, characters and scenes, storyboards, image and video generation, voiceover, infinite canvas and 3D previs. | 1,832 | 112 | 2026-11-27 | 77.6 | MIT |
@@ -96,11 +96,11 @@ Shows only core candidates with a verified open license and commits in the last 
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Hypit](https://github.com/hypit-ai/hypit) · License caution | Lets coding agents clone reference videos into editable, repeatable full workflows and batch-generate content variants. | 31,635 | 694 | 2026-11-25 | 95.4 | Hypit Open Source License (modified Apache-2.0) |
-| [OpenMotion](https://github.com/nexu-io/openmotion) | Reference-video cloning and branded motion workbench for local coding agents, with Motion.md, a visual timeline and MP4 export. | 16,842 | 854 | 2026-11-27 | 93.8 | Apache-2.0 |
-| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | Multi-pipeline video production system for coding agents covering research, scripts, assets, voiceover, subtitles and rendering. | 83,756 | 272 | 2026-11-16 | 93.0 | AGPL-3.0 |
-| [OpenFilm](https://github.com/openfilm/openfilm) | Lets coding agents create, inspect, edit and render videos in code, with an editable interface. | 9,568 | 305 | 2026-11-26 | 88.9 | MIT |
-| [Rea Video](https://github.com/JuneYaooo/rea-video) · ★User reference | Reverse-analyzes a video's live, AI and code components and outputs a shot-level replication plan and VIDEO.md. | 13,837 | 219 | 2026-11-25 | 88.1 | Apache-2.0 |
+| [Hypit](https://github.com/hypit-ai/hypit) · License caution | Lets coding agents clone reference videos into editable, repeatable full workflows and batch-generate content variants. | 31,636 | 694 | 2026-11-25 | 95.4 | Hypit Open Source License (modified Apache-2.0) |
+| [OpenMotion](https://github.com/nexu-io/openmotion) | Reference-video cloning and branded motion workbench for local coding agents, with Motion.md, a visual timeline and MP4 export. | 16,844 | 854 | 2026-11-27 | 93.8 | Apache-2.0 |
+| [OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | Multi-pipeline video production system for coding agents covering research, scripts, assets, voiceover, subtitles and rendering. | 83,757 | 272 | 2026-11-16 | 93.0 | AGPL-3.0 |
+| [OpenFilm](https://github.com/openfilm/openfilm) | Lets coding agents create, inspect, edit and render videos in code, with an editable interface. | 9,569 | 305 | 2026-11-26 | 88.9 | MIT |
+| [Rea Video](https://github.com/JuneYaooo/rea-video) · ★User reference | Reverse-analyzes a video's live, AI and code components and outputs a shot-level replication plan and VIDEO.md. | 13,839 | 219 | 2026-11-25 | 88.1 | Apache-2.0 |
 | [Video Autopilot Kit](https://github.com/Hao0321/video-autopilot-kit) · ★User reference | Automation framework for video planning, auditing, review and learning from results. | 2,370 | 33 | 2026-11-13 | 68.2 | MIT |
 | [Video Director](https://github.com/win4r/video-director) · ★User reference | Guides Claude Code to plan, render and check short films with HTML/Canvas/SVG/Three.js/GSAP/Remotion. | 551 | 20 | 2026-11-26 | 63.8 | MIT |
 | [Video Use](https://github.com/browser-use/video-use) | Editing, subtitles, grading, motion overlays and output checks on raw footage via a coding agent plus FFmpeg. | 31,661 | 5 | 2026-10-08 | 60.5 | MIT |
@@ -114,7 +114,7 @@ Shows only core candidates with a verified open license and commits in the last 
 | [Clipmint](https://github.com/kleZ799/clipmint) | Turns podcasts, interviews, tutorials and VODs into subtitled vertical Shorts/Reels/TikToks. | 73 | 615 | 2026-11-26 | 74.8 | MIT |
 | [ChrisHKAI Video](https://github.com/ChrisHKAI/ChrisHKAI-Video) · ★User reference | Coding-agent Skill organizing a creator's public materials into 3D toy-style short films. | 167 | 208 | 2026-11-27 | 72.8 | MIT |
 | [Lanshu AI Presenter Video](https://github.com/cclank/lanshu-create-ai-presenter-video) · ★User reference | Agent Skill turning a topic or script into a verified digital-human/stylized explainer video. | 3,085 | 17 | 2026-11-26 | 69.1 | MIT |
-| [Claude Animated Shorts](https://github.com/mromidev/claude-animated-shorts) · ★User reference | Skill for vertical animated story shorts made with Three.js, Remotion, score and sound effects. | 5,141 | 2 | 2026-11-01 | 54.6 | MIT |
+| [Claude Animated Shorts](https://github.com/mromidev/claude-animated-shorts) · ★User reference | Skill for vertical animated story shorts made with Three.js, Remotion, score and sound effects. | 5,142 | 2 | 2026-11-01 | 54.6 | MIT |
 | [Vibe Knowledge](https://github.com/andyhuo520/vibe-knowledge) · ★User reference | Knowledge-short Skill from fact-checking and script writing, voiceover and code-to-video to QA and release packages. | 844 | 3 | 2026-10-28 | 49.2 | MIT |
 | [Vox Director](https://github.com/alisa0808/vox-director) | End-to-end agent Skill from topic to Vox-style paper-collage explainer/ad videos. | 3,228 | 1 | 2026-10-05 | 45.9 | MIT |
 | [Video to Shorts Skill](https://github.com/social-media-skills/video-to-shorts-skill) | Lets an agent turn long videos or podcasts into vertical shorts with word-level captions and optional publishing. | 4 | 3 | 2026-11-11 | 34.4 | MIT |
@@ -125,21 +125,22 @@ Shows only core candidates with a verified open license and commits in the last 
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | CLI and MCP giving coding agents local FFmpeg cutting, subtitles, format export and output checks. | 11,715 | 1,013 | 2026-11-27 | 92.5 | MIT |
+| [FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill) | CLI and MCP giving coding agents local FFmpeg cutting, subtitles, format export and output checks. | 11,716 | 1,013 | 2026-11-27 | 92.5 | MIT |
 | [Claude Code Video Toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) | Skills, templates, commands and tools for Claude Code covering scripts, voiceover, music, image and video generation, QA, rendering and publishing, portable to Codex and Kiro CLI. | 2,798 | 551 | 2026-11-27 | 87.5 | MIT |
 | [Video Shotcraft](https://github.com/Vincentwei1021/video-shotcraft) · ★User reference | Shot recipes, storyboards, Remotion animation, beat editing and frame-by-frame checks for agents. | 23,009 | 54 | 2026-11-25 | 81.9 | Apache-2.0 |
-| [Remocn](https://github.com/Remocn/remocn) | Claude Code plugin, agent skill and MCP server for making Remotion videos from 935 MIT-licensed components: the agent plans a storyboard first, then writes the video. | 1,964 | 189 | 2026-11-27 | 80.9 | MIT |
+| [Remocn](https://github.com/Remocn/remocn) | Claude Code plugin, agent skill and MCP server for making Remotion videos from 935 MIT-licensed components: the agent plans a storyboard first, then writes the video. | 1,965 | 189 | 2026-11-27 | 80.9 | MIT |
 | [Kinocut](https://github.com/KyaniteLabs/kinocut) | Local video editing MCP/Python/CLI with guardrails, preflight checks, receipts and quality gates. | 284 | 698 | 2026-11-25 | 79.0 | Apache-2.0 |
 | [Manju Laoli Skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) | OpenClaw skill suite for AI comic dramas and short dramas covering scripts, asset locking, storyboards, fight scenes, Seedance prompting and machine checks. | 3,308 | 53 | 2026-11-26 | 75.4 | MIT |
-| [Remotion Agent Skills](https://github.com/remotion-dev/skills) · License caution | Official Skills for coding agents to create, preview and render Remotion videos. | 8,097 | 31 | 2026-11-24 | 75.0 | License unverified |
-| [pixelfx](https://github.com/patch-gg/pixelfx) · License caution | Library of 244 code-drawn pixel effects and animations with a Claude Code effect-generation skill plus sprite-sheet and GIF/MP4 export tools. | 9,573 | 10 | 2026-11-12 | 66.5 | MIT (code and effects) + Patch Pixel font excluded |
+| [Remotion Agent Skills](https://github.com/remotion-dev/skills) · License caution | Official Skills for coding agents to create, preview and render Remotion videos. | 8,098 | 31 | 2026-11-24 | 75.0 | License unverified |
+| [pixelfx](https://github.com/patch-gg/pixelfx) · License caution | Library of 244 code-drawn pixel effects and animations with a Claude Code effect-generation skill plus sprite-sheet and GIF/MP4 export tools. | 9,574 | 10 | 2026-11-12 | 66.5 | MIT (code and effects) + Patch Pixel font excluded |
 | [Wallstreet Explainer](https://github.com/HeyChengC/wallstreet-explainer) · License caution | Coding-agent Skill for Wall-Street-style finance/tech explainer shorts with style language, graphic component templates, and footage-finding, screenshot, voiceover, keying, rendering and mixing scripts. | 1,370 | 16 | 2026-11-20 | 64.2 | MIT (code and docs) + third-party sample assets excluded |
 | [ReelBench Skills](https://github.com/eternityspring/reelbench-skills) · ★User reference | Video analysis, cloning and production skill set for Claude Code/Codex. | 1,261 | 21 | 2026-11-09 | 62.7 | Apache-2.0 |
 | [Video Agent Skills](https://github.com/Melvynx/video-agent-skills) | Organizes scripts, research, editing, translation and publishing for shorts/YouTube via Markdown skills. | 218 | 26 | 2026-11-06 | 57.0 | MIT |
 | [Awesome Motion Design Agent Skills](https://github.com/frankxai/awesome-motion-design-agent-skills) | Five installable SKILL.md motion workflows (including remotion-video-agent and web-motion-auditor) plus a curated index of GSAP, Motion, Remotion, Rive, Lottie and 3D tools. | 218 | 19 | 2026-11-12 | 56.7 | CC0-1.0 |
+| [AI Filmmaking Camera Control (Seedance 2.5)](https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5) · License caution | 137 cinematic camera-move templates with a previs pipeline: three.js plus Remotion render striped-pill reference clips, ready-made prompts hand them to Seedance 2.5, and Tein MCP or API setup plus a cinematic-previs skill drive the work. | 379 | 5 | 2026-11-07 | 50.8 | MIT (code, prompts, notes, pill clips) + Remotion's own licence, Quaternius CC0, third-party material excluded |
 | [HyperFrames Motion Library](https://github.com/nutllwhy/hyperframes-motion-library) · ★User reference | Local motion template and parameterized asset library built on HyperFrames. | 330 | 2 | 2026-10-28 | 44.3 | MIT |
 | [Video Editing Skill](https://github.com/social-media-skills/video-editing-skill) | Runs the first editing pass and caption handling for talking heads, courses, interviews and vlogs. | 14 | 3 | 2026-11-11 | 38.2 | MIT |
-| [GSAP Skills](https://github.com/greensock/gsap-skills) | Official Agent Skills teaching coding agents the GSAP timeline, motion and plugins. | 19,151 | 0 | 2026-04-21 | 36.4 | MIT |
+| [GSAP Skills](https://github.com/greensock/gsap-skills) | Official Agent Skills teaching coding agents the GSAP timeline, motion and plugins. | 19,152 | 0 | 2026-04-21 | 36.4 | MIT |
 | [Narrator AI CLI Skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill) · ★User reference | Guides an agent to drive narrator-ai-cli for automated film-commentary videos. | 3,326 | 0 | 2026-07-05 | 33.2 | MIT |
 | [OpenClip Agent Skills](https://github.com/OpenClip-App/agent-skills) | Agent skills for long-video clipping, transcription, conversion, thumbnails, cutouts and UGC creative. | 2 | 0 | 2026-08-07 | 11.0 | MIT |
 | [MCP Video Editing](https://github.com/mfortne/mcp-video-editing) | Wraps FFmpeg, HyperFrames and local reusable pipelines in an MCP, Python library and CLI. | 2 | 0 | 2026-06-04 | 7.4 | Apache-2.0 |
@@ -148,10 +149,10 @@ Shows only core candidates with a verified open license and commits in the last 
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [HyperFrames](https://github.com/heygen-com/hyperframes) | HTML/CSS/JS-based code video and agent skill ecosystem, migratable from Remotion with frame-by-frame verification. | 91,178 | 4,139 | 2026-11-27 | 99.7 | Apache-2.0 |
-| [Remotion](https://github.com/remotion-dev/remotion) · License caution | Base framework for creating and rendering video in code with React/TypeScript. | 76,067 | 6,807 | 2026-11-27 | 99.0 | Remotion License |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | HTML/CSS/JS-based code video and agent skill ecosystem, migratable from Remotion with frame-by-frame verification. | 91,180 | 4,139 | 2026-11-27 | 99.7 | Apache-2.0 |
+| [Remotion](https://github.com/remotion-dev/remotion) · License caution | Base framework for creating and rendering video in code with React/TypeScript. | 76,068 | 6,807 | 2026-11-27 | 99.0 | Remotion License |
 | [raea](https://github.com/shinyobjectz/raea) · License caution | Engine and desktop agent workbench for writing video, motion, 3D and games in React/TypeScript, rendered on the local GPU. | 5,329 | 1,610 | 2026-11-27 | 89.7 | FSL-1.1-ALv2 |
-| [Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar) · License caution | Cinematic style, examples and STYLE.md guidance for coding agents making video in code. | 21,790 | 151 | 2026-11-26 | 87.7 | MIT code + CC BY-NC docs (additional license) |
+| [Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar) · License caution | Cinematic style, examples and STYLE.md guidance for coding agents making video in code. | 21,792 | 151 | 2026-11-26 | 87.7 | MIT code + CC BY-NC docs (additional license) |
 | [Manim Community](https://github.com/ManimCommunity/manim) | Video engine for programmatic math and explainer animations in Python. | 42,973 | 80 | 2026-11-26 | 86.5 | MIT |
 | [GiveMotion](https://github.com/givemotion/givemotion) | Code video engine where agents write HTML/CSS, preview, check and render MP4s. | 103 | 243 | 2026-11-19 | 69.9 | MIT |
 | [SenseNova Code2Video](https://github.com/OpenSenseNova/SenseNova-6.8-Code2Video) · ★User reference · License caution | Small open model that generates executable code rendered into short videos. | 786 | 3 | 2026-11-26 | 55.6 | Unverified |
@@ -196,7 +197,7 @@ Shows only core candidates with a verified open license and commits in the last 
 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
-| [LiveTalking](https://github.com/lipku/LiveTalking) | Real-time interactive streaming system combining multiple digital-human backends. | 11,362 | 14 | 2026-11-27 | 72.6 | Apache-2.0 |
+| [LiveTalking](https://github.com/lipku/LiveTalking) | Real-time interactive streaming system combining multiple digital-human backends. | 11,363 | 14 | 2026-11-27 | 72.6 | Apache-2.0 |
 | [MuseTalk](https://github.com/TMElyralab/MuseTalk) | Audio-driven virtual human model for real-time high-quality lip sync. | 7,058 | 1 | 2026-11-19 | 57.5 | MIT |
 | [LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | Efficient portrait animation, retargeting and control framework. | 19,597 | 0 | 2026-06-01 | 37.8 | MIT |
 | [SadTalker](https://github.com/OpenTalker/SadTalker) | Generates talking-head video from a single portrait and audio. | 14,226 | 0 | 2023-10-10 | 33.2 | Apache-2.0 |
@@ -207,7 +208,7 @@ Shows only core candidates with a verified open license and commits in the last 
 | Project | Positioning | Stars | 90-day commits | Last commit (UTC) | Maintenance score | License |
 | --- | --- | --- | --- | --- | --- | --- |
 | [FFmpeg](https://github.com/FFmpeg/FFmpeg) · License caution | Low-level toolchain for transcoding, filtering, muxing, compositing and stream processing. | 68,328 | 3,020 | 2026-11-27 | 98.7 | LGPL-2.1+; GPL-2.0+ once GPL components are enabled |
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Feature-rich command-line audio/video downloader supporting a large number of sites. | 211,110 | 79 | 2026-11-24 | 88.9 | Unlicense |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Feature-rich command-line audio/video downloader supporting a large number of sites. | 211,112 | 79 | 2026-11-24 | 88.9 | Unlicense |
 | [Streamlink](https://github.com/streamlink/streamlink) | CLI that resolves online livestreams and pipes them to a local player. | 12,002 | 154 | 2026-11-18 | 83.8 | BSD-2-Clause |
 | [Downvid](https://github.com/Downvid/downvid) · ★User reference | Cross-platform video download GUI/WebUI built on yt-dlp and FFmpeg. | 1,684 | 354 | 2026-11-25 | 83.3 | MIT |
 | [VidBee](https://github.com/nexmoe/VidBee) | Downloads media, then runs local transcription, speaker labeling, summarization, translation and media chat. | 11,222 | 51 | 2026-11-21 | 78.0 | MIT |

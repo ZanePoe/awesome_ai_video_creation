@@ -513,6 +513,16 @@ AI 影视生产级 Electron 桌面工具，按剧本→角色→场景→导演�
 - 许可：[CC0-1.0](https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/LICENSE)；开放许可证已核验。仓库根 LICENSE 为 CC0 1.0 Universal；索引与技能所指向的第三方项目、字体与素材仍受各自许可约束
 - 功能核验：2026-11-26；[来源1](https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/README.md#L15) · [来源2](https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/README.md#L51) · [来源3](https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/README.md#L57)。
 
+## [AI Filmmaking Camera Control (Seedance 2.5)](https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5)
+
+137 套电影级运镜模板与 previs 管线：用 three.js + Remotion 渲染「条纹胶囊」参考视频，配现成提示词交给 Seedance 2.5 生成，含 Tein MCP/API 接入与 cinematic-previs 技能。
+
+- 分类：Agent Skills、MCP 与剪辑工具；核心候选。
+- 适用边界：成片必须走 Tein（tein.ai）托管的 Seedance 2.5，需自备密钥（仓库不存密钥，但首页与仓库描述直接导流该服务），draft 为 480p 更便宜；渲染需 Node 22.12+、ffmpeg 与首次联网下载 headless Chrome，仓库内 pill.mp4 多为 960 宽缩略副本，完整结果视频在 v0.1.0 release 的 zip 而非 git；137 条方法问答中 4 条被作者标为 UNPROVEN；NOTICE.md 记录 33 条相机预设蒸馏自 E.T. 数据集（源片段为受版权电影，仓库只发曲线）、示例含作者真人面孔与声音、部分产品照带可见品牌标记，均不在 MIT 范围；Remotion 对个人、≤3 人营利组织与非营利免费，更大营利团队需公司许可；仓库 2026-11-07 创建并于同日最后一次推送，运镜效果与成片质量未实机复现。
+- 维护状态：近90天有提交；30 天提交 5 次，90 天提交 5 次。
+- 许可：[MIT（代码/提示词/笔记/pill 片段）+ Remotion 自有许可、Quaternius CC0、第三方素材除外](https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/NOTICE.md)；复合/条件许可。仓库根 LICENSE 为 MIT，但只覆盖代码、提示词、笔记与自制的 pill 片段；NOTICE.md 另列 Quaternius 动画 rig（CC0，附原文与校验和）、Remotion 4.0.522（个人、≤3 人营利组织与非营利免费，更大营利团队需公司许可）、three.js/React/three-gpu-pathtracer（MIT）与 Rapier（Apache-2.0）；示例中的真人面孔与声音、带品牌标记的产品照、以及蒸馏自受版权电影的 33 条相机曲线均不在 MIT 授权范围，商用前需自行核验数据集与服务条款
+- 功能核验：2026-11-27；[来源1](https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/README.md#L3) · [来源2](https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/README.md#L8) · [来源3](https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/README.md#L84) · [来源4](https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/NOTICE.md#L9) · [来源5](https://github.com/sirioberati/ai-filmmaking-camera-control-seedance-2-5/blob/602aa2348b0ae67589ce533fff571adced724811/NOTICE.md#L14)。
+
 ## [HyperFrames Motion Library](https://github.com/nutllwhy/hyperframes-motion-library)
 
 以 HyperFrames 为内核的本地动效模板与参数化资产库。
