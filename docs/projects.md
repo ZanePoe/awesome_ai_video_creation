@@ -9,7 +9,7 @@ Local-first cross-platform multitrack editor with subtitles, TTS, background rem
 
 - Category: Video editors and production workbenches; Core candidate.
 - Scope boundary: Offline models need a first-run download; in-product AI is not the same scope as full generative workflows.
-- Maintenance: Commits within the last 90 days; 443 commits in 30 days, 1608 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 479 commits in 30 days, 1633 commits in 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/jub0t/Concat/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/jub0t/Concat/blob/504a814ebe61d4f47bba4cd7949dc2580ecc405c/README.md#L6).
 
@@ -29,7 +29,7 @@ Rust/Tauri/React hardware-accelerated cross-platform video editor.
 
 - Category: Video editors and production workbenches; Core candidate.
 - Scope boundary: Primarily a general-purpose editor; AI feature scope and mobile maturity must be verified per release.
-- Maintenance: Commits within the last 90 days; 282 commits in 30 days, 1682 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 283 commits in 30 days, 1676 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/AIEraDev/Clypra/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/AIEraDev/Clypra/blob/aa6b9c619cf98f7a1dfab6446345ec5f5660b93c/README.md#L9).
 
@@ -39,7 +39,7 @@ In-browser scene blocking, character staging, shot cutting and AI video previs t
 
 - Category: Video editors and production workbenches; Core candidate.
 - Scope boundary: Output is mainly previs and shot references; final generation quality depends on external video models.
-- Maintenance: Commits within the last 90 days; 180 commits in 30 days, 2127 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 181 commits in 30 days, 2118 commits in 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/HaD0Yun/CozyClay/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/HaD0Yun/CozyClay/blob/297dd2a8a077613b329962d68e2a9bb4355be091/README.md#L6).
 
@@ -49,7 +49,7 @@ Web/desktop platform that turns a one-line idea or a pasted novel into rewritten
 
 - Category: Video editors and production workbenches; Core candidate.
 - Scope boundary: Licensed CC BY-NC-SA-4.0, which explicitly forbids commercial use (including paid services, commercial deployment and resale); text, image and video capabilities all need your own model-service API keys, and the README steers users to the author's FireMux keys; referencing local files for Seedance requires a PUBLIC_BASE_URL with a public address, and the desktop version errors out without one; SQLite plus a data directory storage, so migration means copying media files manually.
-- Maintenance: Commits within the last 90 days; 18 commits in 30 days, 108 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 18 commits in 30 days, 107 commits in 90 days.
 - License: [CC BY-NC-SA-4.0 (no commercial use)](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/LICENSE); Source-available, not OSI open source. LICENSE is the full CC BY-NC-SA 4.0 text; the README's license section explicitly forbids commercial use, which requires written permission from the author; GitHub licenseInfo therefore reports NOASSERTION; the terms of invoked model services, media and voiceover copyrights are separate
 - Feature verified: 2026-11-25; [Source 1](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L33) · [Source 2](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L55) · [Source 3](https://github.com/chatfire-AI/huobao-drama/blob/24d4c17612e71cf10c8eeb1a8b6439afa73e2c07/README.md#L131).
 
@@ -59,7 +59,7 @@ Local-first conversational AI video editor with a multitrack timeline, Agent Ski
 
 - Category: Video editors and production workbenches; Core candidate.
 - Scope boundary: Capabilities of the built-in agent, the desktop app and external coding agents must be verified separately.
-- Maintenance: Commits within the last 90 days; 22 commits in 30 days, 396 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 22 commits in 30 days, 382 commits in 90 days.
 - License: [AGPL-3.0](https://api.github.com/repos/0xsline/OpenChatCut/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/0xsline/OpenChatCut/blob/9242a95aea248ff3a8dab495514384e858320d47/README.md#L12).
 
@@ -79,7 +79,7 @@ Agent video creation workflow from conversation, canvas and asset organization t
 
 - Category: Video editors and production workbenches; Core candidate.
 - Scope boundary: First release; full production stability and model costs need hands-on testing.
-- Maintenance: Commits within the last 90 days; 341 commits in 30 days, 364 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 347 commits in 30 days, 370 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/ThinkFlowLab/OpenDirector/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/ThinkFlowLab/OpenDirector/blob/39288dfdf4f816798e5479c53363258fceeb6e11/README.md#L18).
 
@@ -99,7 +99,7 @@ Local-first cross-platform open-source video editor with a built-in MCP server, 
 
 - Category: Video editors and production workbenches; Core candidate.
 - Scope boundary: The desktop bundle ships third-party components with their own licenses such as FFmpeg (GPLv3); subtitles use optional local faster-whisper, and models need a first-run download; connected agents are mostly cloud services, so accounts, fees and data policies are separate; v0.3.6 is a frozen preview not synced with main, and the README lists known issues such as export-window reuse, preview timeouts and cropping of long subtitles in vertical video; the macOS build is ad-hoc signed but not notarized; the project was created in 2026-09 and maturity is low.
-- Maintenance: Commits within the last 90 days; 407 commits in 30 days, 548 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 408 commits in 30 days, 550 commits in 90 days.
 - License: [MIT](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/LICENSE); Open license verified. Repo-root LICENSE is MIT; the desktop bundle ships third-party components with their own licenses such as FFmpeg (GPLv3), and community effect recipes, the faster-whisper model and the terms of connected AI services are counted separately
 - Feature verified: 2026-11-25; [Source 1](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L28) · [Source 2](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L121) · [Source 3](https://github.com/frankShan001/CutVoke/blob/a4920ad493c6317774141a9bccbd55eafe439b7c/README.md#L159).
 
@@ -119,7 +119,7 @@ Local workbench covering script, directing, storyboarding and shot generation th
 
 - Category: Video editors and production workbenches; Core candidate.
 - Scope boundary: BYOK still sends requests to the configured model services; some hosted/billed features require external projects.
-- Maintenance: Commits within the last 90 days; 11 commits in 30 days, 144 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 7 commits in 30 days, 144 commits in 90 days.
 - License: [GPL-3.0](https://api.github.com/repos/LudwigKienle/ai-video-production-editor/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/LudwigKienle/ai-video-production-editor/blob/a368af45b6cfd35e22bd3b5e101db198e1ac89a9/README.md#L4).
 
@@ -139,7 +139,7 @@ Agent-driven studio, CLI, MCP and ComfyUI video editing engine.
 
 - Category: Video editors and production workbenches; Core candidate.
 - Scope boundary: More of a code-driven editing engine; actual generation models and ComfyUI apps need separate setup.
-- Maintenance: Commits within the last 90 days; 87 commits in 30 days, 126 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 85 commits in 30 days, 126 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/rk0neki/OpenKatana/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/rk0neki/OpenKatana/blob/b9282bf0740a7df5b5a8862b5e289ef4cd642641/README.md#L7).
 
@@ -149,9 +149,19 @@ Local desktop video editor that lets AI agents operate the timeline, generate me
 
 - Category: Video editors and production workbenches; Core candidate.
 - Scope boundary: Default branch is a development branch; mobile and generation capabilities must be verified against the current implementation.
-- Maintenance: Commits within the last 90 days; 42 commits in 30 days, 111 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 45 commits in 30 days, 110 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/Theorvane/OpenScene/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/Theorvane/OpenScene/blob/4bd3d3c4c15fb27dd0b521065643b3a2d516be08/README.md#L8).
+
+## [ScriptCut](https://github.com/FernandoAbishai/ScriptCut)
+
+Edit the transcript to cut locally, package shorts and export for social media.
+
+- Category: Video editors and production workbenches; Core candidate.
+- Scope boundary: Focused on text-based rough cuts, not a full VFX and generative workbench.
+- Maintenance: Commits within the last 90 days; 4 commits in 30 days, 66 commits in 90 days.
+- License: [AGPL-3.0](https://api.github.com/repos/FernandoAbishai/ScriptCut/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
+- Feature verified: 2026-11-12; [Source 1](https://github.com/FernandoAbishai/ScriptCut/blob/12c6fe495939da344e6af3e942a45dfdfb2132fa/README.md#L7).
 
 ## [Waoowaoo](https://github.com/waooAI/waoowaoo)
 
@@ -172,16 +182,6 @@ Skill workspace where a coding agent understands, cuts, renders and visually QA-
 - Maintenance: Commits within the last 90 days; 1 commits in 30 days, 11 commits in 90 days.
 - License: [PolyForm Noncommercial-1.0.0](https://github.com/YeJe-cpu/SeeCut/blob/b05d7ed27404a064060e0d370402f562b0c0c02e/LICENSE); Source-available, not OSI open source. Non-commercial use only; not an OSI open-source license
 - Feature verified: 2026-11-12; [Source 1](https://github.com/YeJe-cpu/SeeCut/blob/b05d7ed27404a064060e0d370402f562b0c0c02e/README.md#L5).
-
-## [ScriptCut](https://github.com/FernandoAbishai/ScriptCut)
-
-Edit the transcript to cut locally, package shorts and export for social media.
-
-- Category: Video editors and production workbenches; Core candidate.
-- Scope boundary: Focused on text-based rough cuts, not a full VFX and generative workbench.
-- Maintenance: Commits within the last 90 days; 0 commits in 30 days, 62 commits in 90 days.
-- License: [AGPL-3.0](https://api.github.com/repos/FernandoAbishai/ScriptCut/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
-- Feature verified: 2026-11-12; [Source 1](https://github.com/FernandoAbishai/ScriptCut/blob/12c6fe495939da344e6af3e942a45dfdfb2132fa/README.md#L7).
 
 ## [Cutline](https://github.com/Aepzie/cutline)
 
@@ -209,7 +209,7 @@ Lets coding agents clone reference videos into editable, repeatable full workflo
 
 - Category: Agent video production and automation; Restricted license.
 - Scope boundary: Cloning popular videos involves the source video, people, music, assets and brand permissions; generation models and APIs are optional external services whose costs and data paths follow each provider.
-- Maintenance: Commits within the last 90 days; 16 commits in 30 days, 704 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 16 commits in 30 days, 694 commits in 90 days.
 - License: [Hypit Open Source License (modified Apache-2.0)](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/LICENSE); Source-available, not OSI open source. Restricts multi-tenant hosting, commercial redistribution and removal of branding/copyright notices; those uses require a commercial license, so it is not standard Apache-2.0
 - Feature verified: 2026-11-13; [Source 1](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L51) · [Source 2](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L164) · [Source 3](https://github.com/hypit-ai/hypit/blob/6bacce093695ccc2bde5aa5d7de230e9682ffa79/README.md#L338).
 
@@ -219,7 +219,7 @@ Reference-video cloning and branded motion workbench for local coding agents, wi
 
 - Category: Agent video production and automation; Core candidate.
 - Scope boundary: Reference videos, people, music, brands and assets need separate clearance; media generation relies on your own APIs/subscriptions, and built-in templates and third-party components follow their own LICENSE/NOTICE.
-- Maintenance: Commits within the last 90 days; 842 commits in 30 days, 847 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 849 commits in 30 days, 854 commits in 90 days.
 - License: [Apache-2.0](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/LICENSE); Open license verified. Repo-root LICENSE is standard Apache-2.0; built-in templates, model icons and vendored components carry their own LICENSE/NOTICE, which must be retained and verified when redistributing or reusing
 - Feature verified: 2026-11-17; [Source 1](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L40) · [Source 2](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L308) · [Source 3](https://github.com/nexu-io/openmotion/blob/fcbaa2b0296167b0f14f47aa6c414f5bdd41316f/README.md#L386).
 
@@ -239,7 +239,7 @@ Lets coding agents create, inspect, edit and render videos in code, with an edit
 
 - Category: Agent video production and automation; Core candidate.
 - Scope boundary: Code-driven shots differ from traditional footage timelines; asset and sound-library licenses must be verified per asset.
-- Maintenance: Commits within the last 90 days; 123 commits in 30 days, 305 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 119 commits in 30 days, 305 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/openfilm/openfilm/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/openfilm/openfilm/blob/f59cd4e0973feaf6917dcf3229b178b6baf9ad3f/README.md#L7).
 
@@ -269,7 +269,7 @@ Guides Claude Code to plan, render and check short films with HTML/Canvas/SVG/Th
 
 - Category: Agent video production and automation; Core candidate.
 - Scope boundary: Tuned mainly for specific Claude models; quality on other agents is not inherited automatically.
-- Maintenance: Commits within the last 90 days; 17 commits in 30 days, 20 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 14 commits in 30 days, 20 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/win4r/video-director/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/win4r/video-director/blob/02d1912ab251bf5235b45e8e7aad81b4bc786b15/README.md#L11).
 
@@ -289,7 +289,7 @@ Turns knowledge articles or narration scripts into multi-minute videos through p
 
 - Category: Agent video production and automation; Core candidate.
 - Scope boundary: The 9B policy model, tool runtime and Studio must be deployed per the official environment; author results are not a cross-project ranking.
-- Maintenance: Commits within the last 90 days; 2 commits in 30 days, 28 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 2 commits in 30 days, 27 commits in 90 days.
 - License: [Apache-2.0](https://github.com/Tencent/WeVisCut/blob/94dc8a7fe43a5e0da21e97d5aaf470a39329db3a/LICENSE); Open license verified. Root LICENSE states code, parameters and public weights are Apache-2.0; third-party components are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/Tencent/WeVisCut/blob/94dc8a7fe43a5e0da21e97d5aaf470a39329db3a/README.md#L7).
 
@@ -319,7 +319,7 @@ Coding-agent Skill organizing a creator's public materials into 3D toy-style sho
 
 - Category: Knowledge shorts, clipping and explainers; Core candidate.
 - Scope boundary: Full-film quality on Codex is unverified; use of public materials and portrait consent are the user's responsibility.
-- Maintenance: Commits within the last 90 days; 168 commits in 30 days, 207 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 162 commits in 30 days, 208 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/ChrisHKAI/ChrisHKAI-Video/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/ChrisHKAI/ChrisHKAI-Video/blob/15b66ee613e621f82ba781d27547a67e76c55f50/README.md#L7).
 
@@ -349,7 +349,7 @@ Knowledge-short Skill from fact-checking and script writing, voiceover and code-
 
 - Category: Knowledge shorts, clipping and explainers; Core candidate.
 - Scope boundary: Enhanced shots may call external generation platforms; baseline code illustrations and the enhanced tier should be compared separately.
-- Maintenance: Commits within the last 90 days; 3 commits in 30 days, 3 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 2 commits in 30 days, 3 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/andyhuo520/vibe-knowledge/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/andyhuo520/vibe-knowledge/blob/c3a13a85f7cc560e5d396f063baecea4b2748e1e/README.md#L5).
 
@@ -399,7 +399,7 @@ CLI and MCP giving coding agents local FFmpeg cutting, subtitles, format export 
 
 - Category: Agent Skills, MCP and editing tools; Core candidate.
 - Scope boundary: Needs local FFmpeg and Python; the skill, FFmpeg build and media follow their own licenses, and specific results were not tested.
-- Maintenance: Commits within the last 90 days; 575 commits in 30 days, 1003 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 583 commits in 30 days, 1013 commits in 90 days.
 - License: [MIT](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/LICENSE); Open license verified. Skill repo root LICENSE is MIT; FFmpeg and encoder licenses must be verified per build.
 - Feature verified: 2026-11-21; [Source 1](https://github.com/kajisho5/ffmpeg-skill/blob/45df6b9ab0740cecc15d0169165e8cfbcefdfb0b/README.md#L67).
 
@@ -429,7 +429,7 @@ Claude Code plugin, agent skill and MCP server for making Remotion videos from 9
 
 - Category: Agent Skills, MCP and editing tools; Core candidate.
 - Scope boundary: Requires Remotion and the shadcn CLI that installs the components; `scene-reviewer` only checks still frames for clipped text, empty frames and low contrast, so finish quality and render times were not measured; components, fonts and the hosted MCP carry their own terms, and Remotion itself is licensed separately.
-- Maintenance: Commits within the last 90 days; 149 commits in 30 days, 187 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 151 commits in 30 days, 189 commits in 90 days.
 - License: [MIT](https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/LICENSE); Open license verified. Repo root LICENSE is MIT; the README states the components are MIT-licensed, while the Remotion renderer, fonts and hosted MCP service must be verified under their own terms.
 - Feature verified: 2026-11-26; [Source 1](https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/README.md#L9) · [Source 2](https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/README.md#L37) · [Source 3](https://github.com/Remocn/remocn/blob/ac1e4081edcc70757db4dc4af32b079cb9ae5490/README.md#L73).
 
@@ -579,7 +579,7 @@ HTML/CSS/JS-based code video and agent skill ecosystem, migratable from Remotion
 
 - Category: Code-to-video and motion graphics; Core candidate.
 - Scope boundary: The project and HeyGen's hosted generation service are different tiers; specific templates and external assets carry separate licenses.
-- Maintenance: Commits within the last 90 days; 1867 commits in 30 days, 4119 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 1852 commits in 30 days, 4139 commits in 90 days.
 - License: [Apache-2.0](https://api.github.com/repos/heygen-com/hyperframes/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/heygen-com/hyperframes/blob/234fb1aeef13f8d86b4f7f4cb1af624db3a81ec2/README.md#L5).
 
@@ -589,7 +589,7 @@ Base framework for creating and rendering video in code with React/TypeScript.
 
 - Category: Code-to-video and motion graphics; Restricted license.
 - Scope boundary: General code-video infrastructure without built-in agent planning or generation models.
-- Maintenance: Commits within the last 90 days; 2582 commits in 30 days, 6798 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 2559 commits in 30 days, 6807 commits in 90 days.
 - License: [Remotion License](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/LICENSE.md); Source-available, not OSI open source. Free for individuals, non-profits and small organizations; for-profit organizations meeting the thresholds need a company license, so this is not regular OSI open source
 - Feature verified: 2026-11-12; [Source 1](https://github.com/remotion-dev/remotion/blob/51fd2b4a06a2b2ff0d4eb058dfe4db2b7275bac3/README.md#L2).
 
@@ -609,7 +609,7 @@ Cinematic style, examples and STYLE.md guidance for coding agents making video i
 
 - Category: Code-to-video and motion graphics; Restricted license.
 - Scope boundary: The project recommends Claude with higher reasoning effort; reusing footage, people, brands and voices from the demos must be verified individually.
-- Maintenance: Commits within the last 90 days; 94 commits in 30 days, 151 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 91 commits in 30 days, 151 commits in 90 days.
 - License: [MIT code + CC BY-NC docs (additional license)](https://github.com/lemomo-ai/lemo-opuscar/blob/f9e204293930952b61ba921cd8944d05f121beee/LICENSE); Composite/conditional license. Code is MIT; Markdown docs are CC BY-NC 4.0, which additionally allows reading, modifying and delivering them with project files for your own or client films; commercial use beyond that needs a license. Sample media and some voiceovers have further restrictions.
 - Feature verified: 2026-11-21; [Source 1](https://github.com/lemomo-ai/lemo-opuscar/blob/f9e204293930952b61ba921cd8944d05f121beee/README.md#L7).
 
@@ -663,25 +663,25 @@ Creates animations, explainers and motion graphics with TypeScript and generator
 - License: [MIT](https://api.github.com/repos/motion-canvas/motion-canvas/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/README.md#L6).
 
-## [Godot](https://github.com/godotengine/godot)
-
-Open-source game engine for building 2D/3D scenes, interaction and animation.
-
-- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
-- Scope boundary: A game engine is not an automated video generator; capturing or exporting finished footage needs an extra designed pipeline.
-- Maintenance: Commits within the last 90 days; 524 commits in 30 days, 1884 commits in 90 days.
-- License: [MIT](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/LICENSE.txt); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
-- Feature verified: 2026-11-20; [Source 1](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/README.md#L11).
-
 ## [three.js](https://github.com/mrdoob/three.js)
 
 JavaScript 3D scene and rendering library that supplies 3D content for code motion.
 
 - Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
 - Scope boundary: General rendering library that does not output video by itself; assets and the WebGL/WebGPU environment are yours to handle.
-- Maintenance: Commits within the last 90 days; 316 commits in 30 days, 886 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 314 commits in 30 days, 888 commits in 90 days.
 - License: [MIT](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/LICENSE); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
 - Feature verified: 2026-11-20; [Source 1](https://github.com/mrdoob/three.js/blob/8b92052852735b67cfa8393f78e707b3f07a0eec/README.md#L11).
+
+## [Godot](https://github.com/godotengine/godot)
+
+Open-source game engine for building 2D/3D scenes, interaction and animation.
+
+- Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
+- Scope boundary: A game engine is not an automated video generator; capturing or exporting finished footage needs an extra designed pipeline.
+- Maintenance: Commits within the last 90 days; 523 commits in 30 days, 1884 commits in 90 days.
+- License: [MIT](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/LICENSE.txt); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
+- Feature verified: 2026-11-20; [Source 1](https://github.com/godotengine/godot/blob/73ca6be2cebd5192d8b279979d04f29ea45c266e/README.md#L11).
 
 ## [Motion](https://github.com/motiondivision/motion)
 
@@ -699,7 +699,7 @@ UI and layout animation library for JavaScript, React and Vue.
 
 - Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
 - Scope boundary: The GitHub repo is the official mirror; third-party add-ons, models and assets follow their own licenses.
-- Maintenance: Commits within the last 90 days; 1180 commits in 30 days, 3333 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 1150 commits in 30 days, 3341 commits in 90 days.
 - License: [GPL-2.0-or-later](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/COPYING); Open license verified. COPYING points to the GPL license text; third-party assets and components are separate.
 - Feature verified: 2026-11-20; [Source 1](https://github.com/blender/blender/blob/611d97903ad34434934f4cb1e586155c03eddd66/.github/README.md#L14).
 
@@ -709,7 +709,7 @@ JavaScript 3D scene, game and rendering engine usable as code-motion infrastruct
 
 - Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
 - Scope boundary: Primarily a real-time 3D renderer; video encoding needs extra tools, and the docs warn demo CDNs are not for production.
-- Maintenance: Commits within the last 90 days; 156 commits in 30 days, 342 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 149 commits in 30 days, 342 commits in 90 days.
 - License: [Apache-2.0](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/license.md); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
 - Feature verified: 2026-11-20; [Source 1](https://github.com/BabylonJS/Babylon.js/blob/6226e393cef4295d8509b8a83e82572b2af4c9c9/readme.md#L1).
 
@@ -729,7 +729,7 @@ JavaScript 3D scene, game and rendering engine usable as code-motion infrastruct
 
 - Category: Animation, 3D and coding building blocks; Adjacent infrastructure.
 - Scope boundary: 2D drawing base library; producing audio/video files needs separate rendering and encoding.
-- Maintenance: Commits within the last 90 days; 15 commits in 30 days, 47 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 15 commits in 30 days, 44 commits in 90 days.
 - License: [MIT](https://github.com/jonobr1/two.js/blob/bd48e27ff8f3333ef442fb3d032cb6b5391f26dc/LICENSE); Open license verified. Project license file verified; third-party components, assets and hosted services are separate.
 - Feature verified: 2026-11-20; [Source 1](https://github.com/jonobr1/two.js/blob/bd48e27ff8f3333ef442fb3d032cb6b5391f26dc/README.md#L8).
 
@@ -959,7 +959,7 @@ Low-level toolchain for transcoding, filtering, muxing, compositing and stream p
 
 - Category: Download, capture, transcoding and media CLIs; Adjacent infrastructure.
 - Scope boundary: License may become LGPL/GPL depending on build options; many higher-level projects merely wrap it.
-- Maintenance: Commits within the last 90 days; 414 commits in 30 days, 3019 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 416 commits in 30 days, 3020 commits in 90 days.
 - License: [LGPL-2.1+; GPL-2.0+ once GPL components are enabled](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/LICENSE.md); Composite/conditional license. Final license depends on compile options and linked components
 - Feature verified: 2026-11-12; [Source 1](https://github.com/FFmpeg/FFmpeg/blob/23c454005319dee4a5bcae5c370f75fdeb325230/README.md#L1).
 
@@ -989,7 +989,7 @@ Cross-platform video download GUI/WebUI built on yt-dlp and FFmpeg.
 
 - Category: Download, capture, transcoding and media CLIs; Core candidate.
 - Scope boundary: Mainly a product-layer wrapper; site extraction comes from yt-dlp, and use must respect platform terms and content rights.
-- Maintenance: Commits within the last 90 days; 52 commits in 30 days, 354 commits in 90 days.
+- Maintenance: Commits within the last 90 days; 43 commits in 30 days, 354 commits in 90 days.
 - License: [MIT](https://api.github.com/repos/Downvid/downvid/license); Open license verified. Identified via GitHub licenseInfo; model weights, media assets, fonts, third-party dependencies and hosted-service licenses are separate
 - Feature verified: 2026-11-12; [Source 1](https://github.com/Downvid/downvid/blob/770bd3e3bf6157f1a2dd0ccb67ea6ce2a4b31807/README.md#L7).
 
