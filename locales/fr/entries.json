@@ -666,6 +666,12 @@
   "description": "Cinq workflows de motion livrés en SKILL.md (dont remotion-video-agent et web-motion-auditor) et un index choisi d'outils GSAP, Motion, Remotion, Rive, Lottie et 3D.",
   "boundary": "Les entrées de l'index pointent vers des dépôts tiers dont il faut vérifier séparément la licence et la disponibilité ; les skills n'apportent que méthode, listes de contrôle et aiguillage, donc la qualité du mouvement et de la vidéo dépend de l'agent hôte et des bibliothèques choisies ; le README conseille de scanner d'abord les packs tiers avec SkillSpector.",
   "license_label": "CC0-1.0",
-  "license_note": "La LICENSE racine est CC0 1.0 Universal ; les projets, polices et médias tiers visés par l'index et les skills restent sous leurs propres licences."
- }
+    "license_note": "La LICENSE racine est CC0 1.0 Universal ; les projets, polices et médias tiers visés par l'index et les skills restent sous leurs propres licences."
+  },
+  "robbietilton/Editroom": {
+    "description": "Monteur vidéo natif en Swift pour macOS : 4K temps réel sans proxy, étalonnage, rampes de vitesse, transitions, mixage audio et exports avec cible de loudness intégrés, plus des coupes en langage naturel via Claude, ChatGPT ou un modèle local.",
+    "boundary": "Exige macOS 14 ou plus sur Apple silicon ; l'option Local de Magic demande en plus Apple Intelligence sous macOS 26, et les options Claude et ChatGPT supposent ces applications connectées à votre forfait. Les 7,5 Mo et le 4K « sans proxy ni buffer » sont les affirmations du README, sans installation ni mesure ici ; le chiffre de 23 Mo du post ne correspond ni au README ni au DMG de v1.0.11, qui pèse 12 238 527 octets. Claude et ChatGPT modifient le projet ouvert via MCP et les montages Magic sont annulables, mais le périmètre d'envoi de chaque mode reste à vérifier selon vos médias et vos exigences de confidentialité.",
+    "license_label": "MIT (application) + FFmpeg inclus LGPL-2.1+, Sparkle MIT",
+    "license_note": "La LICENSE racine est MIT ; l'application embarque FFmpeg 9.1 sous LGPL-2.1+ (aucune partie GPL ou non libre, construit depuis les sources de ffmpeg.org par scripts/build-ffmpeg.sh et exécuté comme programme séparé uniquement pour re-empaqueter les formats que macOS ne lit pas), et Sparkle est MIT ; redistribuer oblige à fournir les sources de FFmpeg et ses options de configure, documentées dans Vendor/ffmpeg/README.md."
+  }
 }

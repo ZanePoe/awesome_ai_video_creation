@@ -667,5 +667,11 @@
     "boundary": "Index entries point at third-party repositories whose licenses and availability need separate checks; the skills only supply method, checklists and routing, so motion and video quality depend on the host agent and the libraries chosen; the README advises scanning third-party packs with SkillSpector first.",
     "license_label": "CC0-1.0",
     "license_note": "Repo root LICENSE is CC0 1.0 Universal; the third-party projects, fonts and assets the index and skills point to stay under their own licenses."
+  },
+  "robbietilton/Editroom": {
+    "description": "Native Swift video editor for macOS: realtime 4K without proxies, built-in grading, speed ramps, transitions, audio mixing and loudness-target exports, plus natural-language cuts through Claude, ChatGPT or an on-device model.",
+    "boundary": "Needs macOS 14 or later on Apple silicon; Magic's Local option additionally needs Apple Intelligence on macOS 26, and the Claude and ChatGPT options require those apps signed in to your plan. The 7.5 MB size and the no-proxy, no-buffering 4K claims are the README's own and were not installed or measured here; the post's 23 MB figure matches neither the README nor the v1.0.11 DMG, which is 12,238,527 bytes. Claude and ChatGPT edit the currently open project over MCP and Magic edits are undoable, but the upload scope of each mode still needs checking against your footage and privacy requirements.",
+    "license_label": "MIT (app) + bundled FFmpeg LGPL-2.1+, Sparkle MIT",
+    "license_note": "Repo root LICENSE is MIT; the app bundles FFmpeg 9.1 under LGPL-2.1+ (no GPL or non-free parts, built from ffmpeg.org sources by scripts/build-ffmpeg.sh and run as a separate program only to rewrap formats macOS cannot open), and Sparkle updates are MIT; redistributing must provide the FFmpeg sources and configure options, which Vendor/ffmpeg/README.md documents."
   }
 }

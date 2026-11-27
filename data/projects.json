@@ -3064,5 +3064,55 @@
       "source": "https://github.com/frankxai/awesome-motion-design-agent-skills/blob/e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d/LICENSE",
       "note": "仓库根 LICENSE 为 CC0 1.0 Universal；索引与技能所指向的第三方项目、字体与素材仍受各自许可约束"
     }
+  },
+  {
+    "repo": "robbietilton/Editroom",
+    "name": "Editroom",
+    "category": "workbenches",
+    "scope": "core",
+    "description": "macOS 原生 Swift 视频编辑器：4K 实时剪辑不建代理，内置调色、变速曲线、转场、混音与响度目标导出，还能用自然语言让 Claude、ChatGPT 或端侧模型下刀。",
+    "boundary": "仅支持 macOS 14 及以上的 Apple Silicon；Magic 的 Local 模式还需 macOS 26 的 Apple Intelligence，Claude 与 ChatGPT 模式需已登录对应客户端。「7.5 MB」「无代理、无缓冲」为官方 README 自述，未实机安装验证；帖子所称 23MB 与 README 及 v1.0.11 的 DMG 实际大小 12,238,527 字节都不一致。Claude/ChatGPT 经 MCP 直接改动当前打开的工程，Magic 编辑可撤销，但素材上传范围与隐私边界需按所选模式自行核验。",
+    "baseline": false,
+    "reviewed_at": "2026-11-27",
+    "readme_path": "README.md",
+    "evidence": [
+      {
+        "path": "README.md",
+        "line": 5,
+        "url": "https://github.com/robbietilton/Editroom/blob/6390ae7f3847d924126b2d4f7a964b9fee4e71a2/README.md#L5",
+        "note": "官方 README 的免费开源 Mac 编辑器定位；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 7,
+        "url": "https://github.com/robbietilton/Editroom/blob/6390ae7f3847d924126b2d4f7a964b9fee4e71a2/README.md#L7",
+        "note": "官方 README 的 7.5 MB 体积与 4K 实时、无代理声明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 50,
+        "url": "https://github.com/robbietilton/Editroom/blob/6390ae7f3847d924126b2d4f7a964b9fee4e71a2/README.md#L50",
+        "note": "官方 README 的 Magic 自然语言剪辑与 Claude/ChatGPT/Local 三种执行方；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 59,
+        "url": "https://github.com/robbietilton/Editroom/blob/6390ae7f3847d924126b2d4f7a964b9fee4e71a2/README.md#L59",
+        "note": "官方 README 的 MCP 直连编辑当前工程与免 API key 说明；非实机测试"
+      },
+      {
+        "path": "README.md",
+        "line": 87,
+        "url": "https://github.com/robbietilton/Editroom/blob/6390ae7f3847d924126b2d4f7a964b9fee4e71a2/README.md#L87",
+        "note": "官方 README 的内置 FFmpeg LGPL 与 Sparkle 许可说明；非实机测试"
+      }
+    ],
+    "evidence_commit": "6390ae7f3847d924126b2d4f7a964b9fee4e71a2",
+    "license_review": {
+      "status": "custom",
+      "label": "MIT（应用）+ 内置 FFmpeg LGPL-2.1+、Sparkle MIT",
+      "source": "https://github.com/robbietilton/Editroom/blob/6390ae7f3847d924126b2d4f7a964b9fee4e71a2/LICENSE",
+      "note": "仓库根 LICENSE 为 MIT；应用内附 FFmpeg 9.1（LGPL-2.1+，未启用 GPL 或非自由部件，由 scripts/build-ffmpeg.sh 从 ffmpeg.org 源码构建，仅作独立进程转封装 macOS 打不开格式），更新组件 Sparkle 为 MIT；再分发需按 LGPL 提供 FFmpeg 源码与 configure 选项，Vendor/ffmpeg/README.md 已说明来源与构建方式"
+    }
   }
 ]

@@ -667,5 +667,11 @@
     "boundary": "Las entradas del índice apuntan a repositorios de terceros cuyas licencias y disponibilidad hay que verificar por separado; las skills solo aportan método, listas de revisión y enrutado, de modo que la calidad del movimiento y del vídeo depende del agente anfitrión y de las librerías elegidas; el README recomienda escanear primero los paquetes de terceros con SkillSpector.",
     "license_label": "CC0-1.0",
     "license_note": "La LICENSE raíz es CC0 1.0 Universal; los proyectos, fuentes y materiales de terceros a los que apuntan el índice y las skills conservan sus propias licencias."
+  },
+  "robbietilton/Editroom": {
+    "description": "Editor de vídeo nativo en Swift para macOS: 4K en tiempo real sin proxy, con corrección de color, curvas de velocidad, transiciones, mezcla de audio y exportación con objetivo de sonoridad, además de cortes por lenguaje natural mediante Claude, ChatGPT o un modelo local.",
+    "boundary": "Requiere macOS 14 o superior en Apple silicon; la opción Local de Magic necesita además Apple Intelligence en macOS 26, y las opciones de Claude y ChatGPT exigen tener esas aplicaciones conectadas a tu plan. Los 7,5 MB y el 4K «sin proxy ni búfer» son afirmaciones del README, sin instalación ni medición aquí; la cifra de 23 MB del post no coincide ni con el README ni con el DMG de v1.0.11, que pesa 12.238.527 bytes. Claude y ChatGPT editan el proyecto abierto a través de MCP y los cambios de Magic se pueden deshacer, pero el alcance de subida de cada modo debe verificarse según tu material y tus requisitos de privacidad.",
+    "license_label": "MIT (app) + FFmpeg incluido LGPL-2.1+, Sparkle MIT",
+    "license_note": "La LICENSE raíz es MIT; la app incluye FFmpeg 9.1 bajo LGPL-2.1+ (sin partes GPL ni no libres, compilado desde las fuentes de ffmpeg.org con scripts/build-ffmpeg.sh y ejecutado como programa aparte solo para reenvasar formatos que macOS no abre), y las actualizaciones usan Sparkle (MIT); redistribuir obliga a aportar las fuentes de FFmpeg y sus opciones de configure, documentadas en Vendor/ffmpeg/README.md."
   }
 }
